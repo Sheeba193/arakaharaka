@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   @apply bg-gray-50 text-gray-800 font-sans;
 }
 
@@ -42,4 +42,30 @@ a {
 
 .footer {
   @apply bg-secondary text-white;
+}
+
+.navbar {
+  @apply fixed top-0 left-0 w-full z-50;
+} */
+
+/* glass styles to match hero */
+.glass {
+  background-color: rgba(26, 35, 41, 0.5);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-strong {
+  background-color: rgba(26, 35, 41, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* glow effects */
+.glow-text {
+  text-shadow: 0 0 20px rgba(32, 178, 166, 0.5);
+}
+
+.glow-border {
+  box-shadow: 0 0 15px rgba(32, 178, 166, 0.3);
 }
