@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arakaharaka Enterprises – Your Trusted Import & Export Partner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #D4A017;
+    --gold-light: #F5C842;
+    --gold-pale: #FFF8E7;
+    --green: #1A6B3C;
+    --green-mid: #2E9D5E;
+    --green-light: #E8F5EE;
+    --blue: #0D4C7A;
+    --blue-mid: #1A7CB8;
+    --blue-light: #E6F2FA;
+    --white: #FFFFFF;
+    --off-white: #FAFAF8;
+    --text-dark: #1A1A2E;
+    --text-mid: #4A4A6A;
+    --text-light: #8A8AA0;
+    --shadow: 0 8px 32px rgba(13,76,122,0.10);
+    --shadow-lg: 0 20px 60px rgba(13,76,122,0.15);
+    --radius: 16px;
+    --radius-lg: 24px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--off-white);
+    color: var(--text-dark);
+    overflow-x: hidden;
+  }
+
+  h1,h2,h3,h4 { font-family: 'Playfair Display', serif; }
+
+  /* ===== NAVBAR ===== */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(212,160,23,0.15);
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 70px;
+    box-shadow: 0 2px 20px rgba(13,76,122,0.08);
+    transition: all 0.3s;
+  }
+
+  .nav-logo {
+    display: flex; align-items: center; gap: 12px;
+    text-decoration: none;
+  }
+
+  .logo-globe {
+    width: 44px; height: 44px;
+    background: linear-gradient(135deg, var(--blue), var(--green));
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    animation: glow-pulse 3s ease-in-out infinite;
+    box-shadow: 0 0 0 0 rgba(26,107,60,0.4);
+  }
+
+  @keyframes glow-pulse {
+    0%,100% { box-shadow: 0 0 0 0 rgba(26,107,60,0.4); }
+    50% { box-shadow: 0 0 0 8px rgba(26,107,60,0); }
+  }
+
+  .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--blue); }
+  .nav-brand span { color: var(--gold); }
+  .nav-brand small { display: block; color: #000; font-size: 0.78rem; line-height: 1; }
+
+  .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+  .nav-links a {
+    text-decoration: none; color: var(--text-mid); font-size: 0.9rem; font-weight: 500;
+    position: relative; padding-bottom: 4px; transition: color 0.3s;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px;
+    background: var(--gold); transition: width 0.3s;
+  }
+  .nav-links a:hover { color: var(--blue); }
+  .nav-links a:hover::after { width: 100%; }
+
+  .nav-dropdown { position: relative; }
+  .dropdown-menu {
+    position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+    display: none; min-width: 190px; padding: 12px;
+    background: white; border-radius: 14px; box-shadow: var(--shadow);
+    list-style: none; z-index: 1001;
+  }
+  .nav-dropdown:hover .dropdown-menu { display: block; }
+  .dropdown-menu a {
+    display: block; padding: 10px 12px; white-space: nowrap;
+    border-radius: 10px;
+  }
+  .dropdown-menu a:hover { background: var(--gold-pale); }
+
+  .nav-cta {
+    background: linear-gradient(135deg, var(--green), var(--blue));
+    color: white !important; padding: 10px 22px;
+    border-radius: 50px; font-size: 0.85rem !important;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+  }
+  .nav-cta::after { display: none !important; }
+  .nav-cta:hover { transform: translateY(-2px) !important; box-shadow: var(--shadow) !important; color: white !important; }
+
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; }
+  .hamburger span { width: 25px; height: 2px; background: var(--blue); border-radius: 2px; transition: all 0.3s; }
+
+  /* ===== PAGES ===== */
+  .page { display: none; min-height: 100vh; padding-top: 70px; }
+  .page.active { display: block; }
+
+  /* ===== HERO ===== */
+  .hero {
+    min-height: calc(100vh - 70px);
+    background: linear-gradient(135deg, #0D1B2A 0%, #0D4C7A 40%, #1A6B3C 80%, #D4A017 100%);
+    position: relative; overflow: hidden;
+    display: flex; align-items: center;
+  }
+
+  .hero-bg {
+    position: absolute; inset: 0; opacity: 0.08;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Cellipse cx='400' cy='300' rx='380' ry='270' fill='none' stroke='white' stroke-width='1'/%3E%3Cellipse cx='400' cy='300' rx='280' ry='190' fill='none' stroke='white' stroke-width='1'/%3E%3Cellipse cx='400' cy='300' rx='180' ry='120' fill='none' stroke='white' stroke-width='1'/%3E%3Cline x1='20' y1='300' x2='780' y2='300' stroke='white' stroke-width='1'/%3E%3Cline x1='400' y1='30' x2='400' y2='570' stroke='white' stroke-width='1'/%3E%3Cellipse cx='400' cy='300' rx='380' ry='100' fill='none' stroke='white' stroke-width='0.5'/%3E%3Cellipse cx='400' cy='300' rx='380' ry='200' fill='none' stroke='white' stroke-width='0.5'/%3E%3C/svg%3E");
+    background-size: cover; background-position: center;
+    animation: slow-spin 30s linear infinite;
+  }
+
+  @keyframes slow-spin { from { transform: rotate(0deg) scale(1.1); } to { transform: rotate(360deg) scale(1.1); } }
+
+  .hero-particles {
+    position: absolute; inset: 0; overflow: hidden;
+  }
+  .particle {
+    position: absolute; width: 4px; height: 4px;
+    background: var(--gold-light); border-radius: 50%; opacity: 0.6;
+    animation: float-up linear infinite;
+  }
+
+  @keyframes float-up {
+    from { transform: translateY(100vh) translateX(0); opacity: 0.6; }
+    to { transform: translateY(-100px) translateX(40px); opacity: 0; }
+  }
+
+  .hero-content {
+    position: relative; z-index: 2;
+    max-width: 1200px; margin: 0 auto; padding: 60px 5%;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;
+  }
+
+  .hero-text h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    color: white; line-height: 1.1;
+    margin-bottom: 24px;
+    animation: fadeInUp 0.8s ease both;
+  }
+
+  .hero-text h1 span { color: var(--gold-light); }
+
+  .hero-text p {
+    color: rgba(255,255,255,0.8); font-size: 1.1rem; line-height: 1.7;
+    margin-bottom: 36px;
+    animation: fadeInUp 0.8s 0.2s ease both;
+  }
+
+  .hero-btns {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    animation: fadeInUp 0.8s 0.4s ease both;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    color: var(--text-dark); padding: 14px 30px; border-radius: 50px;
+    font-weight: 600; font-size: 0.95rem; text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: inline-flex; align-items: center; gap: 8px;
+    box-shadow: 0 4px 20px rgba(212,160,23,0.4);
+    cursor: pointer; border: none;
+  }
+  .btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 8px 30px rgba(212,160,23,0.5); }
+
+  .btn-secondary {
+    background: transparent; color: white; padding: 14px 30px; border-radius: 50px;
+    font-weight: 500; font-size: 0.95rem; text-decoration: none;
+    border: 2px solid rgba(255,255,255,0.4);
+    transition: all 0.2s; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .btn-secondary:hover { background: rgba(255,255,255,0.1); border-color: white; }
+
+  .hero-globe-wrap {
+    display: flex; align-items: center; justify-content: center;
+    animation: fadeInRight 1s 0.3s ease both;
+  }
+
+  .globe-visual {
+    width: 320px; height: 320px;
+    background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.3), rgba(13,76,122,0.8), rgba(26,107,60,0.6));
+    border-radius: 50%;
+    box-shadow: 0 0 80px rgba(212,160,23,0.3), inset -20px -20px 60px rgba(0,0,0,0.3);
+    position: relative;
+    animation: globe-rotate 8s linear infinite;
+    overflow: hidden;
+  }
+
+  @keyframes globe-rotate {
+    0%,100% { box-shadow: 0 0 60px rgba(212,160,23,0.2), inset -20px -20px 60px rgba(0,0,0,0.3); }
+    50% { box-shadow: 0 0 100px rgba(212,160,23,0.5), inset -20px -20px 60px rgba(0,0,0,0.3); }
+  }
+
+  .globe-visual::before {
+    content: '🌍'; position: absolute; font-size: 160px;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
+    filter: drop-shadow(0 0 20px rgba(255,255,255,0.5));
+  }
+
+  .hero-badges {
+    display: flex; gap: 16px; margin-top: 40px; flex-wrap: wrap;
+    animation: fadeInUp 0.8s 0.6s ease both;
+  }
+
+  .badge {
+    background: rgba(255,255,255,0.12); backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 12px;
+    padding: 12px 18px; color: white; font-size: 0.85rem;
+    display: flex; align-items: center; gap: 8px;
+  }
+
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeInRight { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
+
+  /* ===== SECTION COMMONS ===== */
+  section { padding: 80px 5%; max-width: 1200px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 0.8rem; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--green-mid); margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem); color: var(--blue);
+    margin-bottom: 16px; line-height: 1.2;
+  }
+
+  .section-title span { color: var(--gold); }
+
+  .section-sub {
+    color: var(--text-mid); font-size: 1.05rem; line-height: 1.7;
+    max-width: 600px; margin-bottom: 48px;
+  }
+
+  /* ===== STATS STRIP ===== */
+  .stats-strip {
+    background: linear-gradient(135deg, var(--blue), var(--green));
+    padding: 48px 5%;
+  }
+
+  .stats-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+  }
+
+  .stat-item { text-align: center; color: white; }
+  .stat-num {
+    font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 900;
+    color: var(--gold-light); line-height: 1;
+  }
+  .stat-label { font-size: 0.85rem; opacity: 0.8; margin-top: 6px; }
+
+  /* ===== SERVICES ===== */
+  .services-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;
+  }
+
+  .service-card {
+    background: white; border-radius: var(--radius-lg); padding: 32px;
+    box-shadow: var(--shadow); border: 1px solid rgba(13,76,122,0.07);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative; overflow: hidden;
+  }
+
+  .service-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--gold), var(--green-mid));
+  }
+
+  .service-card:hover { transform: translateY(-8px) scale(1.01); box-shadow: var(--shadow-lg); }
+
+  .service-icon {
+    width: 60px; height: 60px;
+    background: linear-gradient(135deg, var(--green-light), var(--blue-light));
+    border-radius: var(--radius); display: flex; align-items: center; justify-content: center;
+    font-size: 28px; margin-bottom: 20px;
+  }
+
+  .service-card h3 { font-size: 1.2rem; color: var(--blue); margin-bottom: 12px; }
+  .service-card p { color: var(--text-mid); font-size: 0.9rem; line-height: 1.6; }
+
+  /* ===== ABOUT ===== */
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+
+  .about-visual {
+    background: linear-gradient(135deg, var(--blue-light), var(--green-light));
+    border-radius: var(--radius-lg); padding: 48px; text-align: center;
+    position: relative; overflow: hidden;
+  }
+
+  .about-visual-emoji { font-size: 100px; display: block; margin-bottom: 20px; }
+
+  .why-item {
+    display: flex; gap: 16px; align-items: flex-start; margin-bottom: 24px;
+  }
+
+  .why-icon {
+    width: 48px; height: 48px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    border-radius: 12px; display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+  }
+
+  .why-text h4 { color: var(--blue); font-size: 1rem; margin-bottom: 4px; }
+  .why-text p { color: var(--text-mid); font-size: 0.88rem; line-height: 1.5; }
+
+  /* ===== PARTNERS ===== */
+  .partners-bg { background: var(--off-white); padding: 80px 0; }
+  .partners-wrap { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+
+  .partner-group { margin-bottom: 48px; }
+  .partner-group-title {
+    font-size: 1rem; font-weight: 600; color: var(--text-mid); 
+    letter-spacing: 1px; text-transform: uppercase;
+    margin-bottom: 20px; padding-bottom: 10px;
+    border-bottom: 2px solid var(--gold-pale);
+  }
+
+  .partners-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+
+  .partner-tag {
+    background: white; border: 1.5px solid rgba(13,76,122,0.12);
+    border-radius: 50px; padding: 10px 20px;
+    font-size: 0.85rem; color: var(--text-mid); font-weight: 500;
+    transition: all 0.2s; cursor: default;
+    display: flex; align-items: center; gap: 8px;
+  }
+
+  .partner-tag:hover {
+    background: linear-gradient(135deg, var(--blue), var(--green));
+    color: white; border-color: transparent;
+    transform: translateY(-2px); box-shadow: var(--shadow);
+  }
+
+  /* ===== TESTIMONIALS ===== */
+  .testi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+
+  .testi-card {
+    background: white; border-radius: var(--radius-lg); padding: 32px;
+    box-shadow: var(--shadow); position: relative;
+    transition: transform 0.3s;
+  }
+
+  .testi-card:hover { transform: translateY(-6px); }
+
+  .testi-quote {
+    font-size: 3rem; color: var(--gold); line-height: 1;
+    font-family: 'Playfair Display', serif; margin-bottom: 16px;
+  }
+
+  .testi-text { color: var(--text-mid); font-size: 0.95rem; line-height: 1.7; margin-bottom: 24px; }
+
+  .testi-stars { color: var(--gold); font-size: 1rem; margin-bottom: 12px; }
+
+  .testi-author { display: flex; align-items: center; gap: 12px; }
+  .testi-avatar {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--blue), var(--green));
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-weight: 700; font-size: 1.1rem;
+  }
+  .testi-name { font-weight: 600; font-size: 0.9rem; color: var(--text-dark); }
+  .testi-role { font-size: 0.8rem; color: var(--text-light); }
+
+  /* ===== CONTACT ===== */
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+
+  .contact-form {
+    background: white; border-radius: var(--radius-lg); padding: 40px;
+    box-shadow: var(--shadow);
+  }
+
+  .form-group { margin-bottom: 20px; }
+  .form-group label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-dark); margin-bottom: 8px; }
+
+  .form-group input, .form-group textarea, .form-group select {
+    width: 100%; padding: 14px 16px;
+    border: 1.5px solid rgba(13,76,122,0.15); border-radius: var(--radius);
+    font-family: 'DM Sans', sans-serif; font-size: 0.9rem; color: var(--text-dark);
+    background: var(--off-white); transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: var(--blue-mid); box-shadow: 0 0 0 3px rgba(26,124,184,0.12);
+  }
+
+  .form-group textarea { resize: vertical; min-height: 120px; }
+
+  .contact-info { display: flex; flex-direction: column; gap: 24px; }
+
+  .info-card {
+    background: white; border-radius: var(--radius); padding: 24px;
+    box-shadow: var(--shadow); display: flex; gap: 16px; align-items: flex-start;
+    transition: transform 0.2s;
+  }
+
+  .info-card:hover { transform: translateY(-3px); }
+
+  .info-icon {
+    width: 48px; height: 48px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--blue-light), var(--green-light));
+    border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px;
+  }
+
+  .info-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--text-light); }
+  .info-value { font-size: 0.95rem; color: var(--text-dark); font-weight: 500; margin-top: 4px; }
+  .info-value a { color: var(--blue); text-decoration: none; }
+
+  .map-placeholder {
+    background: linear-gradient(135deg, var(--blue-light), var(--green-light));
+    border-radius: var(--radius); height: 200px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2rem; flex-direction: column; gap: 8px;
+    color: var(--blue); font-size: 1rem; text-align: center;
+  }
+
+  .wa-btn {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white; padding: 14px 28px; border-radius: 50px;
+    font-weight: 600; font-size: 0.95rem; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.35);
+    margin-top: 12px;
+  }
+  .wa-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(37,211,102,0.5); }
+
+  /* ===== TERMS ===== */
+  .terms-content {
+    background: white; border-radius: var(--radius-lg); padding: 48px;
+    box-shadow: var(--shadow); max-width: 800px; margin: 0 auto;
+  }
+
+  .terms-section { margin-bottom: 36px; }
+  .terms-section h3 {
+    font-size: 1.15rem; color: var(--blue); margin-bottom: 12px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--gold-pale);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .terms-section p, .terms-section li {
+    color: var(--text-mid); font-size: 0.9rem; line-height: 1.8;
+  }
+  .terms-section ul { padding-left: 20px; }
+  .terms-section li { margin-bottom: 6px; }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: var(--text-dark);
+    color: rgba(255,255,255,0.7);
+    padding: 64px 5% 32px;
+  }
+
+  .footer-grid {
+    max-width: 1200px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 48px;
+    margin-bottom: 48px;
+  }
+
+  .footer-brand { margin-bottom: 16px; }
+  .footer-brand .nav-brand { color: white; font-size: 1.2rem; }
+  .footer-desc { font-size: 0.88rem; line-height: 1.7; margin-bottom: 20px; }
+
+  .social-links { display: flex; gap: 12px; }
+  .social-link {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: rgba(255,255,255,0.1); display: flex; align-items: center;
+    justify-content: center; font-size: 16px; text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+  }
+  .social-link:hover { background: var(--gold); transform: translateY(-2px); }
+
+  .footer-col h4 { color: white; font-size: 0.9rem; font-weight: 600; margin-bottom: 16px; font-family: 'DM Sans', sans-serif; letter-spacing: 1px; text-transform: uppercase; }
+
+  .footer-links { list-style: none; }
+  .footer-links li { margin-bottom: 10px; }
+  .footer-links a {
+    text-decoration: none; color: rgba(255,255,255,0.6); font-size: 0.85rem;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--gold-light); }
+
+  /* ===== FAQ ===== */
+  .faq-item {
+    border-bottom: 1px solid rgba(255,255,255,0.1); padding: 16px 0; cursor: pointer;
+  }
+
+  .faq-q {
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 0.85rem; color: rgba(255,255,255,0.8); font-weight: 500;
+    gap: 12px;
+  }
+
+  .faq-toggle { color: var(--gold); font-size: 1.2rem; flex-shrink: 0; transition: transform 0.3s; }
+
+  .faq-a {
+    font-size: 0.82rem; color: rgba(255,255,255,0.5); line-height: 1.6;
+    max-height: 0; overflow: hidden; transition: max-height 0.4s, padding 0.3s;
+    padding-top: 0;
+  }
+
+  .faq-item.open .faq-a { max-height: 120px; padding-top: 10px; }
+  .faq-item.open .faq-toggle { transform: rotate(45deg); }
+
+  .footer-bottom {
+    max-width: 1200px; margin: 0 auto;
+    border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 12px;
+  }
+
+  .footer-bottom p { font-size: 0.82rem; }
+  .footer-bottom a { color: var(--gold-light); text-decoration: none; }
+
+  /* ===== FLOATING WHATSAPP ===== */
+  .float-wa {
+    position: fixed; bottom: 28px; right: 28px; z-index: 999;
+    width: 56px; height: 56px; border-radius: 50%;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; text-decoration: none;
+    box-shadow: 0 4px 24px rgba(37,211,102,0.5);
+    animation: bounce-wa 2s ease-in-out infinite;
+    transition: transform 0.2s;
+  }
+  .float-wa:hover { transform: scale(1.15); animation: none; }
+
+  @keyframes bounce-wa {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+
+  /* ===== CTA BANNER ===== */
+  .cta-banner {
+    background: linear-gradient(135deg, var(--blue), var(--green));
+    border-radius: var(--radius-lg); padding: 56px; text-align: center;
+    position: relative; overflow: hidden; margin: 0 5% 80px;
+    max-width: 1100px; margin-left: auto; margin-right: auto;
+  }
+
+  .cta-banner::before {
+    content: '🌍'; position: absolute; font-size: 300px; opacity: 0.05;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);
+  }
+
+  .cta-banner h2 { color: white; font-size: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: 16px; }
+  .cta-banner p { color: rgba(255,255,255,0.8); margin-bottom: 32px; font-size: 1rem; }
+  .cta-banner-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+  /* ===== SCROLL ANIMATIONS ===== */
+  .reveal {
+    opacity: 0; transform: translateY(40px);
+    transition: opacity 0.7s, transform 0.7s;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* ===== MOBILE ===== */
+  @media (max-width: 900px) {
+    .nav-links { display: none; }
+    .nav-links.open {
+      display: flex; flex-direction: column;
+      position: absolute; top: 70px; right: 0;
+      width: min(82vw, 320px);
+      align-items: flex-end;
+      text-align: right;
+      background: white; padding: 24px 5%;
+      box-shadow: var(--shadow); gap: 20px;
+      z-index: 999;
+      border-radius: 0 0 0 22px;
+    }
+    .dropdown-menu {
+      position: static; transform: none; display: block;
+      box-shadow: none; padding: 6px 0 0; background: transparent;
+      text-align: right;
+    }
+    .hamburger { display: flex; }
+    .hero-content { grid-template-columns: 1fr; text-align: center; }
+    .hero-globe-wrap { order: -1; }
+    .globe-visual { width: 200px; height: 200px; }
+    .globe-visual::before { font-size: 100px; }
+    .hero-btns { justify-content: center; }
+    .hero-badges { justify-content: center; }
+    .stats-inner { grid-template-columns: repeat(2,1fr); }
+    .about-grid { grid-template-columns: 1fr; }
+    .contact-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .hero-text h1 { font-size: 2.2rem; }
+  }
+
+  @media (max-width: 600px) {
+    .footer-grid { grid-template-columns: 1fr; }
+    .stats-inner { grid-template-columns: repeat(2,1fr); }
+    section { padding: 60px 4%; }
+    .terms-content { padding: 28px; }
+    .cta-banner { padding: 40px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a class="nav-logo" href="#" onclick="showPage('home')">
+    <div class="logo-globe">🌐</div>
+    <div class="nav-brand">Araka<span>haraka</span><small>Enterprises</small></div>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#" onclick="showPage('home')">Home</a></li>
+    <li><a href="#" onclick="showPage('about')">About</a></li>
+    <li><a href="#" onclick="showPage('services')">Services</a></li>
+    <li class="nav-dropdown">
+      <a href="#" onclick="showPage('partners')">Partners ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('import-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Import Partners</a></li>
+        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('export-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Export from Kenya</a></li>
+      </ul>
+    </li>
+    <li><a href="#" onclick="showPage('testimonials')">Testimonials</a></li>
+    <li><a href="#" onclick="showPage('contact')" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20quick%20assistance%20with%20import%20or%20export%20services." class="float-wa" target="_blank" title="Chat on WhatsApp">💬</a>
+
+<!-- ======================== HOME PAGE ======================== -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Your Trusted Import & <span>Export Partner</span></h1>
+        <p>Arakaharaka Enterprises connects Kenya to the world — sourcing quality products, vehicles, and goods from global markets with reliability and care.</p>
+        <div class="hero-btns">
+          <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Contact Us</a>
+          <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20import%20or%20export%20services." class="btn-secondary" target="_blank">💬 Request a Quote</a>
+        </div>
+        <div class="hero-badges">
+          <div class="badge">🚀 Fast Shipping</div>
+          <div class="badge">🌍 Global Sourcing</div>
+          <div class="badge">🤝 Trusted Partners</div>
+        </div>
+      </div>
+      <div class="hero-globe-wrap">
+        <div class="globe-visual"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item reveal">
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Partner Brands</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Countries Served</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num">5★</div>
+        <div class="stat-label">Client Satisfaction</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES PREVIEW -->
+  <section>
+    <div class="section-label">What We Do</div>
+    <h2 class="section-title">Our Core <span>Services</span></h2>
+    <p class="section-sub">From product sourcing to logistics coordination, we handle the complexity so you can focus on your business.</p>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">📦</div>
+        <h3>Import Services</h3>
+        <p>We import a wide range of goods from Asia, Europe, and beyond directly to Kenya — electronics, household goods, machinery, and more.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🚢</div>
+        <h3>Export Services</h3>
+        <p>We help Kenyan businesses export quality products to international markets, handling documentation, logistics, and compliance.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🔍</div>
+        <h3>Product Sourcing</h3>
+        <p>Can't find a product locally? We source it for you. Tell us what you need and we'll find the best quality at the best price worldwide.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🚗</div>
+        <h3>Vehicle Importation</h3>
+        <p>Import vehicles from Japan, UK, UAE and more. We handle inspection, shipping, customs clearance, and delivery to your door.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">📫</div>
+        <h3>Bulk Shipping</h3>
+        <p>Cost-effective bulk shipping solutions for businesses importing large quantities. We negotiate the best freight rates on your behalf.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🗂️</div>
+        <h3>Logistics Coordination</h3>
+        <p>End-to-end logistics management — warehousing, customs clearance, last-mile delivery, and real-time shipment tracking.</p>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="#" class="btn-primary" onclick="showPage('services')">View All Services →</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL PREVIEW -->
+  <div style="background:linear-gradient(135deg,var(--blue-light),var(--green-light));padding:80px 0;">
+    <section style="padding:0 5%;max-width:1200px;margin:0 auto;">
+      <div class="section-label">What Clients Say</div>
+      <h2 class="section-title">Trusted by <span>Many</span></h2>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Arakaharaka made importing my vehicle from Japan seamless. They handled everything from auction to delivery. Absolutely recommend!</p>
+          <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+          <div class="testi-author">
+            <div class="testi-avatar">JK</div>
+            <div>
+              <div class="testi-name">James Kamau</div>
+              <div class="testi-role">Business Owner, Nairobi</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">The team is incredibly responsive over WhatsApp. Got my electronics order from China in record time. Very professional!</p>
+          <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+          <div class="testi-author">
+            <div class="testi-avatar">AW</div>
+            <div>
+              <div class="testi-name">Amina Wanjiku</div>
+              <div class="testi-role">Retailer, Mombasa</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">They sourced industrial equipment for our factory at a price I couldn't find anywhere locally. Great value and great service.</p>
+          <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+          <div class="testi-author">
+            <div class="testi-avatar">PN</div>
+            <div>
+              <div class="testi-name">Peter Njoroge</div>
+              <div class="testi-role">Manufacturing Director</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- CTA BANNER -->
+  <div style="padding:80px 5%;max-width:1200px;margin:0 auto;">
+    <div class="cta-banner reveal">
+      <h2>Ready to Import or Export?</h2>
+      <p>Let's help you import with ease. We handle the hard part for you.</p>
+      <div class="cta-banner-btns">
+        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Get in Touch</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20help%20getting%20started%20with%20an%20import%20or%20export%20shipment." class="wa-btn" target="_blank">💬 WhatsApp Us Now</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ======================== ABOUT PAGE ======================== -->
+<div id="page-about" class="page">
+  <section>
+    <div class="section-label">Our Story</div>
+    <h2 class="section-title">About <span>Arakaharaka</span> Enterprises</h2>
+    <p class="section-sub">Born in Nairobi, built for the world. We are passionate about connecting Kenya to global markets.</p>
+
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <span class="about-visual-emoji">🌍</span>
+        <h3 style="color:var(--blue);font-size:1.5rem;margin-bottom:12px;">Connecting Kenya to the World</h3>
+        <p style="color:var(--text-mid);font-size:0.95rem;line-height:1.7;">Based in Kasarani, Nairobi, we've been bridging the gap between Kenyan buyers and global suppliers since our founding — with trust, speed, and personal attention at every step.</p>
+      </div>
+      <div>
+        <div class="why-item reveal">
+          <div class="why-icon">🎯</div>
+          <div class="why-text">
+            <h4>Our Mission</h4>
+            <p>To make global trade accessible and effortless for every Kenyan — from the solo entrepreneur to the large corporation.</p>
+          </div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-icon">👁️</div>
+          <div class="why-text">
+            <h4>Our Vision</h4>
+            <p>To be East Africa's most trusted import/export partner, known for reliability, transparency, and outstanding service.</p>
+          </div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-icon">💡</div>
+          <div class="why-text">
+            <h4>Our Values</h4>
+            <p>Integrity in every transaction. Speed in every delivery. A personal touch that big companies can't offer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="background:var(--off-white);padding:80px 0;">
+    <section style="max-width:1200px;margin:0 auto;padding:0 5%;">
+      <div class="section-label">Why Choose Us</div>
+      <h2 class="section-title">The <span>Arakaharaka</span> Difference</h2>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🏆</div>
+          <h3>Reliability You Can Count On</h3>
+          <p>We follow through on every order. Your goods arrive as promised, and we keep you updated every step of the way.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🌐</div>
+          <h3>Truly Global Reach</h3>
+          <p>From Japan to Germany, China to the UAE — our supplier network spans every major trading region in the world.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🤝</div>
+          <h3>Personalized Service</h3>
+          <p>You deal directly with our team — no call centres, no delays. WhatsApp us and get a real person who knows your order.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">💰</div>
+          <h3>Competitive Pricing</h3>
+          <p>We leverage our supplier relationships to get you the best prices on quality goods — saving you money without compromising quality.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">📋</div>
+          <h3>Customs & Compliance</h3>
+          <p>We handle all customs paperwork, duties, and compliance requirements — so you never have to worry about bureaucratic hurdles.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">⚡</div>
+          <h3>Fast Turnaround</h3>
+          <p>We prioritize speed at every step — from quote to delivery. Arakaharaka means "hurry" — and we live up to the name.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- ======================== SERVICES PAGE ======================== -->
+<div id="page-services" class="page">
+  <section>
+    <div class="section-label">What We Offer</div>
+    <h2 class="section-title">Our <span>Services</span></h2>
+    <p class="section-sub">Comprehensive import and export solutions tailored for businesses and individuals in Kenya and beyond.</p>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">📦</div>
+        <h3>Import Services</h3>
+        <p>We handle every aspect of importing goods into Kenya — from finding suppliers, negotiating prices, arranging shipping, customs clearance, and delivery. Electronics, textiles, industrial goods, and more.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🚢</div>
+        <h3>Export Services</h3>
+        <p>Helping Kenyan producers and businesses reach international buyers. We manage packaging, documentation, freight booking, and regulatory compliance for smooth exports.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🔍</div>
+        <h3>Product Sourcing</h3>
+        <p>Send us a product description and we'll source it from verified global suppliers. We compare quality, pricing, and delivery timelines so you get the best deal every time.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🚗</div>
+        <h3>Vehicle Importation</h3>
+        <p>Import cars, motorcycles, trucks, and heavy machinery from Japan, UK, Dubai, and other markets. Includes auction sourcing, inspection, shipping, KEBS compliance, and registration support.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">📫</div>
+        <h3>Bulk & Commercial Shipping</h3>
+        <p>Negotiate best-rate FCL/LCL container shipping for businesses importing large volumes. We consolidate cargo and optimize freight routes to cut your costs significantly.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🗂️</div>
+        <h3>Logistics Coordination</h3>
+        <p>Full end-to-end logistics — warehousing at origin, freight forwarding, port clearance, inland transportation, and last-mile delivery to your premises anywhere in Kenya.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">📜</div>
+        <h3>Customs Clearance</h3>
+        <p>Our experienced team handles all customs documentation, duty payment, KRA compliance, KEBS inspections, and port procedures — so your goods clear without delays.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">💼</div>
+        <h3>Trade Consulting</h3>
+        <p>New to importing or exporting? We guide you through the regulations, costs, timelines, and best practices so you make informed decisions every time.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🏭</div>
+        <h3>Industrial & Machinery</h3>
+        <p>Source industrial equipment, factory machinery, tools, and spare parts from top manufacturers in China, Germany, and other manufacturing hubs worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <div style="padding:0 5% 80px;max-width:1200px;margin:0 auto;">
+    <div class="cta-banner reveal">
+      <h2>Need a Custom Solution?</h2>
+      <p>Every business is different. Tell us your needs and we'll craft the perfect import/export plan for you.</p>
+      <div class="cta-banner-btns">
+        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Get a Custom Quote</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20a%20custom%20import%20or%20export%20plan%20for%20my%20business." class="wa-btn" target="_blank">💬 WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== PARTNERS PAGE ======================== -->
+<div id="page-partners" class="page">
+  <section>
+    <div class="section-label">Our Network</div>
+    <h2 class="section-title">Import & Export <span>Partners</span></h2>
+    <p class="section-sub">We connect clients to trusted import suppliers worldwide and help Kenyan companies export quality products locally, regionally, and abroad.</p>
+  </section>
+
+  <div class="partners-bg">
+    <div class="partners-wrap">
+
+      <div class="partner-group reveal" id="import-partners">
+        <div class="partner-group-title">📥 Import Partners: Automotive</div>
+        <div class="partners-grid">
+          <div class="partner-tag">🚙 Toyota</div>
+          <div class="partner-tag">🚗 Honda</div>
+          <div class="partner-tag">🏎️ BMW</div>
+          <div class="partner-tag">⭐ Mercedes-Benz</div>
+          <div class="partner-tag">🚘 Nissan</div>
+          <div class="partner-tag">🔷 Mitsubishi</div>
+          <div class="partner-tag">🔶 Subaru</div>
+          <div class="partner-tag">🚐 Isuzu</div>
+          <div class="partner-tag">🏗️ Land Rover</div>
+          <div class="partner-tag">⚡ Volkswagen</div>
+          <div class="partner-tag">🔵 Ford</div>
+          <div class="partner-tag">🚚 Hyundai</div>
+          <div class="partner-tag">🔴 Mazda</div>
+          <div class="partner-tag">🏆 Lexus</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <div class="partner-group-title">📥 Import Partners: Industrial & Manufacturing Suppliers</div>
+        <div class="partners-grid">
+          <div class="partner-tag">⚙️ Siemens</div>
+          <div class="partner-tag">🔧 Bosch</div>
+          <div class="partner-tag">🔩 Caterpillar</div>
+          <div class="partner-tag">⚡ ABB</div>
+          <div class="partner-tag">🏗️ Komatsu</div>
+          <div class="partner-tag">🔌 Schneider Electric</div>
+          <div class="partner-tag">🛠️ Makita</div>
+          <div class="partner-tag">🔧 Stanley Black & Decker</div>
+          <div class="partner-tag">⚙️ Parker Hannifin</div>
+          <div class="partner-tag">🏭 3M</div>
+          <div class="partner-tag">🔩 Honeywell</div>
+          <div class="partner-tag">💡 Philips Industrial</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <div class="partner-group-title">📥 Import Partners: Luxury & Consumer Brands</div>
+        <div class="partners-grid">
+          <div class="partner-tag">👜 Louis Vuitton</div>
+          <div class="partner-tag">⌚ Rolex</div>
+          <div class="partner-tag">👟 Nike</div>
+          <div class="partner-tag">👟 Adidas</div>
+          <div class="partner-tag">💍 Cartier</div>
+          <div class="partner-tag">👗 Gucci</div>
+          <div class="partner-tag">📱 Apple</div>
+          <div class="partner-tag">📺 Samsung</div>
+          <div class="partner-tag">💻 Sony</div>
+          <div class="partner-tag">🎮 LG Electronics</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <div class="partner-group-title">📥 Import Partners: Asian Manufacturers & Suppliers</div>
+        <div class="partners-grid">
+          <div class="partner-tag">🇨🇳 Alibaba Verified Suppliers</div>
+          <div class="partner-tag">🇯🇵 Japanese Auto Auctions</div>
+          <div class="partner-tag">🇰🇷 Hyundai Heavy Industries</div>
+          <div class="partner-tag">🇨🇳 BYD</div>
+          <div class="partner-tag">🇹🇼 ASUS</div>
+          <div class="partner-tag">🇨🇳 Xiaomi</div>
+          <div class="partner-tag">🇮🇳 Tata Industries</div>
+          <div class="partner-tag">🇯🇵 Yamaha</div>
+          <div class="partner-tag">🇨🇳 Haier</div>
+          <div class="partner-tag">🇸🇬 Singapore Trade Partners</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal" id="export-partners">
+        <div class="partner-group-title">📤 Export from Kenya: Kenyan Brands & Products</div>
+        <div class="partners-grid">
+          <div class="partner-tag">👜 African accessories</div>
+          <div class="partner-tag">👗 Kenyan fashion brands</div>
+          <div class="partner-tag">🍵 Kenyan tea</div>
+          <div class="partner-tag">🌿 Tea products</div>
+          <div class="partner-tag">🌶️ Tropical Heat spices</div>
+          <div class="partner-tag">☕ Dormans Coffee products</div>
+          <div class="partner-tag">🥫 Imperishable foods</div>
+          <div class="partner-tag">☕ Kenyan coffee</div>
+          <div class="partner-tag">🍯 Natural honey products</div>
+          <div class="partner-tag">🧺 Handcrafts and décor</div>
+          <div class="partner-tag">🎁 Kenyan curios and souvenirs</div>
+          <div class="partner-tag">🪵 Wood carvings and sculptures</div>
+          <div class="partner-tag">📿 Beadwork and Maasai crafts</div>
+          <div class="partner-tag">🏙️ Curio shops in Nairobi markets</div>
+          <div class="partner-tag">🌊 Coastal craft suppliers in Mombasa</div>
+          <div class="partner-tag">🛍️ Market suppliers in major Kenyan cities</div>
+          <div class="partner-tag">🌍 Local and abroad export supply</div>
+          <div class="partner-tag">🏷️ Major Kenyan brands</div>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align:center;padding:40px 5%;">
+      <p style="color:var(--text-mid);font-style:italic;font-size:0.95rem;">💡 "Whether you want to import from global suppliers or export Kenyan goods, ask us about the exact product or brand you need."</p>
+      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20ask%20about%20a%20specific%20import%20or%20Kenyan%20export%20brand%2Fproduct." class="wa-btn" style="margin-top:20px;display:inline-flex;" target="_blank">💬 Ask About a Specific Brand</a>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== TESTIMONIALS PAGE ======================== -->
+<div id="page-testimonials" class="page">
+  <section>
+    <div class="section-label">Client Reviews</div>
+    <h2 class="section-title">What Our <span>Clients Say</span></h2>
+    <p class="section-sub">Don't take our word for it — here's what real clients across Kenya say about their experience with Arakaharaka Enterprises.</p>
+
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Arakaharaka made importing my vehicle from Japan completely seamless. From auction to my gate in Nairobi — they handled everything professionally. Absolutely 5 stars!</p>
+        <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testi-author">
+          <div class="testi-avatar">JK</div>
+          <div><div class="testi-name">James Kamau</div><div class="testi-role">Business Owner, Nairobi</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Super responsive team via WhatsApp. I placed an order for electronics from China and they kept me updated at every stage. Received everything in perfect condition!</p>
+        <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testi-author">
+          <div class="testi-avatar">AW</div>
+          <div><div class="testi-name">Amina Wanjiku</div><div class="testi-role">Retailer, Mombasa</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">We needed industrial machinery urgently and Arakaharaka sourced it from Germany within our budget. Customs was handled without any issues. Will use again!</p>
+        <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testi-author">
+          <div class="testi-avatar">PN</div>
+          <div><div class="testi-name">Peter Njoroge</div><div class="testi-role">Manufacturing Director</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">As a first-time importer, I was nervous. The team walked me through every step patiently. My goods arrived before the estimated date! Great people to work with.</p>
+        <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testi-author">
+          <div class="testi-avatar">GL</div>
+          <div><div class="testi-name">Grace Lumiti</div><div class="testi-role">Online Seller, Kisumu</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">We've worked with Arakaharaka for bulk shipments from China for 2 years now. Consistent, reliable, and always the best freight rates. They're our go-to partner.</p>
+        <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testi-author">
+          <div class="testi-avatar">SM</div>
+          <div><div class="testi-name">Samuel Mwangi</div><div class="testi-role">Wholesale Distributor</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">I wanted luxury items from Dubai and didn't know where to start. Arakaharaka sourced everything I needed with authenticity guaranteed. Top-tier service!</p>
+        <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testi-author">
+          <div class="testi-avatar">FK</div>
+          <div><div class="testi-name">Fatuma Karimi</div><div class="testi-role">Boutique Owner, Nairobi</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:56px;">
+      <p style="color:var(--text-mid);font-size:1.05rem;margin-bottom:20px;">Had a great experience with us? We'd love to hear from you!</p>
+      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20share%20my%20experience%20with%20your%20service." class="wa-btn" target="_blank">💬 Share Your Experience</a>
+    </div>
+  </section>
+</div>
+
+<!-- ======================== CONTACT PAGE ======================== -->
+<div id="page-contact" class="page">
+  <section>
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">Let's <span>Talk Business</span></h2>
+    <p class="section-sub">Ready to import, export, or just have questions? Reach out via the form, email, or WhatsApp — we typically respond within a few hours.</p>
+
+    <div class="contact-grid">
+      <div class="contact-form reveal">
+        <h3 style="font-size:1.3rem;color:var(--blue);margin-bottom:24px;">Send Us a Message</h3>
+        <div class="form-group">
+          <label>Full Name *</label>
+          <input type="text" placeholder="e.g. John Kamau">
+        </div>
+        <div class="form-group">
+          <label>Email Address *</label>
+          <input type="email" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" placeholder="+254 7XX XXX XXX">
+        </div>
+        <div class="form-group">
+          <label>Service Interested In</label>
+          <select>
+            <option value="">Select a service...</option>
+            <option>Import Services</option>
+            <option>Export Services</option>
+            <option>Vehicle Importation</option>
+            <option>Product Sourcing</option>
+            <option>Bulk Shipping</option>
+            <option>Logistics Coordination</option>
+            <option>Customs Clearance</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Your Message *</label>
+          <textarea placeholder="Tell us about what you need. The more detail, the better quote we can give you!"></textarea>
+        </div>
+        <button class="btn-primary" style="width:100%;justify-content:center;" onclick="handleFormSubmit(event)">📩 Send Message</button>
+        <p style="text-align:center;margin-top:16px;color:var(--text-light);font-size:0.82rem;">Or contact us directly via WhatsApp for faster response</p>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20am%20contacting%20you%20from%20the%20website%20and%20would%20like%20assistance." class="wa-btn" style="width:100%;justify-content:center;margin-top:4px;" target="_blank">💬 Chat on WhatsApp</a>
+      </div>
+
+      <div class="contact-info">
+        <div class="info-card reveal">
+          <div class="info-icon">📧</div>
+          <div>
+            <div class="info-label">Email Us</div>
+            <div class="info-value"><a href="mailto:harakaint@gmail.com">harakaint@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-icon">📱</div>
+          <div>
+            <div class="info-label">Call / WhatsApp</div>
+            <div class="info-value">
+              <a href="tel:+254723214344">+254 723 214 344</a><br>
+              <a href="tel:+254736407099">+254 736 407 099</a>
+            </div>
+          </div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-icon">📍</div>
+          <div>
+            <div class="info-label">Location</div>
+            <div class="info-value">Kasarani, Nairobi, Kenya</div>
+          </div>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-icon">🌐</div>
+          <div>
+            <div class="info-label">Website</div>
+            <div class="info-value"><a href="https://arakaharakaent.com" target="_blank">arakaharakaent.com</a></div>
+          </div>
+        </div>
+        <div class="map-placeholder reveal">
+          <div style="font-size:3rem;">📍</div>
+          <div style="font-size:0.95rem;font-weight:600;color:var(--blue);">Kasarani, Nairobi</div>
+          <div style="font-size:0.82rem;color:var(--text-mid);margin-top:4px;">
+            <a href="https://maps.google.com/?q=Kasarani,Nairobi,Kenya" target="_blank" style="color:var(--blue-mid);text-decoration:none;">🗺️ Open in Google Maps →</a>
+          </div>
+        </div>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20need%20a%20fast%20response%20about%20your%20import%20or%20export%20services." class="wa-btn" target="_blank">💬 WhatsApp Us for Fastest Response</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ======================== TERMS PAGE ======================== -->
+<div id="page-terms" class="page">
+  <section>
+    <div class="section-label">Legal</div>
+    <h2 class="section-title">Terms & <span>Conditions</span></h2>
+    <p class="section-sub" style="margin-bottom:40px;">Please read these terms carefully before placing an order with Arakaharaka Enterprises.</p>
+
+    <div class="terms-content reveal">
+      <div class="terms-section">
+        <h3>📦 1. Orders & Payments</h3>
+        <ul>
+          <li>All orders must be confirmed in writing via email or WhatsApp before processing begins.</li>
+          <li>A deposit of 50% is required before sourcing commences, with the balance due before shipment.</li>
+          <li>Payment can be made via M-Pesa, bank transfer, or other agreed methods.</li>
+          <li>Prices quoted are valid for 48 hours and are subject to exchange rate fluctuations for international orders.</li>
+          <li>Arakaharaka Enterprises reserves the right to decline any order at its discretion.</li>
+        </ul>
+      </div>
+
+      <div class="terms-section">
+        <h3>🚢 2. Shipping Timelines</h3>
+        <ul>
+          <li>Estimated delivery timelines are provided as a guide and are not guaranteed.</li>
+          <li>Sea freight from Asia typically takes 25–45 days. Air freight takes 5–10 business days.</li>
+          <li>Vehicle shipments from Japan typically take 4–8 weeks from auction purchase to Mombasa port.</li>
+          <li>Delays due to port congestion, customs, weather, or other factors beyond our control are not the liability of Arakaharaka.</li>
+          <li>Clients will be notified of any significant delays promptly.</li>
+        </ul>
+      </div>
+
+      <div class="terms-section">
+        <h3>⚖️ 3. Liability</h3>
+        <ul>
+          <li>Arakaharaka Enterprises acts as an agent and facilitator and is not the manufacturer or direct seller of goods.</li>
+          <li>We are not liable for goods damaged during transit if covered by shipping insurance.</li>
+          <li>It is the client's responsibility to ensure compliance with all Kenyan import regulations for their specific goods.</li>
+          <li>We are not responsible for goods seized by customs due to false declarations made by the client.</li>
+        </ul>
+      </div>
+
+      <div class="terms-section">
+        <h3>🔄 4. Refund Policy</h3>
+        <ul>
+          <li>Deposits are non-refundable once sourcing or procurement has commenced.</li>
+          <li>If goods are materially different from what was ordered, a replacement or partial refund may be arranged at our discretion.</li>
+          <li>Vehicle-related purchases follow the terms of the respective auction house and are generally non-refundable once purchased.</li>
+          <li>Refund requests must be submitted in writing within 7 days of delivery.</li>
+        </ul>
+      </div>
+
+      <div class="terms-section">
+        <h3>📬 5. Communication & Disputes</h3>
+        <ul>
+          <li>All official communications should be directed to <a href="mailto:harakaint@gmail.com" style="color:var(--blue);">harakaint@gmail.com</a>.</li>
+          <li>Any disputes shall first be resolved through good-faith negotiations between both parties.</li>
+          <li>These terms are governed by the laws of Kenya.</li>
+          <li>By placing an order with Arakaharaka Enterprises, you agree to these terms and conditions in full.</li>
+        </ul>
+      </div>
+
+      <p style="color:var(--text-light);font-size:0.82rem;margin-top:32px;">Last updated: 2025. For queries about these terms, email <a href="mailto:harakaint@gmail.com" style="color:var(--blue);">harakaint@gmail.com</a></p>
+    </div>
+  </section>
+</div>
+
+<!-- ======================== FOOTER ======================== -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <div class="nav-brand" style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+          <span style="font-size:24px;">🌐</span>
+          <span>Araka<span style="color:var(--gold-light);">haraka</span> Enterprises</span>
+        </div>
+      </div>
+      <p class="footer-desc">Your trusted import & export partner based in Kasarani, Nairobi. Connecting Kenya to the world — one shipment at a time.</p>
+      <div class="social-links">
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20found%20you%20on%20your%20website." class="social-link" target="_blank">💬</a>
+        <a href="mailto:harakaint@gmail.com" class="social-link">📧</a>
+        <a href="#" class="social-link">📘</a>
+        <a href="#" class="social-link">📸</a>
+        <a href="#" class="social-link">🐦</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#" onclick="showPage('home')">Home</a></li>
+        <li><a href="#" onclick="showPage('about')">About Us</a></li>
+        <li><a href="#" onclick="showPage('services')">Services</a></li>
+        <li><a href="#" onclick="showPage('partners')">Partners</a></li>
+        <li><a href="#" onclick="showPage('testimonials')">Testimonials</a></li>
+        <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        <li><a href="#" onclick="showPage('terms')">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-links">
+        <li><a href="mailto:harakaint@gmail.com">📧 harakaint@gmail.com</a></li>
+        <li><a href="tel:+254723214344">📱 +254 723 214 344</a></li>
+        <li><a href="tel:+254736407099">📱 +254 736 407 099</a></li>
+        <li><a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20contact%20you%20on%20WhatsApp." target="_blank">💬 WhatsApp Us</a></li>
+        <li><a href="#">📍 Kasarani, Nairobi</a></li>
+        <li><a href="https://arakaharakaent.com" target="_blank">🌐 arakaharakaent.com</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>FAQ</h4>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span>How long does shipping take?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a">Sea freight from Asia takes 25–45 days. Air freight takes 5–10 days. Vehicles from Japan take 4–8 weeks.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span>How do I place an order?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a">Simply WhatsApp or email us with your order details. We'll confirm availability, provide a quote, and take it from there.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span>Which countries do you ship from?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a">We source from China, Japan, UAE, UK, Germany, USA, India, Singapore, and many more countries worldwide.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span>Do you handle customs?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a">Yes! We handle all customs clearance, KRA compliance, KEBS inspections, and port procedures on your behalf.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Arakaharaka Enterprises. All rights reserved. | <a href="#" onclick="showPage('terms')">Terms & Conditions</a></p>
+    <p>Made with ❤️ in Nairobi, Kenya 🇰🇪</p>
+  </div>
+</footer>
+
+<script>
+  // Page navigation
+  function showPage(pageId) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    const target = document.getElementById('page-' + pageId);
+    if (target) {
+      target.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Close mobile menu
+      document.getElementById('navLinks').classList.remove('open');
+      // Trigger reveal
+      setTimeout(triggerReveal, 100);
+    }
+  }
+
+  // Mobile menu
+  function toggleMenu() {
+    document.getElementById('navLinks').classList.toggle('open');
+  }
+
+  // FAQ toggle
+  function toggleFaq(el) {
+    el.classList.toggle('open');
+  }
+
+  // Form submit
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const btn = e.target;
+    btn.textContent = '✅ Message Sent!';
+    btn.style.background = 'linear-gradient(135deg, #25D366, #128C7E)';
+    setTimeout(() => {
+      btn.textContent = '📩 Send Message';
+      btn.style.background = '';
+    }, 3000);
+  }
+
+  // Scroll reveal
+  function triggerReveal() {
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => { el.classList.remove('visible'); observer.observe(el); });
+  }
+
+  // Generate particles
+  function createParticles() {
+    const container = document.getElementById('particles');
+    if (!container) return;
+    for (let i = 0; i < 20; i++) {
+      const p = document.createElement('div');
+      p.className = 'particle';
+      p.style.left = Math.random() * 100 + '%';
+      p.style.animationDuration = (5 + Math.random() * 10) + 's';
+      p.style.animationDelay = (Math.random() * 10) + 's';
+      p.style.width = p.style.height = (2 + Math.random() * 4) + 'px';
+      container.appendChild(p);
+    }
+  }
+
+  // Close nav on outside click
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('nav')) {
+      document.getElementById('navLinks').classList.remove('open');
+    }
+  });
+
+  // Init
+  window.addEventListener('load', () => {
+    createParticles();
+    triggerReveal();
+  });
+
+  // Observe scroll for sticky nav effect
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    if (window.scrollY > 20) {
+      nav.style.boxShadow = '0 4px 30px rgba(13,76,122,0.15)';
+    } else {
+      nav.style.boxShadow = '0 2px 20px rgba(13,76,122,0.08)';
+    }
+  });
+</script>
+
+</body>
+</html>
