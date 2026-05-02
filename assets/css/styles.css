@@ -38,8 +38,9 @@
     background: rgba(255,255,255,0.92);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(212,160,23,0.15);
-    padding: 0 5%;
+    padding: 0 max(5%, calc((100% - 1200px) / 2));
     display: flex; align-items: center; justify-content: space-between;
+    gap: 32px;
     height: 70px;
     box-shadow: 0 2px 20px rgba(13,76,122,0.08);
     transition: all 0.3s;
@@ -97,9 +98,11 @@
 
   .nav-cta {
     background: linear-gradient(135deg, var(--green), var(--blue));
-    color: white !important; padding: 10px 22px;
+    color: white !important; padding: 12px 22px !important;
     border-radius: 50px; font-size: 0.85rem !important;
     transition: transform 0.2s, box-shadow 0.2s !important;
+    display: inline-flex; align-items: center; justify-content: center;
+    min-height: 42px; line-height: 1;
   }
   .nav-cta::after { display: none !important; }
   .nav-cta:hover { transform: translateY(-2px) !important; box-shadow: var(--shadow) !important; color: white !important; }
