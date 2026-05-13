@@ -306,6 +306,8 @@
     align-items: center;
     background: url('../images/tourism-beach.svg') center/cover no-repeat;
     overflow: hidden;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
   }
 
   .tourism-hero-overlay {
