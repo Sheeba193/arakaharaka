@@ -20,6 +20,7 @@
     <li><a href="#" onclick="showPage('home')">Home</a></li>
     <li><a href="#" onclick="showPage('about')">About</a></li>
     <li><a href="#" onclick="showPage('services')">Services</a></li>
+    <li><a href="#" onclick="showPage('services'); setTimeout(() => document.getElementById('tourism-services').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Tourism</a></li>
     <li class="nav-dropdown">
       <a href="#" onclick="showPage('partners')">Partners ▾</a>
       <ul class="dropdown-menu">
@@ -320,6 +321,11 @@
         <div class="service-icon">🏭</div>
         <h3>Industrial & Machinery</h3>
         <p>Source industrial equipment, factory machinery, tools, and spare parts from top manufacturers in China, Germany, and other manufacturing hubs worldwide.</p>
+      </div>
+      <div class="service-card reveal" id="tourism-services">
+        <div class="service-icon">🦁</div>
+        <h3>Hotel Bookings & Tourism Services</h3>
+        <p>Arakaharaka also offers hotel bookings, safari trips, travel planning, and other tourism services for clients exploring Kenya and East Africa.</p>
       </div>
     </div>
   </section>
@@ -701,6 +707,7 @@
         <li><a href="#" onclick="showPage('home')">Home</a></li>
         <li><a href="#" onclick="showPage('about')">About Us</a></li>
         <li><a href="#" onclick="showPage('services')">Services</a></li>
+        <li><a href="#" onclick="showPage('services'); setTimeout(() => document.getElementById('tourism-services').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Tourism</a></li>
         <li><a href="#" onclick="showPage('partners')">Partners</a></li>
         <li><a href="#" onclick="showPage('testimonials')">Testimonials</a></li>
         <li><a href="#" onclick="showPage('contact')">Contact</a></li>
