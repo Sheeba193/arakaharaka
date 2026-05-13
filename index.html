@@ -20,7 +20,7 @@
     <li><a href="#" onclick="showPage('home')">Home</a></li>
     <li><a href="#" onclick="showPage('about')">About</a></li>
     <li><a href="#" onclick="showPage('services')">Services</a></li>
-    <li><a href="#" onclick="showPage('services'); setTimeout(() => document.getElementById('tourism-services').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Tourism</a></li>
+    <li><a href="#" onclick="showPage('tourism')">Tourism</a></li>
     <li class="nav-dropdown">
       <a href="#" onclick="showPage('partners')">Partners ▾</a>
       <ul class="dropdown-menu">
@@ -322,11 +322,6 @@
         <h3>Industrial & Machinery</h3>
         <p>Source industrial equipment, factory machinery, tools, and spare parts from top manufacturers in China, Germany, and other manufacturing hubs worldwide.</p>
       </div>
-      <div class="service-card reveal" id="tourism-services">
-        <div class="service-icon">🦁</div>
-        <h3>Hotel Bookings & Tourism Services</h3>
-        <p>Arakaharaka also offers hotel bookings, safari trips, travel planning, and other tourism services for clients exploring Kenya and East Africa.</p>
-      </div>
     </div>
   </section>
 
@@ -337,6 +332,76 @@
       <div class="cta-banner-btns">
         <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Get a Custom Quote</a>
         <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20a%20custom%20import%20or%20export%20plan%20for%20my%20business." class="wa-btn" target="_blank">💬 WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== TOURISM PAGE ======================== -->
+<div id="page-tourism" class="page">
+  <div class="tourism-hero">
+    <div class="tourism-hero-overlay"></div>
+    <div class="tourism-hero-content reveal">
+      <div class="section-label">Travel & Experiences</div>
+      <h1>Hotel Bookings, Safaris & Tourism Services</h1>
+      <p>Arakaharaka helps you plan unforgettable travel experiences across Kenya and East Africa — from luxury hotel stays and beach holidays to safari adventures, group trips, airport transfers, and custom tourism packages.</p>
+      <div class="hero-btns">
+        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Plan My Trip</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20help%20booking%20hotels%2C%20safaris%2C%20or%20tourism%20services." class="btn-secondary" target="_blank">💬 Book on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-label">Tourism Services</div>
+    <h2 class="section-title">Explore East Africa <span>With Ease</span></h2>
+    <p class="section-sub">Whether you need a romantic getaway, business accommodation, a family safari, or a coastal holiday, we coordinate the details so your journey is smooth from start to finish.</p>
+    <div class="tourism-grid">
+      <div class="tourism-card reveal">
+        <img src="assets/images/tourism-beach.svg" alt="Luxury hotel booking">
+        <div>
+          <h3>Hotel Bookings</h3>
+          <p>We help arrange hotel stays, lodges, resorts, apartments, and executive accommodation based on your budget, location, and travel needs.</p>
+        </div>
+      </div>
+      <div class="tourism-card reveal">
+        <img src="assets/images/tourism-beach.svg" alt="Safari lodge accommodation">
+        <div>
+          <h3>Safari Lodges & Camps</h3>
+          <p>Book comfortable safari lodges, tented camps, and nature stays near Kenya and East Africa's most beautiful parks and reserves.</p>
+        </div>
+      </div>
+      <div class="tourism-card reveal">
+        <img src="assets/images/tourism-beach.svg" alt="Hot air balloon safari">
+        <div>
+          <h3>Safari Trips & Adventures</h3>
+          <p>We arrange wildlife safaris, game drives, hot air balloon experiences, guided tours, and custom adventure itineraries.</p>
+        </div>
+      </div>
+      <div class="tourism-card reveal">
+        <img src="assets/images/tourism-beach.svg" alt="Beach holiday destination">
+        <div>
+          <h3>Beach Holidays</h3>
+          <p>Enjoy relaxing coastal escapes, island-style holidays, honeymoon packages, family beach trips, and ocean activities.</p>
+        </div>
+      </div>
+      <div class="tourism-card reveal">
+        <img src="assets/images/tourism-beach.svg" alt="Resort and leisure stay">
+        <div>
+          <h3>Resorts, Retreats & Getaways</h3>
+          <p>We connect clients with leisure resorts, retreat destinations, weekend getaways, group stays, and premium relaxation experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="padding:0 5% 80px;max-width:1200px;margin:0 auto;">
+    <div class="cta-banner reveal">
+      <h2>Ready for Your Next Trip?</h2>
+      <p>Tell us your destination, travel dates, number of guests, and budget — we will help you plan the right tourism package.</p>
+      <div class="cta-banner-btns">
+        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Request Booking Help</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20plan%20a%20tourism%20trip." class="wa-btn" target="_blank">💬 WhatsApp Tourism Team</a>
       </div>
     </div>
   </div>
@@ -558,6 +623,7 @@
             <option>Product Sourcing</option>
             <option>Bulk Shipping</option>
             <option>Logistics Coordination</option>
+            <option>Hotel Bookings & Tourism Services</option>
             <option>Customs Clearance</option>
             <option>Other</option>
           </select>
@@ -707,7 +773,7 @@
         <li><a href="#" onclick="showPage('home')">Home</a></li>
         <li><a href="#" onclick="showPage('about')">About Us</a></li>
         <li><a href="#" onclick="showPage('services')">Services</a></li>
-        <li><a href="#" onclick="showPage('services'); setTimeout(() => document.getElementById('tourism-services').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Tourism</a></li>
+        <li><a href="#" onclick="showPage('tourism')">Tourism</a></li>
         <li><a href="#" onclick="showPage('partners')">Partners</a></li>
         <li><a href="#" onclick="showPage('testimonials')">Testimonials</a></li>
         <li><a href="#" onclick="showPage('contact')">Contact</a></li>

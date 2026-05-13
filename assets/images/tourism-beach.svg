@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9bdcf4"/>
+      <stop offset="1" stop-color="#eaf9ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18b7c9"/>
+      <stop offset="1" stop-color="#0d7aa5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <path d="M0 280 C220 230 430 300 650 250 C860 205 1030 245 1200 210 L1200 530 L0 530 Z" fill="url(#sea)"/>
+  <path d="M0 500 C240 450 440 520 650 480 C850 440 1050 465 1200 430 L1200 800 L0 800 Z" fill="#fff0c4"/>
+  <circle cx="170" cy="160" r="48" fill="#f5c842" opacity="0.9"/>
+  <g fill="#7b5b2e">
+    <path d="M210 620 h80 l-40 -95 z"/>
+    <path d="M430 650 h90 l-45 -110 z"/>
+    <path d="M720 610 h85 l-42 -100 z"/>
+    <path d="M950 660 h95 l-48 -120 z"/>
+  </g>
+  <g fill="#d8b36a">
+    <ellipse cx="250" cy="625" rx="85" ry="18"/>
+    <ellipse cx="475" cy="655" rx="95" ry="20"/>
+    <ellipse cx="763" cy="615" rx="90" ry="19"/>
+    <ellipse cx="997" cy="665" rx="100" ry="20"/>
+  </g>
+  <g fill="#7a4a1b">
+    <rect x="245" y="620" width="10" height="105"/>
+    <rect x="470" y="650" width="10" height="95"/>
+    <rect x="758" y="610" width="10" height="110"/>
+    <rect x="992" y="660" width="10" height="85"/>
+  </g>
+  <text x="70" y="735" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#0d4c7a">Beach Holidays</text>
+</svg>
