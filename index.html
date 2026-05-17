@@ -17,19 +17,32 @@
     <div class="nav-brand">Araka<span>haraka</span><small>Enterprises</small></div>
   </a>
   <ul class="nav-links" id="navLinks">
-    <li><a href="#" onclick="showPage('home')">Home</a></li>
-    <li><a href="#" onclick="showPage('about')">About</a></li>
-    <li><a href="#" onclick="showPage('services')">Services</a></li>
-    <li><a href="#" onclick="showPage('tourism')">Tourism</a></li>
+    <li><a href="#" onclick="showPage('home')" data-i18n="nav_home">Home</a></li>
+    <li><a href="#" onclick="showPage('about')" data-i18n="nav_about">About</a></li>
+    <li><a href="#" onclick="showPage('services')" data-i18n="nav_services">Services</a></li>
+    <li><a href="#" onclick="showPage('tourism')" data-i18n="nav_tourism">Tourism</a></li>
     <li class="nav-dropdown">
-      <a href="#" onclick="showPage('partners')">Partners ▾</a>
+      <a href="#" onclick="showPage('partners')" data-i18n="nav_partners">Partners ▾</a>
       <ul class="dropdown-menu">
         <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('import-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Import Partners</a></li>
         <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('export-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Export from Kenya</a></li>
       </ul>
     </li>
-    <li><a href="#" onclick="showPage('testimonials')">Testimonials</a></li>
-    <li><a href="#" onclick="showPage('contact')" class="nav-cta">Contact Us</a></li>
+    <li><a href="#" onclick="showPage('testimonials')" data-i18n="nav_testimonials">Testimonials</a></li>
+    <li><a href="#" onclick="showPage('contact')" class="nav-cta" data-i18n="nav_contact">Contact Us</a></li>
+    <li class="lang-selector">
+      <select id="languageSelect" onchange="changeLanguage(this.value)">
+        <option value="en">🇬🇧 EN</option>
+        <option value="sw">🇰🇪 SW</option>
+        <option value="fr">🇫🇷 FR</option>
+        <option value="zh">🇨🇳 中文</option>
+        <option value="ja">🇯🇵 日本語</option>
+        <option value="de">🇩🇪 DE</option>
+        <option value="hi">🇮🇳 हिंदी</option>
+        <option value="es">🇪🇸 ES</option>
+        <option value="ar">🇸🇦 العربية</option>
+      </select>
+    </li>
   </ul>
   <div class="hamburger" onclick="toggleMenu()">
     <span></span><span></span><span></span>
@@ -48,11 +61,11 @@
     <div class="hero-particles" id="particles"></div>
     <div class="hero-content">
       <div class="hero-text">
-        <h1>Your Trusted Import & <span>Export Partner</span></h1>
-        <p>Arakaharaka connects East and Central African countries to the world — sourcing quality products, vehicles, and goods from global markets with reliability and care.</p>
+        <h1 data-i18n="hero_title">Your Trusted Import & <span>Export Partner</span></h1>
+        <p data-i18n="hero_subtitle">Arakaharaka connects East and Central African countries to the world — sourcing quality products, vehicles, and goods from global markets with reliability and care.</p>
         <div class="hero-btns">
-          <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Contact Us</a>
-          <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20import%20or%20export%20services." class="btn-secondary" target="_blank">💬 Request a Quote</a>
+          <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="hero_cta1">📩 Contact Us</a>
+          <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20import%20or%20export%20services." class="btn-secondary" target="_blank" data-i18n="hero_cta2">💬 Request a Quote</a>
         </div>
         <div class="hero-badges">
           <div class="badge">🚀 Fast Shipping</div>
@@ -71,19 +84,19 @@
     <div class="stats-inner">
       <div class="stat-item reveal">
         <div class="stat-num">500+</div>
-        <div class="stat-label">Happy Clients</div>
+        <div class="stat-label" data-i18n="stats_clients">Happy Clients</div>
       </div>
       <div class="stat-item reveal">
         <div class="stat-num">50+</div>
-        <div class="stat-label">Partner Brands</div>
+        <div class="stat-label" data-i18n="stats_partners">Partner Brands</div>
       </div>
       <div class="stat-item reveal">
         <div class="stat-num">20+</div>
-        <div class="stat-label">Countries Served</div>
+        <div class="stat-label" data-i18n="stats_countries">Countries Served</div>
       </div>
       <div class="stat-item reveal">
         <div class="stat-num">5★</div>
-        <div class="stat-label">Client Satisfaction</div>
+        <div class="stat-label" data-i18n="stats_satisfaction">Client Satisfaction</div>
       </div>
     </div>
   </div>
@@ -91,38 +104,38 @@
   <!-- SERVICES PREVIEW -->
   <section>
     <div class="section-label">What We Do</div>
-    <h2 class="section-title">Our Core <span>Services</span></h2>
-    <p class="section-sub">From product sourcing to logistics coordination, we handle the complexity so you can focus on your business.</p>
+    <h2 class="section-title" data-i18n="services_title">Our Core <span>Services</span></h2>
+    <p class="section-sub" data-i18n="services_subtitle">From product sourcing to logistics coordination, we handle the complexity so you can focus on your business.</p>
     <div class="services-grid">
       <div class="service-card reveal">
         <div class="service-icon">📦</div>
-        <h3>Import Services</h3>
-        <p>We import a wide range of goods from Asia, Europe, and beyond directly to Kenya — electronics, household goods, machinery, and more.</p>
+        <h3 data-i18n="service_import">Import Services</h3>
+        <p data-i18n="service_import_desc">We import a wide range of goods from Asia, Europe, and beyond directly to Kenya — electronics, household goods, machinery, and more.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🚢</div>
-        <h3>Export Services</h3>
-        <p>We help Kenyan businesses export quality products to international markets, handling documentation, logistics, and compliance.</p>
+        <h3 data-i18n="service_export">Export Services</h3>
+        <p data-i18n="service_export_desc">We help Kenyan businesses export quality products to international markets, handling documentation, logistics, and compliance.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🔍</div>
-        <h3>Product Sourcing</h3>
-        <p>Can't find a product locally? We source it for you. Tell us what you need and we'll find the best quality at the best price worldwide.</p>
+        <h3 data-i18n="service_sourcing">Product Sourcing</h3>
+        <p data-i18n="service_sourcing_desc">Can't find a product locally? We source it for you. Tell us what you need and we'll find the best quality at the best price worldwide.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🚗</div>
-        <h3>Vehicle Importation</h3>
-        <p>Import vehicles from Japan, UK, UAE and more. We handle inspection, shipping, customs clearance, and delivery to your door.</p>
+        <h3 data-i18n="service_vehicle">Vehicle Importation</h3>
+        <p data-i18n="service_vehicle_desc">Import vehicles from Japan, UK, UAE and more. We handle inspection, shipping, customs clearance, and delivery to your door.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">📫</div>
-        <h3>Bulk Shipping</h3>
-        <p>Cost-effective bulk shipping solutions for businesses importing large quantities. We negotiate the best freight rates on your behalf.</p>
+        <h3 data-i18n="service_bulk">Bulk Shipping</h3>
+        <p data-i18n="service_bulk_desc">Cost-effective bulk shipping solutions for businesses importing large quantities. We negotiate the best freight rates on your behalf.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🗂️</div>
-        <h3>Logistics Coordination</h3>
-        <p>End-to-end logistics management — warehousing, customs clearance, last-mile delivery, and real-time shipment tracking.</p>
+        <h3 data-i18n="service_logistics">Logistics Coordination</h3>
+        <p data-i18n="service_logistics_desc">End-to-end logistics management — warehousing, customs clearance, last-mile delivery, and real-time shipment tracking.</p>
       </div>
     </div>
     <div style="text-align:center;margin-top:40px;">
@@ -134,7 +147,7 @@
   <div style="background:linear-gradient(135deg,var(--blue-light),var(--green-light));padding:80px 0;">
     <section style="padding:0 5%;max-width:1200px;margin:0 auto;">
       <div class="section-label">What Clients Say</div>
-      <h2 class="section-title">Trusted by <span>Many</span></h2>
+      <h2 class="section-title" data-i18n="testimonials_title">Trusted by <span>Many</span></h2>
       <div class="testi-grid">
         <div class="testi-card reveal">
           <div class="testi-quote">"</div>
@@ -179,10 +192,10 @@
   <!-- CTA BANNER -->
   <div style="padding:80px 5%;max-width:1200px;margin:0 auto;">
     <div class="cta-banner reveal">
-      <h2>Ready to Import or Export?</h2>
-      <p>Let's help you import with ease. We handle the hard part for you.</p>
+      <h2 data-i18n="cta_title">Ready to Import or Export?</h2>
+      <p data-i18n="cta_subtitle">Let's help you import with ease. We handle the hard part for you.</p>
       <div class="cta-banner-btns">
-        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Get in Touch</a>
+        <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="cta_btn">📩 Get in Touch</a>
         <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20help%20getting%20started%20with%20an%20import%20or%20export%20shipment." class="wa-btn" target="_blank">💬 WhatsApp Us Now</a>
       </div>
     </div>
@@ -194,35 +207,35 @@
 <div id="page-about" class="page">
   <section>
     <div class="section-label">Our Story</div>
-    <h2 class="section-title">About <span>Arakaharaka</span> Enterprises</h2>
-    <p class="section-sub">Born in Nairobi, built for the world. We are passionate about connecting East and Central African countries to global markets.</p>
+    <h2 class="section-title" data-i18n="about_title">About <span>Arakaharaka</span> Enterprises</h2>
+    <p class="section-sub" data-i18n="about_subtitle">Born in Nairobi, built for the world. We are passionate about connecting East and Central African countries to global markets.</p>
 
     <div class="about-grid">
       <div class="about-visual reveal">
         <span class="about-visual-emoji">🌍</span>
-        <h3 style="color:var(--blue);font-size:1.5rem;margin-bottom:12px;">Connecting East and Central African Countries to the World</h3>
-        <p style="color:var(--text-mid);font-size:0.95rem;line-height:1.7;">Based in Ruaraka, Nairobi, we've been bridging the gap between East and Central African buyers and global suppliers since our founding — with trust, speed, and personal attention at every step.</p>
+        <h3 style="color:var(--blue);font-size:1.5rem;margin-bottom:12px;" data-i18n="about_feature">Connecting East and Central African Countries to the World</h3>
+        <p style="color:var(--text-mid);font-size:0.95rem;line-height:1.7;" data-i18n="about_feature_desc">Based in Ruaraka, Nairobi, we've been bridging the gap between East and Central African buyers and global suppliers since our founding — with trust, speed, and personal attention at every step.</p>
       </div>
       <div>
         <div class="why-item reveal">
           <div class="why-icon">🎯</div>
           <div class="why-text">
-            <h4>Our Mission</h4>
-            <p>To make global trade accessible and effortless for every Kenyan — from the solo entrepreneur to the large corporation.</p>
+            <h4 data-i18n="mission">Our Mission</h4>
+            <p data-i18n="mission_desc">To make global trade accessible and effortless for every Kenyan — from the solo entrepreneur to the large corporation.</p>
           </div>
         </div>
         <div class="why-item reveal">
           <div class="why-icon">👁️</div>
           <div class="why-text">
-            <h4>Our Vision</h4>
-            <p>To be East Africa's most trusted import/export partner, known for reliability, transparency, and outstanding service.</p>
+            <h4 data-i18n="vision">Our Vision</h4>
+            <p data-i18n="vision_desc">To be East Africa's most trusted import/export partner, known for reliability, transparency, and outstanding service.</p>
           </div>
         </div>
         <div class="why-item reveal">
           <div class="why-icon">💡</div>
           <div class="why-text">
-            <h4>Our Values</h4>
-            <p>Integrity in every transaction. Speed in every delivery. A personal touch that big companies can't offer.</p>
+            <h4 data-i18n="values">Our Values</h4>
+            <p data-i18n="values_desc">Integrity in every transaction. Speed in every delivery. A personal touch that big companies can't offer.</p>
           </div>
         </div>
       </div>
@@ -231,38 +244,38 @@
 
   <div style="background:var(--off-white);padding:80px 0;">
     <section style="max-width:1200px;margin:0 auto;padding:0 5%;">
-      <div class="section-label">Why Choose Us</div>
-      <h2 class="section-title">The <span>Arakaharaka</span> Difference</h2>
+      <div class="section-label" data-i18n="why_label">Why Choose Us</div>
+      <h2 class="section-title" data-i18n="why_title">The <span>Arakaharaka</span> Difference</h2>
       <div class="services-grid">
         <div class="service-card reveal">
           <div class="service-icon">🏆</div>
-          <h3>Reliability You Can Count On</h3>
-          <p>We follow through on every order. Your goods arrive as promised, and we keep you updated every step of the way.</p>
+          <h3 data-i18n="why_reliability">Reliability You Can Count On</h3>
+          <p data-i18n="why_reliability_desc">We follow through on every order. Your goods arrive as promised, and we keep you updated every step of the way.</p>
         </div>
         <div class="service-card reveal">
           <div class="service-icon">🌐</div>
-          <h3>Truly Global Reach</h3>
-          <p>From Japan to Germany, China to the UAE — our supplier network spans every major trading region in the world.</p>
+          <h3 data-i18n="why_global">Truly Global Reach</h3>
+          <p data-i18n="why_global_desc">From Japan to Germany, China to the UAE — our supplier network spans every major trading region in the world.</p>
         </div>
         <div class="service-card reveal">
           <div class="service-icon">🤝</div>
-          <h3>Personalized Service</h3>
-          <p>You deal directly with our team — no call centres, no delays. WhatsApp us and get a real person who knows your order.</p>
+          <h3 data-i18n="why_personal">Personalized Service</h3>
+          <p data-i18n="why_personal_desc">You deal directly with our team — no call centres, no delays. WhatsApp us and get a real person who knows your order.</p>
         </div>
         <div class="service-card reveal">
           <div class="service-icon">💰</div>
-          <h3>Competitive Pricing</h3>
-          <p>We leverage our supplier relationships to get you the best prices on quality goods — saving you money without compromising quality.</p>
+          <h3 data-i18n="why_pricing">Competitive Pricing</h3>
+          <p data-i18n="why_pricing_desc">We leverage our supplier relationships to get you the best prices on quality goods — saving you money without compromising quality.</p>
         </div>
         <div class="service-card reveal">
           <div class="service-icon">📋</div>
-          <h3>Customs & Compliance</h3>
-          <p>We handle all customs paperwork, duties, and compliance requirements — so you never have to worry about bureaucratic hurdles.</p>
+          <h3 data-i18n="why_customs">Customs & Compliance</h3>
+          <p data-i18n="why_customs_desc">We handle all customs paperwork, duties, and compliance requirements — so you never have to worry about bureaucratic hurdles.</p>
         </div>
         <div class="service-card reveal">
           <div class="service-icon">⚡</div>
-          <h3>Fast Turnaround</h3>
-          <p>We prioritize speed at every step — from quote to delivery. Arakaharaka means "hurry" — and we live up to the name.</p>
+          <h3 data-i18n="why_fast">Fast Turnaround</h3>
+          <p data-i18n="why_fast_desc">We prioritize speed at every step — from quote to delivery. Arakaharaka means "hurry" — and we live up to the name.</p>
         </div>
       </div>
     </section>
@@ -272,55 +285,55 @@
 <!-- ======================== SERVICES PAGE ======================== -->
 <div id="page-services" class="page">
   <section>
-    <div class="section-label">What We Offer</div>
-    <h2 class="section-title">Our <span>Services</span></h2>
-    <p class="section-sub">Comprehensive import and export solutions tailored for businesses and individuals in Kenya and beyond.</p>
+    <div class="section-label" data-i18n="services_page_label">What We Offer</div>
+    <h2 class="section-title" data-i18n="services_page_title">Our <span>Services</span></h2>
+    <p class="section-sub" data-i18n="services_page_subtitle">Comprehensive import and export solutions tailored for businesses and individuals in Kenya and beyond.</p>
 
     <div class="services-grid">
       <div class="service-card reveal">
         <div class="service-icon">📦</div>
-        <h3>Import Services</h3>
-        <p>We handle every aspect of importing goods into Kenya — from finding suppliers, negotiating prices, arranging shipping, customs clearance, and delivery. Electronics, textiles, industrial goods, and more.</p>
+        <h3 data-i18n="service_page_import">Import Services</h3>
+        <p data-i18n="service_page_import_desc">We handle every aspect of importing goods into Kenya — from finding suppliers, negotiating prices, arranging shipping, customs clearance, and delivery. Electronics, textiles, industrial goods, and more.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🚢</div>
-        <h3>Export Services</h3>
-        <p>Helping Kenyan producers and businesses reach international buyers. We manage packaging, documentation, freight booking, and regulatory compliance for smooth exports.</p>
+        <h3 data-i18n="service_page_export">Export Services</h3>
+        <p data-i18n="service_page_export_desc">Helping Kenyan producers and businesses reach international buyers. We manage packaging, documentation, freight booking, and regulatory compliance for smooth exports.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🔍</div>
-        <h3>Product Sourcing</h3>
-        <p>Send us a product description and we'll source it from verified global suppliers. We compare quality, pricing, and delivery timelines so you get the best deal every time.</p>
+        <h3 data-i18n="service_page_sourcing">Product Sourcing</h3>
+        <p data-i18n="service_page_sourcing_desc">Send us a product description and we'll source it from verified global suppliers. We compare quality, pricing, and delivery timelines so you get the best deal every time.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🚗</div>
-        <h3>Vehicle Importation</h3>
-        <p>Import cars, motorcycles, trucks, and heavy machinery from Japan, UK, Dubai, and other markets. Includes auction sourcing, inspection, shipping, KEBS compliance, and registration support.</p>
+        <h3 data-i18n="service_page_vehicle">Vehicle Importation</h3>
+        <p data-i18n="service_page_vehicle_desc">Import cars, motorcycles, trucks, and heavy machinery from Japan, UK, Dubai, and other markets. Includes auction sourcing, inspection, shipping, KEBS compliance, and registration support.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">📫</div>
-        <h3>Bulk & Commercial Shipping</h3>
-        <p>Negotiate best-rate FCL/LCL container shipping for businesses importing large volumes. We consolidate cargo and optimize freight routes to cut your costs significantly.</p>
+        <h3 data-i18n="service_page_bulk">Bulk & Commercial Shipping</h3>
+        <p data-i18n="service_page_bulk_desc">Negotiate best-rate FCL/LCL container shipping for businesses importing large volumes. We consolidate cargo and optimize freight routes to cut your costs significantly.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🗂️</div>
-        <h3>Logistics Coordination</h3>
-        <p>Full end-to-end logistics — warehousing at origin, freight forwarding, port clearance, inland transportation, and last-mile delivery to your premises anywhere in Kenya.</p>
+        <h3 data-i18n="service_page_logistics">Logistics Coordination</h3>
+        <p data-i18n="service_page_logistics_desc">Full end-to-end logistics — warehousing at origin, freight forwarding, port clearance, inland transportation, and last-mile delivery to your premises anywhere in Kenya.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">📜</div>
-        <h3>Customs Clearance</h3>
-        <p>Our experienced team handles all customs documentation, duty payment, KRA compliance, KEBS inspections, and port procedures — so your goods clear without delays.</p>
+        <h3 data-i18n="service_page_customs">Customs Clearance</h3>
+        <p data-i18n="service_page_customs_desc">Our experienced team handles all customs documentation, duty payment, KRA compliance, KEBS inspections, and port procedures — so your goods clear without delays.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">💼</div>
-        <h3>Trade Consulting</h3>
-        <p>New to importing or exporting? We guide you through the regulations, costs, timelines, and best practices so you make informed decisions every time.</p>
+        <h3 data-i18n="service_page_consulting">Trade Consulting</h3>
+        <p data-i18n="service_page_consulting_desc">New to importing or exporting? We guide you through the regulations, costs, timelines, and best practices so you make informed decisions every time.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🏭</div>
-        <h3>Industrial & Machinery</h3>
-        <p>Source industrial equipment, factory machinery, tools, and spare parts from top manufacturers in China, Germany, and other manufacturing hubs worldwide.</p>
+        <h3 data-i18n="service_page_industrial">Industrial & Machinery</h3>
+        <p data-i18n="service_page_industrial_desc">Source industrial equipment, factory machinery, tools, and spare parts from top manufacturers in China, Germany, and other manufacturing hubs worldwide.</p>
       </div>
     </div>
   </section>
@@ -343,11 +356,11 @@
     <div class="tourism-hero-overlay"></div>
     <div class="tourism-hero-content reveal">
       <div class="section-label">Travel & Experiences</div>
-      <h1>Hotel Bookings, Safaris & Tourism Services</h1>
-      <p>Arakaharaka helps you plan unforgettable travel experiences across Kenya and East Africa — from luxury hotel stays and beach holidays to safari adventures, group trips, airport transfers, and custom tourism packages.</p>
+      <h1 data-i18n="tourism_title">Hotel Bookings, Safaris & Tourism Services</h1>
+      <p data-i18n="tourism_subtitle">Arakaharaka helps you plan unforgettable travel experiences across Kenya and East Africa — from luxury hotel stays and beach holidays to safari adventures, group trips, airport transfers, and custom tourism packages.</p>
       <div class="hero-btns">
-        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Plan My Trip</a>
-        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20help%20booking%20hotels%2C%20safaris%2C%20or%20tourism%20services." class="btn-secondary" target="_blank">💬 Book on WhatsApp</a>
+        <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="tourism_plan">📩 Plan My Trip</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20help%20booking%20hotels%2C%20safaris%2C%20or%20tourism%20services." class="btn-secondary" target="_blank" data-i18n="tourism_whatsapp">💬 Book on WhatsApp</a>
       </div>
     </div>
     <!--image for tourism-->
@@ -359,42 +372,42 @@
 
   <section>
     <div class="section-label">Tourism Services</div>
-    <h2 class="section-title">Explore East Africa <span>With Ease</span></h2>
-    <p class="section-sub">Whether you need a romantic getaway, business accommodation, a family safari, or a coastal holiday, we coordinate the details so your journey is smooth from start to finish.</p>
+    <h2 class="section-title" data-i18n="tourism_services_title">Explore East Africa <span>With Ease</span></h2>
+    <p class="section-sub" data-i18n="tourism_services_subtitle">Whether you need a romantic getaway, business accommodation, a family safari, or a coastal holiday, we coordinate the details so your journey is smooth from start to finish.</p>
     <div class="tourism-grid">
       <div class="tourism-card reveal">
         <img src="assets/images/hotel2.jpg" alt="Luxury hotel booking">
         <div>
-          <h3>Hotel Bookings</h3>
-          <p>We help arrange hotel stays, lodges, resorts, apartments, and executive accommodation based on your budget, location, and travel needs.</p>
+          <h3 data-i18n="tourism_hotel">Hotel Bookings</h3>
+          <p data-i18n="tourism_hotel_desc">We help arrange hotel stays, lodges, resorts, apartments, and executive accommodation based on your budget, location, and travel needs.</p>
         </div>
       </div>
       <div class="tourism-card reveal">
         <img src="assets/images/safari-getaways.jpg" alt="Safari lodge accommodation">
         <div>
-          <h3>Safari Lodges & Camps</h3>
-          <p>Book comfortable safari lodges, tented camps, and nature stays near Kenya and East Africa's most beautiful parks and reserves.</p>
+          <h3 data-i18n="tourism_safari">Safari Lodges & Camps</h3>
+          <p data-i18n="tourism_safari_desc">Book comfortable safari lodges, tented camps, and nature stays near Kenya and East Africa's most beautiful parks and reserves.</p>
         </div>
       </div>
       <div class="tourism-card reveal">
         <img src="assets/images/hotair-balloon.jpg" alt="Hot air balloon safari">
         <div>
-          <h3>Safari Trips & Adventures</h3>
-          <p>We arrange wildlife safaris, game drives, hot air balloon experiences, guided tours, and custom adventure itineraries.</p>
+          <h3 data-i18n="tourism_adventure">Safari Trips & Adventures</h3>
+          <p data-i18n="tourism_adventure_desc">We arrange wildlife safaris, game drives, hot air balloon experiences, guided tours, and custom adventure itineraries.</p>
         </div>
       </div>
       <div class="tourism-card reveal">
         <img src="assets/images/beaches.jpg" alt="Beach holiday destination">
         <div>
-          <h3>Beach Holidays</h3>
-          <p>Enjoy relaxing coastal escapes, island-style holidays, honeymoon packages, family beach trips, and ocean activities.</p>
+          <h3 data-i18n="tourism_beach">Beach Holidays</h3>
+          <p data-i18n="tourism_beach_desc">Enjoy relaxing coastal escapes, island-style holidays, honeymoon packages, family beach trips, and ocean activities.</p>
         </div>
       </div>
       <div class="tourism-card reveal">
         <img src="assets/images/hotel.jpg" alt="Resort and leisure stay">
         <div>
-          <h3>Resorts, Retreats & Getaways</h3>
-          <p>We connect clients with leisure resorts, retreat destinations, weekend getaways, group stays, and premium relaxation experiences.</p>
+          <h3 data-i18n="tourism_resort">Resorts, Retreats & Getaways</h3>
+          <p data-i18n="tourism_resort_desc">We connect clients with leisure resorts, retreat destinations, weekend getaways, group stays, and premium relaxation experiences.</p>
         </div>
       </div>
       <div class="tourism-card reveal">
@@ -409,10 +422,10 @@
 
   <div style="padding:0 5% 80px;max-width:1200px;margin:0 auto;">
     <div class="cta-banner reveal">
-      <h2>Ready for Your Next Trip?</h2>
-      <p>Tell us your destination, travel dates, number of guests, and budget — we will help you plan the right tourism package.</p>
+      <h2 data-i18n="tourism_cta_title">Ready for Your Next Trip?</h2>
+      <p data-i18n="tourism_cta_subtitle">Tell us your destination, travel dates, number of guests, and budget — we will help you plan the right tourism package.</p>
       <div class="cta-banner-btns">
-        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Request Booking Help</a>
+        <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="tourism_cta_btn">📩 Request Booking Help</a>
         <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20plan%20a%20tourism%20trip." class="wa-btn" target="_blank">💬 WhatsApp Tourism Team</a>
       </div>
     </div>
@@ -422,9 +435,9 @@
 <!-- ======================== PARTNERS PAGE ======================== -->
 <div id="page-partners" class="page">
   <section>
-    <div class="section-label">Our Network</div>
-    <h2 class="section-title">Import & Export <span>Partners</span></h2>
-    <p class="section-sub">We connect clients to trusted import suppliers worldwide and help East and Central African companies export quality products locally, regionally, and abroad.</p>
+    <div class="section-label" data-i18n="partners_label">Our Network</div>
+    <h2 class="section-title" data-i18n="partners_title">Import & Export <span>Partners</span></h2>
+    <p class="section-sub" data-i18n="partners_subtitle">We connect clients to trusted import suppliers worldwide and help East and Central African companies export quality products locally, regionally, and abroad.</p>
   </section>
 
   <div class="partners-bg">
@@ -432,12 +445,12 @@
 
       <div class="partner-group reveal" id="import-partners">
         
-        <div class="partner-group-title">📥 Import Partners: Automotive</div>
+        <div class="partner-group-title" data-i18n="partners_auto_title">📥 Import Partners: Automotive</div>
         <div class="partner-card reveal">
         <img src="assets/images/automobile.jpg" alt="automobile importation">
         <div>
-          <h3>Automotive Importation</h3>
-          <p>We connect clients with trusted automotive importers and exporters, facilitating the smooth importation of vehicles and parts from around the world.</p>
+          <h3 data-i18n="partners_auto">Automotive Importation</h3>
+          <p data-i18n="partners_auto_desc">We connect clients with trusted automotive importers and exporters, facilitating the smooth importation of vehicles and parts from around the world.</p>
         </div>
         </div>
         <div class="partners-grid">
@@ -459,7 +472,7 @@
       </div>
 
       <div class="partner-group reveal">
-        <div class="partner-group-title">📥 Import Partners: Industrial & Manufacturing Suppliers</div>
+        <div class="partner-group-title" data-i18n="partners_industrial_title">📥 Import Partners: Industrial & Manufacturing Suppliers</div>
         <div class="partners-grid">
           <div class="partner-tag">⚙️ Siemens</div>
           <div class="partner-tag">🔧 Bosch</div>
@@ -477,7 +490,7 @@
       </div>
 
       <div class="partner-group reveal">
-        <div class="partner-group-title">📥 Import Partners: Luxury & Consumer Brands</div>
+        <div class="partner-group-title" data-i18n="partners_luxury_title">📥 Import Partners: Luxury & Consumer Brands</div>
         <div class="partners-grid">
           <div class="partner-tag">👜 Louis Vuitton</div>
           <div class="partner-tag">⌚ Rolex</div>
@@ -493,7 +506,7 @@
       </div>
 
       <div class="partner-group reveal">
-        <div class="partner-group-title">📥 Import Partners: Asian Manufacturers & Suppliers</div>
+        <div class="partner-group-title" data-i18n="partners_asian_title">📥 Import Partners: Asian Manufacturers & Suppliers</div>
         <div class="partners-grid">
           <div class="partner-tag">🇨🇳 Alibaba Verified Suppliers</div>
           <div class="partner-tag">🇯🇵 Japanese Auto Auctions</div>
@@ -509,7 +522,7 @@
       </div>
 
       <div class="partner-group reveal" id="export-partners">
-        <div class="partner-group-title">📤 Export from Kenya: Kenyan Brands & Products</div>
+        <div class="partner-group-title" data-i18n="partners_export_title">📤 Export from Kenya: Kenyan Brands & Products</div>
         <div class="partners-grid">
           <div class="partner-tag">👜 African accessories</div>
           <div class="partner-tag">👗 Kenyan fashion brands</div>
@@ -615,26 +628,26 @@
 <div id="page-contact" class="page">
   <section>
     <div class="section-label">Get In Touch</div>
-    <h2 class="section-title">Let's <span>Talk Business</span></h2>
-    <p class="section-sub">Ready to import, export, or just have questions? Reach out via the form, email, or WhatsApp — we typically respond within a few hours.</p>
+    <h2 class="section-title" data-i18n="contact_title">Let's <span>Talk Business</span></h2>
+    <p class="section-sub" data-i18n="contact_subtitle">Ready to import, export, or just have questions? Reach out via the form, email, or WhatsApp — we typically respond within a few hours.</p>
 
     <div class="contact-grid">
       <div class="contact-form reveal">
-        <h3 style="font-size:1.3rem;color:var(--blue);margin-bottom:24px;">Send Us a Message</h3>
+        <h3 style="font-size:1.3rem;color:var(--blue);margin-bottom:24px;" data-i18n="contact_form_title">Send Us a Message</h3>
         <div class="form-group">
-          <label>Full Name *</label>
+          <label data-i18n="contact_name">Full Name *</label>
           <input type="text" placeholder="e.g. John Kamau">
         </div>
         <div class="form-group">
-          <label>Email Address *</label>
+          <label data-i18n="contact_email">Email Address *</label>
           <input type="email" placeholder="your@email.com">
         </div>
         <div class="form-group">
-          <label>Phone Number</label>
+          <label data-i18n="contact_phone">Phone Number</label>
           <input type="tel" placeholder="+254 7XX XXX XXX">
         </div>
         <div class="form-group">
-          <label>Service Interested In</label>
+          <label data-i18n="contact_service">Service Interested In</label>
           <select>
             <option value="">Select a service...</option>
             <option>Import Services</option>
@@ -649,10 +662,10 @@
           </select>
         </div>
         <div class="form-group">
-          <label>Your Message *</label>
+          <label data-i18n="contact_message">Your Message *</label>
           <textarea placeholder="Tell us about what you need. The more detail, the better quote we can give you!"></textarea>
         </div>
-        <button class="btn-primary" style="width:100%;justify-content:center;" onclick="handleFormSubmit(event)">📩 Send Message</button>
+        <button class="btn-primary" style="width:100%;justify-content:center;" onclick="handleFormSubmit(event)" data-i18n="contact_btn">📩 Send Message</button>
         <p style="text-align:center;margin-top:16px;color:var(--text-light);font-size:0.82rem;">Or contact us directly via WhatsApp for faster response</p>
         <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20am%20contacting%20you%20from%20the%20website%20and%20would%20like%20assistance." class="wa-btn" style="width:100%;justify-content:center;margin-top:4px;" target="_blank">💬 Chat on WhatsApp</a>
       </div>
@@ -661,14 +674,14 @@
         <div class="info-card reveal">
           <div class="info-icon">📧</div>
           <div>
-            <div class="info-label">Email Us</div>
+            <div class="info-label" data-i18n="contact_email_label">Email Us</div>
             <div class="info-value"><a href="mailto:harakaint@gmail.com">harakaint@gmail.com</a></div>
           </div>
         </div>
         <div class="info-card reveal">
           <div class="info-icon">📱</div>
           <div>
-            <div class="info-label">Call / WhatsApp</div>
+            <div class="info-label" data-i18n="contact_phone_label">Call / WhatsApp</div>
             <div class="info-value">
               <a href="tel:+254723214344">+254 723 214 344</a><br>
               <a href="tel:+254736407099">+254 736 407 099</a>
@@ -678,14 +691,14 @@
         <div class="info-card reveal">
           <div class="info-icon">📍</div>
           <div>
-            <div class="info-label">Location</div>
+            <div class="info-label" data-i18n="contact_location">Location</div>
             <div class="info-value">Ruaraka, Nairobi, Kenya</div>
           </div>
         </div>
         <div class="info-card reveal">
           <div class="info-icon">🌐</div>
           <div>
-            <div class="info-label">Website</div>
+            <div class="info-label" data-i18n="contact_website">Website</div>
             <div class="info-value"><a href="https://arakaharakaent.com" target="_blank">arakaharakaent.com</a></div>
           </div>
         </div>
@@ -777,7 +790,7 @@
           <span>Araka<span style="color:var(--gold-light);">haraka</span> Enterprises</span>
         </div>
       </div>
-      <p class="footer-desc">Your trusted import & export partner based in Ruaraka, Nairobi. Connecting East and Central African countries to the world — one shipment at a time.</p>
+      <p class="footer-desc" data-i18n="footer_desc">Your trusted import & export partner based in Ruaraka, Nairobi. Connecting East and Central African countries to the world — one shipment at a time.</p>
       <div class="social-links">
         <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20found%20you%20on%20your%20website." class="social-link" target="_blank">💬</a>
         <a href="mailto:harakaint@gmail.com" class="social-link">📧</a>
@@ -788,21 +801,21 @@
     </div>
 
     <div class="footer-col">
-      <h4>Quick Links</h4>
+      <h4 data-i18n="footer_quick">Quick Links</h4>
       <ul class="footer-links">
-        <li><a href="#" onclick="showPage('home')">Home</a></li>
-        <li><a href="#" onclick="showPage('about')">About Us</a></li>
-        <li><a href="#" onclick="showPage('services')">Services</a></li>
-        <li><a href="#" onclick="showPage('tourism')">Tourism</a></li>
-        <li><a href="#" onclick="showPage('partners')">Partners</a></li>
-        <li><a href="#" onclick="showPage('testimonials')">Testimonials</a></li>
-        <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        <li><a href="#" onclick="showPage('home')" data-i18n="nav_home">Home</a></li>
+        <li><a href="#" onclick="showPage('about')" data-i18n="nav_about">About Us</a></li>
+        <li><a href="#" onclick="showPage('services')" data-i18n="nav_services">Services</a></li>
+        <li><a href="#" onclick="showPage('tourism')" data-i18n="nav_tourism">Tourism</a></li>
+        <li><a href="#" onclick="showPage('partners')" data-i18n="nav_partners">Partners</a></li>
+        <li><a href="#" onclick="showPage('testimonials')" data-i18n="nav_testimonials">Testimonials</a></li>
+        <li><a href="#" onclick="showPage('contact')" data-i18n="nav_contact">Contact</a></li>
         <li><a href="#" onclick="showPage('terms')">Terms & Conditions</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h4>Contact</h4>
+      <h4 data-i18n="footer_contact">Contact</h4>
       <ul class="footer-links">
         <li><a href="mailto:harakaint@gmail.com">📧 harakaint@gmail.com</a></li>
         <li><a href="tel:+254723214344">📱 +254 723 214 344</a></li>
@@ -814,29 +827,29 @@
     </div>
 
     <div class="footer-col">
-      <h4>FAQ</h4>
+      <h4 data-i18n="footer_faq">FAQ</h4>
       <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span>How long does shipping take?</span><span class="faq-toggle">+</span></div>
-        <div class="faq-a">Sea freight from Asia takes 25–45 days. Air freight takes 5–10 days. Vehicles from Japan take 4–8 weeks.</div>
+        <div class="faq-q"><span data-i18n="faq_q1">How long does shipping take?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a1">Sea freight from Asia takes 25–45 days. Air freight takes 5–10 days. Vehicles from Japan take 4–8 weeks.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span>How do I place an order?</span><span class="faq-toggle">+</span></div>
-        <div class="faq-a">Simply WhatsApp or email us with your order details. We'll confirm availability, provide a quote, and take it from there.</div>
+        <div class="faq-q"><span data-i18n="faq_q2">How do I place an order?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a2">Simply WhatsApp or email us with your order details. We'll confirm availability, provide a quote, and take it from there.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span>Which countries do you ship from?</span><span class="faq-toggle">+</span></div>
-        <div class="faq-a">We source from China, Japan, UAE, UK, Germany, USA, India, Singapore, and many more countries worldwide.</div>
+        <div class="faq-q"><span data-i18n="faq_q3">Which countries do you ship from?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a3">We source from China, Japan, UAE, UK, Germany, USA, India, Singapore, and many more countries worldwide.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><span>Do you handle customs?</span><span class="faq-toggle">+</span></div>
-        <div class="faq-a">Yes! We handle all customs clearance, KRA compliance, KEBS inspections, and port procedures on your behalf.</div>
+        <div class="faq-q"><span data-i18n="faq_q4">Do you handle customs?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a4">Yes! We handle all customs clearance, KRA compliance, KEBS inspections, and port procedures on your behalf.</div>
       </div>
     </div>
   </div>
 
   <div class="footer-bottom">
-    <p>© 2026 Arakaharaka Enterprises. All rights reserved. | <a href="#" onclick="showPage('terms')">Terms & Conditions</a></p>
-    <p>Made with ❤️ in Nairobi, Kenya 🇰🇪</p>
+    <p data-i18n="footer_copyright">© 2026 Arakaharaka Enterprises. All rights reserved. | <a href="#" onclick="showPage('terms')">Terms & Conditions</a></p>
+    <p data-i18n="footer_made">Made with ❤️ in Nairobi, Kenya 🇰🇪</p>
   </div>
 </footer>
 

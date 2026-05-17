@@ -107,6 +107,27 @@
   .nav-cta::after { display: none !important; }
   .nav-cta:hover { transform: translateY(-2px) !important; box-shadow: var(--shadow) !important; color: white !important; }
 
+  .lang-selector select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(13,76,122,0.15);
+    background: var(--off-white);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+  }
+  .lang-selector select:hover {
+    border-color: var(--blue-mid);
+    background: white;
+  }
+  .lang-selector select:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(56,189,248,0.12);
+  }
+
   .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; }
   .hamburger span { width: 25px; height: 2px; background: var(--blue); border-radius: 2px; transition: all 0.3s; }
 
