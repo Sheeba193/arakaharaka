@@ -24,8 +24,8 @@
     <li class="nav-dropdown">
       <a href="#" onclick="showPage('partners')" data-i18n="nav_partners">Partners ▾</a>
       <ul class="dropdown-menu">
-        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('import-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Import Partners</a></li>
-        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('export-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)">Export from Kenya</a></li>
+        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('import-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)" data-i18n="nav_dropdown_import">Import Partners</a></li>
+        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('export-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)" data-i18n="nav_dropdown_export">Export from Kenya</a></li>
       </ul>
     </li>
     <li><a href="#" onclick="showPage('testimonials')" data-i18n="nav_testimonials">Testimonials</a></li>
@@ -68,9 +68,9 @@
           <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20import%20or%20export%20services." class="btn-secondary" target="_blank" data-i18n="hero_cta2">💬 Request a Quote</a>
         </div>
         <div class="hero-badges">
-          <div class="badge">🚀 Fast Shipping</div>
-          <div class="badge">🌍 Global Sourcing</div>
-          <div class="badge">🤝 Trusted Partners</div>
+          <div class="badge" data-i18n="hero_badge_1">🚀 Fast Shipping</div>
+          <div class="badge" data-i18n="hero_badge_2">🌍 Global Sourcing</div>
+          <div class="badge" data-i18n="hero_badge_3">🤝 Trusted Partners</div>
         </div>
       </div>
       <div class="hero-globe-wrap">
@@ -340,10 +340,10 @@
 
   <div style="padding:0 5% 80px;max-width:1200px;margin:0 auto;">
     <div class="cta-banner reveal">
-      <h2>Need a Custom Solution?</h2>
-      <p>Every business is different. Tell us your needs and we'll craft the perfect import/export plan for you.</p>
+      <h2 data-i18n="custom_solution_title">Need a Custom Solution?</h2>
+      <p data-i18n="custom_solution_desc">Every business is different. Tell us your needs and we'll craft the perfect import/export plan for you.</p>
       <div class="cta-banner-btns">
-        <a href="#" class="btn-primary" onclick="showPage('contact')">📩 Get a Custom Quote</a>
+        <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="custom_solution_btn">📩 Get a Custom Quote</a>
         <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20a%20custom%20import%20or%20export%20plan%20for%20my%20business." class="wa-btn" target="_blank">💬 WhatsApp Us</a>
       </div>
     </div>
@@ -556,14 +556,14 @@
 <!-- ======================== TESTIMONIALS PAGE ======================== -->
 <div id="page-testimonials" class="page">
   <section>
-    <div class="section-label">Client Reviews</div>
-    <h2 class="section-title">What Our <span>Clients Say</span></h2>
-    <p class="section-sub">Don't take our word for it — here's what real clients across Kenya say about their experience with Arakaharaka Enterprises.</p>
+    <div class="section-label" data-i18n="testimonials_page_label">Client Reviews</div>
+    <h2 class="section-title" data-i18n="testimonials_page_title">What Our <span>Clients Say</span></h2>
+    <p class="section-sub" data-i18n="testimonials_page_subtitle">Don't take our word for it — here's what real clients across Kenya say about their experience with Arakaharaka Enterprises.</p>
 
     <div class="testi-grid">
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">Arakaharaka made importing my vehicle from Japan completely seamless. From auction to my gate in Nairobi — they handled everything professionally. Absolutely 5 stars!</p>
+        <p class="testi-text" data-i18n="testi_1">Arakaharaka made importing my vehicle from Japan completely seamless. From auction to my gate in Nairobi — they handled everything professionally. Absolutely 5 stars!</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">JK</div>
@@ -572,7 +572,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">Super responsive team via WhatsApp. I placed an order for electronics from China and they kept me updated at every stage. Received everything in perfect condition!</p>
+        <p class="testi-text" data-i18n="testi_2">Super responsive team via WhatsApp. I placed an order for electronics from China and they kept me updated at every stage. Received everything in perfect condition!</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">AW</div>
@@ -581,7 +581,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">We needed industrial machinery urgently and Arakaharaka sourced it from Germany within our budget. Customs was handled without any issues. Will use again!</p>
+        <p class="testi-text" data-i18n="testi_3">We needed industrial machinery urgently and Arakaharaka sourced it from Germany within our budget. Customs was handled without any issues. Will use again!</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">PN</div>
@@ -590,7 +590,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">As a first-time importer, I was nervous. The team walked me through every step patiently. My goods arrived before the estimated date! Great people to work with.</p>
+        <p class="testi-text" data-i18n="testi_4">As a first-time importer, I was nervous. The team walked me through every step patiently. My goods arrived before the estimated date! Great people to work with.</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">GL</div>
@@ -599,7 +599,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">We've worked with Arakaharaka for bulk shipments from China for 2 years now. Consistent, reliable, and always the best freight rates. They're our go-to partner.</p>
+        <p class="testi-text" data-i18n="testi_5">We've worked with Arakaharaka for bulk shipments from China for 2 years now. Consistent, reliable, and always the best freight rates. They're our go-to partner.</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">SM</div>
@@ -608,7 +608,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text">I wanted luxury items from Dubai and didn't know where to start. Arakaharaka sourced everything I needed with authenticity guaranteed. Top-tier service!</p>
+        <p class="testi-text" data-i18n="testi_6">I wanted luxury items from Dubai and didn't know where to start. Arakaharaka sourced everything I needed with authenticity guaranteed. Top-tier service!</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">FK</div>
@@ -618,8 +618,8 @@
     </div>
 
     <div style="text-align:center;margin-top:56px;">
-      <p style="color:var(--text-mid);font-size:1.05rem;margin-bottom:20px;">Had a great experience with us? We'd love to hear from you!</p>
-      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20share%20my%20experience%20with%20your%20service." class="wa-btn" target="_blank">💬 Share Your Experience</a>
+      <p style="color:var(--text-mid);font-size:1.05rem;margin-bottom:20px;" data-i18n="testimonials_cta">Had a great experience with us? We'd love to hear from you!</p>
+      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20share%20my%20experience%20with%20your%20service." class="wa-btn" target="_blank" data-i18n="testimonials_share_btn">💬 Share Your Experience</a>
     </div>
   </section>
 </div>
