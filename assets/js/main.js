@@ -102,160 +102,302 @@
  
 // ── Product Data ─────────────────────────────────────────────
 const partnersProducts = [
+  // =========================
+  // IMPORT PRODUCTS
+  // =========================
   {
     id: 1,
     name: "Toyota Hilux",
     type: "import",
     category: "Automotive",
-    image: "assets/images/automobile.jpg",
-    description: "Reliable 4WD pickup truck built for tough terrain. Popular across East Africa for both commercial and personal use. Available in various engine specifications.",
+    image: "assets/images/import/hilux.jpg",
+    description:
+      "Reliable 4WD pickup truck built for tough terrain. Popular across East Africa for both commercial and personal use.",
     shipsFrom: "Japan / UAE",
     shipsTo: "Kenya, Uganda, Tanzania, Rwanda, DRC",
     deliveryTime: "4–8 weeks (sea freight)"
   },
   {
     id: 2,
-    name: "BMW X5",
+    name: "BMW Vehicles",
     type: "import",
     category: "Automotive",
-    image: "assets/images/automobile.jpg",
-    description: "Premium luxury SUV combining performance with sophistication. Sourced from verified dealers in Germany, UK and UAE with full inspection.",
-    shipsFrom: "Germany / UK / UAE",
+    image: "assets/images/import/bmw.jpg",
+    description:
+      "Luxury BMW sedans, SUVs, and performance vehicles sourced from Germany, Japan, and the UAE.",
+    shipsFrom: "Germany / Japan / UAE",
     shipsTo: "Kenya and East Africa",
     deliveryTime: "5–10 weeks"
   },
   {
     id: 3,
-    name: "Industrial Machinery & Equipment",
+    name: "Mercedes-Benz Vehicles",
     type: "import",
-    category: "Industrial & Manufacturing",
-    image: "assets/images/automobile.jpg",
-    description: "Wide range of factory machinery, construction equipment, generators, and industrial tools sourced from leading manufacturers in China and Germany.",
-    shipsFrom: "China / Germany",
-    shipsTo: "Kenya, Uganda, Tanzania, Ethiopia",
-    deliveryTime: "30–50 days (sea freight)"
+    category: "Automotive",
+    image: "assets/images/import/mercedes.jpg",
+    description:
+      "Premium Mercedes-Benz cars including sedans, SUVs, and executive models with full inspection reports.",
+    shipsFrom: "Germany / UK / UAE",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "5–10 weeks"
   },
   {
     id: 4,
-    name: "Apple iPhone",
+    name: "Audi Vehicles",
     type: "import",
-    category: "Luxury & Consumer Goods",
-    image: "assets/images/automobile.jpg",
-    description: "Latest Apple iPhone models sourced from authorised global distributors. Genuine products with international warranties. Bulk and individual orders welcome.",
-    shipsFrom: "USA / UAE / Singapore",
+    category: "Automotive",
+    image: "assets/images/import/audi.jpg",
+    description:
+      "High-performance Audi vehicles combining advanced engineering, comfort, and luxury.",
+    shipsFrom: "Germany / Japan / UAE",
     shipsTo: "Kenya and East Africa",
-    deliveryTime: "7–14 days (air freight)"
+    deliveryTime: "5–10 weeks"
   },
   {
     id: 5,
-    name: "Samsung Electronics",
+    name: "Volkswagen Vehicles",
     type: "import",
-    category: "Luxury & Consumer Goods",
-    image: "assets/images/automobile.jpg",
-    description: "Full range of Samsung products including smartphones, TVs, home appliances, and tablets. Sourced from official Samsung distributors across Asia and the UAE.",
-    shipsFrom: "South Korea / UAE",
+    category: "Automotive",
+    image: "assets/images/import/volkswagen.jpg",
+    description:
+      "Reliable Volkswagen passenger cars and SUVs sourced from Europe and Japan.",
+    shipsFrom: "Germany / Japan",
     shipsTo: "Kenya and East Africa",
-    deliveryTime: "7–20 days"
+    deliveryTime: "4–8 weeks"
   },
   {
     id: 6,
-    name: "Premium Basmati Rice",
+    name: "Heavy Duty Trucks & Trailers",
     type: "import",
-    category: "Asian Manufacturers",
-    image: "assets/images/automobile.jpg",
-    description: "Long-grain aromatic basmati rice from premium Indian and Pakistani producers. Available in 25kg, 50kg bulk sacks and retail packs. KEBS certified.",
-    shipsFrom: "India / Pakistan",
-    shipsTo: "Kenya, Uganda, Tanzania, Rwanda",
-    deliveryTime: "25–40 days (sea freight)"
+    category: "Trailers & Heavy Equipment",
+    image: "assets/images/import/trailers.jpg",
+    description:
+      "Commercial trailers, tipper trucks, semi-trailers, and heavy-duty transport equipment.",
+    shipsFrom: "China / Germany / Turkey",
+    shipsTo: "Kenya, Uganda, Tanzania, Ethiopia",
+    deliveryTime: "30–60 days"
   },
   {
     id: 7,
-    name: "Kenyan Coffee",
-    type: "export",
-    category: "Kenyan Export Products",
-    image: "assets/images/automobile.jpg",
-    description: "World-renowned Kenyan AA grade coffee sourced from the highlands of Kirinyaga, Nyeri, and Murang'a. Single-origin, freshly roasted, and export ready.",
-    shipsFrom: "Nairobi, Kenya",
-    shipsTo: "Europe, USA, Middle East, Asia",
-    deliveryTime: "10–20 days (air / sea)"
+    name: "Excavators & Construction Machinery",
+    type: "import",
+    category: "Industrial & Manufacturing",
+    image: "assets/images/import/construction.jpg",
+    description:
+      "Excavators, loaders, bulldozers, and road construction equipment from leading Chinese manufacturers.",
+    shipsFrom: "China",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "30–50 days"
   },
   {
     id: 8,
-    name: "Kenyan Tea",
-    type: "export",
-    category: "Kenyan Export Products",
-    image: "assets/images/automobile.jpg",
-    description: "High-quality Kenyan CTC and orthodox tea from the Rift Valley and Kericho highlands. Bulk and branded packaging available for export markets.",
-    shipsFrom: "Kericho / Mombasa Port, Kenya",
-    shipsTo: "UK, Middle East, Pakistan, Asia",
-    deliveryTime: "15–30 days"
-  },
-  {
-    id: 9,
-    name: "African Handicrafts & Décor",
-    type: "export",
-    category: "Kenyan Export Products",
-    image: "assets/images/automobile.jpg",
-    description: "Hand-carved wooden sculptures, Maasai beadwork, sisal baskets, soapstone carvings, and authentic African art sourced from Nairobi and coastal craftsmen.",
-    shipsFrom: "Nairobi / Mombasa, Kenya",
-    shipsTo: "Worldwide",
-    deliveryTime: "7–21 days (air / sea)"
-  },
-  {
-    id: 10,
-    name: "Natural Honey Products",
-    type: "export",
-    category: "Kenyan Export Products",
-    image: "assets/images/automobile.jpg",
-    description: "Pure organic honey from Kenyan forests and wildflower apiaries. Available in raw, creamed, and infused varieties. KEBS and organic certified for export.",
-    shipsFrom: "Kenya (various counties)",
-    shipsTo: "Europe, USA, Middle East",
-    deliveryTime: "7–14 days (air freight)"
-  },
-  {
-    id: 11,
     name: "Auto Spare Parts",
     type: "import",
     category: "Automotive",
-    image: "assets/images/automobile.jpg",
-    description: "Genuine and aftermarket spare parts for Toyota, Nissan, Honda, Mitsubishi, and other popular brands. Sourced directly from Japanese and Chinese manufacturers.",
+    image: "assets/images/import/autospareparts.jpg",
+    description:
+      "Genuine and aftermarket spare parts for Toyota, Nissan, BMW, Mercedes-Benz, Honda, and Mitsubishi.",
     shipsFrom: "Japan / China / UAE",
     shipsTo: "Kenya and East Africa",
     deliveryTime: "14–30 days"
   },
   {
-    id: 12,
+    id: 9,
     name: "Building Materials",
     type: "import",
-    category: "Industrial & Manufacturing",
-    image: "assets/images/automobile.jpg",
-    description: "Construction materials including steel rods, ceramic tiles, sanitary ware, electrical fittings, and roofing sheets sourced from China and Europe at competitive prices.",
-    shipsFrom: "China / Europe",
+    category: "Construction Materials",
+    image: "assets/images/import/building-materials.jpg",
+    description:
+      "Steel, tiles, sanitary ware, roofing sheets, electrical fittings, and other construction materials.",
+    shipsFrom: "China / Europe / Turkey",
     shipsTo: "Kenya, Uganda, Tanzania",
-    deliveryTime: "30–50 days (sea freight)"
+    deliveryTime: "30–50 days"
+  },
+  {
+    id: 10,
+    name: "Printers",
+    type: "import",
+    category: "Electronics & Technology",
+    image: "assets/images/import/printers.jpg",
+    description:
+      "Office printers, multifunction devices, and commercial printing equipment from top manufacturers.",
+    shipsFrom: "China / Germany / Sweden",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "30–60 days"
+  },
+  {
+    id: 11,
+    name: "Apple Products",
+    type: "import",
+    category: "Electronics & Technology",
+    image: "assets/images/import/apple.jpg",
+    description:
+      "iPhones, MacBooks, iPads, Apple Watches, and accessories sourced from authorised distributors.",
+    shipsFrom: "USA / UAE / Singapore",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "7–14 days"
+  },
+  {
+    id: 12,
+    name: "Samsung Electronics",
+    type: "import",
+    category: "Electronics & Technology",
+    image: "assets/images/import/samsung.jpg",
+    description:
+      "Smartphones, TVs, tablets, refrigerators, and home appliances from Samsung.",
+    shipsFrom: "South Korea / UAE",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "7–20 days"
   },
   {
     id: 13,
-    name: "Xiaomi & Asian Electronics",
+    name: "Tech Accessories",
     type: "import",
-    category: "Asian Manufacturers",
-    image: "assets/images/automobile.jpg",
-    description: "Smartphones, tablets, smart home devices, and accessories from Xiaomi, Huawei, OPPO and other leading Asian brands. Bulk orders accepted.",
+    category: "Electronics & Technology",
+    image: "assets/images/import/tech.jpg",
+    description:
+      "Chargers, cables, earbuds, smart watches, power banks, and computer accessories.",
     shipsFrom: "China / Singapore",
     shipsTo: "Kenya and East Africa",
     deliveryTime: "10–25 days"
   },
   {
     id: 14,
+    name: "Premium Basmati Rice",
+    type: "import",
+    category: "Food & Agricultural Products",
+    image: "assets/images/import/rice.jpg",
+    description:
+      "Long-grain aromatic basmati rice from India and Pakistan in both retail and wholesale packaging.",
+    shipsFrom: "India / Pakistan",
+    shipsTo: "Kenya, Uganda, Tanzania, Rwanda",
+    deliveryTime: "25–40 days"
+  },
+  {
+    id: 15,
+    name: "Designer Luxury Brands",
+    type: "import",
+    category: "Luxury & Fashion",
+    image: "assets/images/import/luxury.jpg",
+    description:
+      "Authentic Gucci, Prada, Versace, and other premium designer clothing, handbags, shoes, and accessories.",
+    shipsFrom: "Italy / France / UAE",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "7–21 days"
+  },
+  {
+    id: 16,
+    name: "Luxury Watches",
+    type: "import",
+    category: "Luxury & Fashion",
+    image: "assets/images/import/watcheshome.png",
+    description:
+      "Premium watches from Swiss, Japanese, and Italian manufacturers for retail and wholesale.",
+    shipsFrom: "Switzerland / Japan / Italy",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "7–21 days"
+  },
+
+  // =========================
+  // EXPORT PRODUCTS
+  // =========================
+  {
+    id: 17,
+    name: "Kenyan Coffee",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/export/kenyancoffee.png",
+    description:
+      "World-renowned Kenyan AA coffee sourced from Kirinyaga, Nyeri, and Murang'a.",
+    shipsFrom: "Nairobi, Kenya",
+    shipsTo: "Europe, USA, Middle East, Asia",
+    deliveryTime: "10–20 days"
+  },
+  {
+    id: 18,
+    name: "Kenyan Tea",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/export/kenyan-tea.png",
+    description:
+      "Premium CTC and orthodox tea from Kericho and the Rift Valley.",
+    shipsFrom: "Kericho / Mombasa Port, Kenya",
+    shipsTo: "UK, Middle East, Pakistan, Asia",
+    deliveryTime: "15–30 days"
+  },
+  {
+    id: 19,
     name: "Kenyan Spices & Foods",
     type: "export",
     category: "Kenyan Export Products",
-    image: "assets/images/automobile.jpg",
-    description: "Tropical Heat spices, Dormans coffee, dehydrated vegetables, dried fruits, and imperishable Kenyan food products packaged for international retail shelves.",
+    image: "assets/images/export/kenyan-spice.png",
+    description:
+      "Tropical Heat spices, dried fruits, dehydrated vegetables, and packaged Kenyan foods.",
     shipsFrom: "Nairobi / Mombasa, Kenya",
     shipsTo: "UK, USA, Europe, Middle East",
     deliveryTime: "10–21 days"
-  }
+  },
+  {
+    id: 20,
+    name: "Natural Honey Products",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/export/honey.jpg",
+    description:
+      "Pure organic honey from Kenyan forests and wildflower apiaries.",
+    shipsFrom: "Kenya (various counties)",
+    shipsTo: "Europe, USA, Middle East",
+    deliveryTime: "7–14 days"
+  },
+  {
+    id: 21,
+    name: "African Handicrafts & Décor",
+    type: "export",
+    category: "African Art & Decor",
+    image: "assets/images/export/handcrafts.jpg",
+    description:
+      "Maasai beadwork, soapstone carvings, sisal baskets, and handmade sculptures.",
+    shipsFrom: "Nairobi / Mombasa, Kenya",
+    shipsTo: "Worldwide",
+    deliveryTime: "7–21 days"
+  },
+  {
+    id: 22,
+    name: "African Home Décor",
+    type: "export",
+    category: "African Art & Decor",
+    image: "assets/images/export/decor.jpg",
+    description:
+      "Handcrafted furniture, wall art, woven baskets, and interior décor inspired by African heritage.",
+    shipsFrom: "Kenya",
+    shipsTo: "Worldwide",
+    deliveryTime: "10–30 days"
+  },
+  {
+    id: 23,
+    name: "African Attire",
+    type: "export",
+    category: "Fashion & Apparel",
+    image: "assets/images/export/attire.jpg",
+    description:
+      "Authentic African clothing including Ankara dresses, kitenge outfits, and Maasai garments.",
+    shipsFrom: "Nairobi, Kenya",
+    shipsTo: "USA, Europe, Middle East, Africa",
+    deliveryTime: "7–14 days"
+  },
+  {
+    id: 24,
+    name: "African Beaded Jewelry",
+    type: "export",
+    category: "Fashion & Accessories",
+    image: "assets/images/export/jewellery.jpg",
+    description:
+      "Handmade necklaces, bracelets, earrings, and accessories crafted by Kenyan artisans.",
+    shipsFrom: "Kenya",
+    shipsTo: "Worldwide",
+    deliveryTime: "7–14 days"
+  },
+  
 ];
  
 // ── State ─────────────────────────────────────────────────────
