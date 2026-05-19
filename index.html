@@ -433,7 +433,7 @@
 </div>
 
 <!-- ======================== PARTNERS PAGE ======================== -->
-<div id="page-partners" class="page">
+<!-- <div id="page-partners" class="page">
   <section>
     <div class="section-label" data-i18n="partners_label">Our Network</div>
     <h2 class="section-title" data-i18n="partners_title">Import & Export <span>Partners</span></h2>
@@ -549,6 +549,192 @@
     <div style="text-align:center;padding:40px 5%;">
       <p style="color:var(--text-mid);font-style:italic;font-size:0.95rem;">💡 "Whether you want to import from global suppliers or export any East and Central African goods, ask us about the exact product or brand you need."</p>
       <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20ask%20about%20a%20specific%20import%20or%20Kenyan%20export%20brand%2Fproduct." class="wa-btn" style="margin-top:20px;display:inline-flex;" target="_blank">💬 Ask About a Specific Brand</a>
+    </div>
+  </div>
+</div> -->
+<!-- ======================== PARTNERS PAGE ======================== -->
+<!-- REPLACE the entire contents of <div id="page-partners" class="page"> ... </div> with this -->
+
+<div id="page-partners" class="page">
+
+  <!-- HERO SECTION -->
+  <section class="pp-hero">
+    <div class="pp-hero-bg"></div>
+    <div class="pp-hero-inner">
+      <div class="section-label" data-i18n="partners_label">Our Network</div>
+      <h2 class="section-title" data-i18n="partners_title">Import & Export <span>Products</span></h2>
+      <p class="section-sub" data-i18n="partners_subtitle">Search our catalog of import and export products, view shipping details, and contact us via WhatsApp for pricing and availability.</p>
+    </div>
+  </section>
+
+  <!-- CATALOG CONTROLS -->
+  <div class="pp-controls-wrap">
+    <div class="pp-controls">
+
+      <!-- Search Bar -->
+      <div class="pp-search-wrap">
+        <span class="pp-search-icon">🔍</span>
+        <input
+          type="text"
+          id="pp-search"
+          class="pp-search"
+          data-i18n-placeholder="partners_search_placeholder"
+          placeholder="Search products..."
+          autocomplete="off"
+        />
+        <button class="pp-search-clear" id="pp-search-clear" aria-label="Clear search" hidden>✕</button>
+      </div>
+
+      <!-- Tabs + Category Row -->
+      <div class="pp-filters-row">
+
+        <!-- Type Tabs -->
+        <div class="pp-tabs" role="tablist">
+          <button class="pp-tab active" data-tab="all" role="tab" aria-selected="true" data-i18n="partners_tab_all">All Products</button>
+          <button class="pp-tab" data-tab="import" role="tab" aria-selected="false" data-i18n="partners_tab_import">Import Products</button>
+          <button class="pp-tab" data-tab="export" role="tab" aria-selected="false" data-i18n="partners_tab_export">Export Products</button>
+        </div>
+
+        <!-- Category Dropdown -->
+        <div class="pp-category-wrap">
+          <select id="pp-category" class="pp-category">
+            <option value="all" data-i18n="partners_category_all">All Categories</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Industrial & Manufacturing">Industrial & Manufacturing</option>
+            <option value="Luxury & Consumer Goods">Luxury & Consumer Goods</option>
+            <option value="Asian Manufacturers">Asian Manufacturers</option>
+            <option value="Kenyan Export Products">Kenyan Export Products</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCT GRID -->
+  <div class="pp-grid-wrap">
+    <div class="pp-grid" id="pp-grid">
+      <!-- Cards rendered by JS -->
+    </div>
+
+    <!-- Empty State -->
+    <div class="pp-empty" id="pp-empty" hidden>
+      <div class="pp-empty-icon">📦</div>
+      <p data-i18n="partners_no_results">No products found matching your search.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER CTA -->
+  <div class="pp-cta-wrap">
+    <div class="pp-cta reveal">
+      <div class="pp-cta-icon">💬</div>
+      <p data-i18n="partners_cta_text">Can't find what you're looking for? Ask us about any product, brand, or special requirement and we'll source it for you.</p>
+      <a
+        href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20ask%20about%20a%20specific%20import%20or%20export%20product."
+        class="wa-btn"
+        target="_blank"
+        rel="noopener"
+        data-i18n="partners_cta_button"
+      >💬 Ask About a Specific Product</a>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ======================== PRODUCT DETAIL MODAL ======================== -->
+<!-- Place this immediately after the partners page div (before testimonials page) -->
+<div id="partners-modal" class="partners-modal" hidden aria-modal="true" role="dialog" aria-labelledby="modal-title">
+  <div class="partners-modal-overlay" id="partners-modal-overlay"></div>
+  <div class="partners-modal-content">
+    <button id="partners-modal-close" class="partners-modal-close" aria-label="Close modal">✕</button>
+
+    <div class="partners-modal-img-wrap">
+      <img id="modal-image" src="" alt="" loading="lazy" />
+      <div class="partners-modal-badge" id="modal-type-badge"></div>
+    </div>
+
+    <div class="partners-modal-body">
+      <div class="partners-modal-category" id="modal-category"></div>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+
+      <ul class="partners-modal-meta">
+        <li>
+          <span class="pm-icon">🌍</span>
+          <div>
+            <strong data-i18n="partners_ships_from">Ships From</strong>
+            <span id="modal-origin"></span>
+          </div>
+        </li>
+        <li>
+          <span class="pm-icon">📍</span>
+          <div>
+            <strong data-i18n="partners_ships_to">Ships To</strong>
+            <span id="modal-destination"></span>
+          </div>
+        </li>
+        <li>
+          <span class="pm-icon">⏱️</span>
+          <div>
+            <strong data-i18n="partners_delivery_time">Estimated Delivery</strong>
+            <span id="modal-delivery"></span>
+          </div>
+        </li>
+      </ul>
+
+      <a
+        id="modal-whatsapp"
+        href="#"
+        class="wa-btn"
+        target="_blank"
+        rel="noopener"
+        data-i18n="partners_request_quote"
+      >💬 Request Quote on WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Product Details Modal -->
+<div id="partners-modal" class="partners-modal" hidden>
+  <div class="partners-modal-overlay"></div>
+  <div class="partners-modal-content">
+    <button id="partners-modal-close" class="partners-modal-close" aria-label="Close">
+      ×
+    </button>
+
+    <img id="modal-image" src="" alt="" />
+
+    <div class="partners-modal-body">
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+
+      <ul class="partners-modal-meta">
+        <li>
+          <strong data-i18n="partners_ships_from">Ships From:</strong>
+          <span id="modal-origin"></span>
+        </li>
+        <li>
+          <strong data-i18n="partners_ships_to">Ships To:</strong>
+          <span id="modal-destination"></span>
+        </li>
+        <li>
+          <strong data-i18n="partners_delivery_time">Estimated Delivery:</strong>
+          <span id="modal-delivery"></span>
+        </li>
+      </ul>
+
+      <a
+        id="modal-whatsapp"
+        href="#"
+        class="wa-btn"
+        target="_blank"
+        rel="noopener"
+        data-i18n="partners_request_quote"
+      >
+        💬 Request Quote on WhatsApp
+      </a>
     </div>
   </div>
 </div>

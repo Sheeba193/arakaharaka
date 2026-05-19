@@ -85,7 +85,416 @@
     }
   });
 
-  // Translation system
+  
+
+ 
+
+
+/* ============================================================
+   PARTNERS PRODUCT CATALOG — APPEND TO main.js
+   ============================================================
+ 
+   ALSO: Add the keys below into your existing `translations`
+   object for every language. Sample objects are provided at
+   the bottom of this file.
+ 
+   ============================================================ */
+ 
+// ── Product Data ─────────────────────────────────────────────
+const partnersProducts = [
+  {
+    id: 1,
+    name: "Toyota Hilux",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/automobile.jpg",
+    description: "Reliable 4WD pickup truck built for tough terrain. Popular across East Africa for both commercial and personal use. Available in various engine specifications.",
+    shipsFrom: "Japan / UAE",
+    shipsTo: "Kenya, Uganda, Tanzania, Rwanda, DRC",
+    deliveryTime: "4–8 weeks (sea freight)"
+  },
+  {
+    id: 2,
+    name: "BMW X5",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/automobile.jpg",
+    description: "Premium luxury SUV combining performance with sophistication. Sourced from verified dealers in Germany, UK and UAE with full inspection.",
+    shipsFrom: "Germany / UK / UAE",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "5–10 weeks"
+  },
+  {
+    id: 3,
+    name: "Industrial Machinery & Equipment",
+    type: "import",
+    category: "Industrial & Manufacturing",
+    image: "assets/images/automobile.jpg",
+    description: "Wide range of factory machinery, construction equipment, generators, and industrial tools sourced from leading manufacturers in China and Germany.",
+    shipsFrom: "China / Germany",
+    shipsTo: "Kenya, Uganda, Tanzania, Ethiopia",
+    deliveryTime: "30–50 days (sea freight)"
+  },
+  {
+    id: 4,
+    name: "Apple iPhone",
+    type: "import",
+    category: "Luxury & Consumer Goods",
+    image: "assets/images/automobile.jpg",
+    description: "Latest Apple iPhone models sourced from authorised global distributors. Genuine products with international warranties. Bulk and individual orders welcome.",
+    shipsFrom: "USA / UAE / Singapore",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "7–14 days (air freight)"
+  },
+  {
+    id: 5,
+    name: "Samsung Electronics",
+    type: "import",
+    category: "Luxury & Consumer Goods",
+    image: "assets/images/automobile.jpg",
+    description: "Full range of Samsung products including smartphones, TVs, home appliances, and tablets. Sourced from official Samsung distributors across Asia and the UAE.",
+    shipsFrom: "South Korea / UAE",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "7–20 days"
+  },
+  {
+    id: 6,
+    name: "Premium Basmati Rice",
+    type: "import",
+    category: "Asian Manufacturers",
+    image: "assets/images/automobile.jpg",
+    description: "Long-grain aromatic basmati rice from premium Indian and Pakistani producers. Available in 25kg, 50kg bulk sacks and retail packs. KEBS certified.",
+    shipsFrom: "India / Pakistan",
+    shipsTo: "Kenya, Uganda, Tanzania, Rwanda",
+    deliveryTime: "25–40 days (sea freight)"
+  },
+  {
+    id: 7,
+    name: "Kenyan Coffee",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/automobile.jpg",
+    description: "World-renowned Kenyan AA grade coffee sourced from the highlands of Kirinyaga, Nyeri, and Murang'a. Single-origin, freshly roasted, and export ready.",
+    shipsFrom: "Nairobi, Kenya",
+    shipsTo: "Europe, USA, Middle East, Asia",
+    deliveryTime: "10–20 days (air / sea)"
+  },
+  {
+    id: 8,
+    name: "Kenyan Tea",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/automobile.jpg",
+    description: "High-quality Kenyan CTC and orthodox tea from the Rift Valley and Kericho highlands. Bulk and branded packaging available for export markets.",
+    shipsFrom: "Kericho / Mombasa Port, Kenya",
+    shipsTo: "UK, Middle East, Pakistan, Asia",
+    deliveryTime: "15–30 days"
+  },
+  {
+    id: 9,
+    name: "African Handicrafts & Décor",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/automobile.jpg",
+    description: "Hand-carved wooden sculptures, Maasai beadwork, sisal baskets, soapstone carvings, and authentic African art sourced from Nairobi and coastal craftsmen.",
+    shipsFrom: "Nairobi / Mombasa, Kenya",
+    shipsTo: "Worldwide",
+    deliveryTime: "7–21 days (air / sea)"
+  },
+  {
+    id: 10,
+    name: "Natural Honey Products",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/automobile.jpg",
+    description: "Pure organic honey from Kenyan forests and wildflower apiaries. Available in raw, creamed, and infused varieties. KEBS and organic certified for export.",
+    shipsFrom: "Kenya (various counties)",
+    shipsTo: "Europe, USA, Middle East",
+    deliveryTime: "7–14 days (air freight)"
+  },
+  {
+    id: 11,
+    name: "Auto Spare Parts",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/automobile.jpg",
+    description: "Genuine and aftermarket spare parts for Toyota, Nissan, Honda, Mitsubishi, and other popular brands. Sourced directly from Japanese and Chinese manufacturers.",
+    shipsFrom: "Japan / China / UAE",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "14–30 days"
+  },
+  {
+    id: 12,
+    name: "Building Materials",
+    type: "import",
+    category: "Industrial & Manufacturing",
+    image: "assets/images/automobile.jpg",
+    description: "Construction materials including steel rods, ceramic tiles, sanitary ware, electrical fittings, and roofing sheets sourced from China and Europe at competitive prices.",
+    shipsFrom: "China / Europe",
+    shipsTo: "Kenya, Uganda, Tanzania",
+    deliveryTime: "30–50 days (sea freight)"
+  },
+  {
+    id: 13,
+    name: "Xiaomi & Asian Electronics",
+    type: "import",
+    category: "Asian Manufacturers",
+    image: "assets/images/automobile.jpg",
+    description: "Smartphones, tablets, smart home devices, and accessories from Xiaomi, Huawei, OPPO and other leading Asian brands. Bulk orders accepted.",
+    shipsFrom: "China / Singapore",
+    shipsTo: "Kenya and East Africa",
+    deliveryTime: "10–25 days"
+  },
+  {
+    id: 14,
+    name: "Kenyan Spices & Foods",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/automobile.jpg",
+    description: "Tropical Heat spices, Dormans coffee, dehydrated vegetables, dried fruits, and imperishable Kenyan food products packaged for international retail shelves.",
+    shipsFrom: "Nairobi / Mombasa, Kenya",
+    shipsTo: "UK, USA, Europe, Middle East",
+    deliveryTime: "10–21 days"
+  }
+];
+ 
+// ── State ─────────────────────────────────────────────────────
+let ppState = {
+  search: '',
+  tab: 'all',
+  category: 'all'
+};
+ 
+// ── Render Cards ──────────────────────────────────────────────
+function ppRenderCards() {
+  const grid = document.getElementById('pp-grid');
+  const emptyEl = document.getElementById('pp-empty');
+  if (!grid) return;
+ 
+  const q = ppState.search.trim().toLowerCase();
+  const filtered = partnersProducts.filter(p => {
+    const matchTab = ppState.tab === 'all' || p.type === ppState.tab;
+    const matchCat = ppState.category === 'all' || p.category === ppState.category;
+    const matchSearch = !q ||
+      p.name.toLowerCase().includes(q) ||
+      p.description.toLowerCase().includes(q) ||
+      p.category.toLowerCase().includes(q) ||
+      p.shipsFrom.toLowerCase().includes(q) ||
+      p.shipsTo.toLowerCase().includes(q);
+    return matchTab && matchCat && matchSearch;
+  });
+ 
+  grid.innerHTML = '';
+ 
+  if (filtered.length === 0) {
+    emptyEl.removeAttribute('hidden');
+    return;
+  }
+ 
+  emptyEl.setAttribute('hidden', '');
+ 
+  const lang = document.getElementById('languageSelect')
+    ? document.getElementById('languageSelect').value
+    : 'en';
+  const t = translations[lang] || translations['en'];
+ 
+  filtered.forEach((p, i) => {
+    const card = document.createElement('div');
+    card.className = 'pp-card';
+    card.style.animationDelay = (i * 50) + 'ms';
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', 'View details for ' + p.name);
+ 
+    const typeLabel = p.type.charAt(0).toUpperCase() + p.type.slice(1);
+ 
+    card.innerHTML = `
+      <div class="pp-card-img-wrap">
+        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'">
+        <span class="pp-card-type-badge ${p.type}">${typeLabel}</span>
+      </div>
+      <div class="pp-card-body">
+        <div class="pp-card-category">${p.category}</div>
+        <h3 class="pp-card-name">${p.name}</h3>
+        <p class="pp-card-desc">${p.description}</p>
+        <div class="pp-card-meta">
+          <div class="pp-card-meta-item">🌍 <strong>${t.partners_ships_from || 'Ships From'}:</strong>&nbsp;${p.shipsFrom}
+          </div>
+          <div class="pp-card-meta-item">⏱️ <strong>${t.partners_delivery_time || 'Delivery'}:</strong>&nbsp;${p.deliveryTime}
+          </div>
+        </div>
+        <button class="pp-card-btn" data-id="${p.id}">${t.partners_view_details || 'View Details'}</button>
+      </div>
+    `;
+ 
+    // Click anywhere on card or the button
+    card.addEventListener('click', (e) => {
+      ppOpenModal(p.id);
+    });
+ 
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        ppOpenModal(p.id);
+      }
+    });
+ 
+    grid.appendChild(card);
+  });
+}
+ 
+// ── Open Modal ────────────────────────────────────────────────
+function ppOpenModal(id) {
+  const p = partnersProducts.find(x => x.id === id);
+  if (!p) return;
+ 
+  const lang = document.getElementById('languageSelect')
+    ? document.getElementById('languageSelect').value
+    : 'en';
+  const t = translations[lang] || translations['en'];
+ 
+  document.getElementById('modal-image').src = p.image;
+  document.getElementById('modal-image').alt = p.name;
+  document.getElementById('modal-title').textContent = p.name;
+  document.getElementById('modal-description').textContent = p.description;
+  document.getElementById('modal-origin').textContent = p.shipsFrom;
+  document.getElementById('modal-destination').textContent = p.shipsTo;
+  document.getElementById('modal-delivery').textContent = p.deliveryTime;
+  document.getElementById('modal-category').textContent = p.category;
+ 
+  const badge = document.getElementById('modal-type-badge');
+  badge.textContent = p.type.charAt(0).toUpperCase() + p.type.slice(1);
+  badge.className = 'partners-modal-badge ' + p.type;
+ 
+  // Update static text in modal that uses data-i18n
+  document.querySelectorAll('#partners-modal [data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (t[key]) el.textContent = t[key];
+  });
+ 
+  const msg = encodeURIComponent(
+    `Hello Arakaharaka Enterprises, I am interested in ${p.name}. Please share pricing and shipping details.`
+  );
+  document.getElementById('modal-whatsapp').href = `https://wa.me/254723214344?text=${msg}`;
+ 
+  const modal = document.getElementById('partners-modal');
+  modal.removeAttribute('hidden');
+  document.body.style.overflow = 'hidden';
+ 
+  // Focus close button for accessibility
+  setTimeout(() => {
+    document.getElementById('partners-modal-close').focus();
+  }, 100);
+}
+ 
+// ── Close Modal ───────────────────────────────────────────────
+function ppCloseModal() {
+  const modal = document.getElementById('partners-modal');
+  if (!modal) return;
+  modal.setAttribute('hidden', '');
+  document.body.style.overflow = '';
+}
+ 
+// ── Init Controls ─────────────────────────────────────────────
+function ppInitControls() {
+  // Search input
+  const searchEl = document.getElementById('pp-search');
+  const clearBtn = document.getElementById('pp-search-clear');
+ 
+  if (searchEl) {
+    searchEl.addEventListener('input', () => {
+      ppState.search = searchEl.value;
+      clearBtn.hidden = !searchEl.value;
+      ppRenderCards();
+    });
+  }
+ 
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      searchEl.value = '';
+      ppState.search = '';
+      clearBtn.hidden = true;
+      searchEl.focus();
+      ppRenderCards();
+    });
+  }
+ 
+  // Tabs
+  document.querySelectorAll('.pp-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.pp-tab').forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      ppState.tab = tab.getAttribute('data-tab');
+      ppRenderCards();
+    });
+  });
+ 
+  // Category dropdown
+  const catEl = document.getElementById('pp-category');
+  if (catEl) {
+    catEl.addEventListener('change', () => {
+      ppState.category = catEl.value;
+      ppRenderCards();
+    });
+  }
+ 
+  // Modal close
+  const closeBtn = document.getElementById('partners-modal-close');
+  const overlay = document.getElementById('partners-modal-overlay');
+  if (closeBtn) closeBtn.addEventListener('click', ppCloseModal);
+  if (overlay) overlay.addEventListener('click', ppCloseModal);
+ 
+  // Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const modal = document.getElementById('partners-modal');
+      if (modal && !modal.hidden) ppCloseModal();
+    }
+  });
+}
+ 
+// ── Re-render on language change (patch changeLanguage) ───────
+const _origChangeLanguage = typeof changeLanguage === 'function' ? changeLanguage : null;
+function changeLanguage(lang) {
+  if (_origChangeLanguage) _origChangeLanguage(lang);
+  // Re-render cards so translated strings update
+  if (document.getElementById('pp-grid')) ppRenderCards();
+  // Update placeholder
+  const searchEl = document.getElementById('pp-search');
+  if (searchEl) {
+    const t = translations[lang] || translations['en'];
+    searchEl.placeholder = t.partners_search_placeholder || 'Search products...';
+  }
+}
+ 
+// ── Boot ──────────────────────────────────────────────────────
+window.addEventListener('load', () => {
+  ppInitControls();
+  ppRenderCards();
+});
+ 
+// Also re-render when navigating to partners page
+const _origShowPage = typeof showPage === 'function' ? showPage : null;
+// (We patch via a MutationObserver on the partners page becoming active)
+const ppPageObserver = new MutationObserver(() => {
+  const page = document.getElementById('page-partners');
+  if (page && page.classList.contains('active')) {
+    ppRenderCards();
+  }
+});
+ 
+document.addEventListener('DOMContentLoaded', () => {
+  const page = document.getElementById('page-partners');
+  if (page) {
+    ppPageObserver.observe(page, { attributes: true, attributeFilter: ['class'] });
+  }
+});
+
+ // Translation system
   const translations = {
     en: {
       nav_home: 'Home',
@@ -208,6 +617,22 @@
       partners_luxury_title: '📥 Import Partners: Luxury & Consumer Brands',
       partners_asian_title: '📥 Import Partners: Asian Manufacturers & Suppliers',
       partners_export_title: '📤 Export from Kenya: Kenyan Brands & Products',
+      partners_label: 'Our Network',
+      partners_title: 'Import & Export Products',
+      partners_subtitle: 'Search our catalog of import and export products, view shipping details, and contact us via WhatsApp for pricing and availability.',
+      partners_search_placeholder: 'Search products...',
+      partners_tab_all: 'All Products',
+      partners_tab_import: 'Import Products',
+      partners_tab_export: 'Export Products',
+      partners_category_all: 'All Categories',
+      partners_ships_from: 'Ships From',
+      partners_ships_to: 'Ships To',
+      partners_delivery_time: 'Estimated Delivery',
+      partners_view_details: 'View Details',
+      partners_request_quote: '💬 Request Quote on WhatsApp',
+      partners_no_results: 'No products found matching your search.',
+      partners_cta_text: 'Can\'t find what you\'re looking for? Ask us about any product, brand, or special requirement and we\'ll source it for you.',
+      partners_cta_button: '💬 Ask About a Specific Product',
       footer_desc: 'Your trusted import & export partner based in Ruaraka, Nairobi. Connecting East and Central African countries to the world — one shipment at a time.',
       footer_quick: 'Quick Links',
       footer_contact: 'Contact',
@@ -363,6 +788,22 @@
       partners_luxury_title: '📥 进口合作伙伴：奢侈与消费品牌',
       partners_asian_title: '📥 进口合作伙伴：亚洲制造商与供应商',
       partners_export_title: '📤 从肯尼亚出口：肯尼亚品牌与产品',
+      partners_label: '我们的网络',
+      partners_title: '进出口产品',
+      partners_subtitle: '搜索我们的进出口产品目录，查看运输详情，并通过WhatsApp联系我们了解价格和供货情况。',
+      partners_search_placeholder: '搜索产品...',
+      partners_tab_all: '所有产品',
+      partners_tab_import: '进口产品',
+      partners_tab_export: '出口产品',
+      partners_category_all: '所有类别',
+      partners_ships_from: '发货地',
+      partners_ships_to: '发货目的地',
+      partners_delivery_time: '预计交货时间',
+      partners_view_details: '查看详情',
+      partners_request_quote: '💬 通过WhatsApp请求报价',
+      partners_no_results: '未找到符合您搜索条件的产品。',
+      partners_cta_text: '找不到您要找的产品？请询问我们任何产品或特殊需求，我们将为您采购。',
+      partners_cta_button: '💬 询问特定产品',
       footer_desc: '您值得信赖的进出口合作伙伴，位于内罗毕鲁阿拉卡。将东非和中非国家与世界连接起来——一次运输一次。',
       footer_quick: '快速链接',
       footer_contact: '联系',
@@ -518,6 +959,22 @@
       partners_luxury_title: '📥 輸入パートナー：ラグジュアリー・消費財ブランド',
       partners_asian_title: '📥 輸入パートナー：アジア製造業者・サプライヤー',
       partners_export_title: '📤 ケニアから輸出：ケニアブランド・製品',
+      partners_label: '私たちのネットワーク',
+      partners_title: '輸出入製品',
+      partners_subtitle: '輸入・輸出製品のカタログを検索し、配送詳細を確認し、価格と在庫についてWhatsAppでお問い合わせください。',
+      partners_search_placeholder: '製品を検索...',
+      partners_tab_all: '全製品',
+      partners_tab_import: '輸入品',
+      partners_tab_export: '輸出品',
+      partners_category_all: '全カテゴリ',
+      partners_ships_from: '発送元',
+      partners_ships_to: '発送先',
+      partners_delivery_time: '配達予定',
+      partners_view_details: '詳細を見る',
+      partners_request_quote: '💬 WhatsAppで見積もり依頼',
+      partners_no_results: '検索条件に一致する製品が見つかりませんでした。',
+      partners_cta_text: 'お探しの商品が見つかりませんか？製品やブランドについてお気軽にお問い合わせください。',
+      partners_cta_button: '💬 特定の製品について問い合わせ',
       footer_desc: 'ナイロビのルアラカに拠点を置く信頼できる輸出入パートナー。東アフリカ・中央アフリカ諸国と世界を繋ぐ—1回の輸送ずつ。',
       footer_quick: 'クイックリンク',
       footer_contact: '連絡先',
@@ -981,6 +1438,22 @@
       partners_luxury_title: '📥 Washirika wa Uagizaji: Chapa za Lux na Bidhaa za Watumiaji',
       partners_asian_title: '📥 Washirika wa Uagizaji: Wazalishaji na Wasambazaji wa Asia',
       partners_export_title: '📤 Uuzaji kutoka Kenya: Chapa na Bidhaa za Kenya',
+      partners_label: 'Mtandao Wetu',
+      partners_title: 'Bidhaa za Kuagiza na Kuuza',
+      partners_subtitle: 'Tafuta orodha yetu ya bidhaa za kuagiza na kuuza, angalia maelezo ya usafirishaji, na wasiliana nasi kupitia WhatsApp kwa bei na upatikanaji.',
+      partners_search_placeholder: 'Tafuta bidhaa...',
+      partners_tab_all: 'Bidhaa Zote',
+      partners_tab_import: 'Bidhaa za Kuagiza',
+      partners_tab_export: 'Bidhaa za Kuuza',
+      partners_category_all: 'Kategoria Zote',
+      partners_ships_from: 'Inatumwa Kutoka',
+      partners_ships_to: 'Inatumwa Kwenda',
+      partners_delivery_time: 'Muda wa Uwasilishaji',
+      partners_view_details: 'Angalia Maelezo',
+      partners_request_quote: '💬 Omba Bei WhatsApp',
+      partners_no_results: 'Hakuna bidhaa zilizopatikana zinazolingana na utafutaji wako.',
+      partners_cta_text: 'Hupati unachotafuta? Tuulize kuhusu bidhaa yoyote, chapa, au mahitaji maalum na tutakupata.',
+      partners_cta_button: '💬 Uliza Kuhusu Bidhaa Maalum',
       footer_desc: 'Mshirika wako wa kuaminika wa uagizaji na uuzaji unaotengwa Ruaraka, Nairobi. Kuunganisha nchi za Afrika Mashariki na Kati na dunia — kwa kila kume.',
       footer_quick: 'Viungo vya Haraka',
       footer_contact: 'Wasiliana',
@@ -1136,6 +1609,22 @@
       partners_luxury_title: '📥 Partenaires d\'Import: Marques de Luxe & Consommation',
       partners_asian_title: '📥 Partenaires d\'Import: Fabricants & Fournisseurs Asiatiques',
       partners_export_title: '📤 Export du Kenya: Marques & Produits Kényans',
+      partners_label: 'Notre Réseau',
+      partners_title: 'Produits d\'Import & Export',
+      partners_subtitle: 'Recherchez notre catalogue de produits d\'importation et d\'exportation, consultez les détails d\'expédition, et contactez-nous via WhatsApp pour les prix et la disponibilité.',
+      partners_search_placeholder: 'Rechercher des produits...',
+      partners_tab_all: 'Tous les Produits',
+      partners_tab_import: 'Produits d\'Importation',
+      partners_tab_export: 'Produits d\'Exportation',
+      partners_category_all: 'Toutes les Catégories',
+      partners_ships_from: 'Expédié De',
+      partners_ships_to: 'Expédié À',
+      partners_delivery_time: 'Livraison Estimée',
+      partners_view_details: 'Voir Détails',
+      partners_request_quote: '💬 Demander un Devis WhatsApp',
+      partners_no_results: 'Aucun produit trouvé correspondant à votre recherche.',
+      partners_cta_text: 'Vous ne trouvez pas ce que vous cherchez? Demandez-nous à propos de tout produit ou exigence spéciale.',
+      partners_cta_button: '💬 Renseignez-vous sur un Produit', 
       footer_desc: 'Votre partenaire d\'import & export de confiance basé à Ruaraka, Nairobi. Connectant les pays d\'Afrique de l\'Est et Centrale au monde — un envoi à la fois.',
       footer_quick: 'Liens Rapides',
       footer_contact: 'Contact',
@@ -1291,6 +1780,22 @@
       partners_luxury_title: '📥 Importpartner: Luxus- und Konsummarken',
       partners_asian_title: '📥 Importpartner: Asiatische Hersteller & Lieferanten',
       partners_export_title: '📤 Export aus Kenia: Kenianische Marken & Produkte',
+      partners_label: 'Unser Netzwerk',
+      partners_title: 'Import- & Exportprodukte',
+      partners_subtitle: 'Durchsuchen Sie unseren Katalog von Import- und Exportprodukten, sehen Sie Versanddetails und kontaktieren Sie uns über WhatsApp für Preise und Verfügbarkeit.',
+      partners_search_placeholder: 'Produkte suchen...',
+      partners_tab_all: 'Alle Produkte',
+      partners_tab_import: 'Importprodukte',
+      partners_tab_export: 'Exportprodukte',
+      partners_category_all: 'Alle Kategorien',
+      partners_ships_from: 'Versand Von',
+      partners_ships_to: 'Versand Nach',
+      partners_delivery_time: 'Geschätzte Lieferung',
+      partners_view_details: 'Details Ansehen',
+      partners_request_quote: '💬 Angebot per WhatsApp',
+      partners_no_results: 'Keine Produkte gefunden, die Ihrer Suche entsprechen.',
+      partners_cta_text: 'Können Sie nicht finden, was Sie suchen? Fragen Sie uns nach jedem Produkt oder speziellen Anforderungen.',
+      partners_cta_button: '💬 Nach einem Produkt Fragen',
       footer_desc: 'Ihr vertrauenswürdiger Import- und Exportpartner mit Sitz in Ruaraka, Nairobi. Verbindet ost- und zentralafrikanische Länder mit der Welt — eine Lieferung nach der anderen.',
       footer_quick: 'Schnelllinks',
       footer_contact: 'Kontakt',
@@ -1446,6 +1951,22 @@
       partners_luxury_title: '📥 आयात पार्टनर: लक्जरी और उपभोक्ता ब्रांड',
       partners_asian_title: '📥 आयात पार्टनर: एशियाई निर्माता और आपूर्तिकर्ता',
       partners_export_title: '📤 केन्या से निर्यात: केन्याई ब्रांड और उत्पाद',
+      partners_label: 'हमारा नेटवर्क',
+      partners_title: 'आयात और निर्यात उत्पाद',
+      partners_subtitle: 'हमारे आयात और निर्यात उत्पादों की सूची खोजें, शिपिंग विवरण देखें, और WhatsApp के माध्यम से हमसे मूल्य और उपलब्धता के लिए संपर्क करें।',
+      partners_search_placeholder: 'उत्पाद खोजें...',
+      partners_tab_all: 'सभी उत्पाद',
+      partners_tab_import: 'आयात उत्पाद',
+      partners_tab_export: 'निर्यात उत्पाद',
+      partners_category_all: 'सभी श्रेणियां',
+      partners_ships_from: 'यहाँ से शिप होता है',
+      partners_ships_to: 'यहाँ शिप होता है',
+      partners_delivery_time: 'अनुमानित डिलीवरी',
+      partners_view_details: 'विवरण देखें',
+      partners_request_quote: '💬 WhatsApp पर उद्धरण मांगें',
+      partners_no_results: 'आपकी खोज से मेल खाने वाले कोई उत्पाद नहीं मिले।',
+      partners_cta_text: 'जो खोज रहे हैं वह नहीं मिल रहा? किसी भी उत्पाद या विशेष आवश्यकता के बारे में हमसे पूछें।',
+      partners_cta_button: '💬 किसी विशिष्ट उत्पाद के बारे में पूछें',
       footer_desc: 'रुआराका, नैरोबी में आधारित आपका विश्वसनीय आयात और निर्यात पार्टनर। पूर्वी और मध्य अफ्रीकी देशों को दुनिया से जोड़ना — एक शिपमेंट एक समय में।',
       footer_quick: 'त्वरित लिंक',
       footer_contact: 'संपर्क',
@@ -1601,6 +2122,22 @@
       partners_luxury_title: '📥 Socios de Importación: Marcas de Lujo y Consumo',
       partners_asian_title: '📥 Socios de Importación: Fabricantes y Proveedores Asiáticos',
       partners_export_title: '📤 Exportación de Kenia: Marcas y Productos Kenianos',
+      partners_label: 'Nuestra Red',
+      partners_title: 'Productos de Importación y Exportación',
+      partners_subtitle: 'Busque nuestro catálogo de productos de importación y exportación, vea detalles de envío y contáctenos por WhatsApp para precios y disponibilidad.',
+      partners_search_placeholder: 'Buscar productos...',
+      partners_tab_all: 'Todos los Productos',
+      partners_tab_import: 'Productos de Importación',
+      partners_tab_export: 'Productos de Exportación',
+      partners_category_all: 'Todas las Categorías',
+      partners_ships_from: 'Envío Desde',
+      partners_ships_to: 'Envío A',
+      partners_delivery_time: 'Entrega Estimada',
+      partners_view_details: 'Ver Detalles',
+      partners_request_quote: '💬 Cotización por WhatsApp',
+      partners_no_results: 'No se encontraron productos que coincidan con su búsqueda.',
+      partners_cta_text: '¿No encuentra lo que busca? Pregúntenos sobre cualquier producto o requisito especial.',
+      partners_cta_button: '💬 Preguntar por un Producto',
       footer_desc: 'Su socio de importación y exportación de confianza con sede en Ruaraka, Nairobi. Conectando países de África Oriental y Central con el mundo — un envío a la vez.',
       footer_quick: 'Enlaces Rápidos',
       footer_contact: 'Contacto',
@@ -1756,6 +2293,22 @@
       partners_luxury_title: '📥 شركاء الاستيراد: العلامات الفاخرة والاستهلاكية',
       partners_asian_title: '📥 شركاء الاستيراد: المصنعون والموردون الآسيويون',
       partners_export_title: '📤 التصدير من كينيا: العلامات والمنتجات الكينية',
+      partners_label: 'شبكتنا',
+      partners_title: 'منتجات الاستيراد والتصدير',
+      partners_subtitle: 'ابحث في كتالوج منتجات الاستيراد والتصدير لدينا، اطلع على تفاصيل الشحن، وتواصل معنا عبر واتساب للأسعار والتوفر.',
+      partners_search_placeholder: 'البحث عن المنتجات...',
+      partners_tab_all: 'جميع المنتجات',
+      partners_tab_import: 'منتجات الاستيراد',
+      partners_tab_export: 'منتجات التصدير',
+      partners_category_all: 'جميع الفئات',
+      partners_ships_from: 'يشحن من',
+      partners_ships_to: 'يشحن إلى',
+      partners_delivery_time: 'التسليم المتوقع',
+      partners_view_details: 'عرض التفاصيل',
+      partners_request_quote: '💬 طلب عرض سعر عبر واتساب',
+      partners_no_results: 'لم يتم العثور على منتجات تطابق بحثك.',
+      partners_cta_text: 'لا تجد ما تبحث عنه؟ اسألنا عن أي منتج أو متطلب خاص وسنقوم بتوفيره لك.',
+      partners_cta_button: '💬 اسأل عن منتج محدد',
       footer_desc: 'شريك الاستيراد والتصدير الموثوق الخاص بك مقره في رواراكا، نيروبي. ربط دول شرق ووسط أفريقيا بالعالم — شحنة واحدة في كل مرة.',
       footer_quick: 'روابط سريعة',
       footer_contact: 'اتصل',
