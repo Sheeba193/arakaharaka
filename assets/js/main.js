@@ -673,18 +673,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: 'Let\'s help you import with ease. We handle the hard part for you.',
       cta_btn: 'Get in Touch',
       testimonials_label: "What Clients Say",
-      testimonial_1_name: "James Mwangi",
-      testimonial_1_role: "Import Client – Nairobi, Kenya",
+      testimonial_1_name: "Christian M. Mayani",
+      testimonial_1_role: "Import Client – DRC",
       testimonial_1_text:
         "Arakaharaka helped us import heavy-duty machinery from China smoothly and professionally. Their communication and logistics support were outstanding.",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "Tourism Client – United Kingdom",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "Tourism Client – Tanzania",
       testimonial_2_text:
         "Our Maasai Mara safari was perfectly organised from start to finish. The team was professional, responsive, and made our Kenyan experience unforgettable.",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "Export Client – Dubai, UAE",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "Sales Manager – Hengwang Group, China",
       testimonial_3_text:
         "We sourced premium Kenyan coffee and handicrafts through Arakaharaka. The quality, packaging, and delivery exceeded our expectations.",
       about_title: 'About Arakaharaka Enterprises',
@@ -941,18 +941,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: '让我们帮助您轻松进口。我们为您处理困难的部分。',
       cta_btn: '联系我们',
       testimonials_label: "客户评价",
-      testimonial_1_name: "James Mwangi",
+      testimonial_1_name: "Christian M. Mayani",
       testimonial_1_role: "进口客户 – 肯尼亚内罗毕",
       testimonial_1_text:
         "Arakaharaka 帮助我们顺利且专业地从中国进口重型机械。他们的沟通和物流支持非常出色。",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "旅游客户 – 英国",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "旅游客户 – 坦桑尼亚",
       testimonial_2_text:
         "我们的马赛马拉之旅从开始到结束都安排得非常完美。团队专业高效，让我们的肯尼亚之旅难以忘怀。",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "出口客户 – 阿联酋迪拜",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "销售经理 – 恒旺集团，中国",
       testimonial_3_text:
         "我们通过 Arakaharaka 采购了优质肯尼亚咖啡和手工艺品。产品质量、包装和交付都超出了我们的预期。",
       about_title: '关于 Arakaharaka Enterprises',
@@ -1208,18 +1208,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: '輸入を簡単にしましょう。難しい部分は私たちが処理します。',
       cta_btn: 'お問い合わせ',
       testimonials_label: "お客様の声",
-      testimonial_1_name: "James Mwangi",
+      testimonial_1_name: "Christian M. Mayani",
       testimonial_1_role: "輸入顧客 – ケニア・ナイロビ",
       testimonial_1_text:
         "Arakaharaka は、中国からの重機輸入をスムーズかつプロフェッショナルにサポートしてくれました。コミュニケーションと物流支援は素晴らしかったです。",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "観光顧客 – イギリス",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "観光顧客 – タンザニア",
       testimonial_2_text:
         "私たちのマサイマラ・サファリは最初から最後まで完璧に手配されていました。チームは非常にプロフェッショナルで、ケニアでの体験を忘れられないものにしてくれました。",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "輸出顧客 – UAE・ドバイ",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "销售经理 – 恒旺集团，中国",
       testimonial_3_text:
         "Arakaharaka を通じて高品質なケニア産コーヒーと工芸品を調達しました。品質、梱包、配送のすべてが期待を上回りました。",
       about_title: 'Arakaharaka Enterprisesについて',
@@ -1475,18 +1475,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: 'Tusaidie kuagiza kwa urahisi. Tunashughulikia sehemu ngumu kwa ajili yako.',
       cta_btn: 'Wasiliana Nasi',
       testimonials_label: "Wateja Wanasema Nini",
-      testimonial_1_name: "James Mwangi",
-      testimonial_1_role: "Mteja wa Uagizaji – Nairobi, Kenya",
+      testimonial_1_name: "Christian M. Mayani",
+      testimonial_1_role: "Mteja wa Uagizaji – DRC",
       testimonial_1_text:
         "Arakaharaka ilitusaidia kuagiza mashine nzito kutoka China kwa urahisi na weledi mkubwa. Mawasiliano na usaidizi wa usafirishaji ulikuwa bora sana.",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "Mteja wa Utalii – Uingereza",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "Mteja wa Utalii – Tanzania",
       testimonial_2_text:
         "Safari yetu ya Maasai Mara ilipangwa kikamilifu kutoka mwanzo hadi mwisho. Timu ilikuwa ya kitaalamu, yenye mwitikio mzuri, na ilifanya uzoefu wetu nchini Kenya usisahaulike.",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "Mteja wa Uuzaji Nje – Dubai, UAE",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "Meneja wa Mauzo – Hengwang Group, China",
       testimonial_3_text:
         "Tulipata kahawa bora ya Kenya na kazi za mikono kupitia Arakaharaka. Ubora, ufungashaji, na usafirishaji vilizidi matarajio yetu.",
 
@@ -1743,18 +1743,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: 'Laissez-nous vous aider à importer facilement. Nous gérons la partie difficile pour vous.',
       cta_btn: 'Contactez-nous',
       testimonials_label: "Ce Que Disent Nos Clients",
-      testimonial_1_name: "James Mwangi",
-      testimonial_1_role: "Client Importation – Nairobi, Kenya",
+      testimonial_1_name: "Christian M. Mayani",
+      testimonial_1_role: "Client Importation – RDC",
       testimonial_1_text:
         "Arakaharaka nous a aidés à importer des machines lourdes depuis la Chine de manière fluide et professionnelle. Leur communication et leur soutien logistique étaient exceptionnels.",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "Cliente Tourisme – Royaume-Uni",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "Client Tourisme – Tanzanie",
       testimonial_2_text:
         "Notre safari au Maasai Mara a été parfaitement organisé du début à la fin. L'équipe était professionnelle, réactive et a rendu notre expérience au Kenya inoubliable.",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "Client Exportation – Dubaï, EAU",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "Manager de Ventes – Hengwang Group, Chine",
       testimonial_3_text:
         "Nous avons acheté du café kenyan haut de gamme et de l'artisanat via Arakaharaka. La qualité, l'emballage et la livraison ont dépassé nos attentes.",
       about_title: 'À propos d\'Arakaharaka Enterprises',
@@ -2010,18 +2010,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: 'Lassen Sie uns Ihnen helfen, einfach zu importieren. Wir übernehmen den schwierigen Teil für Sie.',
       cta_btn: 'Kontaktieren Sie uns',
       testimonials_label: "Was Unsere Kunden Sagen",
-      testimonial_1_name: "James Mwangi",
-      testimonial_1_role: "Importkunde – Nairobi, Kenia",
+      testimonial_1_name: "Christian M. Mayani",
+      testimonial_1_role: "Importkunde – DR Kongo",
       testimonial_1_text:
         "Arakaharaka half uns dabei, schwere Maschinen aus China reibungslos und professionell zu importieren. Kommunikation und Logistikunterstützung waren hervorragend.",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "Tourismuskundin – Vereinigtes Königreich",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "Tourismuskunde – Tansania",
       testimonial_2_text:
         "Unsere Maasai-Mara-Safari war von Anfang bis Ende perfekt organisiert. Das Team war professionell, reaktionsschnell und machte unsere Kenia-Reise unvergesslich.",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "Exportkunde – Dubai, VAE",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "Manager de Ventes – Hengwang Group, Chine",
       testimonial_3_text:
         "Wir bezogen hochwertigen kenianischen Kaffee und Kunsthandwerk über Arakaharaka. Qualität, Verpackung und Lieferung übertrafen unsere Erwartungen.",
       about_title: 'Über Arakaharaka Enterprises',
@@ -2277,18 +2277,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: 'आइए आपको आसानी से आयात करने में मदद करें। हम आपके लिए कठिन हिस्से का संभाल करते हैं।',
       cta_btn: 'संपर्क करें',
       testimonials_label: "ग्राहक क्या कहते हैं",
-      testimonial_1_name: "James Mwangi",
-      testimonial_1_role: "आयात ग्राहक – नैरोबी, केन्या",
+      testimonial_1_name: "Christian M. Mayani",
+      testimonial_1_role: "आयात ग्राहक – डीआर कांगो",
       testimonial_1_text:
         "Arakaharaka ने हमें चीन से भारी मशीनरी आसानी और पेशेवर तरीके से आयात करने में मदद की। उनका संचार और लॉजिस्टिक्स समर्थन उत्कृष्ट था।",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "पर्यटन ग्राहक – यूनाइटेड किंगडम",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "पर्यटन ग्राहक – तंजानिया",
       testimonial_2_text:
         "हमारा मासाई मारा सफारी शुरू से अंत तक बेहतरीन ढंग से आयोजित किया गया था। टीम पेशेवर, तत्पर और हमारी केन्या यात्रा को अविस्मरणीय बनाने वाली थी।",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "निर्यात ग्राहक – दुबई, यूएई",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "मीटर ऑफ वेंट्स – हेंगवांग ग्रुप, चीन",
       testimonial_3_text:
         "हमने Arakaharaka के माध्यम से प्रीमियम केन्याई कॉफी और हस्तशिल्प प्राप्त किए। गुणवत्ता, पैकेजिंग और डिलीवरी हमारी अपेक्षाओं से बढ़कर थीं。",
       about_title: 'Arakaharaka Enterprises के बारे में',
@@ -2544,18 +2544,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: 'Déjenos ayudarle a importar con facilidad. Manejamos la parte difícil para usted.',
       cta_btn: 'Contáctenos',
       testimonials_label: "Lo Que Dicen Nuestros Clientes",
-      testimonial_1_name: "James Mwangi",
-      testimonial_1_role: "Cliente de Importación – Nairobi, Kenia",
+      testimonial_1_name: "Christian M. Mayani",
+      testimonial_1_role: "Cliente de Importación – RDC",
       testimonial_1_text:
         "Arakaharaka nos ayudó a importar maquinaria pesada desde China de manera fluida y profesional. Su comunicación y apoyo logístico fueron excelentes.",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "Cliente de Turismo – Reino Unido",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "Cliente de Turismo – Tansania",
       testimonial_2_text:
         "Nuestro safari al Maasai Mara fue organizado perfectamente de principio a fin. El equipo fue profesional, atento e hizo que nuestra experiencia en Kenia fuera inolvidable.",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "Cliente de Exportación – Dubái, EAU",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "Meter of Vents – Hengwang Group, China",
       testimonial_3_text:
         "Obtuvimos café keniano premium y artesanías a través de Arakaharaka. La calidad, el embalaje y la entrega superaron nuestras expectativas.",
       about_title: 'Acerca de Arakaharaka Enterprises',
@@ -2812,18 +2812,18 @@ document.addEventListener('DOMContentLoaded', () => {
       cta_subtitle: 'دعنا نساعدك في الاستيراد بسهولة. نحن نتعامل مع الجزء الصعب نيابة عنك.',
       cta_btn: 'اتصل بنا',
       testimonials_label: "ماذا يقول عملاؤنا",
-      testimonial_1_name: "James Mwangi",
-      testimonial_1_role: "عميل استيراد – نيروبي، كينيا",
+      testimonial_1_name: "Christian M. Mayani",
+      testimonial_1_role: "عميل استيراد – جمهورية الكونغو الديمقراطية",
       testimonial_1_text:
         "ساعدتنا Arakaharaka في استيراد المعدات الثقيلة من الصين بسلاسة واحترافية. كان التواصل والدعم اللوجستي ممتازين.",
 
-      testimonial_2_name: "Sarah Wanjiku",
-      testimonial_2_role: "عميلة سياحة – المملكة المتحدة",
+      testimonial_2_name: "George Solo",
+      testimonial_2_role: "عميلة سياحة – تانزانيا",
       testimonial_2_text:
         "تم تنظيم رحلة ماساي مارا الخاصة بنا بشكل مثالي من البداية إلى النهاية. كان الفريق محترفًا وسريع الاستجابة وجعل تجربتنا في كينيا لا تُنسى.",
 
-      testimonial_3_name: "Ahmed Al-Farsi",
-      testimonial_3_role: "عميل تصدير – دبي، الإمارات",
+      testimonial_3_name: "Hedy",
+      testimonial_3_role: "عميل تصدير – مجموعة Hengwang، الصين",
       testimonial_3_text:
         "قمنا بشراء قهوة كينية فاخرة ومنتجات حرفية عبر Arakaharaka. تجاوزت الجودة والتغليف والتسليم جميع توقعاتنا.",
       about_title: 'حول Arakaharaka Enterprises',
