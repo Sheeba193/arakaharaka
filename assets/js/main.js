@@ -843,7 +843,68 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'Every business is different. Tell us your needs and we\'ll craft the perfect import/export plan for you.',
       custom_solution_btn: '📩 Get a Custom Quote',
       nav_dropdown_import: 'Import Partners',
-      nav_dropdown_export: 'Export from Kenya'
+      nav_dropdown_export: 'Export from Kenya',
+      legal_label: "Legal",
+      terms_title: "Terms & Conditions",
+      terms_subtitle:
+        "Please read these terms carefully before placing an order with Arakaharaka Enterprises.",
+
+      terms_orders_payments_title: "📦 1. Orders & Payments",
+      terms_orders_payments_1:
+        "All orders must be confirmed in writing via email or WhatsApp before processing begins.",
+      terms_orders_payments_2:
+        "A deposit of 50% is required before sourcing commences, with the balance due before shipment.",
+      terms_orders_payments_3:
+        "Payment can be made via M-Pesa, bank transfer, or other agreed methods.",
+      terms_orders_payments_4:
+        "Prices quoted are valid for 48 hours and are subject to exchange rate fluctuations for international orders.",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises reserves the right to decline any order at its discretion.",
+
+      terms_shipping_title: "🚢 2. Shipping Timelines",
+      terms_shipping_1:
+        "Estimated delivery timelines are provided as a guide and are not guaranteed.",
+      terms_shipping_2:
+        "Sea freight from Asia typically takes 25–45 days. Air freight takes 5–10 business days.",
+      terms_shipping_3:
+        "Vehicle shipments from Japan typically take 4–8 weeks from auction purchase to Mombasa port.",
+      terms_shipping_4:
+        "Delays due to port congestion, customs, weather, or other factors beyond our control are not the liability of Arakaharaka.",
+      terms_shipping_5:
+        "Clients will be notified of any significant delays promptly.",
+
+      terms_liability_title: "⚖️ 3. Liability",
+      terms_liability_1:
+        "Arakaharaka Enterprises acts as an agent and facilitator and is not the manufacturer or direct seller of goods.",
+      terms_liability_2:
+        "We are not liable for goods damaged during transit if covered by shipping insurance.",
+      terms_liability_3:
+        "It is the client's responsibility to ensure compliance with all Kenyan import regulations for their specific goods.",
+      terms_liability_4:
+        "We are not responsible for goods seized by customs due to false declarations made by the client.",
+
+      terms_refund_title: "🔄 4. Refund Policy",
+      terms_refund_1:
+        "Deposits are non-refundable once sourcing or procurement has commenced.",
+      terms_refund_2:
+        "If goods are materially different from what was ordered, a replacement or partial refund may be arranged at our discretion.",
+      terms_refund_3:
+        "Vehicle-related purchases follow the terms of the respective auction house and are generally non-refundable once purchased.",
+      terms_refund_4:
+        "Refund requests must be submitted in writing within 7 days of delivery.",
+
+      terms_communication_title: "📬 5. Communication & Disputes",
+      terms_communication_1:
+        "All official communications should be directed to harakaint@gmail.com.",
+      terms_communication_2:
+        "Any disputes shall first be resolved through good-faith negotiations between both parties.",
+      terms_communication_3:
+        "These terms are governed by the laws of Kenya.",
+      terms_communication_4:
+        "By placing an order with Arakaharaka Enterprises, you agree to these terms and conditions in full.",
+
+      terms_last_updated:
+        "Last updated: 2025. For queries about these terms, email harakaint@gmail.com.",
     },
     zh: {
       nav_home: '首页',
@@ -1049,7 +1110,68 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: '每个企业都不同。告诉我们您的需求，我们将为您制定完美的进出口计划。',
       custom_solution_btn: '📩 获取定制报价',
       nav_dropdown_import: '进口合作伙伴',
-      nav_dropdown_export: '从肯尼亚出口'
+      nav_dropdown_export: '从肯尼亚出口',
+      legal_label: "法律声明",
+      terms_title: "条款和条件",
+      terms_subtitle:
+        "在向 Arakaharaka Enterprises 下订单之前，请仔细阅读这些条款和条件。",
+
+      terms_orders_payments_title: "📦 1. 订单与付款",
+      terms_orders_payments_1:
+        "所有订单在开始处理之前必须通过电子邮件或 WhatsApp 以书面形式确认。",
+      terms_orders_payments_2:
+        "在开始采购之前需要支付 50% 的定金，剩余款项需在发货前支付。",
+      terms_orders_payments_3:
+        "付款可通过 M-Pesa、银行转账或其他双方约定的方式进行。",
+      terms_orders_payments_4:
+        "报价在 48 小时内有效，国际订单价格可能因汇率波动而调整。",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises 保留自行决定拒绝任何订单的权利。",
+
+      terms_shipping_title: "🚢 2. 运输时间",
+      terms_shipping_1:
+        "预计交货时间仅供参考，不作保证。",
+      terms_shipping_2:
+        "从亚洲海运通常需要 25–45 天。空运通常需要 5–10 个工作日。",
+      terms_shipping_3:
+        "从日本发运车辆通常需要 4–8 周，从拍卖购买到抵达蒙巴萨港。",
+      terms_shipping_4:
+        "因港口拥堵、海关、天气或其他超出我们控制范围的因素造成的延误，Arakaharaka 不承担责任。",
+      terms_shipping_5:
+        "如出现重大延误，我们将及时通知客户。",
+
+      terms_liability_title: "⚖️ 3. 责任",
+      terms_liability_1:
+        "Arakaharaka Enterprises 作为代理和协调方，并非商品制造商或直接销售商。",
+      terms_liability_2:
+        "如果货物已投保运输保险，我们对运输过程中发生的损坏不承担责任。",
+      terms_liability_3:
+        "客户有责任确保其货物符合肯尼亚所有进口法规。",
+      terms_liability_4:
+        "因客户提供虚假申报而导致海关扣押货物，我们不承担责任。",
+
+      terms_refund_title: "🔄 4. 退款政策",
+      terms_refund_1:
+        "一旦采购或购买流程开始，定金将不予退还。",
+      terms_refund_2:
+        "如果货物与订购内容存在重大差异，我们可酌情安排更换或部分退款。",
+      terms_refund_3:
+        "车辆购买受相关拍卖行条款约束，通常在购买后不予退款。",
+      terms_refund_4:
+        "退款申请必须在交货后 7 天内以书面形式提交。",
+
+      terms_communication_title: "📬 5. 沟通与争议",
+      terms_communication_1:
+        "所有正式沟通应发送至 harakaint@gmail.com。",
+      terms_communication_2:
+        "任何争议应首先通过双方诚信协商解决。",
+      terms_communication_3:
+        "本条款和条件受肯尼亚法律管辖。",
+      terms_communication_4:
+        "一旦向 Arakaharaka Enterprises 下订单，即表示您完全同意本条款和条件。",
+
+      terms_last_updated:
+        "最后更新：2025 年。如对本条款有任何疑问，请发送电子邮件至 harakaint@gmail.com。",
     },
     ja: {
       nav_home: 'ホーム',
@@ -1255,7 +1377,68 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'すべてのビジネスは異なります。ニーズをお知らせいただければ、あなたに最適な輸出入計画を作成します。',
       custom_solution_btn: '📩 カスタム見積もりを取得',
       nav_dropdown_import: '輸入パートナー',
-      nav_dropdown_export: 'ケニアから輸出'
+      nav_dropdown_export: 'ケニアから輸出',
+      legal_label: "法的情報",
+      terms_title: "利用規約",
+      terms_subtitle:
+        "Arakaharaka Enterprises にご注文いただく前に、以下の利用規約をよくお読みください。",
+
+      terms_orders_payments_title: "📦 1. 注文と支払い",
+      terms_orders_payments_1:
+        "すべての注文は、処理開始前に電子メールまたは WhatsApp を通じて書面で確認される必要があります。",
+      terms_orders_payments_2:
+        "調達開始前に 50% の前金が必要であり、残額は出荷前にお支払いいただきます。",
+      terms_orders_payments_3:
+        "お支払いは M-Pesa、銀行振込、または双方で合意したその他の方法で行うことができます。",
+      terms_orders_payments_4:
+        "提示された価格は 48 時間有効であり、国際注文については為替レートの変動により変更される場合があります。",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises は、その裁量によりいかなる注文もお断りする権利を留保します。",
+
+      terms_shipping_title: "🚢 2. 配送期間",
+      terms_shipping_1:
+        "配送予定期間は目安として提供されるものであり、保証されるものではありません。",
+      terms_shipping_2:
+        "アジアからの海上輸送には通常 25〜45 日かかります。航空輸送には 5〜10 営業日かかります。",
+      terms_shipping_3:
+        "日本からの車両輸送は、オークション購入からモンバサ港到着まで通常 4〜8 週間かかります。",
+      terms_shipping_4:
+        "港の混雑、税関、天候、その他当社の管理を超える要因による遅延について、Arakaharaka は責任を負いません。",
+      terms_shipping_5:
+        "重大な遅延が発生した場合、速やかにお客様へ通知いたします。",
+
+      terms_liability_title: "⚖️ 3. 責任",
+      terms_liability_1:
+        "Arakaharaka Enterprises は代理人および仲介者として機能し、商品の製造業者または直接販売者ではありません。",
+      terms_liability_2:
+        "商品が輸送保険の対象である場合、輸送中の損傷について当社は責任を負いません。",
+      terms_liability_3:
+        "お客様は、ご自身の商品がケニアのすべての輸入規制に適合していることを確認する責任があります。",
+      terms_liability_4:
+        "お客様による虚偽申告により税関で押収された商品について、当社は責任を負いません。",
+
+      terms_refund_title: "🔄 4. 返金ポリシー",
+      terms_refund_1:
+        "調達または購入手続きが開始された後は、前金は返金されません。",
+      terms_refund_2:
+        "商品が注文内容と著しく異なる場合、当社の裁量により交換または一部返金を行う場合があります。",
+      terms_refund_3:
+        "車両購入は各オークション会社の規約に従い、通常購入後の返金はできません。",
+      terms_refund_4:
+        "返金の申請は、納品後 7 日以内に書面で提出する必要があります。",
+
+      terms_communication_title: "📬 5. 連絡および紛争",
+      terms_communication_1:
+        "すべての正式な連絡は harakaint@gmail.com 宛にお送りください。",
+      terms_communication_2:
+        "いかなる紛争も、まず双方の誠意ある協議によって解決されるものとします。",
+      terms_communication_3:
+        "本規約はケニアの法律に準拠します。",
+      terms_communication_4:
+        "Arakaharaka Enterprises に注文することにより、お客様は本規約に全面的に同意したものとみなされます。",
+
+      terms_last_updated:
+        "最終更新：2025年。本規約に関するお問い合わせは、harakaint@gmail.com までメールでご連絡ください。",
     },
     sw: {
       nav_home: 'Nyumbani',
@@ -1462,7 +1645,68 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'Kila biashara ni tofauti. Tuambie mahitaji yako na tutafanya mpango wa uagizaji/uuaji bora kwa ajili yako.',
       custom_solution_btn: '📩 Pata Nukuu Maalum',
       nav_dropdown_import: 'Washirika wa Uagizaji',
-      nav_dropdown_export: 'Uuaji kutoka Kenya'
+      nav_dropdown_export: 'Uuaji kutoka Kenya',
+      legal_label: "Kisheria",
+      terms_title: "Sheria na Masharti",
+      terms_subtitle:
+        "Tafadhali soma masharti haya kwa makini kabla ya kuagiza kutoka Arakaharaka Enterprises.",
+
+      terms_orders_payments_title: "📦 1. Maagizo na Malipo",
+      terms_orders_payments_1:
+        "Maagizo yote lazima yathibitishwe kwa maandishi kupitia barua pepe au WhatsApp kabla ya usindikaji kuanza.",
+      terms_orders_payments_2:
+        "Amana ya 50% inahitajika kabla ya utafutaji wa bidhaa kuanza, na salio hulipwa kabla ya usafirishaji.",
+      terms_orders_payments_3:
+        "Malipo yanaweza kufanywa kupitia M-Pesa, uhamisho wa benki, au njia nyingine zilizokubaliwa.",
+      terms_orders_payments_4:
+        "Bei zilizotolewa ni halali kwa saa 48 na zinaweza kubadilika kutokana na mabadiliko ya viwango vya ubadilishaji kwa maagizo ya kimataifa.",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises ina haki ya kukataa agizo lolote kwa hiari yake.",
+
+      terms_shipping_title: "🚢 2. Ratiba za Usafirishaji",
+      terms_shipping_1:
+        "Makadirio ya muda wa uwasilishaji hutolewa kama mwongozo tu na hayajahakikishwa.",
+      terms_shipping_2:
+        "Usafirishaji wa baharini kutoka Asia kwa kawaida huchukua siku 25–45. Usafirishaji wa anga huchukua siku 5–10 za kazi.",
+      terms_shipping_3:
+        "Usafirishaji wa magari kutoka Japani kwa kawaida huchukua wiki 4–8 kutoka ununuzi wa mnada hadi bandari ya Mombasa.",
+      terms_shipping_4:
+        "Kuchelewa kutokana na msongamano bandarini, forodha, hali ya hewa, au sababu nyingine zisizo ndani ya uwezo wetu si jukumu la Arakaharaka.",
+      terms_shipping_5:
+        "Wateja watajulishwa haraka kuhusu ucheleweshaji wowote mkubwa.",
+
+      terms_liability_title: "⚖️ 3. Dhima",
+      terms_liability_1:
+        "Arakaharaka Enterprises hufanya kazi kama wakala na mwezeshaji na si mtengenezaji au muuzaji wa moja kwa moja wa bidhaa.",
+      terms_liability_2:
+        "Hatuwajibiki kwa bidhaa zilizoharibika wakati wa usafirishaji ikiwa zimefunikwa na bima ya usafirishaji.",
+      terms_liability_3:
+        "Ni wajibu wa mteja kuhakikisha kuwa bidhaa zake zinazingatia sheria zote za uagizaji za Kenya.",
+      terms_liability_4:
+        "Hatuwajibiki kwa bidhaa zilizokamatwa na forodha kutokana na taarifa zisizo sahihi zilizotolewa na mteja.",
+
+      terms_refund_title: "🔄 4. Sera ya Marejesho",
+      terms_refund_1:
+        "Amana hazirejeshwi mara tu utafutaji au ununuzi wa bidhaa unapoanza.",
+      terms_refund_2:
+        "Ikiwa bidhaa zinatofautiana kwa kiasi kikubwa na zilizoagizwa, bidhaa mbadala au marejesho ya sehemu yanaweza kupangwa kwa hiari yetu.",
+      terms_refund_3:
+        "Ununuzi wa magari unafuata masharti ya kampuni ya mnada husika na kwa kawaida haurudishwi baada ya ununuzi.",
+      terms_refund_4:
+        "Maombi ya marejesho lazima yawasilishwe kwa maandishi ndani ya siku 7 baada ya kupokea bidhaa.",
+
+      terms_communication_title: "📬 5. Mawasiliano na Migogoro",
+      terms_communication_1:
+        "Mawasiliano yote rasmi yanapaswa kutumwa kwa harakaint@gmail.com.",
+      terms_communication_2:
+        "Migogoro yoyote itashughulikiwa kwanza kupitia mazungumzo ya nia njema kati ya pande zote mbili.",
+      terms_communication_3:
+        "Masharti haya yanatawaliwa na sheria za Kenya.",
+      terms_communication_4:
+        "Kwa kuagiza kutoka Arakaharaka Enterprises, unakubali sheria na masharti haya kikamilifu.",
+
+      terms_last_updated:
+        "Ilisasishwa mwisho: 2025. Kwa maswali kuhusu masharti haya, tuma barua pepe kwa harakaint@gmail.com.",
     },
     fr: {
       nav_home: 'Accueil',
@@ -1668,7 +1912,68 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'Chaque entreprise est différente. Dites-nous vos besoins et nous créerons le plan d\'import/export parfait pour vous.',
       custom_solution_btn: '📩 Obtenir un Devis Personnalisé',
       nav_dropdown_import: 'Partenaires d\'Import',
-      nav_dropdown_export: 'Exporter du Kenya'
+      nav_dropdown_export: 'Exporter du Kenya',
+      legal_label: "Mentions Légales",
+      terms_title: "Conditions Générales",
+      terms_subtitle:
+        "Veuillez lire attentivement ces conditions avant de passer une commande auprès d'Arakaharaka Enterprises.",
+
+      terms_orders_payments_title: "📦 1. Commandes et Paiements",
+      terms_orders_payments_1:
+        "Toutes les commandes doivent être confirmées par écrit par e-mail ou WhatsApp avant le début du traitement.",
+      terms_orders_payments_2:
+        "Un acompte de 50 % est requis avant le début de l'approvisionnement, le solde étant dû avant l'expédition.",
+      terms_orders_payments_3:
+        "Le paiement peut être effectué via M-Pesa, virement bancaire ou tout autre mode convenu.",
+      terms_orders_payments_4:
+        "Les prix indiqués sont valables pendant 48 heures et peuvent varier en fonction des fluctuations des taux de change pour les commandes internationales.",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises se réserve le droit de refuser toute commande à sa discrétion.",
+
+      terms_shipping_title: "🚢 2. Délais d'Expédition",
+      terms_shipping_1:
+        "Les délais de livraison estimés sont fournis à titre indicatif uniquement et ne sont pas garantis.",
+      terms_shipping_2:
+        "Le fret maritime depuis l'Asie prend généralement 25 à 45 jours. Le fret aérien prend 5 à 10 jours ouvrables.",
+      terms_shipping_3:
+        "Les expéditions de véhicules depuis le Japon prennent généralement 4 à 8 semaines entre l'achat aux enchères et l'arrivée au port de Mombasa.",
+      terms_shipping_4:
+        "Les retards dus à la congestion portuaire, aux douanes, aux conditions météorologiques ou à d'autres facteurs indépendants de notre volonté ne relèvent pas de la responsabilité d'Arakaharaka.",
+      terms_shipping_5:
+        "Les clients seront rapidement informés de tout retard important.",
+
+      terms_liability_title: "⚖️ 3. Responsabilité",
+      terms_liability_1:
+        "Arakaharaka Enterprises agit en tant qu'agent et facilitateur et n'est ni le fabricant ni le vendeur direct des marchandises.",
+      terms_liability_2:
+        "Nous ne sommes pas responsables des marchandises endommagées pendant le transport si elles sont couvertes par une assurance maritime.",
+      terms_liability_3:
+        "Il incombe au client de veiller au respect de toutes les réglementations kenyanes en matière d'importation pour ses marchandises.",
+      terms_liability_4:
+        "Nous ne sommes pas responsables des marchandises saisies par les douanes en raison de fausses déclarations faites par le client.",
+
+      terms_refund_title: "🔄 4. Politique de Remboursement",
+      terms_refund_1:
+        "Les acomptes ne sont pas remboursables une fois que l'approvisionnement ou l'achat a commencé.",
+      terms_refund_2:
+        "Si les marchandises diffèrent sensiblement de celles commandées, un remplacement ou un remboursement partiel peut être organisé à notre discrétion.",
+      terms_refund_3:
+        "Les achats de véhicules sont soumis aux conditions de la maison de vente aux enchères concernée et ne sont généralement pas remboursables après l'achat.",
+      terms_refund_4:
+        "Les demandes de remboursement doivent être soumises par écrit dans les 7 jours suivant la livraison.",
+
+      terms_communication_title: "📬 5. Communication et Litiges",
+      terms_communication_1:
+        "Toutes les communications officielles doivent être adressées à harakaint@gmail.com.",
+      terms_communication_2:
+        "Tout litige sera d'abord résolu par des négociations de bonne foi entre les deux parties.",
+      terms_communication_3:
+        "Les présentes conditions sont régies par les lois du Kenya.",
+      terms_communication_4:
+        "En passant une commande auprès d'Arakaharaka Enterprises, vous acceptez pleinement les présentes conditions générales.",
+
+      terms_last_updated:
+        "Dernière mise à jour : 2025. Pour toute question concernant ces conditions, envoyez un e-mail à harakaint@gmail.com.",
     },
     de: {
       nav_home: 'Startseite',
@@ -1874,7 +2179,68 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'Jedes Unternehmen ist anders. Sagen Sie uns Ihre Bedürfnisse und wir erstellen den perfekten Import-/Exportplan für Sie.',
       custom_solution_btn: '📩 Maßgeschneidertes Angebot Anfordern',
       nav_dropdown_import: 'Importpartner',
-      nav_dropdown_export: 'Aus Kenia Exportieren'
+      nav_dropdown_export: 'Aus Kenia Exportieren',
+      legal_label: "Rechtliches",
+      terms_title: "Allgemeine Geschäftsbedingungen",
+      terms_subtitle:
+        "Bitte lesen Sie diese Bedingungen sorgfältig durch, bevor Sie eine Bestellung bei Arakaharaka Enterprises aufgeben.",
+
+      terms_orders_payments_title: "📦 1. Bestellungen und Zahlungen",
+      terms_orders_payments_1:
+        "Alle Bestellungen müssen vor Beginn der Bearbeitung schriftlich per E-Mail oder WhatsApp bestätigt werden.",
+      terms_orders_payments_2:
+        "Vor Beginn der Beschaffung ist eine Anzahlung von 50 % erforderlich; der Restbetrag ist vor dem Versand fällig.",
+      terms_orders_payments_3:
+        "Die Zahlung kann per M-Pesa, Banküberweisung oder anderen vereinbarten Methoden erfolgen.",
+      terms_orders_payments_4:
+        "Angebotene Preise sind 48 Stunden gültig und können bei internationalen Bestellungen aufgrund von Wechselkursschwankungen variieren.",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises behält sich das Recht vor, jede Bestellung nach eigenem Ermessen abzulehnen.",
+
+      terms_shipping_title: "🚢 2. Versandzeiten",
+      terms_shipping_1:
+        "Die angegebenen Lieferzeiten dienen nur als Orientierung und sind nicht garantiert.",
+      terms_shipping_2:
+        "Seefracht aus Asien dauert in der Regel 25–45 Tage. Luftfracht dauert 5–10 Werktage.",
+      terms_shipping_3:
+        "Fahrzeugtransporte aus Japan dauern normalerweise 4–8 Wochen vom Auktionskauf bis zum Hafen von Mombasa.",
+      terms_shipping_4:
+        "Verzögerungen aufgrund von Hafenüberlastung, Zoll, Wetter oder anderen Faktoren außerhalb unserer Kontrolle liegen nicht in der Verantwortung von Arakaharaka.",
+      terms_shipping_5:
+        "Kunden werden umgehend über erhebliche Verzögerungen informiert.",
+
+      terms_liability_title: "⚖️ 3. Haftung",
+      terms_liability_1:
+        "Arakaharaka Enterprises handelt als Vermittler und Koordinator und ist weder Hersteller noch direkter Verkäufer der Waren.",
+      terms_liability_2:
+        "Wir haften nicht für während des Transports beschädigte Waren, sofern diese durch eine Transportversicherung abgedeckt sind.",
+      terms_liability_3:
+        "Es liegt in der Verantwortung des Kunden, sicherzustellen, dass seine Waren allen kenianischen Importvorschriften entsprechen.",
+      terms_liability_4:
+        "Wir sind nicht verantwortlich für Waren, die aufgrund falscher Angaben des Kunden vom Zoll beschlagnahmt werden.",
+
+      terms_refund_title: "🔄 4. Rückerstattungsrichtlinie",
+      terms_refund_1:
+        "Anzahlungen sind nicht erstattungsfähig, sobald die Beschaffung oder der Einkauf begonnen hat.",
+      terms_refund_2:
+        "Wenn die Waren wesentlich von der Bestellung abweichen, kann nach unserem Ermessen ein Ersatz oder eine teilweise Rückerstattung erfolgen.",
+      terms_refund_3:
+        "Fahrzeugkäufe unterliegen den Bedingungen des jeweiligen Auktionshauses und sind nach dem Kauf in der Regel nicht erstattungsfähig.",
+      terms_refund_4:
+        "Rückerstattungsanträge müssen innerhalb von 7 Tagen nach Lieferung schriftlich eingereicht werden.",
+
+      terms_communication_title: "📬 5. Kommunikation und Streitigkeiten",
+      terms_communication_1:
+        "Alle offiziellen Mitteilungen sollten an harakaint@gmail.com gerichtet werden.",
+      terms_communication_2:
+        "Streitigkeiten werden zunächst durch Verhandlungen in gutem Glauben zwischen beiden Parteien gelöst.",
+      terms_communication_3:
+        "Diese Bedingungen unterliegen den Gesetzen Kenias.",
+      terms_communication_4:
+        "Mit der Aufgabe einer Bestellung bei Arakaharaka Enterprises akzeptieren Sie diese Allgemeinen Geschäftsbedingungen vollständig.",
+
+      terms_last_updated:
+        "Zuletzt aktualisiert: 2025. Bei Fragen zu diesen Bedingungen senden Sie bitte eine E-Mail an harakaint@gmail.com.",
     },
     hi: {
       nav_home: 'होम',
@@ -2080,7 +2446,68 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'हर व्यवसाय अलग है। हमें अपनी आवश्यकताएं बताएं और हम आपके लिए सही आयात/निर्यात योजना बनाएंगे।',
       custom_solution_btn: '📩 कस्टम उद्धरण प्राप्त करें',
       nav_dropdown_import: 'आयात पार्टनर',
-      nav_dropdown_export: 'केन्या से निर्यात'
+      nav_dropdown_export: 'केन्या से निर्यात',
+      legal_label: "कानूनी जानकारी",
+      terms_title: "नियम और शर्तें",
+      terms_subtitle:
+        "कृपया Arakaharaka Enterprises के साथ ऑर्डर देने से पहले इन नियमों और शर्तों को ध्यानपूर्वक पढ़ें।",
+
+      terms_orders_payments_title: "📦 1. ऑर्डर और भुगतान",
+      terms_orders_payments_1:
+        "सभी ऑर्डरों की पुष्टि प्रक्रिया शुरू होने से पहले ईमेल या व्हाट्सऐप के माध्यम से लिखित रूप में की जानी चाहिए।",
+      terms_orders_payments_2:
+        "स्रोत प्रक्रिया शुरू होने से पहले 50% अग्रिम जमा आवश्यक है, और शेष राशि शिपमेंट से पहले देय होगी।",
+      terms_orders_payments_3:
+        "भुगतान M-Pesa, बैंक ट्रांसफर या अन्य सहमत तरीकों से किया जा सकता है।",
+      terms_orders_payments_4:
+        "दिए गए मूल्य 48 घंटे तक मान्य रहते हैं और अंतरराष्ट्रीय ऑर्डरों के लिए विनिमय दर में उतार-चढ़ाव के अधीन हैं।",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises अपने विवेकानुसार किसी भी ऑर्डर को अस्वीकार करने का अधिकार सुरक्षित रखता है।",
+
+      terms_shipping_title: "🚢 2. शिपिंग समयसीमा",
+      terms_shipping_1:
+        "अनुमानित डिलीवरी समय केवल मार्गदर्शन के लिए दिए जाते हैं और इसकी गारंटी नहीं है।",
+      terms_shipping_2:
+        "एशिया से समुद्री माल ढुलाई में सामान्यतः 25–45 दिन लगते हैं। हवाई माल ढुलाई में 5–10 कार्य दिवस लगते हैं।",
+      terms_shipping_3:
+        "जापान से वाहन शिपमेंट में नीलामी खरीद से मोंबासा बंदरगाह तक सामान्यतः 4–8 सप्ताह लगते हैं।",
+      terms_shipping_4:
+        "बंदरगाह भीड़, सीमा शुल्क, मौसम या अन्य हमारे नियंत्रण से बाहर के कारण होने वाली देरी के लिए Arakaharaka जिम्मेदार नहीं होगा।",
+      terms_shipping_5:
+        "किसी भी महत्वपूर्ण देरी की सूचना ग्राहकों को तुरंत दी जाएगी।",
+
+      terms_liability_title: "⚖️ 3. दायित्व",
+      terms_liability_1:
+        "Arakaharaka Enterprises एक एजेंट और सुविधा प्रदाता के रूप में कार्य करता है और वस्तुओं का निर्माता या प्रत्यक्ष विक्रेता नहीं है।",
+      terms_liability_2:
+        "यदि वस्तुएँ शिपिंग बीमा के अंतर्गत आती हैं, तो परिवहन के दौरान हुई क्षति के लिए हम जिम्मेदार नहीं हैं।",
+      terms_liability_3:
+        "ग्राहक की जिम्मेदारी है कि वह अपने सामान के लिए सभी केन्याई आयात नियमों का पालन सुनिश्चित करे।",
+      terms_liability_4:
+        "ग्राहक द्वारा दी गई गलत घोषणाओं के कारण सीमा शुल्क द्वारा जब्त किए गए सामान के लिए हम जिम्मेदार नहीं हैं।",
+
+      terms_refund_title: "🔄 4. धनवापसी नीति",
+      terms_refund_1:
+        "एक बार स्रोत या खरीद प्रक्रिया शुरू होने के बाद जमा राशि वापस नहीं की जाएगी।",
+      terms_refund_2:
+        "यदि वस्तुएँ ऑर्डर की गई वस्तुओं से काफी भिन्न हों, तो हमारे विवेकानुसार प्रतिस्थापन या आंशिक धनवापसी की व्यवस्था की जा सकती है।",
+      terms_refund_3:
+        "वाहन खरीद संबंधित नीलामी गृह की शर्तों के अधीन होती है और सामान्यतः खरीद के बाद धनवापसी योग्य नहीं होती।",
+      terms_refund_4:
+        "धनवापसी के अनुरोध डिलीवरी के 7 दिनों के भीतर लिखित रूप में प्रस्तुत किए जाने चाहिए।",
+
+      terms_communication_title: "📬 5. संचार और विवाद",
+      terms_communication_1:
+        "सभी आधिकारिक संचार harakaint@gmail.com पर भेजे जाने चाहिए।",
+      terms_communication_2:
+        "किसी भी विवाद का समाधान पहले दोनों पक्षों के बीच सद्भावनापूर्ण वार्ता के माध्यम से किया जाएगा।",
+      terms_communication_3:
+        "ये नियम और शर्तें केन्या के कानूनों द्वारा शासित हैं।",
+      terms_communication_4:
+        "Arakaharaka Enterprises के साथ ऑर्डर देकर, आप इन नियमों और शर्तों को पूर्ण रूप से स्वीकार करते हैं।",
+
+      terms_last_updated:
+        "अंतिम अपडेट: 2025। इन नियमों के संबंध में प्रश्नों के लिए harakaint@gmail.com पर ईमेल करें。",
     },
     es: {
       nav_home: 'Inicio',
@@ -2286,7 +2713,69 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'Cada negocio es diferente. Dinos tus necesidades y crearemos el plan de importación/exportación perfecto para ti.',
       custom_solution_btn: '📩 Obtener Cotización Personalizada',
       nav_dropdown_import: 'Socios de Importación',
-      nav_dropdown_export: 'Exportar desde Kenia'
+      nav_dropdown_export: 'Exportar desde Kenia',
+      legal_label: "Aviso Legal",
+      terms_title: "Términos y Condiciones",
+      terms_subtitle:
+        "Lea atentamente estos términos antes de realizar un pedido con Arakaharaka Enterprises.",
+
+      terms_orders_payments_title: "📦 1. Pedidos y Pagos",
+      terms_orders_payments_1:
+        "Todos los pedidos deben confirmarse por escrito mediante correo electrónico o WhatsApp antes de iniciar el procesamiento.",
+      terms_orders_payments_2:
+        "Se requiere un depósito del 50 % antes de comenzar el abastecimiento, y el saldo debe pagarse antes del envío.",
+      terms_orders_payments_3:
+        "El pago puede realizarse mediante M-Pesa, transferencia bancaria u otros métodos acordados.",
+      terms_orders_payments_4:
+        "Los precios cotizados son válidos durante 48 horas y están sujetos a fluctuaciones del tipo de cambio para pedidos internacionales.",
+      terms_orders_payments_5:
+        "Arakaharaka Enterprises se reserva el derecho de rechazar cualquier pedido a su discreción.",
+
+      terms_shipping_title: "🚢 2. Plazos de Envío",
+      terms_shipping_1:
+        "Los plazos estimados de entrega se proporcionan solo como guía y no están garantizados.",
+      terms_shipping_2:
+        "El transporte marítimo desde Asia suele tardar entre 25 y 45 días. El transporte aéreo tarda entre 5 y 10 días hábiles.",
+      terms_shipping_3:
+        "Los envíos de vehículos desde Japón suelen tardar entre 4 y 8 semanas desde la compra en subasta hasta el puerto de Mombasa.",
+      terms_shipping_4:
+        "Los retrasos debidos a congestión portuaria, aduanas, clima u otros factores fuera de nuestro control no son responsabilidad de Arakaharaka.",
+      terms_shipping_5:
+        "Los clientes serán informados rápidamente sobre cualquier retraso significativo.",
+
+      terms_liability_title: "⚖️ 3. Responsabilidad",
+      terms_liability_1:
+        "Arakaharaka Enterprises actúa como agente y facilitador y no es el fabricante ni el vendedor directo de los productos.",
+      terms_liability_2:
+        "No somos responsables de los productos dañados durante el tránsito si están cubiertos por un seguro de transporte.",
+      terms_liability_3:
+        "Es responsabilidad del cliente garantizar el cumplimiento de todas las regulaciones de importación de Kenia para sus productos.",
+      terms_liability_4:
+        "No somos responsables de los productos confiscados por la aduana debido a declaraciones falsas realizadas por el cliente.",
+
+      terms_refund_title: "🔄 4. Política de Reembolsos",
+      terms_refund_1:
+        "Los depósitos no son reembolsables una vez que haya comenzado el abastecimiento o la adquisición.",
+      terms_refund_2:
+        "Si los productos son sustancialmente diferentes de los solicitados, podrá organizarse un reemplazo o un reembolso parcial a nuestra discreción.",
+      terms_refund_3:
+        "Las compras de vehículos están sujetas a las condiciones de la casa de subastas correspondiente y, por lo general, no son reembolsables una vez realizadas.",
+      terms_refund_4:
+        "Las solicitudes de reembolso deben presentarse por escrito dentro de los 7 días posteriores a la entrega.",
+
+      terms_communication_title: "📬 5. Comunicación y Disputas",
+      terms_communication_1:
+        "Todas las comunicaciones oficiales deben dirigirse a harakaint@gmail.com.",
+      terms_communication_2:
+        "Cualquier disputa se resolverá primero mediante negociaciones de buena fe entre ambas partes.",
+      terms_communication_3:
+        "Estos términos se rigen por las leyes de Kenia.",
+      terms_communication_4:
+        "Al realizar un pedido con Arakaharaka Enterprises, usted acepta plenamente estos términos y condiciones.",
+
+      terms_last_updated:
+        "Última actualización: 2025. Para consultas sobre estos términos, envíe un correo electrónico a harakaint@gmail.com.",
+
     },
     ar: {
       nav_home: 'الرئيسية',
@@ -2492,7 +2981,69 @@ document.addEventListener('DOMContentLoaded', () => {
       custom_solution_desc: 'كل عمل مختلف. أخبرنا باحتياجاتك وسنقوم بإنشاء خطة استيراد/تصدير مثالية لك.',
       custom_solution_btn: '📩 الحصول على عرض سعر مخصص',
       nav_dropdown_import: 'شركاء الاستيراد',
-      nav_dropdown_export: 'التصدير من كينيا'
+      nav_dropdown_export: 'التصدير من كينيا',
+      legal_label: "الشؤون القانونية",
+      terms_title: "الشروط والأحكام",
+      terms_subtitle:
+        "يرجى قراءة هذه الشروط والأحكام بعناية قبل تقديم طلب إلى شركة Arakaharaka Enterprises.",
+
+      terms_orders_payments_title: "📦 1. الطلبات والمدفوعات",
+      terms_orders_payments_1:
+        "يجب تأكيد جميع الطلبات كتابيًا عبر البريد الإلكتروني أو واتساب قبل بدء المعالجة.",
+      terms_orders_payments_2:
+        "يلزم دفع عربون بنسبة 50٪ قبل بدء عملية التوريد، ويجب سداد الرصيد المتبقي قبل الشحن.",
+      terms_orders_payments_3:
+        "يمكن الدفع عبر M-Pesa أو التحويل البنكي أو أي طرق أخرى يتم الاتفاق عليها.",
+      terms_orders_payments_4:
+        "الأسعار المعروضة صالحة لمدة 48 ساعة وتخضع لتقلبات أسعار الصرف بالنسبة للطلبات الدولية.",
+      terms_orders_payments_5:
+        "تحتفظ شركة Arakaharaka Enterprises بالحق في رفض أي طلب وفقًا لتقديرها الخاص.",
+
+      terms_shipping_title: "🚢 2. الجداول الزمنية للشحن",
+      terms_shipping_1:
+        "مواعيد التسليم التقديرية مقدمة كدليل إرشادي فقط وليست مضمونة.",
+      terms_shipping_2:
+        "يستغرق الشحن البحري من آسيا عادةً من 25 إلى 45 يومًا، بينما يستغرق الشحن الجوي من 5 إلى 10 أيام عمل.",
+      terms_shipping_3:
+        "تستغرق شحنات المركبات من اليابان عادةً من 4 إلى 8 أسابيع من تاريخ الشراء في المزاد حتى الوصول إلى ميناء مومباسا.",
+      terms_shipping_4:
+        "لا تتحمل Arakaharaka مسؤولية التأخيرات الناتجة عن ازدحام الموانئ أو الجمارك أو الأحوال الجوية أو أي عوامل أخرى خارجة عن سيطرتنا.",
+      terms_shipping_5:
+        "سيتم إخطار العملاء فورًا بأي تأخير كبير.",
+
+      terms_liability_title: "⚖️ 3. المسؤولية",
+      terms_liability_1:
+        "تعمل شركة Arakaharaka Enterprises كوكيل وميسر وليست الشركة المصنعة أو البائع المباشر للبضائع.",
+      terms_liability_2:
+        "لسنا مسؤولين عن البضائع المتضررة أثناء النقل إذا كانت مشمولة بتأمين الشحن.",
+      terms_liability_3:
+        "يتحمل العميل مسؤولية التأكد من امتثال بضائعه لجميع لوائح الاستيراد الكينية.",
+      terms_liability_4:
+        "لسنا مسؤولين عن البضائع التي تصادرها الجمارك بسبب تصريحات غير صحيحة قدمها العميل.",
+
+      terms_refund_title: "🔄 4. سياسة الاسترداد",
+      terms_refund_1:
+        "العربون غير قابل للاسترداد بمجرد بدء عملية التوريد أو الشراء.",
+      terms_refund_2:
+        "إذا كانت البضائع مختلفة بشكل جوهري عن المطلوب، فقد يتم ترتيب استبدال أو استرداد جزئي وفقًا لتقديرنا.",
+      terms_refund_3:
+        "تخضع عمليات شراء المركبات لشروط دار المزادات المعنية وعادةً لا تكون قابلة للاسترداد بعد الشراء.",
+      terms_refund_4:
+        "يجب تقديم طلبات الاسترداد كتابيًا خلال 7 أيام من تاريخ التسليم.",
+
+      terms_communication_title: "📬 5. التواصل والنزاعات",
+      terms_communication_1:
+        "يجب توجيه جميع المراسلات الرسمية إلى harakaint@gmail.com.",
+      terms_communication_2:
+        "يتم حل أي نزاع أولاً من خلال مفاوضات بحسن نية بين الطرفين.",
+      terms_communication_3:
+        "تخضع هذه الشروط والأحكام لقوانين كينيا.",
+      terms_communication_4:
+        "من خلال تقديم طلب إلى Arakaharaka Enterprises، فإنك توافق بالكامل على هذه الشروط والأحكام.",
+
+      terms_last_updated:
+        "آخر تحديث: 2025. للاستفسارات المتعلقة بهذه الشروط، يرجى إرسال بريد إلكتروني إلى harakaint@gmail.com.",
+
     }
   };
 
