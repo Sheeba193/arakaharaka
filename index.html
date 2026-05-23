@@ -13,8 +13,13 @@
 <!-- NAVBAR -->
 <nav id="navbar">
   <a class="nav-logo" href="#" onclick="showPage('home')">
-    <div class="logo-globe">🌐</div>
-    <div class="nav-brand">Araka<span>haraka</span><small>Enterprises</small></div>
+    <div class="logo-globe">
+      <img src="assets/images/logo.png" alt="Globe Icon">
+    </div class="nav-brand-wrap">
+      <div><div class="nav-brand">Arakaharaka<span>Enterprises</span></div>
+      <div class="nav-brand-small"> Your Trusted Pi Merchant</span></div>
+    </div>
+  
   </a>
   <ul class="nav-links" id="navLinks">
     <li><a href="#" onclick="showPage('home')" data-i18n="nav_home">Home</a></li>
@@ -79,7 +84,7 @@
   </div>
 
   <div class="hero-media-wrap">
-    <video class="hero-video" autoplay playsinline>
+    <video class="hero-video" loop playsinline>
       <source src="assets/videos/intro.mp4" type="video/mp4" />
     </video>
     
@@ -1118,7 +1123,9 @@
     <div>
       <div class="footer-brand">
         <div class="nav-brand" style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
-          <span style="font-size:24px;">🌐</span>
+          <span style="font-size:48px;">
+            <img src="assets/images/logo.png" alt="Globe Icon" style="width: 60px;height:42px;object-fit:contain;">
+          </span>
           <span>Araka<span style="color:var(--gold-light);">haraka</span> Enterprises</span>
         </div>
       </div>

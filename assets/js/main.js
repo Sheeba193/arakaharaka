@@ -636,6 +636,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+
  // Translation system
   const translations = {
     en: {
