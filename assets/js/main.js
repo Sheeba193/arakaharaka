@@ -3851,7 +3851,892 @@ document.addEventListener('DOMContentLoaded', () => {
 
   footer_made:
     '❤️ দিয়ে তৈরি নাইরোবি, কেনিয়া 🇰🇪'
-},
+    },
+    //filipino
+    fil: {
+  nav_home: 'Home',
+  nav_about: 'Tungkol',
+  nav_services: 'Mga Serbisyo',
+  nav_tourism: 'Turismo',
+  nav_partners: 'Mga Kasosyo',
+  nav_testimonials: 'Mga Testimonial',
+  nav_contact: 'Makipag-ugnayan',
+
+  hero_title: 'Ang Iyong Maaasahang Kasosyo sa Import at Export',
+  hero_subtitle:
+    'Ikinokonekta ng Arakaharaka ang mga bansa sa Silangan at Gitnang Africa sa buong mundo — naghahatid ng dekalidad na produkto, sasakyan, at kalakal mula sa pandaigdigang merkado nang may pagiging maaasahan at pag-aalaga.',
+
+  hero_cta1: 'Makipag-ugnayan',
+  hero_cta2: 'Humiling ng Quote',
+
+  stats_clients: 'Masayang Kliyente',
+  stats_partners: 'Mga Partner Brand',
+  stats_countries: 'Mga Bansang Pinaglilingkuran',
+  stats_satisfaction: 'Kasiyahan ng Kliyente',
+
+  services_title: 'Aming Pangunahing Mga Serbisyo',
+  services_subtitle:
+    'Mula sa pagkuha ng produkto hanggang sa koordinasyon ng logistics, kami ang bahala sa komplikadong proseso upang makapagpokus ka sa iyong negosyo.',
+
+  service_import: 'Serbisyo sa Import',
+  service_import_desc:
+    'Nag-aangkat kami ng iba’t ibang produkto mula sa Asya, Europa, at iba pang bahagi ng mundo diretso sa Kenya — electronics, gamit sa bahay, makinarya, at marami pa.',
+
+  service_export: 'Serbisyo sa Export',
+  service_export_desc:
+    'Tinutulungan namin ang mga negosyo sa Kenya na mag-export ng dekalidad na produkto sa pandaigdigang merkado, kabilang ang dokumentasyon, logistics, at pagsunod sa regulasyon.',
+
+  service_sourcing: 'Pagkuha ng Produkto',
+  service_sourcing_desc:
+    'Hindi mahanap ang produkto lokal? Kami ang maghahanap para sa iyo. Sabihin lamang kung ano ang kailangan mo at hahanapin namin ang pinakamahusay na kalidad sa pinakamagandang presyo sa buong mundo.',
+
+  service_vehicle: 'Pag-import ng Sasakyan',
+  service_vehicle_desc:
+    'Mag-import ng sasakyan mula Japan, UK, UAE at iba pa. Kami ang bahala sa inspeksyon, shipping, customs clearance, at paghahatid hanggang sa iyong pintuan.',
+
+  service_bulk: 'Bulk Shipping',
+  service_bulk_desc:
+    'Matipid na bulk shipping solutions para sa mga negosyong nag-aangkat ng malalaking dami ng produkto. Nakikipag-negosasyon kami para makuha ang pinakamagandang freight rates para sa iyo.',
+
+  service_logistics: 'Koordinasyon sa Logistics',
+  service_logistics_desc:
+    'Kompletong logistics management — warehousing, customs clearance, last-mile delivery, at real-time shipment tracking.',
+
+  testimonials_title: 'Pinagkakatiwalaan ng Marami',
+
+  cta_title: 'Handa Ka Na Bang Mag-import o Mag-export?',
+  cta_subtitle:
+    'Tutulungan ka naming mag-import nang madali. Kami na ang bahala sa mahirap na bahagi.',
+  cta_btn: 'Makipag-ugnayan',
+
+  testimonials_label: 'Sinasabi ng Mga Kliyente',
+
+  testimonial_1_name: 'Christian M. Mayani',
+  testimonial_1_role: 'Kliyente sa Import – DRC',
+  testimonial_1_text:
+    'Tinulungan kami ng Arakaharaka na mag-import ng heavy-duty machinery mula China nang maayos at propesyonal. Napakahusay ng kanilang komunikasyon at logistics support.',
+
+  testimonial_2_name: 'George Solo',
+  testimonial_2_role: 'Kliyente sa Turismo – Tanzania',
+  testimonial_2_text:
+    'Perpektong inayos ang aming Maasai Mara safari mula simula hanggang matapos. Propesyonal at maagap ang team, at ginawa nilang hindi malilimutan ang aming karanasan sa Kenya.',
+
+  testimonial_3_name: 'Hedy',
+  testimonial_3_role: 'Sales Manager – Hengwang Group, China',
+  testimonial_3_text:
+    'Nakakuha kami ng premium Kenyan coffee at handicrafts sa pamamagitan ng Arakaharaka. Lumagpas sa aming inaasahan ang kalidad, packaging, at delivery.',
+
+  about_title: 'Tungkol sa Arakaharaka Enterprises',
+  about_subtitle:
+    'Ipinanganak sa Nairobi, ginawa para sa buong mundo. Masigasig kaming ikonekta ang mga bansa sa Silangan at Gitnang Africa sa pandaigdigang merkado.',
+
+  about_feature:
+    'Pagkonekta sa Mga Bansa ng Silangan at Gitnang Africa sa Buong Mundo',
+
+  about_feature_desc:
+    'Nakabase sa Ruaraka, Nairobi, patuloy naming pinagdudugtong ang mga mamimili sa Silangan at Gitnang Africa sa mga pandaigdigang supplier mula pa nang kami ay magsimula — may tiwala, bilis, at personal na atensyon sa bawat hakbang.',
+
+  mission: 'Aming Misyon',
+  mission_desc:
+    'Gawing mas accessible at madali ang pandaigdigang kalakalan para sa bawat Kenyan — mula sa maliliit na entrepreneur hanggang sa malalaking korporasyon.',
+
+  vision: 'Aming Bisyon',
+  vision_desc:
+    'Maging pinaka-pinagkakatiwalaang import/export partner sa Silangang Africa, kilala sa pagiging maaasahan, transparency, at mahusay na serbisyo.',
+
+  values: 'Aming Mga Halaga',
+  values_desc:
+    'Integridad sa bawat transaksyon. Bilis sa bawat delivery. Personal na serbisyo na hindi kayang ibigay ng malalaking kumpanya.',
+
+  tourism_label: 'Paglalakbay at Mga Karanasan',
+
+  tourism_title: 'Hotel Bookings, Safari at Mga Serbisyo sa Turismo',
+
+  tourism_subtitle:
+    'Tinutulungan ka ng Arakaharaka na magplano ng hindi malilimutang karanasan sa paglalakbay sa buong Kenya at Silangang Africa — mula sa luxury hotel stays at beach holidays hanggang sa safari adventures, group trips, airport transfers, at custom tourism packages.',
+
+  tourism_plan: 'Planuhin ang Aking Biyahe',
+  tourism_whatsapp: 'Mag-book sa WhatsApp',
+
+  tourism_services_title: 'Tuklasin ang Silangang Africa nang Madali',
+
+  tourism_services_subtitle:
+    'Kung kailangan mo ng romantic getaway, business accommodation, family safari, o coastal holiday, kami ang bahala sa mga detalye upang maging maayos ang iyong paglalakbay mula simula hanggang matapos.',
+
+  tourism_hotel: 'Hotel Bookings',
+  tourism_hotel_desc:
+    'Tumutulong kami sa pag-aayos ng hotel stays, lodges, resorts, apartments, at executive accommodation ayon sa iyong budget, lokasyon, at pangangailangan sa paglalakbay.',
+
+  tourism_safari: 'Safari Lodges at Camps',
+  tourism_safari_desc:
+    'Mag-book ng komportableng safari lodges, tented camps, at nature stays malapit sa pinakamagagandang parke at reserves ng Kenya at Silangang Africa.',
+
+  tourism_adventure: 'Safari Trips at Adventures',
+  tourism_adventure_desc:
+    'Nag-aayos kami ng wildlife safaris, game drives, hot air balloon experiences, guided tours, at custom adventure itineraries.',
+
+  tourism_beach: 'Beach Holidays',
+  tourism_beach_desc:
+    'Mag-enjoy sa nakakarelaks na coastal escapes, island-style holidays, honeymoon packages, family beach trips, at ocean activities.',
+
+  tourism_resort: 'Resorts, Retreats at Getaways',
+  tourism_resort_desc:
+    'Ikinokonekta namin ang mga kliyente sa leisure resorts, retreat destinations, weekend getaways, group stays, at premium relaxation experiences.',
+
+  view_all_services: 'Tingnan Lahat ng Serbisyo →',
+
+  whatsapp_us_now: 'I-WhatsApp Kami Ngayon',
+  our_story: 'Aming Kuwento',
+
+  tourism_services_label: 'Mga Serbisyo sa Turismo',
+
+  tourism_hiking: 'Pag-akyat sa Bundok',
+  tourism_hiking_desc:
+    'Tuklasin ang kahanga-hangang tanawin ng kabundukan, magagandang trails, at hindi malilimutang hiking adventures sa buong Silangang Africa.',
+
+  tourism_cta_title: 'Handa Ka Na ba sa Iyong Susunod na Biyahe?',
+  tourism_cta_subtitle:
+    'Sabihin sa amin ang iyong destinasyon, petsa ng paglalakbay, bilang ng bisita, at budget — tutulungan ka naming planuhin ang tamang tourism package.',
+
+  tourism_cta_btn: 'Humiling ng Tulong sa Booking',
+
+  contact_title: 'Pag-usapan Natin ang Negosyo',
+
+  contact_subtitle:
+    'Handa ka nang mag-import, mag-export, o may mga tanong lamang? Makipag-ugnayan sa pamamagitan ng form, email, o WhatsApp — karaniwan kaming sumasagot sa loob ng ilang oras.',
+
+  contact_form_title: 'Magpadala sa Amin ng Mensahe',
+
+  contact_name: 'Buong Pangalan *',
+  contact_email: 'Email Address *',
+  contact_phone: 'Numero ng Telepono',
+  contact_service: 'Serbisyong Interesado Ka',
+  contact_message: 'Iyong Mensahe *',
+  contact_btn: 'Ipadala ang Mensahe',
+  contact_email_label: 'Magpadala sa Amin ng Email',
+  contact_phone_label: 'Tumawag / WhatsApp',
+  contact_location: 'Lokasyon',
+  contact_website: 'Website',
+  why_label: 'Bakit Kami Piliin',
+why_title: 'Ang Kaibahan ng Arakaharaka',
+
+why_reliability: 'Maaasahang Serbisyo na Maaasahan Mo',
+why_reliability_desc:
+  'Tinutupad namin ang bawat order. Dumarating ang iyong mga produkto ayon sa ipinangako at pinapanatili ka naming updated sa bawat hakbang.',
+
+why_global: 'Tunay na Pandaigdigang Abot',
+why_global_desc:
+  'Mula Japan hanggang Germany, China hanggang UAE — ang aming network ng suppliers ay sumasaklaw sa lahat ng pangunahing trading regions sa buong mundo.',
+
+why_personal: 'Personalized na Serbisyo',
+why_personal_desc:
+  'Direkta kang nakikipag-ugnayan sa aming team — walang call centers, walang delays. Mag-message sa WhatsApp at makipag-usap sa totoong taong may alam sa iyong order.',
+
+why_pricing: 'Kompetitibong Presyo',
+why_pricing_desc:
+  'Ginagamit namin ang aming relasyon sa mga supplier upang makuha ang pinakamagandang presyo sa dekalidad na produkto — nakakatipid ka nang hindi isinasakripisyo ang kalidad.',
+
+why_customs: 'Customs at Compliance',
+why_customs_desc:
+  'Kami ang bahala sa lahat ng customs paperwork, duties, at compliance requirements — upang hindi mo na alalahanin ang mga komplikadong proseso.',
+
+why_fast: 'Mabilis na Proseso',
+why_fast_desc:
+  'Pinapahalagahan namin ang bilis sa bawat hakbang — mula quotation hanggang delivery. Ang ibig sabihin ng Arakaharaka ay “mabilis” — at pinapatunayan namin ito.',
+
+services_page_label: 'Ano ang Aming Inaalok',
+services_page_title: 'Aming Mga Serbisyo',
+services_page_subtitle:
+  'Komprehensibong import at export solutions para sa mga negosyo at indibidwal sa Kenya at iba pang bansa.',
+
+service_page_import: 'Mga Serbisyo sa Import',
+service_page_import_desc:
+  'Pinangangasiwaan namin ang bawat aspeto ng pag-import ng produkto sa Kenya — mula paghahanap ng supplier, pakikipag-negosasyon ng presyo, shipping, customs clearance, at delivery. Electronics, textiles, industrial goods, at marami pa.',
+
+service_page_export: 'Mga Serbisyo sa Export',
+service_page_export_desc:
+  'Tinutulungan namin ang mga producer at negosyo sa Kenya na maabot ang international buyers. Kami ang bahala sa packaging, dokumentasyon, freight booking, at regulatory compliance.',
+
+service_page_sourcing: 'Product Sourcing',
+service_page_sourcing_desc:
+  'Ipadala sa amin ang detalye ng produkto at hahanapin namin ito mula sa mga verified global suppliers. Kinukumpara namin ang kalidad, presyo, at delivery timelines upang makuha mo ang pinakamahusay na deal.',
+
+service_page_vehicle: 'Pag-import ng Sasakyan',
+service_page_vehicle_desc:
+  'Mag-import ng kotse, motorsiklo, truck, at heavy machinery mula Japan, UK, Dubai, at iba pang merkado. Kasama rito ang auction sourcing, inspeksyon, shipping, KEBS compliance, at registration support.',
+
+service_page_bulk: 'Bulk at Commercial Shipping',
+service_page_bulk_desc:
+  'Nakikipag-negosasyon kami para sa pinakamahusay na FCL/LCL container shipping rates para sa mga negosyong nag-iimport ng malalaking volume. Pinagsasama namin ang cargo at ino-optimize ang freight routes upang mabawasan ang gastos.',
+
+service_page_logistics: 'Koordinasyon sa Logistics',
+service_page_logistics_desc:
+  'Buong end-to-end logistics — warehousing sa origin, freight forwarding, port clearance, inland transportation, at last-mile delivery saanman sa Kenya.',
+
+service_page_customs: 'Customs Clearance',
+service_page_customs_desc:
+  'Ang aming experienced team ang bahala sa customs documentation, pagbabayad ng duties, KRA compliance, KEBS inspections, at port procedures.',
+
+service_page_consulting: 'Trade Consulting',
+service_page_consulting_desc:
+  'Baguhan sa import o export? Ginagabayan ka namin sa regulations, gastos, timelines, at best practices upang makagawa ka ng tamang desisyon.',
+
+service_page_industrial: 'Industrial at Machinery',
+service_page_industrial_desc:
+  'Mag-source ng industrial equipment, factory machinery, tools, at spare parts mula sa mga nangungunang manufacturer sa China, Germany, at iba pang industrial hubs.',
+
+partners_label: 'Aming Network',
+partners_title: 'Mga Produkto sa Import at Export',
+partners_subtitle:
+  'Maghanap sa aming catalog ng import at export products, tingnan ang shipping details, at makipag-ugnayan sa WhatsApp para sa presyo at availability.',
+
+partners_auto_title: '📥 Import Partners: Automotive',
+partners_auto: 'Automotive Importation',
+partners_auto_desc:
+  'Ikinokonekta namin ang mga kliyente sa mapagkakatiwalaang automotive importers at exporters upang mapadali ang pag-import ng sasakyan at piyesa mula sa iba’t ibang panig ng mundo.',
+
+partners_industrial_title:
+  '📥 Import Partners: Industrial at Manufacturing Suppliers',
+
+partners_luxury_title:
+  '📥 Import Partners: Luxury at Consumer Brands',
+
+partners_asian_title:
+  '📥 Import Partners: Asian Manufacturers at Suppliers',
+
+partners_export_title:
+  '📤 Export mula Kenya: Mga Kenyan Brand at Produkto',
+
+partners_category_all: 'Lahat ng Kategorya',
+
+category_automotive: 'Automotive',
+category_industrial_manufacturing: 'Industrial at Manufacturing',
+category_luxury_consumer_goods: 'Luxury at Consumer Goods',
+category_asian_manufacturers: 'Asian Manufacturers',
+category_construction_materials: 'Construction Materials',
+category_electronics_technology: 'Electronics at Teknolohiya',
+category_food_agricultural_products: 'Pagkain at Produktong Agrikultural',
+category_african_culture: 'Kulturang Aprikano',
+category_kenyan_export_products: 'Mga Produktong Export ng Kenya',
+
+partners_search_placeholder: 'Maghanap ng produkto...',
+partners_tab_all: 'Lahat ng Produkto',
+partners_tab_import: 'Import Products',
+partners_tab_export: 'Export Products',
+
+partners_ships_from: 'Nagmumula Mula',
+partners_ships_to: 'Ipinapadala Papunta',
+partners_delivery_time: 'Tinatayang Delivery',
+
+partners_view_details: 'Tingnan ang Detalye',
+partners_request_quote: '💬 Humiling ng Quote sa WhatsApp',
+
+partners_no_results:
+  'Walang produktong tumutugma sa iyong paghahanap.',
+
+partners_cta_text:
+  'Hindi makita ang iyong hinahanap? Magtanong tungkol sa anumang produkto, brand, o espesyal na pangangailangan at hahanapin namin ito para sa iyo.',
+
+partners_cta_button:
+  '💬 Magtanong Tungkol sa Isang Partikular na Produkto',
+
+testimonials_page_label: 'Mga Review ng Kliyente',
+testimonials_page_title: 'Ano ang Sinasabi ng Aming Mga Kliyente',
+testimonials_page_subtitle:
+  'Huwag lamang maniwala sa amin — narito ang mga karanasan ng totoong kliyente sa buong Kenya tungkol sa Arakaharaka Enterprises.',
+
+testi_1:
+  'Ginawang napakadali ng Arakaharaka ang pag-import ng aking sasakyan mula Japan. Mula auction hanggang sa aking bahay sa Nairobi — propesyonal nilang inasikaso ang lahat.',
+
+testi_2:
+  'Napakabilis sumagot ng team sa WhatsApp. Umorder ako ng electronics mula China at updated ako sa bawat yugto. Dumating lahat nang maayos!',
+
+testi_3:
+  'Kailangan namin agad ng industrial machinery at nakuha ito ng Arakaharaka mula Germany sa loob ng aming budget. Walang naging problema sa customs.',
+
+testi_4:
+  'Bilang first-time importer, kinakabahan ako. Ipinaliwanag ng team ang bawat hakbang nang maayos at matiisin.',
+
+testi_5:
+  'Dalawang taon na kaming nakikipagtrabaho sa Arakaharaka para sa bulk shipments mula China. Maaasahan sila at laging may pinakamagandang freight rates.',
+
+testi_6:
+  'Gusto ko ng luxury items mula Dubai ngunit hindi ko alam kung saan magsisimula. Nahanap ng Arakaharaka ang lahat ng kailangan ko.',
+
+testimonials_cta:
+  'Nagkaroon ka ba ng magandang karanasan sa amin? Gusto naming marinig ito!',
+
+testimonials_share_btn: '💬 Ibahagi ang Iyong Karanasan',
+
+hero_badge_1: '🚀 Mabilis na Shipping',
+hero_badge_2: '🌍 Pandaigdigang Sourcing',
+hero_badge_3: '🤝 Mapagkakatiwalaang Kasosyo',
+
+custom_solution_title: 'Kailangan ng Custom na Solusyon?',
+custom_solution_desc:
+  'Bawat negosyo ay magkakaiba. Sabihin sa amin ang iyong pangangailangan at gagawa kami ng perpektong import/export plan para sa iyo.',
+
+custom_solution_btn: '📩 Kumuha ng Custom Quote',
+
+nav_dropdown_import: 'Import Partners',
+nav_dropdown_export: 'Export mula Kenya',
+
+legal_label: 'Legal',
+
+terms_title: 'Mga Tuntunin at Kundisyon',
+terms_subtitle:
+  'Pakibasa nang mabuti ang mga tuntuning ito bago maglagay ng order sa Arakaharaka Enterprises.',
+
+terms_orders_payments_title: '📦 1. Mga Order at Bayad',
+
+terms_orders_payments_1:
+  'Lahat ng order ay kailangang kumpirmahin sa pamamagitan ng email o WhatsApp bago simulan ang proseso.',
+
+terms_orders_payments_2:
+  'Kinakailangan ang 50% deposit bago magsimula ang sourcing, at ang natitirang balanse ay dapat bayaran bago ang shipment.',
+
+terms_orders_payments_3:
+  'Maaaring magbayad gamit ang M-Pesa, bank transfer, o iba pang napagkasunduang paraan.',
+
+terms_orders_payments_4:
+  'Ang mga quoted prices ay valid lamang sa loob ng 48 oras at maaaring magbago dahil sa exchange rate fluctuations.',
+
+terms_orders_payments_5:
+  'May karapatan ang Arakaharaka Enterprises na tanggihan ang anumang order ayon sa kanilang desisyon.',
+
+terms_shipping_title: '🚢 2. Mga Timeline ng Shipping',
+
+terms_shipping_1:
+  'Ang tinatayang delivery timelines ay gabay lamang at hindi garantisado.',
+
+terms_shipping_2:
+  'Ang sea freight mula Asia ay karaniwang tumatagal ng 25–45 araw. Ang air freight ay 5–10 business days.',
+
+terms_shipping_3:
+  'Ang vehicle shipments mula Japan ay karaniwang tumatagal ng 4–8 linggo mula auction purchase hanggang Mombasa port.',
+
+terms_shipping_4:
+  'Ang delays dahil sa port congestion, customs, panahon, o iba pang factors na wala sa aming kontrol ay hindi pananagutan ng Arakaharaka.',
+
+terms_shipping_5:
+  'Aabisuhan agad ang mga kliyente tungkol sa anumang malaking delay.',
+
+terms_liability_title: '⚖️ 3. Pananagutan',
+
+terms_liability_1:
+  'Ang Arakaharaka Enterprises ay kumikilos bilang agent at facilitator lamang at hindi manufacturer o direktang seller ng mga produkto.',
+
+terms_liability_2:
+  'Hindi kami responsable sa mga produktong nasira habang nasa transit kung sakop ito ng shipping insurance.',
+
+terms_liability_3:
+  'Responsibilidad ng kliyente na tiyaking sumusunod ang kanilang produkto sa lahat ng import regulations ng Kenya.',
+
+terms_liability_4:
+  'Hindi kami responsable sa mga produktong kinumpiska ng customs dahil sa maling deklarasyon mula sa kliyente.',
+
+terms_refund_title: '🔄 4. Refund Policy',
+
+terms_refund_1:
+  'Hindi refundable ang deposits kapag nagsimula na ang sourcing o procurement.',
+
+terms_refund_2:
+  'Kung malaki ang pagkakaiba ng produkto sa inorder, maaaring magbigay ng replacement o partial refund ayon sa aming pagpapasya.',
+
+terms_refund_3:
+  'Ang vehicle-related purchases ay sumusunod sa terms ng auction house at karaniwang hindi refundable.',
+
+terms_refund_4:
+  'Ang refund requests ay kailangang isumite sa loob ng 7 araw matapos ang delivery.',
+
+terms_communication_title: '📬 5. Komunikasyon at Mga Alitan',
+
+terms_communication_1:
+  'Lahat ng opisyal na komunikasyon ay dapat ipadala sa harakaint@gmail.com.',
+
+terms_communication_2:
+  'Anumang hindi pagkakaunawaan ay dapat munang lutasin sa pamamagitan ng maayos na negosasyon ng dalawang panig.',
+
+terms_communication_3:
+  'Ang mga tuntuning ito ay saklaw ng mga batas ng Kenya.',
+
+terms_communication_4:
+  'Sa paglalagay ng order sa Arakaharaka Enterprises, sumasang-ayon ka nang buo sa mga tuntunin at kundisyong ito.',
+
+terms_last_updated:
+  'Huling na-update: 2025. Para sa mga katanungan tungkol sa mga tuntuning ito, mag-email sa harakaint@gmail.com.',
+
+
+  footer_desc:
+    'Ang iyong pinagkakatiwalaang import at export partner na nakabase sa Ruaraka, Nairobi. Ikinokonekta ang mga bansa sa Silangan at Gitnang Africa sa buong mundo — isang shipment sa bawat pagkakataon.',
+
+  footer_quick: 'Quick Links',
+  footer_contact: 'Contact',
+  footer_faq: 'FAQ',
+
+  faq_q1: 'Gaano katagal ang shipping?',
+  faq_a1:
+    'Ang sea freight mula Asya ay tumatagal ng 25–45 araw. Ang air freight ay 5–10 araw. Ang mga sasakyan mula Japan ay tumatagal ng 4–8 linggo.',
+
+  faq_q2: 'Paano ako mag-oorder?',
+  faq_a2:
+    'Magpadala lamang ng detalye ng order sa WhatsApp o email. Kukumpirmahin namin ang availability, magbibigay ng quote, at kami na ang bahala sa iba.',
+
+  faq_q3: 'Anong mga bansa ang pinanggagalingan ng inyong shipping?',
+  faq_a3:
+    'Nagso-source kami mula China, Japan, UAE, UK, Germany, USA, India, Singapore, at marami pang ibang bansa sa buong mundo.',
+
+  faq_q4: 'Kayo ba ang bahala sa customs?',
+  faq_a4:
+    'Oo! Kami ang humahawak ng customs clearance, KRA compliance, KEBS inspections, at port procedures para sa iyo.',
+
+  footer_copyright:
+    '© 2026 Arakaharaka Enterprises. Lahat ng karapatan ay nakalaan. | Mga Tuntunin at Kundisyon',
+
+  footer_made:
+    'Ginawa nang may ❤️ sa Nairobi, Kenya 🇰🇪'
+    },
+    //greek
+    gr: {
+  nav_home: 'Αρχική',
+  nav_about: 'Σχετικά',
+  nav_services: 'Υπηρεσίες',
+  nav_tourism: 'Τουρισμός',
+  nav_partners: 'Συνεργάτες',
+  nav_testimonials: 'Μαρτυρίες',
+  nav_contact: 'Επικοινωνία',
+
+  hero_title: 'Ο Αξιόπιστος Συνεργάτης σας στις Εισαγωγές & Εξαγωγές',
+  hero_subtitle:
+    'Η Arakaharaka συνδέει τις χώρες της Ανατολικής και Κεντρικής Αφρικής με τον κόσμο — προμηθεύοντας ποιοτικά προϊόντα, οχήματα και αγαθά από τις διεθνείς αγορές με αξιοπιστία και φροντίδα.',
+
+  hero_cta1: 'Επικοινωνήστε Μαζί Μας',
+  hero_cta2: 'Ζητήστε Προσφορά',
+
+  stats_clients: 'Ευχαριστημένοι Πελάτες',
+  stats_partners: 'Συνεργαζόμενες Μάρκες',
+  stats_countries: 'Χώρες Εξυπηρέτησης',
+  stats_satisfaction: 'Ικανοποίηση Πελατών',
+
+  services_title: 'Οι Βασικές μας Υπηρεσίες',
+  services_subtitle:
+    'Από την προμήθεια προϊόντων έως τον συντονισμό logistics, διαχειριζόμαστε την πολυπλοκότητα ώστε να επικεντρωθείτε στην επιχείρησή σας.',
+
+  service_import: 'Υπηρεσίες Εισαγωγών',
+  service_import_desc:
+    'Εισάγουμε μεγάλη ποικιλία προϊόντων από την Ασία, την Ευρώπη και άλλες αγορές απευθείας στην Κένυα — ηλεκτρονικά, οικιακά είδη, μηχανήματα και πολλά άλλα.',
+
+  service_export: 'Υπηρεσίες Εξαγωγών',
+  service_export_desc:
+    'Βοηθάμε τις επιχειρήσεις της Κένυας να εξάγουν ποιοτικά προϊόντα σε διεθνείς αγορές, αναλαμβάνοντας τεκμηρίωση, logistics και συμμόρφωση.',
+
+  service_sourcing: 'Προμήθεια Προϊόντων',
+  service_sourcing_desc:
+    'Δεν βρίσκετε ένα προϊόν τοπικά; Το βρίσκουμε για εσάς. Πείτε μας τι χρειάζεστε και θα εντοπίσουμε την καλύτερη ποιότητα στην καλύτερη τιμή παγκοσμίως.',
+
+  service_vehicle: 'Εισαγωγή Οχημάτων',
+  service_vehicle_desc:
+    'Εισαγωγή οχημάτων από Ιαπωνία, Ηνωμένο Βασίλειο, ΗΑΕ και άλλες χώρες. Αναλαμβάνουμε έλεγχο, αποστολή, εκτελωνισμό και παράδοση.',
+
+  service_bulk: 'Μαζικές Αποστολές',
+  service_bulk_desc:
+    'Οικονομικές λύσεις αποστολής για επιχειρήσεις που εισάγουν μεγάλες ποσότητες. Διαπραγματευόμαστε τις καλύτερες τιμές μεταφοράς για λογαριασμό σας.',
+
+  service_logistics: 'Συντονισμός Logistics',
+  service_logistics_desc:
+    'Ολοκληρωμένη διαχείριση logistics — αποθήκευση, εκτελωνισμός, παράδοση τελευταίου χιλιομέτρου και παρακολούθηση αποστολών σε πραγματικό χρόνο.',
+
+  testimonials_title: 'Μας Εμπιστεύονται Πολλοί',
+
+  cta_title: 'Έτοιμοι να Εισάγετε ή να Εξάγετε;',
+  cta_subtitle:
+    'Αφήστε μας να σας βοηθήσουμε να εισάγετε εύκολα. Εμείς αναλαμβάνουμε το δύσκολο μέρος.',
+  cta_btn: 'Επικοινωνήστε',
+
+  testimonials_label: 'Τι Λένε οι Πελάτες',
+
+  testimonial_1_name: 'Christian M. Mayani',
+  testimonial_1_role: 'Πελάτης Εισαγωγών – ΛΔ Κονγκό',
+  testimonial_1_text:
+    'Η Arakaharaka μάς βοήθησε να εισάγουμε βαριά μηχανήματα από την Κίνα ομαλά και επαγγελματικά. Η επικοινωνία και η υποστήριξη logistics ήταν εξαιρετικές.',
+
+  testimonial_2_name: 'George Solo',
+  testimonial_2_role: 'Πελάτης Τουρισμού – Τανζανία',
+  testimonial_2_text:
+    'Το σαφάρι μας στο Maasai Mara οργανώθηκε τέλεια από την αρχή μέχρι το τέλος. Η ομάδα ήταν επαγγελματική και έκανε την εμπειρία μας στην Κένυα αξέχαστη.',
+
+  testimonial_3_name: 'Hedy',
+  testimonial_3_role: 'Διευθυντής Πωλήσεων – Hengwang Group, Κίνα',
+  testimonial_3_text:
+    'Προμηθευτήκαμε κορυφαίο καφέ και χειροτεχνίες από την Κένυα μέσω της Arakaharaka. Η ποιότητα και η παράδοση ξεπέρασαν τις προσδοκίες μας.',
+
+  about_title: 'Σχετικά με την Arakaharaka Enterprises',
+  about_subtitle:
+    'Γεννημένη στο Ναϊρόμπι, χτισμένη για τον κόσμο. Συνδέουμε την Ανατολική και Κεντρική Αφρική με τις παγκόσμιες αγορές.',
+
+  about_feature:
+    'Συνδέοντας τις Χώρες της Ανατολικής και Κεντρικής Αφρικής με τον Κόσμο',
+
+  about_feature_desc:
+    'Με έδρα τη Ruaraka του Ναϊρόμπι, γεφυρώνουμε το χάσμα μεταξύ αγοραστών της Ανατολικής και Κεντρικής Αφρικής και διεθνών προμηθευτών με εμπιστοσύνη και ταχύτητα.',
+
+  mission: 'Η Αποστολή μας',
+  mission_desc:
+    'Να κάνουμε το παγκόσμιο εμπόριο προσβάσιμο και εύκολο για κάθε Κενυάτη — από τον μικρό επιχειρηματία έως τη μεγάλη εταιρεία.',
+
+  vision: 'Το Όραμά μας',
+  vision_desc:
+    'Να γίνουμε ο πιο αξιόπιστος συνεργάτης εισαγωγών/εξαγωγών στην Ανατολική Αφρική.',
+
+  values: 'Οι Αξίες μας',
+  values_desc:
+    'Ακεραιότητα σε κάθε συναλλαγή. Ταχύτητα σε κάθε παράδοση. Προσωπική εξυπηρέτηση που οι μεγάλες εταιρείες δεν μπορούν να προσφέρουν.',
+
+  tourism_label: 'Ταξίδια & Εμπειρίες',
+  tourism_title: 'Κρατήσεις Ξενοδοχείων, Σαφάρι & Τουριστικές Υπηρεσίες',
+
+  tourism_subtitle:
+    'Η Arakaharaka σας βοηθά να σχεδιάσετε αξέχαστες ταξιδιωτικές εμπειρίες στην Κένυα και την Ανατολική Αφρική.',
+
+  tourism_plan: 'Σχεδιάστε το Ταξίδι μου',
+  tourism_whatsapp: 'Κράτηση μέσω WhatsApp',
+
+  tourism_services_title: 'Εξερευνήστε την Ανατολική Αφρική με Ευκολία',
+  tourism_services_subtitle:
+    'Είτε χρειάζεστε ρομαντική απόδραση είτε οικογενειακό σαφάρι, οργανώνουμε κάθε λεπτομέρεια.',
+
+  tourism_hotel: 'Κρατήσεις Ξενοδοχείων',
+  tourism_hotel_desc:
+    'Οργανώνουμε διαμονή σε ξενοδοχεία, θέρετρα και διαμερίσματα σύμφωνα με τον προϋπολογισμό και τις ανάγκες σας.',
+
+  tourism_safari: 'Safari Lodges & Camps',
+  tourism_safari_desc:
+    'Κλείστε άνετα safari lodges και κατασκηνώσεις κοντά στα πιο όμορφα πάρκα της Ανατολικής Αφρικής.',
+
+  tourism_adventure: 'Σαφάρι & Περιπέτειες',
+  tourism_adventure_desc:
+    'Οργανώνουμε σαφάρι άγριας ζωής, περιηγήσεις και εξατομικευμένες εμπειρίες περιπέτειας.',
+
+  tourism_beach: 'Παραθαλάσσιες Διακοπές',
+  tourism_beach_desc:
+    'Απολαύστε χαλαρωτικές αποδράσεις, πακέτα για μήνα του μέλιτος και οικογενειακές διακοπές.',
+
+  tourism_resort: 'Θέρετρα & Αποδράσεις',
+  tourism_resort_desc:
+    'Συνδέουμε πελάτες με πολυτελή θέρετρα και premium εμπειρίες χαλάρωσης.',
+
+  view_all_services: 'Δείτε Όλες τις Υπηρεσίες →',
+
+  whatsapp_us_now: 'Στείλτε μας στο WhatsApp Τώρα',
+  our_story: 'Η Ιστορία μας',
+
+  tourism_services_label: 'Τουριστικές Υπηρεσίες',
+
+  tourism_hiking: 'Ορειβασία',
+  tourism_hiking_desc:
+    'Εξερευνήστε εντυπωσιακά βουνά και αξέχαστες πεζοπορίες στην Ανατολική Αφρική.',
+
+  tourism_cta_title: 'Έτοιμοι για το Επόμενο Ταξίδι σας;',
+  tourism_cta_subtitle:
+    'Πείτε μας τον προορισμό, τις ημερομηνίες και τον προϋπολογισμό σας — θα οργανώσουμε το ιδανικό πακέτο.',
+  tourism_cta_btn: 'Ζητήστε Βοήθεια Κράτησης',
+
+  contact_title: 'Ας Συζητήσουμε Επιχειρήσεις',
+  contact_subtitle:
+    'Έτοιμοι να εισάγετε ή να εξάγετε; Επικοινωνήστε μαζί μας μέσω φόρμας, email ή WhatsApp.',
+
+  contact_form_title: 'Στείλτε μας Μήνυμα',
+  contact_name: 'Ονοματεπώνυμο *',
+  contact_email: 'Διεύθυνση Email *',
+  contact_phone: 'Τηλέφωνο',
+  contact_service: 'Υπηρεσία Ενδιαφέροντος',
+  contact_message: 'Το Μήνυμά σας *',
+  contact_btn: 'Αποστολή Μηνύματος',
+
+  contact_email_label: 'Στείλτε μας Email',
+  contact_phone_label: 'Κλήση / WhatsApp',
+  contact_location: 'Τοποθεσία',
+  contact_website: 'Ιστοσελίδα',
+  why_label: 'Γιατί να μας Επιλέξετε',
+why_title: 'Η Διαφορά της Arakaharaka',
+
+why_reliability: 'Αξιοπιστία στην Οποία Μπορείτε να Βασιστείτε',
+why_reliability_desc:
+  'Τηρούμε κάθε παραγγελία. Τα προϊόντα σας φτάνουν όπως υποσχεθήκαμε και σας ενημερώνουμε σε κάθε στάδιο της διαδικασίας.',
+
+why_global: 'Πραγματικά Παγκόσμια Εμβέλεια',
+why_global_desc:
+  'Από την Ιαπωνία έως τη Γερμανία και από την Κίνα έως τα ΗΑΕ — το δίκτυο προμηθευτών μας καλύπτει κάθε σημαντική εμπορική περιοχή του κόσμου.',
+
+why_personal: 'Εξατομικευμένη Εξυπηρέτηση',
+why_personal_desc:
+  'Επικοινωνείτε απευθείας με την ομάδα μας — χωρίς τηλεφωνικά κέντρα και χωρίς καθυστερήσεις. Στείλτε μας μήνυμα στο WhatsApp και μιλήστε με πραγματικό άτομο που γνωρίζει την παραγγελία σας.',
+
+why_pricing: 'Ανταγωνιστικές Τιμές',
+why_pricing_desc:
+  'Αξιοποιούμε τις συνεργασίες μας με προμηθευτές για να εξασφαλίσουμε τις καλύτερες τιμές σε ποιοτικά προϊόντα — εξοικονομώντας χρήματα χωρίς συμβιβασμούς στην ποιότητα.',
+
+why_customs: 'Τελωνεία & Συμμόρφωση',
+why_customs_desc:
+  'Αναλαμβάνουμε όλα τα τελωνειακά έγγραφα, τους δασμούς και τις απαιτήσεις συμμόρφωσης — ώστε να μην ανησυχείτε ποτέ για γραφειοκρατικά εμπόδια.',
+
+why_fast: 'Γρήγορη Εξυπηρέτηση',
+why_fast_desc:
+  'Δίνουμε προτεραιότητα στην ταχύτητα σε κάθε βήμα — από την προσφορά έως την παράδοση. Η λέξη Arakaharaka σημαίνει «γρήγορα» — και το αποδεικνύουμε.',
+
+services_page_label: 'Τι Προσφέρουμε',
+services_page_title: 'Οι Υπηρεσίες μας',
+services_page_subtitle:
+  'Ολοκληρωμένες λύσεις εισαγωγών και εξαγωγών προσαρμοσμένες για επιχειρήσεις και ιδιώτες στην Κένυα και πέρα από αυτήν.',
+
+service_page_import: 'Υπηρεσίες Εισαγωγών',
+service_page_import_desc:
+  'Διαχειριζόμαστε κάθε πτυχή της εισαγωγής προϊόντων στην Κένυα — από την εύρεση προμηθευτών και τη διαπραγμάτευση τιμών έως τη μεταφορά, τον εκτελωνισμό και την παράδοση.',
+
+service_page_export: 'Υπηρεσίες Εξαγωγών',
+service_page_export_desc:
+  'Βοηθάμε παραγωγούς και επιχειρήσεις της Κένυας να προσεγγίσουν διεθνείς αγοραστές. Διαχειριζόμαστε τη συσκευασία, τα έγγραφα, τις κρατήσεις μεταφοράς και τη συμμόρφωση.',
+
+service_page_sourcing: 'Προμήθεια Προϊόντων',
+service_page_sourcing_desc:
+  'Στείλτε μας την περιγραφή του προϊόντος και θα το προμηθευτούμε από αξιόπιστους παγκόσμιους προμηθευτές. Συγκρίνουμε ποιότητα, τιμές και χρόνους παράδοσης για την καλύτερη συμφωνία.',
+
+service_page_vehicle: 'Εισαγωγή Οχημάτων',
+service_page_vehicle_desc:
+  'Εισαγωγή αυτοκινήτων, μοτοσυκλετών, φορτηγών και βαρέων μηχανημάτων από Ιαπωνία, Ηνωμένο Βασίλειο, Ντουμπάι και άλλες αγορές.',
+
+service_page_bulk: 'Μαζικές & Εμπορικές Αποστολές',
+service_page_bulk_desc:
+  'Διαπραγματευόμαστε τις καλύτερες τιμές FCL/LCL για επιχειρήσεις που εισάγουν μεγάλους όγκους προϊόντων. Ενοποιούμε φορτία και βελτιστοποιούμε διαδρομές.',
+
+service_page_logistics: 'Συντονισμός Logistics',
+service_page_logistics_desc:
+  'Πλήρη logistics από άκρο σε άκρο — αποθήκευση στην προέλευση, μεταφορά φορτίων, εκκαθάριση λιμανιού, εσωτερική μεταφορά και τελική παράδοση.',
+
+service_page_customs: 'Εκτελωνισμός',
+service_page_customs_desc:
+  'Η έμπειρη ομάδα μας διαχειρίζεται όλα τα τελωνειακά έγγραφα, την πληρωμή δασμών, τη συμμόρφωση με KRA και τις επιθεωρήσεις KEBS.',
+
+service_page_consulting: 'Συμβουλευτική Εμπορίου',
+service_page_consulting_desc:
+  'Νέοι στις εισαγωγές ή εξαγωγές; Σας καθοδηγούμε σχετικά με κανονισμούς, κόστη, χρονοδιαγράμματα και βέλτιστες πρακτικές.',
+
+service_page_industrial: 'Βιομηχανικός Εξοπλισμός & Μηχανήματα',
+service_page_industrial_desc:
+  'Προμηθευτείτε βιομηχανικό εξοπλισμό, μηχανήματα εργοστασίων, εργαλεία και ανταλλακτικά από κορυφαίους κατασκευαστές στην Κίνα, τη Γερμανία και άλλες βιομηχανικές περιοχές.',
+
+partners_label: 'Το Δίκτυό μας',
+partners_title: 'Προϊόντα Εισαγωγών & Εξαγωγών',
+partners_subtitle:
+  'Αναζητήστε στον κατάλογό μας προϊόντα εισαγωγής και εξαγωγής, δείτε λεπτομέρειες αποστολής και επικοινωνήστε μαζί μας μέσω WhatsApp για τιμές και διαθεσιμότητα.',
+
+partners_auto_title: '📥 Συνεργάτες Εισαγωγών: Αυτοκινητοβιομηχανία',
+partners_auto: 'Εισαγωγή Οχημάτων',
+partners_auto_desc:
+  'Συνδέουμε πελάτες με αξιόπιστους εισαγωγείς και εξαγωγείς οχημάτων, διευκολύνοντας την ομαλή εισαγωγή οχημάτων και ανταλλακτικών.',
+
+partners_industrial_title:
+  '📥 Συνεργάτες Εισαγωγών: Βιομηχανικοί & Κατασκευαστικοί Προμηθευτές',
+
+partners_luxury_title:
+  '📥 Συνεργάτες Εισαγωγών: Πολυτελείς & Καταναλωτικές Μάρκες',
+
+partners_asian_title:
+  '📥 Συνεργάτες Εισαγωγών: Ασιατικοί Κατασκευαστές & Προμηθευτές',
+
+partners_export_title:
+  '📤 Εξαγωγές από την Κένυα: Κενυατικές Μάρκες & Προϊόντα',
+
+partners_category_all: 'Όλες οι Κατηγορίες',
+
+category_automotive: 'Αυτοκινητοβιομηχανία',
+category_industrial_manufacturing: 'Βιομηχανία & Παραγωγή',
+category_luxury_consumer_goods: 'Πολυτελή & Καταναλωτικά Αγαθά',
+category_asian_manufacturers: 'Ασιάτες Κατασκευαστές',
+category_construction_materials: 'Κατασκευαστικά Υλικά',
+category_electronics_technology: 'Ηλεκτρονικά & Τεχνολογία',
+category_food_agricultural_products: 'Τρόφιμα & Αγροτικά Προϊόντα',
+category_african_culture: 'Αφρικανικός Πολιτισμός',
+category_kenyan_export_products: 'Κενυατικά Εξαγώγιμα Προϊόντα',
+
+partners_search_placeholder: 'Αναζήτηση προϊόντων...',
+partners_tab_all: 'Όλα τα Προϊόντα',
+partners_tab_import: 'Προϊόντα Εισαγωγής',
+partners_tab_export: 'Προϊόντα Εξαγωγής',
+
+partners_ships_from: 'Αποστολή Από',
+partners_ships_to: 'Αποστολή Προς',
+partners_delivery_time: 'Εκτιμώμενος Χρόνος Παράδοσης',
+
+partners_view_details: 'Προβολή Λεπτομερειών',
+partners_request_quote: '💬 Ζητήστε Προσφορά μέσω WhatsApp',
+
+partners_no_results:
+  'Δεν βρέθηκαν προϊόντα που να αντιστοιχούν στην αναζήτησή σας.',
+
+partners_cta_text:
+  'Δεν βρίσκετε αυτό που ψάχνετε; Ρωτήστε μας για οποιοδήποτε προϊόν, μάρκα ή ειδική απαίτηση και θα το βρούμε για εσάς.',
+
+partners_cta_button:
+  '💬 Ρωτήστε για Συγκεκριμένο Προϊόν',
+
+testimonials_page_label: 'Αξιολογήσεις Πελατών',
+testimonials_page_title: 'Τι Λένε οι Πελάτες μας',
+testimonials_page_subtitle:
+  'Μην πιστεύετε μόνο τα λόγια μας — δείτε τι λένε πραγματικοί πελάτες σε όλη την Κένυα για την εμπειρία τους με την Arakaharaka Enterprises.',
+
+testi_1:
+  'Η Arakaharaka έκανε την εισαγωγή του οχήματός μου από την Ιαπωνία απόλυτα εύκολη. Από τη δημοπρασία μέχρι την πόρτα μου στο Ναϊρόμπι — διαχειρίστηκαν τα πάντα επαγγελματικά.',
+
+testi_2:
+  'Εξαιρετικά γρήγορη ομάδα στο WhatsApp. Παρήγγειλα ηλεκτρονικά από την Κίνα και με ενημέρωναν σε κάθε στάδιο.',
+
+testi_3:
+  'Χρειαζόμασταν επειγόντως βιομηχανικά μηχανήματα και η Arakaharaka τα προμήθευσε από τη Γερμανία εντός του προϋπολογισμού μας.',
+
+testi_4:
+  'Ως εισαγωγέας για πρώτη φορά ήμουν αγχωμένος. Η ομάδα με καθοδήγησε υπομονετικά σε κάθε βήμα.',
+
+testi_5:
+  'Συνεργαζόμαστε με την Arakaharaka για μαζικές αποστολές από την Κίνα εδώ και 2 χρόνια. Συνεπείς, αξιόπιστοι και πάντα με τις καλύτερες τιμές μεταφοράς.',
+
+testi_6:
+  'Ήθελα πολυτελή προϊόντα από το Ντουμπάι και δεν ήξερα από πού να ξεκινήσω. Η Arakaharaka βρήκε όλα όσα χρειαζόμουν με εγγυημένη αυθεντικότητα.',
+
+testimonials_cta:
+  'Είχατε εξαιρετική εμπειρία μαζί μας; Θα χαρούμε να σας ακούσουμε!',
+
+testimonials_share_btn: '💬 Μοιραστείτε την Εμπειρία σας',
+
+hero_badge_1: '🚀 Γρήγορη Αποστολή',
+hero_badge_2: '🌍 Παγκόσμια Προμήθεια',
+hero_badge_3: '🤝 Αξιόπιστοι Συνεργάτες',
+
+custom_solution_title: 'Χρειάζεστε Προσαρμοσμένη Λύση;',
+custom_solution_desc:
+  'Κάθε επιχείρηση είναι διαφορετική. Πείτε μας τις ανάγκες σας και θα δημιουργήσουμε το ιδανικό σχέδιο εισαγωγών/εξαγωγών για εσάς.',
+
+custom_solution_btn: '📩 Λάβετε Προσαρμοσμένη Προσφορά',
+
+nav_dropdown_import: 'Συνεργάτες Εισαγωγών',
+nav_dropdown_export: 'Εξαγωγές από την Κένυα',
+
+legal_label: 'Νομικά',
+
+terms_title: 'Όροι & Προϋποθέσεις',
+terms_subtitle:
+  'Παρακαλούμε διαβάστε προσεκτικά αυτούς τους όρους πριν κάνετε παραγγελία στην Arakaharaka Enterprises.',
+
+terms_orders_payments_title: '📦 1. Παραγγελίες & Πληρωμές',
+
+terms_orders_payments_1:
+  'Όλες οι παραγγελίες πρέπει να επιβεβαιώνονται γραπτώς μέσω email ή WhatsApp πριν ξεκινήσει η επεξεργασία.',
+
+terms_orders_payments_2:
+  'Απαιτείται προκαταβολή 50% πριν ξεκινήσει η προμήθεια και το υπόλοιπο πριν την αποστολή.',
+
+terms_orders_payments_3:
+  'Η πληρωμή μπορεί να γίνει μέσω M-Pesa, τραπεζικής μεταφοράς ή άλλων συμφωνημένων μεθόδων.',
+
+terms_orders_payments_4:
+  'Οι προσφερόμενες τιμές ισχύουν για 48 ώρες και υπόκεινται σε διακυμάνσεις συναλλαγματικών ισοτιμιών.',
+
+terms_orders_payments_5:
+  'Η Arakaharaka Enterprises διατηρεί το δικαίωμα να απορρίψει οποιαδήποτε παραγγελία.',
+
+terms_shipping_title: '🚢 2. Χρόνοι Αποστολής',
+
+terms_shipping_1:
+  'Οι εκτιμώμενοι χρόνοι παράδοσης παρέχονται ως οδηγός και δεν είναι εγγυημένοι.',
+
+terms_shipping_2:
+  'Οι θαλάσσιες μεταφορές από την Ασία διαρκούν συνήθως 25–45 ημέρες. Οι αεροπορικές μεταφορές 5–10 εργάσιμες ημέρες.',
+
+terms_shipping_3:
+  'Οι αποστολές οχημάτων από την Ιαπωνία διαρκούν συνήθως 4–8 εβδομάδες.',
+
+terms_shipping_4:
+  'Καθυστερήσεις λόγω συμφόρησης λιμανιών, τελωνείων ή καιρικών συνθηκών δεν αποτελούν ευθύνη της Arakaharaka.',
+
+terms_shipping_5:
+  'Οι πελάτες θα ενημερώνονται άμεσα για σημαντικές καθυστερήσεις.',
+
+terms_liability_title: '⚖️ 3. Ευθύνη',
+
+terms_liability_1:
+  'Η Arakaharaka Enterprises λειτουργεί ως αντιπρόσωπος και διαμεσολαβητής και δεν είναι ο κατασκευαστής ή άμεσος πωλητής των προϊόντων.',
+
+terms_liability_2:
+  'Δεν φέρουμε ευθύνη για προϊόντα που καταστράφηκαν κατά τη μεταφορά εάν καλύπτονται από ασφάλιση.',
+
+terms_liability_3:
+  'Είναι ευθύνη του πελάτη να διασφαλίσει τη συμμόρφωση με τους κανονισμούς εισαγωγής της Κένυας.',
+
+terms_liability_4:
+  'Δεν φέρουμε ευθύνη για προϊόντα που κατασχέθηκαν λόγω ψευδών δηλώσεων του πελάτη.',
+
+terms_refund_title: '🔄 4. Πολιτική Επιστροφών',
+
+terms_refund_1:
+  'Οι προκαταβολές δεν επιστρέφονται μετά την έναρξη της προμήθειας ή αγοράς.',
+
+terms_refund_2:
+  'Εάν τα προϊόντα διαφέρουν ουσιαστικά από την παραγγελία, μπορεί να προσφερθεί αντικατάσταση ή μερική επιστροφή χρημάτων.',
+
+terms_refund_3:
+  'Οι αγορές οχημάτων ακολουθούν τους όρους του αντίστοιχου οίκου δημοπρασιών και συνήθως δεν επιστρέφονται.',
+
+terms_refund_4:
+  'Τα αιτήματα επιστροφής χρημάτων πρέπει να υποβάλλονται γραπτώς εντός 7 ημερών από την παράδοση.',
+
+terms_communication_title: '📬 5. Επικοινωνία & Διαφορές',
+
+terms_communication_1:
+  'Όλες οι επίσημες επικοινωνίες πρέπει να αποστέλλονται στο harakaint@gmail.com.',
+
+terms_communication_2:
+  'Οποιαδήποτε διαφορά θα πρέπει πρώτα να επιλύεται μέσω διαπραγματεύσεων καλής πίστης.',
+
+terms_communication_3:
+  'Οι παρόντες όροι διέπονται από τους νόμους της Κένυας.',
+
+terms_communication_4:
+  'Με την τοποθέτηση παραγγελίας στην Arakaharaka Enterprises συμφωνείτε πλήρως με αυτούς τους όρους.',
+
+terms_last_updated:
+  'Τελευταία ενημέρωση: 2025. Για ερωτήσεις σχετικά με αυτούς τους όρους, στείλτε email στο harakaint@gmail.com.',
+
+  footer_desc:
+    'Ο αξιόπιστος συνεργάτης σας στις εισαγωγές και εξαγωγές με έδρα τη Ruaraka, Ναϊρόμπι.',
+
+  footer_quick: 'Γρήγοροι Σύνδεσμοι',
+  footer_contact: 'Επικοινωνία',
+  footer_faq: 'Συχνές Ερωτήσεις',
+
+  faq_q1: 'Πόσο διαρκεί η αποστολή;',
+  faq_a1:
+    'Οι θαλάσσιες μεταφορές από την Ασία διαρκούν 25–45 ημέρες. Οι αεροπορικές 5–10 ημέρες.',
+
+  faq_q2: 'Πώς μπορώ να κάνω παραγγελία;',
+  faq_a2:
+    'Στείλτε μας τις λεπτομέρειες μέσω WhatsApp ή email και θα αναλάβουμε τα υπόλοιπα.',
+
+  faq_q3: 'Από ποιες χώρες εισάγετε;',
+  faq_a3:
+    'Προμηθευόμαστε από Κίνα, Ιαπωνία, ΗΑΕ, Ηνωμένο Βασίλειο, Γερμανία, ΗΠΑ, Ινδία και πολλές άλλες χώρες.',
+
+  faq_q4: 'Αναλαμβάνετε τελωνείο;',
+  faq_a4:
+    'Ναι! Αναλαμβάνουμε όλο τον εκτελωνισμό και τις διαδικασίες συμμόρφωσης.',
+
+  footer_copyright:
+    '© 2026 Arakaharaka Enterprises. Με επιφύλαξη παντός δικαιώματος. | Όροι & Προϋποθέσεις',
+
+  footer_made:
+    'Φτιαγμένο με ❤️ στο Ναϊρόμπι, Κένυα 🇰🇪',
+  }
+  //gujarati
+  
 
 
   };
