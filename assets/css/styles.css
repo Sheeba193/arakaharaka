@@ -292,14 +292,16 @@
     }
 
     /* VIDEO ITSELF */
+    
     .hero-video {
       width: 100%;
-      height: 80vh; /* fallback behavior for strong visual height */
-      max-height: 80%;
-
+      height: 80vh;
       object-fit: cover;
+
       border-radius: 18px;
       box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+
+      display: block;
     }
 
   /* ===== SECTION COMMONS ===== */
