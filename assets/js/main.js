@@ -4734,10 +4734,2790 @@ terms_last_updated:
 
   footer_made:
     'Φτιαγμένο με ❤️ στο Ναϊρόμπι, Κένυα 🇰🇪',
-  }
+    },
   //gujarati
-  
+    gu: {
+  nav_home: 'હોમ',
+  nav_about: 'અમારા વિશે',
+  nav_services: 'સેવાઓ',
+  nav_tourism: 'પર્યટન',
+  nav_partners: 'ભાગીદારો',
+  nav_testimonials: 'પ્રતિભાવો',
+  nav_contact: 'અમારો સંપર્ક કરો',
 
+  hero_title: 'તમારો વિશ્વસનીય આયાત અને નિકાસ ભાગીદાર',
+  hero_subtitle: 'Arakaharaka પૂર્વ અને મધ્ય આફ્રિકાના દેશોને વિશ્વ સાથે જોડે છે — વિશ્વસનીયતા અને કાળજી સાથે વૈશ્વિક બજારોમાંથી ગુણવત્તાયુક્ત ઉત્પાદનો, વાહનો અને માલસામાન મેળવવામાં મદદ કરે છે.',
+  hero_cta1: 'અમારો સંપર્ક કરો',
+  hero_cta2: 'કોટેશન માંગો',
+
+  stats_clients: 'ખુશ ગ્રાહકો',
+  stats_partners: 'ભાગીદાર બ્રાન્ડ્સ',
+  stats_countries: 'સેવા આપવામાં આવેલા દેશો',
+  stats_satisfaction: 'ગ્રાહક સંતોષ',
+
+  services_title: 'અમારી મુખ્ય સેવાઓ',
+  services_subtitle: 'ઉત્પાદન સોર્સિંગથી લઈને લોજિસ્ટિક્સ સંકલન સુધી — અમે જટિલતા સંભાળીએ છીએ જેથી તમે તમારા વ્યવસાય પર ધ્યાન આપી શકો.',
+
+  service_import: 'આયાત સેવાઓ',
+  service_import_desc: 'અમે એશિયા, યુરોપ અને અન્ય દેશોમાંથી સીધા કેન્યા સુધી વિવિધ માલ આયાત કરીએ છીએ — ઇલેક્ટ્રોનિક્સ, ઘરગથ્થુ વસ્તુઓ, મશીનરી અને વધુ.',
+
+  service_export: 'નિકાસ સેવાઓ',
+  service_export_desc: 'અમે કેન્યાના વ્યવસાયોને આંતરરાષ્ટ્રીય બજારોમાં ગુણવત્તાયુક્ત ઉત્પાદનો નિકાસ કરવામાં મદદ કરીએ છીએ.',
+
+  service_sourcing: 'ઉત્પાદન સોર્સિંગ',
+  service_sourcing_desc: 'સ્થાનિક રીતે ઉત્પાદન મળતું નથી? અમે તમારા માટે વિશ્વભરમાંથી શ્રેષ્ઠ ગુણવત્તા અને કિંમતે સોર્સ કરીશું.',
+
+  service_vehicle: 'વાહન આયાત',
+  service_vehicle_desc: 'જાપાન, યુકે, UAE અને અન્ય દેશોમાંથી વાહનો આયાત કરો. અમે નિરીક્ષણથી લઈને ડિલિવરી સુધી બધું સંભાળીએ છીએ.',
+
+  service_bulk: 'બલ્ક શિપિંગ',
+  service_bulk_desc: 'મોટા પ્રમાણમાં માલ આયાત કરતી કંપનીઓ માટે ખર્ચ અસરકારક શિપિંગ ઉકેલો.',
+
+  service_logistics: 'લોજિસ્ટિક્સ સંકલન',
+  service_logistics_desc: 'અંતથી અંત સુધી લોજિસ્ટિક્સ મેનેજમેન્ટ — વેરહાઉસિંગ, કસ્ટમ ક્લિયરન્સ, અંતિમ ડિલિવરી અને રિયલ-ટાઇમ ટ્રેકિંગ.',
+
+  testimonials_title: 'ઘણા લોકોનો વિશ્વાસ',
+  cta_title: 'આયાત અથવા નિકાસ કરવા તૈયાર છો?',
+  cta_subtitle: 'આયાતને સરળ બનાવવા માટે અમે અહીં છીએ. મુશ્કેલ ભાગ અમે સંભાળીએ છીએ.',
+  cta_btn: 'સંપર્ક કરો',
+
+  testimonials_label: 'ગ્રાહકો શું કહે છે',
+
+  testimonial_1_name: 'Christian M. Mayani',
+  testimonial_1_role: 'આયાત ગ્રાહક – DRC',
+  testimonial_1_text: 'Arakaharaka એ અમને ચીનમાંથી હેવી-ડ્યુટી મશીનરી સરળતાથી અને વ્યાવસાયિક રીતે આયાત કરવામાં મદદ કરી.',
+
+  testimonial_2_name: 'George Solo',
+  testimonial_2_role: 'પર્યટન ગ્રાહક – તાન્ઝાનિયા',
+  testimonial_2_text: 'અમારી Maasai Mara સફારી શરૂઆતથી અંત સુધી સંપૂર્ણ રીતે આયોજન કરવામાં આવી હતી.',
+
+  testimonial_3_name: 'Hedy',
+  testimonial_3_role: 'સેલ્સ મેનેજર – Hengwang Group, China',
+  testimonial_3_text: 'અમે Arakaharaka મારફતે પ્રીમિયમ કેન્યન કોફી અને હેન્ડિક્રાફ્ટ્સ મેળવ્યા.',
+
+  about_title: 'Arakaharaka Enterprises વિશે',
+  about_subtitle: 'નૈરોબીમાં જન્મેલું, વિશ્વ માટે બનાવેલું.',
+  about_feature: 'પૂર્વ અને મધ્ય આફ્રિકાને વિશ્વ સાથે જોડવું',
+  about_feature_desc: 'રૂઆરાકા, નૈરોબીમાં સ્થિત, અમે ખરીદદારો અને વૈશ્વિક સપ્લાયરો વચ્ચે વિશ્વાસ અને ઝડપથી જોડાણ બનાવીએ છીએ.',
+
+  mission: 'અમારું મિશન',
+  mission_desc: 'દરેક કેન્યન માટે વૈશ્વિક વેપારને સરળ અને સુલભ બનાવવું.',
+
+  vision: 'અમારું વિઝન',
+  vision_desc: 'પૂર્વ આફ્રિકાનો સૌથી વિશ્વસનીય આયાત/નિકાસ ભાગીદાર બનવું.',
+
+  values: 'અમારા મૂલ્યો',
+  values_desc: 'દરેક વ્યવહારમાં ઈમાનદારી. દરેક ડિલિવરીમાં ઝડપ.',
+
+  tourism_label: 'પ્રવાસ અને અનુભવ',
+  tourism_title: 'હોટેલ બુકિંગ, સફારી અને પર્યટન સેવાઓ',
+  tourism_subtitle: 'કેન્યા અને પૂર્વ આફ્રિકામાં અવિસ્મરણીય પ્રવાસ અનુભવની યોજના બનાવવામાં મદદ કરીએ છીએ.',
+
+  tourism_plan: 'મારી યાત્રાની યોજના બનાવો',
+  tourism_whatsapp: 'WhatsApp પર બુક કરો',
+
+  tourism_services_title: 'પૂર્વ આફ્રિકાને સરળતાથી શોધો',
+  tourism_services_subtitle: 'રોમેન્ટિક ગેટઅવે, બિઝનેસ રહેવું કે ફેમિલી સફારી — અમે દરેક વિગત સંભાળીએ છીએ.',
+
+  tourism_hotel: 'હોટેલ બુકિંગ',
+  tourism_hotel_desc: 'તમારા બજેટ અને જરૂરિયાત મુજબ હોટેલ, રિસોર્ટ અને એપાર્ટમેન્ટ બુક કરવામાં મદદ કરીએ છીએ.',
+
+  tourism_safari: 'સફારી લોજ અને કેમ્પ્સ',
+  tourism_safari_desc: 'પૂર્વ આફ્રિકાના સુંદર પાર્ક્સ નજીક આરામદાયક સફારી લોજ બુક કરો.',
+
+  tourism_adventure: 'સફારી અને સાહસિક પ્રવાસ',
+  tourism_adventure_desc: 'વાઇલ્ડલાઇફ સફારી, ગેમ ડ્રાઇવ અને કસ્ટમ એડવેન્ચર ટ્રિપ્સનું આયોજન કરીએ છીએ.',
+
+  tourism_beach: 'બીચ રજાઓ',
+  tourism_beach_desc: 'કોસ્ટલ હોલિડે, હનીમૂન અને પરિવાર સાથેના બીચ પ્રવાસનો આનંદ લો.',
+
+  tourism_resort: 'રિસોર્ટ અને ગેટઅવે',
+  tourism_resort_desc: 'લીજર રિસોર્ટ અને પ્રીમિયમ રિલેક્સેશન અનુભવ સાથે જોડાણ.',
+
+  view_all_services: 'બધી સેવાઓ જુઓ →',
+  whatsapp_us_now: 'હમણાં WhatsApp કરો',
+  our_story: 'અમારી વાર્તા',
+
+  tourism_services_label: 'પર્યટન સેવાઓ',
+
+  tourism_hiking: 'પર્વત હાઈકિંગ',
+  tourism_hiking_desc: 'પૂર્વ આફ્રિકાના અદ્ભુત પર્વતો અને ટ્રેઇલ્સ શોધો.',
+
+  tourism_cta_title: 'તમારી આગામી યાત્રા માટે તૈયાર છો?',
+  tourism_cta_subtitle: 'તમારું ગંતવ્ય, તારીખો અને બજેટ જણાવો — અમે યોગ્ય પેકેજ બનાવીએ છીએ.',
+  tourism_cta_btn: 'બુકિંગ સહાય માગો',
+
+  contact_title: 'ચાલો વ્યવસાયની વાત કરીએ',
+  contact_subtitle: 'આયાત, નિકાસ અથવા પ્રશ્નો માટે — અમારો સંપર્ક કરો.',
+
+  contact_form_title: 'અમને સંદેશ મોકલો',
+  contact_name: 'પૂર્ણ નામ *',
+  contact_email: 'ઈમેલ સરનામું *',
+  contact_phone: 'ફોન નંબર',
+  contact_service: 'રસ ધરાવતી સેવા',
+  contact_message: 'તમારો સંદેશ *',
+  contact_btn: 'સંદેશ મોકલો',
+
+  contact_email_label: 'અમને ઈમેલ કરો',
+  contact_phone_label: 'કૉલ / WhatsApp',
+  contact_location: 'સ્થાન',
+  contact_website: 'વેબસાઇટ',
+
+  why_label: 'અમને કેમ પસંદ કરો',
+  why_title: 'Arakaharaka નો ફરક',
+
+  why_reliability: 'વિશ્વસનીય સેવા',
+  why_reliability_desc: 'અમે દરેક ઓર્ડર સમયસર પૂર્ણ કરીએ છીએ.',
+
+  why_global: 'વૈશ્વિક પહોંચ',
+  why_global_desc: 'જાપાનથી જર્મની સુધી — અમારા સપ્લાયરો વિશ્વભરમાં છે.',
+
+  why_personal: 'વ્યક્તિગત સેવા',
+  why_personal_desc: 'તમે સીધા અમારી ટીમ સાથે વાત કરો છો.',
+
+  why_pricing: 'સ્પર્ધાત્મક કિંમતો',
+  why_pricing_desc: 'ગુણવત્તા જાળવીને શ્રેષ્ઠ કિંમતો.',
+
+  why_customs: 'કસ્ટમ્સ અને અનુપાલન',
+  why_customs_desc: 'અમે તમામ કસ્ટમ્સ પ્રક્રિયા સંભાળીએ છીએ.',
+
+  why_fast: 'ઝડપી સેવા',
+  why_fast_desc: 'કોટેશનથી ડિલિવરી સુધી ઝડપ.',
+
+  services_page_label: 'અમે શું ઓફર કરીએ છીએ',
+  services_page_title: 'અમારી સેવાઓ',
+  services_page_subtitle: 'વ્યવસાય અને વ્યક્તિઓ માટે સંપૂર્ણ આયાત/નિકાસ ઉકેલો.',
+  service_page_import: 'આયાત સેવાઓ',
+  service_page_import_desc: 'અમે કેન્યામાં માલ આયાતની દરેક પાસું સંભાળીએ છીએ.',
+  service_page_export: 'નિકાસ સેવાઓ',
+  service_page_export_desc: 'અમે કેન્યાના ઉત્પાદનોને આંતરરાષ્ટ્રીય બજારોમાં નિકાસ કરવામાં મદદ કરીએ છીએ.',
+  service_page_sourcing: 'ઉત્પાદન સોર્સિંગ',
+  service_page_sourcing_desc: 'તમારા માટે વિશ્વભરમાંથી શ્રેષ્ઠ ગુણવત્તા અને કિંમતે સોર્સ કરીશું.',
+  service_page_vehicle: 'વાહન આયાત',
+  service_page_vehicle_desc: 'જાપાન, યુકે, UAE અને અન્ય દેશોમાંથી વાહનો આયાત કરો.',
+  service_page_import: 'આયાત સેવાઓ',
+service_page_import_desc: 'અમે કેન્યામાં માલ આયાત કરવાની દરેક પ્રક્રિયા સંભાળીએ છીએ — સપ્લાયરો શોધવાથી લઈને ભાવચર્ચા, શિપિંગ, કસ્ટમ ક્લિયરન્સ અને ડિલિવરી સુધી.',
+
+service_page_export: 'નિકાસ સેવાઓ',
+service_page_export_desc: 'કેન્યાના ઉત્પાદકો અને વ્યવસાયોને આંતરરાષ્ટ્રીય ખરીદદારો સુધી પહોંચવામાં મદદ કરીએ છીએ.',
+
+service_page_sourcing: 'ઉત્પાદન સોર્સિંગ',
+service_page_sourcing_desc: 'અમને ઉત્પાદનની વિગતો મોકલો અને અમે તેને વિશ્વસનીય વૈશ્વિક સપ્લાયરો પાસેથી મેળવીએ છીએ.',
+
+service_page_vehicle: 'વાહન આયાત',
+service_page_vehicle_desc: 'જાપાન, યુકે, દુબઈ અને અન્ય બજારોમાંથી કાર, મોટરસાયકલ, ટ્રક અને હેવી મશીનરી આયાત કરો.',
+
+service_page_bulk: 'બલ્ક અને કોમર્શિયલ શિપિંગ',
+service_page_bulk_desc: 'મોટા પ્રમાણમાં આયાત કરતી કંપનીઓ માટે શ્રેષ્ઠ દરે કન્ટેનર શિપિંગ.',
+
+service_page_logistics: 'લોજિસ્ટિક્સ સંકલન',
+service_page_logistics_desc: 'સંપૂર્ણ લોજિસ્ટિક્સ સેવા — વેરહાઉસિંગ, ફ્રેઇટ ફોરવર્ડિંગ, પોર્ટ ક્લિયરન્સ અને અંતિમ ડિલિવરી.',
+
+service_page_customs: 'કસ્ટમ ક્લિયરન્સ',
+service_page_customs_desc: 'અમારી ટીમ તમામ કસ્ટમ દસ્તાવેજો, ડ્યુટી પેમેન્ટ અને KEBS અનુપાલન સંભાળે છે.',
+
+service_page_consulting: 'વેપાર સલાહકાર સેવા',
+service_page_consulting_desc: 'આયાત અથવા નિકાસમાં નવા છો? અમે નિયમો, ખર્ચ અને શ્રેષ્ઠ પ્રક્રિયાઓ સમજાવવામાં મદદ કરીએ છીએ.',
+
+service_page_industrial: 'ઔદ્યોગિક અને મશીનરી',
+service_page_industrial_desc: 'ચીન, જર્મની અને અન્ય દેશોમાંથી ઔદ્યોગિક સાધનો અને મશીનરી મેળવો.',
+
+partners_label: 'અમારું નેટવર્ક',
+partners_title: 'આયાત અને નિકાસ ઉત્પાદનો',
+partners_subtitle: 'અમારા આયાત અને નિકાસ ઉત્પાદનોનો કેટલોગ શોધો અને WhatsApp દ્વારા સંપર્ક કરો.',
+
+partners_auto_title: '📥 આયાત ભાગીદારો: ઓટોમોટિવ',
+partners_auto: 'ઓટોમોટિવ આયાત',
+partners_auto_desc: 'અમે ગ્રાહકોને વિશ્વસનીય વાહન આયાતકારો અને નિકાસકારો સાથે જોડીએ છીએ.',
+
+partners_industrial_title: '📥 આયાત ભાગીદારો: ઔદ્યોગિક અને મેન્યુફેક્ચરિંગ સપ્લાયર્સ',
+partners_luxury_title: '📥 આયાત ભાગીદારો: લક્ઝરી અને ગ્રાહક બ્રાન્ડ્સ',
+partners_asian_title: '📥 આયાત ભાગીદારો: એશિયન ઉત્પાદકો અને સપ્લાયર્સ',
+partners_export_title: '📤 કેન્યાથી નિકાસ: કેન્યન બ્રાન્ડ્સ અને ઉત્પાદનો',
+
+partners_category_all: 'બધી કેટેગરી',
+category_automotive: 'ઓટોમોટિવ',
+category_industrial_manufacturing: 'ઔદ્યોગિક અને મેન્યુફેક્ચરિંગ',
+category_luxury_consumer_goods: 'લક્ઝરી અને ગ્રાહક ઉત્પાદનો',
+category_asian_manufacturers: 'એશિયન ઉત્પાદકો',
+category_construction_materials: 'બાંધકામ સામગ્રી',
+category_electronics_technology: 'ઇલેક્ટ્રોનિક્સ અને ટેકનોલોજી',
+category_food_agricultural_products: 'ખાદ્ય અને કૃષિ ઉત્પાદનો',
+category_african_culture: 'આફ્રિકન સંસ્કૃતિ',
+category_kenyan_export_products: 'કેન્યન નિકાસ ઉત્પાદનો',
+
+partners_search_placeholder: 'ઉત્પાદનો શોધો...',
+partners_tab_all: 'બધા ઉત્પાદનો',
+partners_tab_import: 'આયાત ઉત્પાદનો',
+partners_tab_export: 'નિકાસ ઉત્પાદનો',
+
+partners_ships_from: 'ક્યાંથી મોકલાય છે',
+partners_ships_to: 'ક્યાં મોકલાય છે',
+partners_delivery_time: 'અંદાજિત ડિલિવરી',
+partners_view_details: 'વિગતો જુઓ',
+partners_request_quote: '💬 WhatsApp પર કોટેશન માંગો',
+partners_no_results: 'તમારી શોધ સાથે મેળ ખાતા ઉત્પાદનો મળ્યા નથી.',
+
+partners_cta_text: 'તમને જે જોઈએ છે તે મળતું નથી? અમને કોઈપણ ઉત્પાદન અથવા બ્રાન્ડ વિશે પૂછો.',
+partners_cta_button: '💬 ચોક્કસ ઉત્પાદન વિશે પૂછો',
+
+footer_desc: 'રૂઆરાકા, નૈરોબીમાં સ્થિત તમારો વિશ્વસનીય આયાત અને નિકાસ ભાગીદાર.',
+footer_quick: 'ઝડપી લિંક્સ',
+footer_contact: 'સંપર્ક',
+footer_faq: 'વારંવાર પૂછાતા પ્રશ્નો',
+
+faq_q1: 'શિપિંગમાં કેટલો સમય લાગે છે?',
+faq_a1: 'એશિયાથી સમુદ્રી શિપિંગમાં 25–45 દિવસ લાગે છે. એર ફ્રેઇટમાં 5–10 દિવસ લાગે છે.',
+
+faq_q2: 'હું ઓર્ડર કેવી રીતે આપું?',
+faq_a2: 'તમારી ઓર્ડર વિગતો સાથે WhatsApp અથવા ઈમેલ કરો.',
+
+faq_q3: 'તમે કયા દેશોમાંથી શિપ કરો છો?',
+faq_a3: 'અમે ચીન, જાપાન, UAE, યુકે, જર્મની, USA, ભારત અને અન્ય દેશોમાંથી સોર્સ કરીએ છીએ.',
+
+faq_q4: 'શું તમે કસ્ટમ્સ સંભાળો છો?',
+faq_a4: 'હા! અમે તમામ કસ્ટમ ક્લિયરન્સ અને અનુપાલન પ્રક્રિયા સંભાળીએ છીએ.',
+
+footer_copyright: '© 2026 Arakaharaka Enterprises. બધા અધિકારો સુરક્ષિત.',
+footer_made: 'નૈરોબી, કેન્યા 🇰🇪 માં ❤️ સાથે બનાવ્યું',
+
+testimonials_page_label: 'ગ્રાહક સમીક્ષાઓ',
+testimonials_page_title: 'અમારા ગ્રાહકો શું કહે છે',
+testimonials_page_subtitle: 'Arakaharaka Enterprises સાથેના તેમના અનુભવ વિશે વાસ્તવિક ગ્રાહકો શું કહે છે જુઓ.',
+
+testi_1: 'Arakaharaka એ જાપાનમાંથી મારું વાહન આયાત કરવું અત્યંત સરળ બનાવ્યું.',
+testi_2: 'WhatsApp પર ખૂબ જ પ્રતિસાદ આપતી ટીમ.',
+testi_3: 'અમને તાત્કાલિક ઔદ્યોગિક મશીનરીની જરૂર હતી અને Arakaharaka એ મદદ કરી.',
+testi_4: 'પ્રથમ વખત આયાતકાર તરીકે હું નર્વસ હતો પરંતુ ટીમે માર્ગદર્શન આપ્યું.',
+testi_5: 'અમે 2 વર્ષથી Arakaharaka સાથે કામ કરીએ છીએ.',
+testi_6: 'દુબઈમાંથી લક્ઝરી વસ્તુઓ મેળવવામાં ઉત્તમ સેવા મળી.',
+
+testimonials_cta: 'અમારી સાથે સારો અનુભવ રહ્યો? અમે તમારું પ્રતિસાદ સાંભળવા ઇચ્છીએ છીએ!',
+testimonials_share_btn: '💬 તમારો અનુભવ શેર કરો',
+
+hero_badge_1: '🚀 ઝડપી શિપિંગ',
+hero_badge_2: '🌍 વૈશ્વિક સોર્સિંગ',
+hero_badge_3: '🤝 વિશ્વસનીય ભાગીદારો',
+
+custom_solution_title: 'કસ્ટમ સોલ્યુશન જોઈએ છે?',
+custom_solution_desc: 'દરેક વ્યવસાય અલગ છે. તમારી જરૂરિયાતો જણાવો અને અમે યોગ્ય યોજના બનાવીએ છીએ.',
+custom_solution_btn: '📩 કસ્ટમ કોટેશન મેળવો',
+
+nav_dropdown_import: 'આયાત ભાગીદારો',
+nav_dropdown_export: 'કેન્યાથી નિકાસ',
+
+legal_label: 'કાનૂની',
+terms_title: 'નિયમો અને શરતો',
+terms_subtitle: 'Arakaharaka Enterprises સાથે ઓર્ડર આપતા પહેલા કૃપા કરીને આ શરતો વાંચો.',
+
+terms_orders_payments_title: '📦 1. ઓર્ડર અને ચુકવણીઓ',
+terms_orders_payments_1: 'બધા ઓર્ડર ઈમેલ અથવા WhatsApp દ્વારા લેખિતમાં પુષ્ટિ કરેલા હોવા જોઈએ.',
+terms_orders_payments_2: 'સોર્સિંગ શરૂ કરતા પહેલા 50% ડિપોઝિટ જરૂરી છે.',
+terms_orders_payments_3: 'ચુકવણી M-Pesa, બેંક ટ્રાન્સફર અથવા અન્ય સંમત પદ્ધતિઓ દ્વારા કરી શકાય છે.',
+terms_orders_payments_4: 'આંતરરાષ્ટ્રીય ઓર્ડર માટે કિંમતો 48 કલાક સુધી માન્ય છે.',
+terms_orders_payments_5: 'Arakaharaka Enterprises કોઈપણ ઓર્ડર નકારવાનો અધિકાર રાખે છે.',
+
+terms_shipping_title: '🚢 2. શિપિંગ સમયરેખા',
+terms_shipping_1: 'અંદાજિત ડિલિવરી સમય માત્ર માર્ગદર્શિકા છે.',
+terms_shipping_2: 'એશિયાથી સમુદ્રી શિપિંગ સામાન્ય રીતે 25–45 દિવસ લે છે.',
+terms_shipping_3: 'જાપાનથી વાહન શિપમેન્ટ સામાન્ય રીતે 4–8 અઠવાડિયા લે છે.',
+terms_shipping_4: 'પોર્ટ ભીડ અથવા હવામાનના કારણે વિલંબ માટે અમે જવાબદાર નથી.',
+terms_shipping_5: 'મહત્વપૂર્ણ વિલંબ અંગે ગ્રાહકોને તરત જાણ કરવામાં આવશે.',
+
+terms_liability_title: '⚖️ 3. જવાબદારી',
+terms_liability_1: 'Arakaharaka Enterprises એજન્ટ અને સુવિધાકાર તરીકે કાર્ય કરે છે.',
+terms_liability_2: 'શિપિંગ ઈન્શ્યોરન્સ હેઠળ આવરી લેવાયેલા નુકસાન માટે અમે જવાબદાર નથી.',
+terms_liability_3: 'કેન્યાના આયાત નિયમોનું પાલન કરવું ગ્રાહકની જવાબદારી છે.',
+terms_liability_4: 'ખોટી જાહેરાતોને કારણે કસ્ટમ્સ દ્વારા જપ્ત કરાયેલા માલ માટે અમે જવાબદાર નથી.',
+
+terms_refund_title: '🔄 4. રિફંડ નીતિ',
+terms_refund_1: 'સોર્સિંગ શરૂ થયા પછી ડિપોઝિટ પરત કરવામાં આવશે નહીં.',
+terms_refund_2: 'ઓર્ડરથી અલગ માલ મળ્યો હોય તો ભાગરૂપે રિફંડ આપવામાં આવી શકે.',
+terms_refund_3: 'વાહન ખરીદી સામાન્ય રીતે નોન-રિફંડેબલ હોય છે.',
+terms_refund_4: 'રિફંડ વિનંતીઓ ડિલિવરી પછી 7 દિવસમાં મોકલવી જોઈએ.',
+
+terms_communication_title: '📬 5. સંચાર અને વિવાદો',
+terms_communication_1: 'બધા સત્તાવાર સંચાર harakaint@gmail.com પર મોકલવા જોઈએ.',
+terms_communication_2: 'વિવાદો સૌપ્રથમ પરસ્પર ચર્ચા દ્વારા ઉકેલવામાં આવશે.',
+terms_communication_3: 'આ શરતો કેન્યાના કાયદા હેઠળ શાસિત છે.',
+terms_communication_4: 'ઓર્ડર આપીને તમે આ શરતોને સંપૂર્ણ સ્વીકારો છો.',
+
+terms_last_updated: 'છેલ્લે અપડેટ: 2025. પ્રશ્નો માટે harakaint@gmail.com પર ઈમેલ કરો.',
+  },
+  //hebrew
+  he: {
+  nav_home: 'בית',
+  nav_about: 'אודות',
+  nav_services: 'שירותים',
+  nav_tourism: 'תיירות',
+  nav_partners: 'שותפים',
+  nav_testimonials: 'המלצות',
+  nav_contact: 'צור קשר',
+
+  hero_title: 'השותף האמין שלך לייבוא וייצוא',
+  hero_subtitle: 'Arakaharaka מחברת בין מדינות מזרח ומרכז אפריקה לעולם — תוך אספקת מוצרים איכותיים, רכבים וסחורות מהשווקים הגלובליים באמינות ובאכפתיות.',
+  hero_cta1: 'צור קשר',
+  hero_cta2: 'בקש הצעת מחיר',
+
+  stats_clients: 'לקוחות מרוצים',
+  stats_partners: 'מותגים שותפים',
+  stats_countries: 'מדינות שקיבלו שירות',
+  stats_satisfaction: 'שביעות רצון לקוחות',
+
+  services_title: 'שירותי הליבה שלנו',
+  services_subtitle: 'מאיתור מוצרים ועד תיאום לוגיסטי — אנו מטפלים במורכבות כדי שתוכל להתמקד בעסק שלך.',
+
+  service_import: 'שירותי ייבוא',
+  service_import_desc: 'אנו מייבאים מגוון רחב של מוצרים מאסיה, אירופה ומעבר לכך ישירות לקניה — אלקטרוניקה, מוצרים לבית, מכונות ועוד.',
+
+  service_export: 'שירותי ייצוא',
+  service_export_desc: 'אנו מסייעים לעסקים קנייתים לייצא מוצרים איכותיים לשווקים בינלאומיים, כולל טיפול במסמכים, לוגיסטיקה ועמידה בתקנות.',
+
+  service_sourcing: 'איתור מוצרים',
+  service_sourcing_desc: 'לא מצליחים למצוא מוצר מקומית? אנחנו נמצא אותו עבורכם. ספרו לנו מה אתם צריכים ואנו נמצא את האיכות הטובה ביותר במחיר המשתלם ביותר.',
+
+  service_vehicle: 'ייבוא רכבים',
+  service_vehicle_desc: 'ייבוא רכבים מיפן, בריטניה, איחוד האמירויות ועוד. אנו מטפלים בבדיקות, שילוח, שחרור ממכס ומשלוח עד אליך.',
+
+  service_bulk: 'שילוח בכמויות גדולות',
+  service_bulk_desc: 'פתרונות שילוח חסכוניים לעסקים המייבאים כמויות גדולות. אנו מנהלים משא ומתן על מחירי ההובלה הטובים ביותר עבורך.',
+
+  service_logistics: 'תיאום לוגיסטי',
+  service_logistics_desc: 'ניהול לוגיסטי מקצה לקצה — אחסון, שחרור ממכס, משלוח אחרון ומעקב משלוחים בזמן אמת.',
+
+  testimonials_title: 'רבים סומכים עלינו',
+
+  cta_title: 'מוכנים לייבא או לייצא?',
+  cta_subtitle: 'אנחנו נעזור לכם לייבא בקלות. אנחנו מטפלים בחלק הקשה עבורכם.',
+  cta_btn: 'צור קשר',
+
+  testimonials_label: 'מה הלקוחות אומרים',
+
+  testimonial_1_name: 'Christian M. Mayani',
+  testimonial_1_role: 'לקוח ייבוא – DRC',
+  testimonial_1_text:
+    'Arakaharaka סייעה לנו לייבא ציוד כבד מסין בצורה חלקה ומקצועית. התמיכה והתקשורת היו יוצאות מן הכלל.',
+
+  testimonial_2_name: 'George Solo',
+  testimonial_2_role: 'לקוח תיירות – טנזניה',
+  testimonial_2_text:
+    'הספארי שלנו במאסאי מארה אורגן בצורה מושלמת מתחילתו ועד סופו. הצוות היה מקצועי ומהיר תגובה.',
+
+  testimonial_3_name: 'Hedy',
+  testimonial_3_role: 'מנהלת מכירות – Hengwang Group, China',
+  testimonial_3_text:
+    'רכשנו קפה קנייתי איכותי ומלאכות יד דרך Arakaharaka. האיכות, האריזה והמשלוח עלו על הציפיות שלנו.',
+
+  about_title: 'אודות Arakaharaka Enterprises',
+  about_subtitle: 'נולדה בניירובי, נבנתה עבור העולם. אנו מחויבים לחבר בין מזרח ומרכז אפריקה לשווקים הגלובליים.',
+
+  about_feature: 'מחברים את מזרח ומרכז אפריקה לעולם',
+  about_feature_desc:
+    'ממוקמים ברוארקה, ניירובי, אנו מגשרים בין קונים במזרח ובמרכז אפריקה לבין ספקים גלובליים באמצעות אמון, מהירות ושירות אישי.',
+
+  mission: 'המשימה שלנו',
+  mission_desc:
+    'להפוך את הסחר הגלובלי לנגיש ופשוט עבור כל קנייתי — מיזמים קטנים ועד חברות גדולות.',
+
+  vision: 'החזון שלנו',
+  vision_desc:
+    'להיות שותף הייבוא/ייצוא האמין ביותר במזרח אפריקה, הידוע באמינות, שקיפות ושירות יוצא דופן.',
+
+  values: 'הערכים שלנו',
+  values_desc:
+    'יושרה בכל עסקה. מהירות בכל משלוח. יחס אישי שחברות גדולות לא יכולות להציע.',
+
+  tourism_label: 'טיולים וחוויות',
+  tourism_title: 'הזמנת מלונות, ספארי ושירותי תיירות',
+  tourism_subtitle:
+    'Arakaharaka עוזרת לכם לתכנן חוויות נסיעה בלתי נשכחות ברחבי קניה ומזרח אפריקה.',
+
+  tourism_plan: 'תכנן את הטיול שלי',
+  tourism_whatsapp: 'הזמן דרך WhatsApp',
+
+  tourism_services_title: 'גלו את מזרח אפריקה בקלות',
+  tourism_services_subtitle:
+    'בין אם אתם צריכים חופשה רומנטית, אירוח עסקי, ספארי משפחתי או חופשת חוף — אנו מתאמים את כל הפרטים.',
+
+  tourism_hotel: 'הזמנת מלונות',
+  tourism_hotel_desc:
+    'אנו מסייעים בארגון מלונות, אתרי נופש, דירות ואירוח יוקרתי בהתאם לתקציב ולצרכים שלכם.',
+
+  tourism_safari: 'לודג׳ים ומחנות ספארי',
+  tourism_safari_desc:
+    'הזמינו לודג׳ים נוחים, מחנות אוהלים ואתרי טבע ליד השמורות היפות ביותר במזרח אפריקה.',
+
+  tourism_adventure: 'טיולי ספארי והרפתקאות',
+  tourism_adventure_desc:
+    'אנו מארגנים ספארי, נסיעות שטח, טיסות בכדור פורח, סיורים מודרכים ומסלולי הרפתקאות מותאמים אישית.',
+
+  tourism_beach: 'חופשות חוף',
+  tourism_beach_desc:
+    'תהנו מחופשות חוף מרגיעות, ירחי דבש, טיולי משפחות ופעילויות ימיות.',
+
+  tourism_resort: 'אתרי נופש וחופשות',
+  tourism_resort_desc:
+    'אנו מחברים לקוחות לאתרי נופש, יעדי ריטריט, חופשות סוף שבוע וחוויות פרימיום.',
+
+  view_all_services: 'צפה בכל השירותים →',
+
+  whatsapp_us_now: 'שלחו לנו WhatsApp עכשיו',
+
+  our_story: 'הסיפור שלנו',
+
+  tourism_services_label: 'שירותי תיירות',
+
+  tourism_hiking: 'טיולי הרים',
+  tourism_hiking_desc:
+    'גלו נופי הרים עוצרי נשימה, שבילים יפים והרפתקאות טיול בלתי נשכחות ברחבי מזרח אפריקה.',
+
+  tourism_cta_title: 'מוכנים לטיול הבא שלכם?',
+  tourism_cta_subtitle:
+    'ספרו לנו על היעד, תאריכי הנסיעה, מספר האורחים והתקציב שלכם — ואנו נעזור לכם לתכנן את החבילה המתאימה.',
+  tourism_cta_btn: 'בקש עזרה בהזמנה',
+
+  contact_title: 'בואו נדבר עסקים',
+  contact_subtitle:
+    'מוכנים לייבא, לייצא או שיש לכם שאלות? צרו קשר דרך הטופס, האימייל או WhatsApp.',
+
+  contact_form_title: 'שלחו לנו הודעה',
+  contact_name: 'שם מלא *',
+  contact_email: 'כתובת אימייל *',
+  contact_phone: 'מספר טלפון',
+  contact_service: 'שירות מבוקש',
+  contact_message: 'ההודעה שלך *',
+  contact_btn: 'שלח הודעה',
+
+  contact_email_label: 'שלחו לנו אימייל',
+  contact_phone_label: 'התקשר / WhatsApp',
+  contact_location: 'מיקום',
+  contact_website: 'אתר אינטרנט',
+
+  why_label: 'למה לבחור בנו',
+  why_title: 'ההבדל של Arakaharaka',
+
+  why_reliability: 'אמינות שאפשר לסמוך עליה',
+  why_reliability_desc:
+    'אנו עומדים בכל הזמנה. הסחורה שלכם מגיעה כפי שהובטח ואנו מעדכנים אתכם בכל שלב.',
+
+  why_global: 'נוכחות גלובלית אמיתית',
+  why_global_desc:
+    'מיפן לגרמניה, מסין לאיחוד האמירויות — רשת הספקים שלנו משתרעת על פני כל אזורי המסחר הגדולים בעולם.',
+
+  why_personal: 'שירות אישי',
+  why_personal_desc:
+    'אתם עובדים ישירות מול הצוות שלנו — בלי מוקדי שירות ובלי עיכובים.',
+
+  why_pricing: 'מחירים תחרותיים',
+  why_pricing_desc:
+    'אנו משתמשים בקשרי הספקים שלנו כדי להשיג עבורכם את המחירים הטובים ביותר למוצרים איכותיים.',
+
+  why_customs: 'מכס ועמידה בתקנות',
+  why_customs_desc:
+    'אנו מטפלים בכל מסמכי המכס, המיסים ודרישות הציות — כך שלא תצטרכו לדאוג.',
+
+  why_fast: 'זמני טיפול מהירים',
+  why_fast_desc:
+    'אנו נותנים עדיפות למהירות בכל שלב — מהצעת המחיר ועד למסירה.',
+
+  services_page_label: 'מה אנחנו מציעים',
+  services_page_title: 'השירותים שלנו',
+  services_page_subtitle:
+    'פתרונות ייבוא וייצוא מקיפים המותאמים לעסקים ולאנשים פרטיים בקניה ומעבר לה.',
+  service_page_import: 'שירותי יבוא',
+  service_page_import_desc: 'אנו מטפלים בכל תהליך היבוא לקניה — מאיתור ספקים, ניהול משא ומתן, שילוח, שחרור ממכס ועד למסירה.',
+
+  service_page_export: 'שירותי יצוא',
+  service_page_export_desc: 'אנו מסייעים ליצרנים ולעסקים בקניה להגיע לקונים בינלאומיים.',
+
+  service_page_sourcing: 'איתור מוצרים',
+  service_page_sourcing_desc: 'שלחו לנו תיאור של המוצר ואנו נמצא אותו אצל ספקים גלובליים מאומתים.',
+
+  service_page_vehicle: 'יבוא רכבים',
+  service_page_vehicle_desc: 'ייבוא רכבים, אופנועים, משאיות וציוד כבד מיפן, בריטניה, דובאי ושווקים נוספים.',
+
+  service_page_bulk: 'שילוח מסחרי ובכמויות גדולות',
+  service_page_bulk_desc: 'שירותי שילוח מכולות במחירים הטובים ביותר לעסקים המייבאים בכמויות גדולות.',
+
+  service_page_logistics: 'תיאום לוגיסטי',
+  service_page_logistics_desc: 'שירות לוגיסטי מלא — אחסון, שילוח, שחרור בנמלים ומסירה עד היעד.',
+
+  service_page_customs: 'שחרור ממכס',
+  service_page_customs_desc: 'הצוות שלנו מטפל בכל מסמכי המכס, תשלומי המיסים ועמידה בדרישות KEBS.',
+
+  service_page_consulting: 'ייעוץ מסחרי',
+  service_page_consulting_desc: 'חדשים בתחום היבוא או היצוא? אנו מסבירים על תקנות, עלויות ותהליכים מומלצים.',
+
+  service_page_industrial: 'ציוד תעשייתי ומכונות',
+  service_page_industrial_desc: 'השגת ציוד תעשייתי ומכונות מסין, גרמניה ומרכזי ייצור נוספים.',
+
+  partners_label: 'הרשת שלנו',
+  partners_title: 'מוצרי יבוא ויצוא',
+  partners_subtitle: 'חפשו בקטלוג מוצרי היבוא והיצוא שלנו וצרו קשר ב-WhatsApp לקבלת מחירים וזמינות.',
+
+  partners_auto_title: '📥 שותפי יבוא: רכב',
+  partners_auto: 'יבוא רכבים',
+  partners_auto_desc: 'אנו מחברים לקוחות ליבואני ויצואני רכב אמינים ברחבי העולם.',
+
+  partners_industrial_title: '📥 שותפי יבוא: ספקי תעשייה וייצור',
+  partners_luxury_title: '📥 שותפי יבוא: מותגי יוקרה ומוצרי צריכה',
+  partners_asian_title: '📥 שותפי יבוא: יצרנים וספקים אסייתיים',
+  partners_export_title: '📤 יצוא מקניה: מותגים ומוצרים קנייתיים',
+
+  partners_category_all: 'כל הקטגוריות',
+  category_automotive: 'רכב',
+  category_industrial_manufacturing: 'תעשייה וייצור',
+  category_luxury_consumer_goods: 'מוצרי יוקרה וצריכה',
+  category_asian_manufacturers: 'יצרנים אסייתיים',
+  category_construction_materials: 'חומרי בנייה',
+  category_electronics_technology: 'אלקטרוניקה וטכנולוגיה',
+  category_food_agricultural_products: 'מזון ומוצרים חקלאיים',
+  category_african_culture: 'תרבות אפריקאית',
+  category_kenyan_export_products: 'מוצרי יצוא קנייתיים',
+
+  partners_search_placeholder: 'חיפוש מוצרים...',
+  partners_tab_all: 'כל המוצרים',
+  partners_tab_import: 'מוצרי יבוא',
+  partners_tab_export: 'מוצרי יצוא',
+
+  partners_ships_from: 'נשלח מ-',
+  partners_ships_to: 'נשלח אל',
+  partners_delivery_time: 'זמן אספקה משוער',
+  partners_view_details: 'הצג פרטים',
+  partners_request_quote: '💬 בקש הצעת מחיר ב-WhatsApp',
+  partners_no_results: 'לא נמצאו מוצרים התואמים לחיפוש שלך.',
+
+  partners_cta_text: 'לא מצאתם את מה שחיפשתם? שאלו אותנו על כל מוצר או מותג.',
+  partners_cta_button: '💬 שאלו על מוצר מסוים',
+
+  footer_desc: 'שותף היבוא והיצוא האמין שלכם מרוארקה, ניירובי.',
+  footer_quick: 'קישורים מהירים',
+  footer_contact: 'צור קשר',
+  footer_faq: 'שאלות נפוצות',
+
+  faq_q1: 'כמה זמן לוקח המשלוח?',
+  faq_a1: 'משלוח ימי מאסיה לוקח 25–45 ימים. משלוח אווירי לוקח 5–10 ימים.',
+
+  faq_q2: 'איך מבצעים הזמנה?',
+  faq_a2: 'פשוט שלחו לנו WhatsApp או אימייל עם פרטי ההזמנה.',
+
+  faq_q3: 'מאילו מדינות אתם שולחים?',
+  faq_a3: 'אנו מייבאים מסין, יפן, איחוד האמירויות, בריטניה, גרמניה, ארה״ב, הודו ועוד.',
+
+  faq_q4: 'האם אתם מטפלים במכס?',
+  faq_a4: 'כן! אנו מטפלים בכל תהליך שחרור המכס והציות.',
+
+  footer_copyright: '© 2026 Arakaharaka Enterprises. כל הזכויות שמורות.',
+  footer_made: 'נוצר עם ❤️ בניירובי, קניה 🇰🇪',
+
+  testimonials_page_label: 'ביקורות לקוחות',
+  testimonials_page_title: 'מה הלקוחות שלנו אומרים',
+  testimonials_page_subtitle: 'ראו מה לקוחות אמיתיים אומרים על החוויה שלהם עם Arakaharaka Enterprises.',
+
+  testi_1: 'Arakaharaka הפכה את יבוא הרכב שלי מיפן לפשוט וחלק.',
+  testi_2: 'צוות מגיב מאוד דרך WhatsApp.',
+  testi_3: 'היינו צריכים ציוד תעשייתי בדחיפות ו-Arakaharaka עזרה לנו.',
+  testi_4: 'כיבואן בפעם הראשונה הייתי לחוץ, אבל הצוות הדריך אותי בסבלנות.',
+  testi_5: 'אנחנו עובדים עם Arakaharaka כבר שנתיים למשלוחים גדולים מסין.',
+  testi_6: 'קיבלתי שירות מעולה ברכישת מוצרי יוקרה מדובאי.',
+
+  testimonials_cta: 'הייתה לכם חוויה טובה איתנו? נשמח לשמוע מכם!',
+  testimonials_share_btn: '💬 שתפו את החוויה שלכם',
+
+  hero_badge_1: '🚀 משלוח מהיר',
+  hero_badge_2: '🌍 איתור גלובלי',
+  hero_badge_3: '🤝 שותפים אמינים',
+
+  custom_solution_title: 'צריכים פתרון מותאם אישית?',
+  custom_solution_desc: 'כל עסק הוא שונה. ספרו לנו על הצרכים שלכם ואנו נבנה עבורכם תוכנית מושלמת.',
+  custom_solution_btn: '📩 קבלו הצעת מחיר מותאמת',
+
+  nav_dropdown_import: 'שותפי יבוא',
+  nav_dropdown_export: 'יצוא מקניה',
+
+  legal_label: 'משפטי',
+  terms_title: 'תנאים והגבלות',
+  terms_subtitle: 'אנא קראו תנאים אלה בעיון לפני ביצוע הזמנה עם Arakaharaka Enterprises.',
+
+  terms_orders_payments_title: '📦 1. הזמנות ותשלומים',
+  terms_orders_payments_1: 'כל ההזמנות חייבות להיות מאושרות בכתב באמצעות אימייל או WhatsApp.',
+  terms_orders_payments_2: 'נדרש פיקדון של 50% לפני תחילת תהליך האיתור.',
+  terms_orders_payments_3: 'ניתן לשלם באמצעות M-Pesa, העברה בנקאית או שיטות מוסכמות אחרות.',
+  terms_orders_payments_4: 'המחירים תקפים ל-48 שעות ועשויים להשתנות בהתאם לשערי המטבע.',
+  terms_orders_payments_5: 'Arakaharaka Enterprises שומרת לעצמה את הזכות לדחות כל הזמנה.',
+
+  terms_shipping_title: '🚢 2. זמני משלוח',
+  terms_shipping_1: 'זמני האספקה המשוערים ניתנים כהנחיה בלבד.',
+  terms_shipping_2: 'משלוח ימי מאסיה נמשך בדרך כלל 25–45 ימים.',
+  terms_shipping_3: 'משלוחי רכבים מיפן נמשכים בדרך כלל 4–8 שבועות.',
+  terms_shipping_4: 'איננו אחראים לעיכובים עקב עומסים בנמלים, מזג אוויר או גורמים אחרים.',
+  terms_shipping_5: 'לקוחות יעודכנו במקרה של עיכובים משמעותיים.',
+
+  terms_liability_title: '⚖️ 3. אחריות',
+  terms_liability_1: 'Arakaharaka Enterprises פועלת כסוכן ומתווך.',
+  terms_liability_2: 'איננו אחראים לנזק למוצרים המכוסים בביטוח משלוחים.',
+  terms_liability_3: 'באחריות הלקוח לעמוד בכל תקנות היבוא בקניה.',
+  terms_liability_4: 'איננו אחראים למוצרים שהוחרמו עקב הצהרות כוזבות של הלקוח.',
+
+  terms_refund_title: '🔄 4. מדיניות החזרים',
+  terms_refund_1: 'פיקדונות אינם ניתנים להחזר לאחר תחילת הרכש.',
+  terms_refund_2: 'אם המוצרים שונים מהותית מההזמנה, ייתכן שיוצע החזר חלקי או החלפה.',
+  terms_refund_3: 'רכישות רכבים בדרך כלל אינן ניתנות להחזר.',
+  terms_refund_4: 'בקשות להחזר יש להגיש תוך 7 ימים מהמסירה.',
+
+  terms_communication_title: '📬 5. תקשורת וסכסוכים',
+  terms_communication_1: 'כל התקשורת הרשמית צריכה להישלח לכתובת harakaint@gmail.com.',
+  terms_communication_2: 'כל מחלוקת תיפתר תחילה במשא ומתן בתום לב.',
+  terms_communication_3: 'תנאים אלה כפופים לחוקי קניה.',
+  terms_communication_4: 'בביצוע הזמנה אתם מסכימים במלואם לתנאים אלה.',
+
+  terms_last_updated: 'עודכן לאחרונה: 2025. לשאלות ניתן לשלוח אימייל ל-harakaint@gmail.com.',
+  },
+  //irish
+  ga: {
+  nav_home: 'Baile',
+  nav_about: 'Faoi',
+  nav_services: 'Seirbhísí',
+  nav_tourism: 'Turasóireacht',
+  nav_partners: 'Comhpháirtithe',
+  nav_testimonials: 'Teistiméireachtaí',
+  nav_contact: 'Glaoigh Orainn',
+
+  hero_title: 'Do Chomhpháirtí Iontaofa Iompórtála & Easpórtála',
+  hero_subtitle: 'Ceanglaíonn Arakaharaka tíortha Oirthear agus Lár na hAfraice leis an domhan — ag foinsiú táirgí, feithiclí agus earraí ardchaighdeáin ó mhargaí domhanda le hiontaofacht agus cúram.',
+  hero_cta1: 'Glaoigh Orainn',
+  hero_cta2: 'Iarr Luachan',
+
+  stats_clients: 'Cliaint Shona',
+  stats_partners: 'Brandaí Comhpháirtíochta',
+  stats_countries: 'Tíortha a bhfreastalaítear orthu',
+  stats_satisfaction: 'Sástacht Chliaint',
+
+  services_title: 'Ár bPríomhsheirbhísí',
+  services_subtitle: 'Ó fhoinsiú táirgí go comhordú lóistíochta, láimhseálaimid an casta ionas gur féidir leat díriú ar do ghnó.',
+
+  service_import: 'Seirbhísí Iompórtála',
+  service_import_desc: 'Iompórtálaimid raon leathan earraí ó Áise, an Eoraip agus níos faide i gcéin go dtí an Chéinia — leictreonaic, earraí tí, innealra agus níos mó.',
+  service_export: 'Seirbhísí Easpórtála',
+  service_export_desc: 'Cabhraímid le gnólachtaí sa Chéinia táirgí ardchaighdeáin a easpórtáil chuig margaí idirnáisiúnta, ag láimhseáil doiciméad, lóistíocht agus comhlíonadh.',
+  service_sourcing: 'Foinsiú Táirgí',
+  service_sourcing_desc: 'Ní féidir táirge a aimsiú go háitiúil? Faighimid é duit. Inis dúinn cad atá uait agus gheobhaimid an caighdeán is fearr ar an bpraghas is fearr ar fud an domhain.',
+  service_vehicle: 'Iompórtáil Feithiclí',
+  service_vehicle_desc: 'Iompórtáil feithiclí ón tSeapáin, an Ríocht Aontaithe, UAE agus eile. Láimhseálaimid cigireacht, loingseoireacht, imréiteach custaim agus seachadadh.',
+  service_bulk: 'Loingseoireacht Mhórchóir',
+  service_bulk_desc: 'Réitigh loingseoireachta costéifeachtacha do ghnólachtaí a iompórtálann méideanna móra.',
+  service_logistics: 'Comhordú Lóistíochta',
+  service_logistics_desc: 'Bainistíocht lóistíochta ó thús go deireadh — stórais, custaim, seachadadh agus rianú i bhfíor-am.',
+
+  testimonials_title: 'Iontaofa ag Go leor',
+
+  cta_title: 'Réidh le hIompórtáil nó Easpórtáil?',
+  cta_subtitle: 'Lig dúinn cabhrú leat iompórtáil gan stró. Déanaimid an chuid chrua duit.',
+  cta_btn: 'Déan Teagmháil',
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "Cliant Iompórtála – DRC",
+  testimonial_1_text: "Chabhraigh Arakaharaka linn innealra trom a iompórtáil ón tSín go réidh agus go gairmiúil.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "Cliant Turasóireachta – Tansáin",
+  testimonial_2_text: "Bhí ár safari Maasai Mara eagraithe go foirfe ó thús go deireadh.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "Bainisteoir Díolacháin – Hengwang Group, an tSín",
+  testimonial_3_text: "Fuair muid caife agus lámhcheardaíocht na Céinia trí Arakaharaka. Sárchaighdeán.",
+
+  about_title: 'Maidir le Arakaharaka Enterprises',
+  about_subtitle: 'Rugadh i Nairobi, tógtha don domhan.',
+  about_feature: 'Ag nascadh Oirthear agus Lár na hAfraice leis an domhan',
+  about_feature_desc: 'Bunaithe i Ruaraka, Nairobi, táimid ag nascadh ceannaitheoirí le soláthraithe domhanda.',
+  mission: 'Ár Misean',
+  mission_desc: 'Trádáil dhomhanda a dhéanamh inrochtana do gach duine sa Chéinia.',
+  vision: 'Ár bhFís',
+  vision_desc: 'A bheith mar chomhpháirtí is iontaofa i dtrádáil in Oirthear na hAfraice.',
+  values: 'Ár Luachanna',
+  values_desc: 'Ionracas, luas agus seirbhís phearsanta.',
+
+  tourism_label: 'Taisteal & Eispéiris',
+  tourism_title: 'Áirithintí Óstáin, Safari & Seirbhísí Turasóireachta',
+  tourism_subtitle: 'Cabhraímid leat turais dochreidte a phleanáil ar fud na Céinia agus Oirthear na hAfraice.',
+  tourism_plan: 'Pleanáil Mo Thuras',
+  tourism_whatsapp: 'Cuir in áirithe ar WhatsApp',
+  tourism_services_title: 'Déan iniúchadh ar Oirthear na hAfraice go héasca',
+  tourism_services_subtitle: 'Turais ghnó, saoire nó safari.',
+  tourism_hotel: 'Áirithintí Óstáin',
+  tourism_safari: 'Lóistí Safari & Campaí',
+  tourism_adventure: 'Turais Safari & Eachtraí',
+  tourism_beach: 'Saoire Trá',
+  tourism_resort: 'Ríordhíonta & Saoire',
+
+  view_all_services: 'Féach ar gach seirbhís →',
+  whatsapp_us_now: 'Scríobh chugainn ar WhatsApp',
+  our_story: 'Ár Scéal',
+
+  contact_title: "Labhraímis Gnó",
+  contact_subtitle: "Déan teagmháil linn trí fhoirm, ríomhphost nó WhatsApp.",
+  contact_form_title: "Seol Teachtaireacht",
+  contact_name: "Ainm Iomlán *",
+  contact_email: "Seoladh Ríomhphoist *",
+  contact_phone: "Uimhir Theileafóin",
+  contact_service: "Seirbhís a bhfuil suim agat inti",
+  contact_message: "Do Theachtaireacht *",
+  contact_btn: "Seol",
+
+  why_label: 'Cén Fáth Linn',
+  why_title: 'An Difríocht Arakaharaka',
+  why_reliability: 'Iontaofacht',
+  why_reliability_desc: 'Seachadadh iontaofa gach uair.',
+  why_global: 'Raon Domhanda',
+  why_global_desc: 'Soláthraithe ar fud an domhain.',
+  why_personal: 'Seirbhís Phearsanta',
+  why_personal_desc: 'Déileálann tú go díreach lenár bhfoireann.',
+  why_pricing: 'Praghsáil Iomaíoch',
+  why_pricing_desc: 'Na praghsanna is fearr a chaibidilimid.',
+  why_customs: 'Custaim & Comhlíonadh',
+  why_customs_desc: 'Déanaimid gach páipéarachas custaim.',
+  why_fast: 'Seachadadh Tapa',
+  why_fast_desc: 'Tapa ó luachan go seachadadh.',
+
+  services_page_label: 'Cad a Cuirimid Ar Fáil',
+  services_page_title: 'Ár Seirbhísí',
+  services_page_subtitle: 'Réitigh iomlán iompórtála agus easpórtála sa Chéinia agus níos faide i gcéin.',
+  service_page_import: 'Seirbhísí Iompórtála',
+  service_page_import_desc: 'Láimhseálaimid gach gné d’iompórtáil earraí go dtí an Chéinia — ó sholáthraithe a aimsiú, praghsanna a chaibidil, loingseoireacht a eagrú, imréiteach custaim, agus seachadadh. Leictreonaic, teicstílí, earraí tionsclaíocha agus níos mó.',
+
+  service_page_export: 'Seirbhísí Easpórtála',
+  service_page_export_desc: 'Cabhraímid le táirgeoirí agus gnólachtaí na Céinia teacht ar cheannaitheoirí idirnáisiúnta. Bainistímid pacáistiú, doiciméadú, áirithint lasta agus comhlíonadh rialachán.',
+
+  service_page_sourcing: 'Foinsiú Táirgí',
+  service_page_sourcing_desc: 'Seol cur síos táirge chugainn agus gheobhaimid é ó sholáthraithe domhanda iontaofa. Déanaimid comparáid ar chaighdeán, praghas agus amanna seachadta.',
+
+  service_page_vehicle: 'Iompórtáil Feithiclí',
+  service_page_vehicle_desc: 'Iompórtáil gluaisteáin, gluaisrothair, trucailí agus innealra trom ó mhargaí mar an tSeapáin, an Ríocht Aontaithe agus Dubai. Áirítear cigireacht, loingseoireacht, comhlíonadh KEBS agus tacaíocht clárúcháin.',
+
+  service_page_bulk: 'Loingseoireacht Mhórchóir & Tráchtála',
+  service_page_bulk_desc: 'Seirbhísí coimeádáin FCL/LCL ar rátaí is fearr do ghnólachtaí. Comhdhlúthaímid lasta chun costais a laghdú.',
+
+  service_page_logistics: 'Comhordú Lóistíochta',
+  service_page_logistics_desc: 'Lóistíocht iomlán ó thús go deireadh — stóráil, seoladh lasta, imréiteach calafoirt, iompar intíre agus seachadadh deiridh.',
+
+  service_page_customs: 'Imréiteach Custaim',
+  service_page_customs_desc: 'Láimhseálaimid doiciméid custaim, íocaíochtaí dleachta, cigireachtaí KEBS agus próisis KRA.',
+
+  service_page_consulting: 'Comhairleoireacht Trádála',
+  service_page_consulting_desc: 'Treoir iomlán do thosaitheoirí i dtrádáil idirnáisiúnta — costais, rialacháin agus cleachtais is fearr.',
+
+  service_page_industrial: 'Tionsclaíoch & Innealra',
+  service_page_industrial_desc: 'Foinsímid innealra monarchan, trealamh tionsclaíoch, uirlisí agus páirteanna spártha ó mhonaróirí domhanda.',
+  service_page_import: 'Seirbhísí Iompórtála',
+  service_page_import_desc: 'Láimhseálaimid gach gné d’iompórtáil earraí go dtí an Chéinia — ó sholáthraithe a aimsiú, praghsanna a chaibidil, loingseoireacht a eagrú, imréiteach custaim, agus seachadadh. Leictreonaic, teicstílí, earraí tionsclaíocha agus níos mó.',
+
+  service_page_export: 'Seirbhísí Easpórtála',
+  service_page_export_desc: 'Cabhraímid le táirgeoirí agus gnólachtaí na Céinia teacht ar cheannaitheoirí idirnáisiúnta. Bainistímid pacáistiú, doiciméadú, áirithint lasta agus comhlíonadh rialachán.',
+
+  service_page_sourcing: 'Foinsiú Táirgí',
+  service_page_sourcing_desc: 'Seol cur síos táirge chugainn agus gheobhaimid é ó sholáthraithe domhanda iontaofa. Déanaimid comparáid ar chaighdeán, praghas agus amanna seachadta.',
+
+  service_page_vehicle: 'Iompórtáil Feithiclí',
+  service_page_vehicle_desc: 'Iompórtáil gluaisteáin, gluaisrothair, trucailí agus innealra trom ó mhargaí mar an tSeapáin, an Ríocht Aontaithe agus Dubai. Áirítear cigireacht, loingseoireacht, comhlíonadh KEBS agus tacaíocht clárúcháin.',
+
+  service_page_bulk: 'Loingseoireacht Mhórchóir & Tráchtála',
+  service_page_bulk_desc: 'Seirbhísí coimeádáin FCL/LCL ar rátaí is fearr do ghnólachtaí. Comhdhlúthaímid lasta chun costais a laghdú.',
+
+  service_page_logistics: 'Comhordú Lóistíochta',
+  service_page_logistics_desc: 'Lóistíocht iomlán ó thús go deireadh — stóráil, seoladh lasta, imréiteach calafoirt, iompar intíre agus seachadadh deiridh.',
+
+  service_page_customs: 'Imréiteach Custaim',
+  service_page_customs_desc: 'Láimhseálaimid doiciméid custaim, íocaíochtaí dleachta, cigireachtaí KEBS agus próisis KRA.',
+
+  service_page_consulting: 'Comhairleoireacht Trádála',
+  service_page_consulting_desc: 'Treoir iomlán do thosaitheoirí i dtrádáil idirnáisiúnta — costais, rialacháin agus cleachtais is fearr.',
+
+  service_page_industrial: 'Tionsclaíoch & Innealra',
+  service_page_industrial_desc: 'Foinsímid innealra monarchan, trealamh tionsclaíoch, uirlisí agus páirteanna spártha ó mhonaróirí domhanda.',
+  partners_auto_title: '📥 Comhpháirtithe Iompórtála: Feithiclí',
+  partners_auto: 'Iompórtáil Feithiclí',
+  partners_auto_desc: 'Ceanglaímid custaiméirí le honnmhaireoirí agus iompórtálaithe feithiclí iontaofa ar fud an domhain.',
+
+  partners_industrial_title: '📥 Comhpháirtithe Iompórtála: Tionsclaíoch & Déantúsaíocht',
+  partners_luxury_title: '📥 Comhpháirtithe Iompórtála: Só & Earraí Tomhaltóra',
+  partners_asian_title: '📥 Comhpháirtithe Iompórtála: Déantóirí Áiseacha',
+  partners_export_title: '📤 Easpórtáil ón gCéinia: Brandaí agus Táirgí Céiniacha',
+  partners_category_all: 'Gach Catagóir',
+
+  category_automotive: 'Feithiclí',
+  category_industrial_manufacturing: 'Tionsclaíoch & Déantúsaíocht',
+  category_luxury_consumer_goods: 'Earraí Só & Tomhaltóra',
+  category_asian_manufacturers: 'Déantóirí Áiseacha',
+  category_construction_materials: 'Ábhair Tógála',
+  category_electronics_technology: 'Leictreonaic & Teicneolaíocht',
+  category_food_agricultural_products: 'Bia & Táirgí Talmhaíochta',
+  category_african_culture: 'Cultúr Afracach',
+  category_kenyan_export_products: 'Táirgí Easpórtála Céiniacha',
+  partners_search_placeholder: 'Cuardaigh táirgí...',
+
+  partners_tab_all: 'Gach Táirge',
+  partners_tab_import: 'Táirgí Iompórtála',
+  partners_tab_export: 'Táirgí Easpórtála',
+
+  partners_ships_from: 'Seolta ó',
+  partners_ships_to: 'Seolta go',
+  partners_delivery_time: 'Am Seachadta Measta',
+
+  partners_view_details: 'Féach Sonraí',
+  partners_request_quote: '💬 Iarr Luachan ar WhatsApp',
+
+  partners_no_results: 'Níor aimsíodh aon táirgí a mheaitseálann do chuardach.',
+
+  partners_cta_text: 'Ní féidir leat an rud atá uait a aimsiú? Iarr orainn faoi aon táirge nó branda agus gheobhaimid é duit.',
+
+  partners_cta_button: '💬 Iarr Eolas ar Tháirge',
+  footer_desc: 'Do chomhpháirtí iontaofa iompórtála & easpórtála atá lonnaithe i Ruaraka, Nairobi. Ag nascadh Oirthear agus Lár na hAfraice leis an domhan.',
+
+  footer_quick: 'Naisc Thapa',
+  footer_contact: 'Teagmháil',
+  footer_faq: 'Ceisteanna Coitianta',
+
+  faq_q1: 'Cé chomh fada a thógann loingseoireacht?',
+  faq_a1: 'Tógann loingseoireacht farraige 25–45 lá. Aerloingseoireacht 5–10 lá. Feithiclí ón tSeapáin 4–8 seachtaine.',
+
+  faq_q2: 'Conas ordú a chur?',
+  faq_a2: 'Seol sonraí an ordaithe chugainn ar WhatsApp nó ríomhphost agus tabharfaimid luachan duit.',
+
+  faq_q3: 'Cad iad na tíortha a sholáthraíonn sibh?',
+  faq_a3: 'An tSín, an tSeapáin, UAE, an Ríocht Aontaithe, an Ghearmáin, SAM, an India agus níos mó.',
+
+  faq_q4: 'An láimhseálann sibh custaim?',
+  faq_a4: 'Sea, láimhseálaimid imréiteach custaim, KRA, KEBS agus gach próiseas calafoirt.',
+
+  footer_copyright: '© 2026 Arakaharaka Enterprises. Gach ceart ar cosaint. | Téarmaí & Coinníollacha',
+  footer_made: 'Déanta le ❤️ i Nairobi, an Chéinia 🇰🇪',
+  testimonials_page_label: 'Athbhreithnithe Cliaint',
+  testimonials_page_title: 'Cad a Deir Ár gCliaint',
+  testimonials_page_subtitle: 'Seo a deir fíorchliaint ar fud na Céinia faoi Arakaharaka Enterprises.',
+
+  testi_1: 'Bhí mo iompórtáil feithicle ón tSeapáin thar a bheith réidh agus gairmiúil.',
+  testi_2: 'Foireann an-fhreagrúil ar WhatsApp. Fuair mé mo chuid earraí go foirfe.',
+  testi_3: 'Fuair muid innealra tionsclaíoch ón nGearmáin go tapa agus laistigh den bhuiséad.',
+  testi_4: 'Mar thosaitheoir, mhínigh siad gach céim dom go foighneach.',
+  testi_5: 'Comhsheasmhach agus iontaofa do loingseoireacht mhórchóir.',
+  testi_6: 'Seirbhís den scoth do tháirgí só ó Dubai.',
+
+  testimonials_cta: 'An raibh taithí mhaith agat linn? Ba bhreá linn cloisteáil uait!',
+  testimonials_share_btn: '💬 Roinn Do Thaithí',
+  hero_badge_1: '🚀 Loingseoireacht Thapa',
+  hero_badge_2: '🌍 Foinsiú Domhanda',
+  hero_badge_3: '🤝 Comhpháirtithe Iontaofa',
+  custom_solution_title: 'An bhfuil Réiteach Saincheaptha uait?',
+  custom_solution_desc: 'Inis dúinn do riachtanais agus cruthóimid plean foirfe duit.',
+  custom_solution_btn: '📩 Faigh Luachan Saincheaptha',
+  nav_dropdown_import: 'Comhpháirtithe Iompórtála',
+  nav_dropdown_export: 'Easpórtáil ón gCéinia',
+  legal_label: 'Dlíthiúil',
+
+  terms_title: 'Téarmaí & Coinníollacha',
+  terms_subtitle: 'Léigh na téarmaí seo go cúramach roimh ordú a chur.',
+
+  terms_orders_payments_title: '📦 1. Orduithe & Íocaíochtaí',
+  terms_shipping_title: '🚢 2. Amanna Loingseoireachta',
+  terms_liability_title: '⚖️ 3. Freagracht',
+  terms_refund_title: '🔄 4. Polasaí Aisíocaíochta',
+  terms_communication_title: '📬 5. Cumarsáid & Díospóidí',
+
+  terms_last_updated: 'Nuashonraithe deireanach: 2025. Le haghaidh ceisteanna, seol ríomhphost chuig harakaint@gmail.com.',
+  },
+  it: {
+  nav_home: "Home",
+  nav_about: "Chi Siamo",
+  nav_services: "Servizi",
+  nav_tourism: "Turismo",
+  nav_partners: "Partner",
+  nav_testimonials: "Testimonianze",
+  nav_contact: "Contattaci",
+  nav_dropdown_import: "Partner Importazione",
+  nav_dropdown_export: "Esportazioni dal Kenya",
+
+  hero_title: "Il tuo partner affidabile per import/export",
+  hero_subtitle: "Arakaharaka collega l’Africa orientale e centrale al mondo — fornendo prodotti, veicoli e merci globali con affidabilità e cura.",
+  hero_cta1: "Contattaci",
+  hero_cta2: "Richiedi un preventivo",
+
+  hero_badge_1: "🚀 Spedizione Veloce",
+  hero_badge_2: "🌍 Sourcing Globale",
+  hero_badge_3: "🤝 Partner Affidabili",
+
+  stats_clients: "Clienti Felici",
+  stats_partners: "Marchi Partner",
+  stats_countries: "Paesi Serviti",
+  stats_satisfaction: "Soddisfazione Clienti",
+
+  services_title: "I Nostri Servizi Principali",
+  services_subtitle: "Dal sourcing alla logistica, gestiamo tutto per te.",
+
+  service_import: "Servizi di Importazione",
+  service_import_desc: "Importiamo beni da Asia, Europa e oltre verso il Kenya.",
+  service_export: "Servizi di Esportazione",
+  service_export_desc: "Aiutiamo le aziende keniane a esportare globalmente.",
+  service_sourcing: "Ricerca Prodotti",
+  service_sourcing_desc: "Troviamo prodotti globali per te al miglior prezzo.",
+  service_vehicle: "Importazione Veicoli",
+  service_vehicle_desc: "Importiamo auto, moto e macchinari da tutto il mondo.",
+  service_bulk: "Spedizioni in Massa",
+  service_bulk_desc: "Soluzioni di spedizione economiche per grandi volumi.",
+  service_logistics: "Coordinamento Logistico",
+  service_logistics_desc: "Gestione completa della supply chain end-to-end.",
+
+  testimonials_title: "Scelti da Molti",
+  testimonials_label: "Cosa dicono i clienti",
+
+  cta_title: "Pronto a importare o esportare?",
+  cta_subtitle: "Ti aiutiamo a gestire tutto senza stress.",
+  cta_btn: "Contattaci",
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "Cliente Importazione – DRC",
+  testimonial_1_text: "Importazione fluida e professionale dalla Cina.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "Cliente Turismo – Tanzania",
+  testimonial_2_text: "Safari perfettamente organizzato.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "Sales Manager – Cina",
+  testimonial_3_text: "Qualità eccellente dei prodotti keniani.",
+
+  about_title: "Chi è Arakaharaka Enterprises",
+  about_subtitle: "Nata a Nairobi per connettere l’Africa al mondo.",
+  about_feature: "Connessione Africa orientale e centrale",
+  about_feature_desc: "Colleghiamo acquirenti e fornitori globali con fiducia.",
+  mission: "La Nostra Missione",
+  mission_desc: "Rendere il commercio globale accessibile a tutti.",
+  vision: "La Nostra Visione",
+  vision_desc: "Essere il partner import/export più affidabile dell’Africa orientale.",
+  values: "I Nostri Valori",
+  values_desc: "Integrità, velocità e servizio personalizzato.",
+
+  tourism_label: "Viaggi ed Esperienze",
+  tourism_title: "Hotel, Safari e Turismo",
+  tourism_subtitle: "Esperienze di viaggio indimenticabili in Africa orientale.",
+  tourism_plan: "Pianifica il viaggio",
+  tourism_whatsapp: "Prenota su WhatsApp",
+  tourism_services_title: "Esplora l’Africa orientale",
+  tourism_services_subtitle: "Viaggi, safari e vacanze su misura.",
+  tourism_hotel: "Prenotazioni Hotel",
+  tourism_hotel_desc: "Hotel, lodge e resort su misura.",
+  tourism_safari: "Safari Lodge",
+  tourism_safari_desc: "Alloggi vicino ai parchi nazionali.",
+  tourism_adventure: "Safari e Avventure",
+  tourism_adventure_desc: "Tour guidati ed esperienze wildlife.",
+  tourism_beach: "Vacanze al Mare",
+  tourism_beach_desc: "Fughe tropicali e soggiorni costieri.",
+  tourism_resort: "Resort e Ritiri",
+  tourism_resort_desc: "Soggiorni di lusso e relax.",
+  tourism_hiking: "Escursioni in Montagna",
+  tourism_hiking_desc: "Sentieri e panorami spettacolari.",
+  tourism_cta_title: "Pronto per il tuo viaggio?",
+  tourism_cta_subtitle: "Dicci budget e destinazione.",
+  tourism_cta_btn: "Richiedi aiuto prenotazione",
+
+  view_all_services: "Vedi tutti i servizi →",
+  whatsapp_us_now: "Scrivici su WhatsApp",
+  our_story: "La Nostra Storia",
+
+  contact_title: "Parliamo di Business",
+  contact_subtitle: "Contattaci via email o WhatsApp.",
+  contact_form_title: "Invia un messaggio",
+  contact_name: "Nome completo",
+  contact_email: "Email",
+  contact_phone: "Telefono",
+  contact_service: "Servizio",
+  contact_message: "Messaggio",
+  contact_btn: "Invia",
+
+  contact_email_label: "Email",
+  contact_phone_label: "Chiama / WhatsApp",
+  contact_location: "Posizione",
+  contact_website: "Sito web",
+
+  why_label: "Perché Sceglierci",
+  why_title: "La differenza Arakaharaka",
+  why_reliability: "Affidabilità",
+  why_reliability_desc: "Consegne garantite e puntuali.",
+  why_global: "Rete globale",
+  why_global_desc: "Fornitori in tutto il mondo.",
+  why_personal: "Servizio personalizzato",
+  why_personal_desc: "Supporto diretto e umano.",
+  why_pricing: "Prezzi competitivi",
+  why_pricing_desc: "Migliori tariffe sul mercato.",
+  why_customs: "Dogana e conformità",
+  why_customs_desc: "Gestiamo tutta la documentazione.",
+  why_fast: "Consegna rapida",
+  why_fast_desc: "Velocità in ogni fase.",
+
+  services_page_label: "Cosa Offriamo",
+  services_page_title: "I Nostri Servizi",
+  services_page_subtitle: "Soluzioni complete di import/export in Kenya e oltre.",
+
+  partners_auto_title: "Partner Importazione: Automotive",
+  partners_auto: "Importazione Veicoli",
+  partners_auto_desc: "Colleghiamo clienti con fornitori globali di veicoli.",
+
+  partners_industrial_title: "Partner Industriali",
+  partners_luxury_title: "Beni di Lusso",
+  partners_asian_title: "Produttori Asiatici",
+  partners_export_title: "Esportazioni dal Kenya",
+
+  partners_category_all: "Tutte le categorie",
+  category_automotive: "Automotive",
+  category_industrial_manufacturing: "Industria",
+  category_luxury_consumer_goods: "Lusso",
+  category_asian_manufacturers: "Produttori Asiatici",
+  category_construction_materials: "Materiali da costruzione",
+  category_electronics_technology: "Elettronica",
+  category_food_agricultural_products: "Prodotti alimentari",
+  category_african_culture: "Cultura africana",
+  category_kenyan_export_products: "Prodotti keniani",
+
+  partners_search_placeholder: "Cerca prodotti...",
+  partners_tab_all: "Tutti",
+  partners_tab_import: "Importazione",
+  partners_tab_export: "Esportazione",
+  partners_ships_from: "Spedito da",
+  partners_ships_to: "Spedito a",
+  partners_delivery_time: "Consegna stimata",
+  partners_view_details: "Vedi dettagli",
+  partners_request_quote: "Richiedi preventivo WhatsApp",
+  partners_no_results: "Nessun prodotto trovato",
+  partners_cta_text: "Non trovi quello che cerchi?",
+  partners_cta_button: "Chiedi un prodotto",
+
+  footer_desc: "Il tuo partner import/export a Nairobi.",
+  footer_quick: "Link rapidi",
+  footer_contact: "Contatto",
+  footer_faq: "FAQ",
+
+  faq_q1: "Quanto dura la spedizione?",
+  faq_a1: "25–45 giorni via mare, 5–10 via aerea.",
+  faq_q2: "Come ordino?",
+  faq_a2: "Contattaci via WhatsApp o email.",
+  faq_q3: "Da dove importate?",
+  faq_a3: "Cina, Giappone, UAE, USA e altri.",
+  faq_q4: "Gestite la dogana?",
+  faq_a4: "Sì, gestiamo tutto il processo.",
+  footer_copyright: "© 2026 Arakaharaka Enterprises. Tutti i diritti riservati.",
+  footer_made: "Realizzato con ❤️ a Nairobi 🇰🇪",
+
+  testimonials_page_label: "Recensioni",
+  testimonials_page_title: "Cosa dicono i clienti",
+  testimonials_page_subtitle: "Esperienze reali dei nostri clienti.",
+
+  testi_1: "Importazione auto senza problemi.",
+  testi_2: "Servizio eccellente su WhatsApp.",
+  testi_3: "Macchinari consegnati in tempo.",
+  testi_4: "Supporto perfetto per principianti.",
+  testi_5: "Spedizioni affidabili.",
+  testi_6: "Prodotti di lusso autentici.",
+
+  testimonials_cta: "Hai avuto un’esperienza con noi?",
+  testimonials_share_btn: "Condividi esperienza",
+
+  custom_solution_title: "Soluzione personalizzata?",
+  custom_solution_desc: "Dicci cosa ti serve.",
+  custom_solution_btn: "Richiedi preventivo",
+
+  legal_label: "Legale",
+  terms_title: "Termini e Condizioni",
+  terms_subtitle: "Leggi prima di ordinare",
+  terms_last_updated: "Ultimo aggiornamento 2025",
+
+  },
+  kk: {
+  nav_home: "Басты бет",
+  nav_about: "Біз туралы",
+  nav_services: "Қызметтер",
+  nav_tourism: "Туризм",
+  nav_partners: "Серіктестер",
+  nav_testimonials: "Пікірлер",
+  nav_contact: "Байланыс",
+
+  nav_dropdown_import: "Импорт серіктестері",
+  nav_dropdown_export: "Кениядан экспорт",
+
+  hero_title: "Сіздің сенімді импорт және экспорт серіктесіңіз",
+  hero_subtitle: "Arakaharaka Шығыс және Орталық Африканы әлеммен байланыстырады — сапалы тауарлар, көліктер және өнімдерді жаһандық нарықтан сенімді түрде жеткізеді.",
+  hero_cta1: "Байланысу",
+  hero_cta2: "Баға сұрау",
+
+  hero_badge_1: "🚀 Жылдам жеткізу",
+  hero_badge_2: "🌍 Жаһандық жеткізу",
+  hero_badge_3: "🤝 Сенімді серіктестер",
+
+  stats_clients: "Қанағаттанған клиенттер",
+  stats_partners: "Серіктес брендтер",
+  stats_countries: "Қызмет көрсетілетін елдер",
+  stats_satisfaction: "Клиент қанағаттануы",
+
+  services_title: "Негізгі қызметтеріміз",
+  services_subtitle: "Біз логистикадан бастап өнім іздеуге дейін бәрін орындаймыз.",
+
+  service_import: "Импорт қызметтері",
+  service_import_desc: "Біз Азия, Еуропа және басқа елдерден Кенияға тауар импорттаймыз.",
+  service_export: "Экспорт қызметтері",
+  service_export_desc: "Кения компанияларына халықаралық нарыққа шығуға көмектесеміз.",
+  service_sourcing: "Өнім іздеу",
+  service_sourcing_desc: "Қажетті өнімді әлемдік нарықтан табамыз.",
+  service_vehicle: "Көлік импорты",
+  service_vehicle_desc: "Жапония, Ұлыбритания, Дубай және басқа елдерден көлік әкелу.",
+  service_bulk: "Көтерме жеткізу",
+  service_bulk_desc: "Ірі көлемдегі жүктер үшін тиімді логистика.",
+  service_logistics: "Логистикалық басқару",
+  service_logistics_desc: "Толық жеткізу тізбегін басқару.",
+
+  testimonials_title: "Көптеген клиенттер сенеді",
+  testimonials_label: "Клиент пікірлері",
+
+  cta_title: "Импорт немесе экспортқа дайынсыз ба?",
+  cta_subtitle: "Біз сізге барлық процесті жеңілдетеміз.",
+  cta_btn: "Байланысу",
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "Импорт клиенті – DRC",
+  testimonial_1_text: "Қытайдан жабдықты өте кәсіби түрде жеткізді.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "Туризм клиенті – Танзания",
+  testimonial_2_text: "Сафари тамаша ұйымдастырылды.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "Сату менеджері – Қытай",
+  testimonial_3_text: "Кения өнімдерінің сапасы жоғары.",
+
+  about_title: "Arakaharaka Enterprises туралы",
+  about_subtitle: "Найробиден әлемге бағытталған компания.",
+  about_feature: "Шығыс және Орталық Африканы әлеммен байланыстыру",
+  about_feature_desc: "Жаһандық сатып алушылар мен жеткізушілерді біріктіреміз.",
+
+  mission: "Біздің миссиямыз",
+  mission_desc: "Халықаралық сауданы барлығына қолжетімді ету.",
+
+  vision: "Біздің көзқарасымыз",
+  vision_desc: "Шығыс Африканың ең сенімді серіктесі болу.",
+
+  values: "Құндылықтарымыз",
+  values_desc: "Адалдық, жылдамдық және жеке қызмет.",
+
+  tourism_label: "Саяхат және тәжірибе",
+  tourism_title: "Қонақ үйлер, сафари және туризм қызметтері",
+  tourism_subtitle: "Кения және Шығыс Африкада ұмытылмас сапарлар ұйымдастырамыз.",
+  tourism_plan: "Сапар жоспарлау",
+  tourism_whatsapp: "WhatsApp арқылы брондау",
+
+  tourism_services_title: "Шығыс Африканы зерттеңіз",
+  tourism_services_subtitle: "Саяхат, сафари және демалыс пакеттері.",
+
+  tourism_hotel: "Қонақ үй брондау",
+  tourism_hotel_desc: "Бюджетіңізге сай қонақ үйлер мен курорттар.",
+
+  tourism_safari: "Сафари лагерьлері",
+  tourism_safari_desc: "Ұлттық парктерге жақын тұру орындары.",
+
+  tourism_adventure: "Сафари және шытырман оқиғалар",
+  tourism_adventure_desc: "Жабайы табиғат турлары және экскурсиялар.",
+
+  tourism_beach: "Жағажай демалысы",
+  tourism_beach_desc: "Тропикалық демалыс орындары.",
+
+  tourism_resort: "Курорттар және демалыс орындары",
+  tourism_resort_desc: "Сәнді демалыс тәжірибесі.",
+
+  tourism_hiking: "Тау серуені",
+  tourism_hiking_desc: "Керемет таулы маршруттар.",
+
+  tourism_cta_title: "Келесі сапарыңызға дайынсыз ба?",
+  tourism_cta_subtitle: "Бағыт, күндер және бюджетіңізді айтыңыз.",
+  tourism_cta_btn: "Брондау сұрау",
+
+  view_all_services: "Барлық қызметтер →",
+  whatsapp_us_now: "WhatsApp арқылы жазыңыз",
+  our_story: "Біздің тарих",
+
+  contact_title: "Бизнесті талқылайық",
+  contact_subtitle: "WhatsApp немесе email арқылы хабарласыңыз.",
+  contact_form_title: "Хабар жіберу",
+  contact_name: "Толық аты",
+  contact_email: "Email",
+  contact_phone: "Телефон",
+  contact_service: "Қызмет түрі",
+  contact_message: "Хабарлама",
+  contact_btn: "Жіберу",
+
+  why_label: "Неге бізді таңдайды",
+  why_title: "Arakaharaka артықшылығы",
+  why_reliability: "Сенімділік",
+  why_reliability_desc: "Уәде етілген жеткізу орындалады.",
+  why_global: "Жаһандық желі",
+  why_global_desc: "Әлем бойынша серіктестер.",
+  why_personal: "Жеке қызмет",
+  why_personal_desc: "Тікелей байланыс.",
+  why_pricing: "Бәсекеге қабілетті баға",
+  why_pricing_desc: "Ең тиімді ұсыныстар.",
+  why_customs: "Кедендік рәсімдеу",
+  why_customs_desc: "Барлық құжаттарды біз жасаймыз.",
+  why_fast: "Жылдам жеткізу",
+  why_fast_desc: "Жылдам процесс.",
+
+  services_page_label: "Біздің ұсыныстар",
+  services_page_title: "Қызметтеріміз",
+  services_page_subtitle: "Толық импорт/экспорт шешімдері.",
+
+  partners_auto_title: "Авто импорт серіктестері",
+  partners_auto: "Көлік импорты",
+  partners_auto_desc: "Әлемдік көлік жеткізушілерімен байланыс.",
+
+  partners_industrial_title: "Өнеркәсіптік серіктестер",
+  partners_luxury_title: "Люкс тауарлар",
+  partners_asian_title: "Азиялық өндірушілер",
+  partners_export_title: "Кения экспорты",
+
+  partners_category_all: "Барлық санаттар",
+  category_automotive: "Автокөлік",
+  category_industrial_manufacturing: "Өнеркәсіп",
+  category_luxury_consumer_goods: "Люкс тауарлар",
+  category_asian_manufacturers: "Азиялық өндірушілер",
+  category_construction_materials: "Құрылыс материалдары",
+  category_electronics_technology: "Электроника",
+  category_food_agricultural_products: "Азық-түлік",
+  category_african_culture: "Африка мәдениеті",
+  category_kenyan_export_products: "Кения өнімдері",
+
+  partners_search_placeholder: "Өнім іздеу...",
+  partners_tab_all: "Барлығы",
+  partners_tab_import: "Импорт",
+  partners_tab_export: "Экспорт",
+
+  partners_ships_from: "Жөнелтіледі",
+  partners_ships_to: "Жеткізіледі",
+  partners_delivery_time: "Жеткізу уақыты",
+  partners_view_details: "Толығырақ",
+  partners_request_quote: "WhatsApp арқылы баға сұрау",
+  partners_no_results: "Өнім табылмады",
+  partners_cta_text: "Табылмаса, бізден сұраңыз.",
+  partners_cta_button: "Өнім сұрау",
+
+  footer_desc: "Сенімді импорт/экспорт серіктесі, Найроби.",
+  footer_quick: "Жылдам сілтемелер",
+  footer_contact: "Байланыс",
+  footer_faq: "Жиі сұрақтар",
+
+  faq_q1: "Жеткізу қанша уақыт алады?",
+  faq_a1: "25–45 күн теңіз арқылы, 5–10 күн әуе арқылы.",
+  faq_q2: "Қалай тапсырыс беремін?",
+  faq_a2: "WhatsApp немесе email арқылы.",
+  faq_q3: "Қай елдерден әкелесіздер?",
+  faq_a3: "Қытай, Жапония, UAE және т.б.",
+  faq_q4: "Кеденді рәсімдейсіздер ме?",
+  faq_a4: "Иә, толық рәсімдейміз.",
+
+  footer_copyright: "© 2026 Arakaharaka Enterprises. Барлық құқықтар қорғалған.",
+  footer_made: "Найробиде ❤️ жасалған",
+
+  testimonials_page_label: "Пікірлер",
+  testimonials_page_title: "Клиент пікірлері",
+  testimonials_page_subtitle: "Нақты клиент тәжірибелері.",
+
+  testi_1: "Көлік импорты өте оңай болды.",
+  testi_2: "WhatsApp арқылы керемет қызмет.",
+  testi_3: "Уақытында жеткізілді.",
+  testi_4: "Жаңадан бастаушыларға жақсы қолдау.",
+  testi_5: "Сенімді жеткізу.",
+  testi_6: "Сапалы люкс өнімдер.",
+
+  testimonials_cta: "Тәжірибеңіз бар ма?",
+  testimonials_share_btn: "Бөлісу",
+
+  custom_solution_title: "Арнайы шешім керек пе?",
+  custom_solution_desc: "Сізге көмектесеміз.",
+  custom_solution_btn: "Баға сұрау",
+
+  legal_label: "Құқықтық",
+  terms_title: "Шарттар мен ережелер",
+  terms_subtitle: "Тапсырыс алдында оқыңыз",
+  terms_last_updated: "Соңғы жаңарту: 2025"
+  },
+  ru: {
+  nav_home: "Главная",
+  nav_about: "О нас",
+  nav_services: "Услуги",
+  nav_tourism: "Туризм",
+  nav_partners: "Партнёры",
+  nav_testimonials: "Отзывы",
+  nav_contact: "Связаться с нами",
+
+  nav_dropdown_import: "Импорт-партнёры",
+  nav_dropdown_export: "Экспорт из Кении",
+
+  hero_title: "Ваш надёжный партнёр по импорту и экспорту",
+  hero_subtitle: "Arakaharaka соединяет Восточную и Центральную Африку с миром — поставляя качественные товары, автомобили и продукцию с мировых рынков надёжно и с заботой.",
+  hero_cta1: "Связаться с нами",
+  hero_cta2: "Запросить цену",
+
+  hero_badge_1: "🚀 Быстрая доставка",
+  hero_badge_2: "🌍 Глобальный поиск поставщиков",
+  hero_badge_3: "🤝 Надёжные партнёры",
+
+  stats_clients: "Довольные клиенты",
+  stats_partners: "Партнёрские бренды",
+  stats_countries: "Страны обслуживания",
+  stats_satisfaction: "Удовлетворённость клиентов",
+
+  services_title: "Наши основные услуги",
+  services_subtitle: "От поиска товаров до логистики — мы всё берём на себя.",
+
+  service_import: "Импорт услуг",
+  service_import_desc: "Мы импортируем товары из Азии, Европы и других регионов в Кению.",
+  service_export: "Экспорт услуг",
+  service_export_desc: "Помогаем кенийским компаниям выходить на международные рынки.",
+  service_sourcing: "Поиск товаров",
+  service_sourcing_desc: "Находим нужные товары по лучшим ценам по всему миру.",
+  service_vehicle: "Импорт автомобилей",
+  service_vehicle_desc: "Импорт автомобилей, мотоциклов и техники из Японии, Великобритании, ОАЭ и других стран.",
+  service_bulk: "Оптовая доставка",
+  service_bulk_desc: "Экономичные решения для крупных грузов и бизнеса.",
+  service_logistics: "Логистическое управление",
+  service_logistics_desc: "Полное управление цепочкой поставок от начала до конца.",
+
+  service_page_import: "Импорт услуг",
+  service_page_import_desc: "Мы занимаемся всем процессом импорта товаров в Кению — поиск поставщиков, переговоры, доставка, таможня и доставка до клиента.",
+
+  service_page_export: "Экспорт услуг",
+  service_page_export_desc: "Помогаем кенийским производителям выходить на международные рынки, включая упаковку, документацию и логистику.",
+
+  service_page_sourcing: "Поиск товаров",
+  service_page_sourcing_desc: "Отправьте нам описание товара — мы найдём его у проверенных поставщиков по всему миру.",
+
+  service_page_vehicle: "Импорт транспортных средств",
+  service_page_vehicle_desc: "Импорт автомобилей, мотоциклов и спецтехники с полным сопровождением.",
+
+  service_page_bulk: "Оптовые и коммерческие перевозки",
+  service_page_bulk_desc: "Контейнерные перевозки FCL/LCL по выгодным тарифам.",
+
+  service_page_logistics: "Логистика",
+  service_page_logistics_desc: "Полное управление логистикой: складирование, перевозка, таможня и доставка.",
+
+  service_page_customs: "Таможенное оформление",
+  service_page_customs_desc: "Мы берём на себя всю документацию, налоги и процедуры таможни.",
+
+  service_page_consulting: "Консалтинг по торговле",
+  service_page_consulting_desc: "Помощь новичкам в международной торговле и логистике.",
+
+  service_page_industrial: "Промышленность и оборудование",
+  service_page_industrial_desc: "Поставка промышленного оборудования и запчастей со всего мира.",
+
+  testimonials_title: "Нам доверяют многие",
+  testimonials_label: "Отзывы клиентов",
+
+  cta_title: "Готовы к импорту или экспорту?",
+  cta_subtitle: "Мы сделаем процесс простым и удобным для вас.",
+  cta_btn: "Связаться",
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "Клиент импорта – ДРК",
+  testimonial_1_text: "Импорт оборудования из Китая прошёл гладко и профессионально.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "Клиент туризма – Танзания",
+  testimonial_2_text: "Сафари было идеально организовано.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "Менеджер по продажам – Китай",
+  testimonial_3_text: "Высокое качество кенийской продукции.",
+
+  about_title: "О компании Arakaharaka Enterprises",
+  about_subtitle: "Основана в Найроби для связи Африки с миром.",
+  about_feature: "Связь Восточной и Центральной Африки с миром",
+  about_feature_desc: "Мы соединяем покупателей и поставщиков по всему миру.",
+
+  mission: "Наша миссия",
+  mission_desc: "Сделать международную торговлю доступной для всех.",
+
+  vision: "Наше видение",
+  vision_desc: "Стать самым надёжным партнёром в Восточной Африке.",
+
+  values: "Наши ценности",
+  values_desc: "Честность, скорость и персональный подход.",
+
+  tourism_label: "Путешествия и туризм",
+  tourism_title: "Отели, сафари и туристические услуги",
+  tourism_subtitle: "Незабываемые путешествия по Восточной Африке.",
+  tourism_plan: "Планировать поездку",
+  tourism_whatsapp: "Забронировать в WhatsApp",
+
+  tourism_services_title: "Исследуйте Восточную Африку",
+  tourism_services_subtitle: "Путешествия, сафари и отдых.",
+
+  tourism_hotel: "Бронирование отелей",
+  tourism_hotel_desc: "Отели, лоджи и курорты под любой бюджет.",
+
+  tourism_safari: "Сафари-лodжи",
+  tourism_safari_desc: "Размещение рядом с национальными парками.",
+
+  tourism_adventure: "Сафари и приключения",
+  tourism_adventure_desc: "Экскурсии и наблюдение за дикой природой.",
+
+  tourism_beach: "Пляжный отдых",
+  tourism_beach_desc: "Тропические курорты и побережья.",
+
+  tourism_resort: "Курорты и отдых",
+  tourism_resort_desc: "Роскошный отдых и релакс.",
+
+  tourism_hiking: "Горные походы",
+  tourism_hiking_desc: "Живописные маршруты и походы.",
+
+  tourism_cta_title: "Готовы к путешествию?",
+  tourism_cta_subtitle: "Сообщите бюджет и направление.",
+  tourism_cta_btn: "Запросить бронирование",
+
+  view_all_services: "Все услуги →",
+  whatsapp_us_now: "Напишите в WhatsApp",
+  our_story: "Наша история",
+
+  contact_title: "Давайте обсудим бизнес",
+  contact_subtitle: "Свяжитесь через WhatsApp или email.",
+  contact_form_title: "Отправить сообщение",
+  contact_name: "Полное имя",
+  contact_email: "Email",
+  contact_phone: "Телефон",
+  contact_service: "Интересующая услуга",
+  contact_message: "Сообщение",
+  contact_btn: "Отправить",
+
+  why_label: "Почему мы",
+  why_title: "Преимущество Arakaharaka",
+
+  why_reliability: "Надёжность",
+  why_reliability_desc: "Мы выполняем все обещания.",
+
+  why_global: "Глобальная сеть",
+  why_global_desc: "Поставщики по всему миру.",
+
+  why_personal: "Персональный сервис",
+  why_personal_desc: "Прямое общение с командой.",
+
+  why_pricing: "Лучшие цены",
+  why_pricing_desc: "Оптимальные тарифы для клиентов.",
+
+  why_customs: "Таможня и оформление",
+  why_customs_desc: "Берём на себя всю документацию.",
+
+  why_fast: "Быстрая доставка",
+  why_fast_desc: "Максимальная скорость на всех этапах.",
+
+  services_page_label: "Что мы предлагаем",
+  services_page_title: "Наши услуги",
+  services_page_subtitle: "Полные решения импорта и экспорта в Кении и за её пределами.",
+
+  partners_auto_title: "Импорт партнёры: авто",
+  partners_auto: "Импорт автомобилей",
+  partners_auto_desc: "Соединяем клиентов с мировыми поставщиками авто.",
+
+  partners_industrial_title: "Промышленные партнёры",
+  partners_luxury_title: "Люкс товары",
+  partners_asian_title: "Азиатские производители",
+  partners_export_title: "Экспорт из Кении",
+
+  partners_category_all: "Все категории",
+  category_automotive: "Авто",
+  category_industrial_manufacturing: "Промышленность",
+  category_luxury_consumer_goods: "Люкс товары",
+  category_asian_manufacturers: "Азиатские производители",
+  category_construction_materials: "Строительные материалы",
+  category_electronics_technology: "Электроника",
+  category_food_agricultural_products: "Продукты питания",
+  category_african_culture: "Африканская культура",
+  category_kenyan_export_products: "Кенийские экспортные товары",
+
+  partners_search_placeholder: "Поиск товаров...",
+  partners_tab_all: "Все",
+  partners_tab_import: "Импорт",
+  partners_tab_export: "Экспорт",
+
+  partners_ships_from: "Откуда отправка",
+  partners_ships_to: "Куда доставка",
+  partners_delivery_time: "Срок доставки",
+  partners_view_details: "Подробнее",
+  partners_request_quote: "Запросить цену в WhatsApp",
+  partners_no_results: "Товары не найдены",
+  partners_cta_text: "Не нашли нужное?",
+  partners_cta_button: "Запросить товар",
+
+  footer_desc: "Ваш надёжный партнёр по импорту и экспорту в Найроби.",
+  footer_quick: "Быстрые ссылки",
+  footer_contact: "Контакты",
+  footer_faq: "FAQ",
+
+  faq_q1: "Сколько длится доставка?",
+  faq_a1: "25–45 дней морем, 5–10 дней авиа.",
+  faq_q2: "Как сделать заказ?",
+  faq_a2: "Свяжитесь с нами через WhatsApp или email.",
+  faq_q3: "Из каких стран импортируете?",
+  faq_a3: "Китай, Япония, ОАЭ, США и другие.",
+  faq_q4: "Вы занимаетесь таможней?",
+  faq_a4: "Да, полностью берём на себя оформление.",
+
+  footer_copyright: "© 2026 Arakaharaka Enterprises. Все права защищены.",
+  footer_made: "Сделано с ❤️ в Найроби 🇰🇪",
+
+  testimonials_page_label: "Отзывы",
+  testimonials_page_title: "Отзывы клиентов",
+  testimonials_page_subtitle: "Реальный опыт наших клиентов.",
+
+  testi_1: "Импорт автомобиля прошёл без проблем.",
+  testi_2: "Отличная поддержка в WhatsApp.",
+  testi_3: "Доставка была вовремя.",
+  testi_4: "Хорошая помощь новичкам.",
+  testi_5: "Надёжные поставки.",
+  testi_6: "Премиум качество товаров.",
+
+  testimonials_cta: "Есть опыт работы с нами?",
+  testimonials_share_btn: "Поделиться опытом",
+
+  custom_solution_title: "Нужен индивидуальный подход?",
+  custom_solution_desc: "Расскажите нам о своих потребностях.",
+  custom_solution_btn: "Запросить расчёт",
+
+  legal_label: "Юридическая информация",
+  terms_title: "Условия и положения",
+  terms_subtitle: "Пожалуйста, прочитайте перед заказом",
+  terms_last_updated: "Последнее обновление: 2025"
+},
+  ko: {
+  nav_home: "홈",
+  nav_about: "회사 소개",
+  nav_services: "서비스",
+  nav_tourism: "관광",
+  nav_partners: "파트너",
+  nav_testimonials: "고객 후기",
+  nav_contact: "문의하기",
+
+  nav_dropdown_import: "수입 파트너",
+  nav_dropdown_export: "케냐 수출",
+
+  hero_title: "신뢰할 수 있는 수입 및 수출 파트너",
+  hero_subtitle: "Arakaharaka는 동아프리카와 중부 아프리카를 세계와 연결하여 고품질 제품, 차량 및 상품을 안정적으로 제공합니다.",
+  hero_cta1: "문의하기",
+  hero_cta2: "견적 요청",
+
+  hero_badge_1: "🚀 빠른 배송",
+  hero_badge_2: "🌍 글로벌 소싱",
+  hero_badge_3: "🤝 신뢰할 수 있는 파트너",
+
+  stats_clients: "만족한 고객",
+  stats_partners: "파트너 브랜드",
+  stats_countries: "서비스 국가",
+  stats_satisfaction: "고객 만족도",
+
+  services_title: "핵심 서비스",
+  services_subtitle: "소싱부터 물류까지 모든 과정을 대신 처리합니다.",
+
+  service_import: "수입 서비스",
+  service_import_desc: "아시아, 유럽 등 전 세계에서 케냐로 상품을 수입합니다.",
+  service_export: "수출 서비스",
+  service_export_desc: "케냐 기업의 글로벌 시장 진출을 지원합니다.",
+  service_sourcing: "제품 소싱",
+  service_sourcing_desc: "원하는 제품을 전 세계에서 찾아드립니다.",
+  service_vehicle: "차량 수입",
+  service_vehicle_desc: "일본, 영국, UAE 등에서 차량을 수입합니다.",
+  service_bulk: "대량 운송",
+  service_bulk_desc: "대량 화물에 대한 비용 효율적인 물류 서비스입니다.",
+  service_logistics: "물류 관리",
+  service_logistics_desc: "전체 공급망을 끝까지 관리합니다.",
+
+  service_page_import: "수입 서비스",
+  service_page_import_desc: "공급업체 발굴부터 배송 및 통관까지 수입 전 과정을 처리합니다.",
+
+  service_page_export: "수출 서비스",
+  service_page_export_desc: "포장, 문서, 물류까지 케냐 기업의 해외 수출을 지원합니다.",
+
+  service_page_sourcing: "제품 소싱",
+  service_page_sourcing_desc: "전 세계 검증된 공급업체에서 제품을 찾아드립니다.",
+
+  service_page_vehicle: "차량 수입",
+  service_page_vehicle_desc: "차량, 오토바이, 중장비 수입 전 과정 지원.",
+
+  service_page_bulk: "대량 및 상업 운송",
+  service_page_bulk_desc: "FCL/LCL 컨테이너 운송을 합리적인 가격으로 제공합니다.",
+
+  service_page_logistics: "물류 관리",
+  service_page_logistics_desc: "창고, 운송, 통관, 최종 배송까지 관리합니다.",
+
+  service_page_customs: "통관 서비스",
+  service_page_customs_desc: "세관 문서, 세금, KEBS/KRA 절차를 모두 처리합니다.",
+
+  service_page_consulting: "무역 컨설팅",
+  service_page_consulting_desc: "수입/수출 초보자를 위한 전문 가이드 제공.",
+
+  service_page_industrial: "산업 및 기계",
+  service_page_industrial_desc: "전 세계 산업 장비 및 기계 공급.",
+
+  testimonials_title: "많은 고객이 신뢰합니다",
+  testimonials_label: "고객 후기",
+
+  cta_title: "수입 또는 수출을 시작할 준비가 되셨나요?",
+  cta_subtitle: "복잡한 과정을 대신 처리해 드립니다.",
+  cta_btn: "문의하기",
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "수입 고객 – DRC",
+  testimonial_1_text: "중국에서의 장비 수입이 매우 원활했습니다.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "관광 고객 – 탄자니아",
+  testimonial_2_text: "사파리가 완벽하게 계획되었습니다.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "영업 관리자 – 중국 Hengwang Group",
+  testimonial_3_text: "케냐 제품의 품질이 매우 뛰어났습니다.",
+
+  about_title: "Arakaharaka Enterprises 소개",
+  about_subtitle: "나이로비에서 시작된 글로벌 무역 회사",
+  about_feature: "동아프리카와 세계 연결",
+  about_feature_desc: "우리는 전 세계 공급자와 구매자를 연결합니다.",
+
+  mission: "우리의 미션",
+  mission_desc: "모든 사람이 쉽게 글로벌 무역을 할 수 있도록 합니다.",
+
+  vision: "우리의 비전",
+  vision_desc: "동아프리카에서 가장 신뢰받는 파트너가 되는 것",
+
+  values: "핵심 가치",
+  values_desc: "정직, 속도, 맞춤 서비스",
+
+  tourism_label: "여행 및 관광",
+  tourism_title: "호텔, 사파리 및 여행 서비스",
+  tourism_subtitle: "동아프리카에서 특별한 여행 경험을 제공합니다.",
+  tourism_plan: "여행 계획하기",
+  tourism_whatsapp: "WhatsApp 예약",
+
+  tourism_services_title: "동아프리카 탐험",
+  tourism_services_subtitle: "여행, 사파리, 휴양 패키지",
+
+  tourism_hotel: "호텔 예약",
+  tourism_hotel_desc: "예산에 맞는 호텔 및 리조트 제공",
+
+  tourism_safari: "사파리 숙소",
+  tourism_safari_desc: "국립공원 근처 숙소",
+
+  tourism_adventure: "사파리 및 모험",
+  tourism_adventure_desc: "야생동물 투어 및 체험",
+
+  tourism_beach: "해변 휴양",
+  tourism_beach_desc: "열대 해변 휴가",
+
+  tourism_resort: "리조트 및 휴양",
+  tourism_resort_desc: "럭셔리 휴식 공간",
+
+  tourism_hiking: "등산 여행",
+  tourism_hiking_desc: "아름다운 산악 트레킹",
+
+  tourism_cta_title: "여행 준비가 되셨나요?",
+  tourism_cta_subtitle: "목적지와 예산을 알려주세요.",
+  tourism_cta_btn: "예약 요청",
+
+  view_all_services: "전체 서비스 보기 →",
+  whatsapp_us_now: "WhatsApp 문의",
+  our_story: "우리의 이야기",
+
+  contact_title: "비즈니스 문의",
+  contact_subtitle: "WhatsApp 또는 이메일로 연락하세요.",
+  contact_form_title: "메시지 보내기",
+  contact_name: "이름",
+  contact_email: "이메일",
+  contact_phone: "전화번호",
+  contact_service: "관심 서비스",
+  contact_message: "메시지",
+  contact_btn: "전송",
+
+  why_label: "왜 우리인가",
+  why_title: "Arakaharaka의 차별점",
+
+  why_reliability: "신뢰성",
+  why_reliability_desc: "약속을 반드시 지킵니다.",
+
+  why_global: "글로벌 네트워크",
+  why_global_desc: "전 세계 공급업체 네트워크",
+
+  why_personal: "맞춤 서비스",
+  why_personal_desc: "직접 소통하는 서비스",
+
+  why_pricing: "경쟁력 있는 가격",
+  why_pricing_desc: "최고의 가격 제공",
+
+  why_customs: "통관 및 규정",
+  why_customs_desc: "모든 서류 처리",
+
+  why_fast: "빠른 처리",
+  why_fast_desc: "빠른 배송과 진행",
+
+  services_page_label: "제공 서비스",
+  services_page_title: "우리의 서비스",
+  services_page_subtitle: "수입 및 수출 종합 솔루션",
+
+  partners_auto_title: "수입 파트너: 자동차",
+  partners_auto: "차량 수입",
+  partners_auto_desc: "전 세계 차량 공급업체와 연결",
+
+  partners_industrial_title: "산업 파트너",
+  partners_luxury_title: "명품 및 소비재",
+  partners_asian_title: "아시아 제조업체",
+  partners_export_title: "케냐 수출",
+
+  partners_category_all: "전체 카테고리",
+  category_automotive: "자동차",
+  category_industrial_manufacturing: "산업",
+  category_luxury_consumer_goods: "명품",
+  category_asian_manufacturers: "아시아 제조업체",
+  category_construction_materials: "건설 자재",
+  category_electronics_technology: "전자제품",
+  category_food_agricultural_products: "식품 및 농산물",
+  category_african_culture: "아프리카 문화",
+  category_kenyan_export_products: "케냐 수출 제품",
+
+  partners_search_placeholder: "제품 검색...",
+  partners_tab_all: "전체",
+  partners_tab_import: "수입",
+  partners_tab_export: "수출",
+
+  partners_ships_from: "출발지",
+  partners_ships_to: "도착지",
+  partners_delivery_time: "예상 배송 기간",
+  partners_view_details: "상세 보기",
+  partners_request_quote: "WhatsApp 견적 요청",
+  partners_no_results: "검색 결과 없음",
+  partners_cta_text: "원하는 상품이 없나요?",
+  partners_cta_button: "상품 문의",
+
+  footer_desc: "나이로비 기반 신뢰할 수 있는 수입/수출 파트너",
+  footer_quick: "빠른 링크",
+  footer_contact: "연락처",
+  footer_faq: "자주 묻는 질문",
+
+  faq_q1: "배송 기간은 얼마나 걸리나요?",
+  faq_a1: "해상 25–45일, 항공 5–10일",
+  faq_q2: "주문 방법은?",
+  faq_a2: "WhatsApp 또는 이메일로 연락",
+  faq_q3: "어느 나라에서 수입하나요?",
+  faq_a3: "중국, 일본, UAE, 미국 등",
+  faq_q4: "통관을 처리하나요?",
+  faq_a4: "네, 모든 통관을 처리합니다.",
+
+  footer_copyright: "© 2026 Arakaharaka Enterprises. 모든 권리 보유.",
+  footer_made: "나이로비에서 ❤️ 제작",
+
+  testimonials_page_label: "리뷰",
+  testimonials_page_title: "고객 후기",
+  testimonials_page_subtitle: "실제 고객 경험",
+
+  testi_1: "차량 수입이 매우 쉬웠습니다.",
+  testi_2: "WhatsApp 지원이 훌륭했습니다.",
+  testi_3: "정시 배송되었습니다.",
+  testi_4: "초보자에게 친절한 안내.",
+  testi_5: "신뢰할 수 있는 배송 서비스.",
+  testi_6: "프리미엄 품질 제품.",
+
+  testimonials_cta: "경험이 있으신가요?",
+  testimonials_share_btn: "후기 공유",
+
+  custom_solution_title: "맞춤 솔루션이 필요하신가요?",
+  custom_solution_desc: "요구 사항을 알려주세요.",
+  custom_solution_btn: "견적 요청",
+
+  legal_label: "법률 정보",
+  terms_title: "이용 약관",
+  terms_subtitle: "주문 전에 반드시 읽어주세요",
+  terms_last_updated: "최종 업데이트: 2025"
+},
+lt: {
+  nav_home: "Pagrindinis",
+  nav_about: "Apie mus",
+  nav_services: "Paslaugos",
+  nav_tourism: "Turizmas",
+  nav_partners: "Partneriai",
+  nav_testimonials: "Atsiliepimai",
+  nav_contact: "Susisiekite",
+
+  nav_dropdown_import: "Importo partneriai",
+  nav_dropdown_export: "Eksportas iš Kenijos",
+
+  hero_title: "Jūsų patikimas importo ir eksporto partneris",
+  hero_subtitle: "Arakaharaka jungia Rytų ir Centrinę Afriką su pasauliu – tiekia kokybiškas prekes, transporto priemones ir produktus iš pasaulinių rinkų patikimai ir rūpestingai.",
+  hero_cta1: "Susisiekti",
+  hero_cta2: "Gauti pasiūlymą",
+
+  hero_badge_1: "🚀 Greitas pristatymas",
+  hero_badge_2: "🌍 Globalus tiekimas",
+  hero_badge_3: "🤝 Patikimi partneriai",
+
+  stats_clients: "Patenkinti klientai",
+  stats_partners: "Partnerių prekės ženklai",
+  stats_countries: "Šalys, kuriose veikiame",
+  stats_satisfaction: "Klientų pasitenkinimas",
+
+  services_title: "Mūsų pagrindinės paslaugos",
+  services_subtitle: "Nuo prekių paieškos iki logistikos – viskuo pasirūpiname už jus.",
+
+  service_import: "Importo paslaugos",
+  service_import_desc: "Importuojame prekes iš Azijos, Europos ir kitų regionų į Keniją.",
+  service_export: "Eksporto paslaugos",
+  service_export_desc: "Padedame Kenijos įmonėms patekti į tarptautines rinkas.",
+  service_sourcing: "Produktų paieška",
+  service_sourcing_desc: "Randame norimus produktus visame pasaulyje.",
+  service_vehicle: "Transporto priemonių importas",
+  service_vehicle_desc: "Importuojame automobilius iš Japonijos, JK, JAE ir kitų šalių.",
+  service_bulk: "Didmeninis gabenimas",
+  service_bulk_desc: "Ekonomiški sprendimai dideliems kroviniams.",
+  service_logistics: "Logistikos valdymas",
+  service_logistics_desc: "Pilnas tiekimo grandinės valdymas.",
+
+  service_page_import: "Importo paslaugos",
+  service_page_import_desc: "Visas importo procesas – nuo tiekėjų paieškos iki pristatymo ir muitinės.",
+
+  service_page_export: "Eksporto paslaugos",
+  service_page_export_desc: "Padedame Kenijos įmonėms eksportuoti prekes į pasaulį.",
+
+  service_page_sourcing: "Produktų paieška",
+  service_page_sourcing_desc: "Randame produktus iš patikimų tiekėjų visame pasaulyje.",
+
+  service_page_vehicle: "Transporto priemonių importas",
+  service_page_vehicle_desc: "Automobilių, motociklų ir technikos importas.",
+
+  service_page_bulk: "Didmeninis ir komercinis gabenimas",
+  service_page_bulk_desc: "FCL/LCL konteinerių gabenimas už geriausią kainą.",
+
+  service_page_logistics: "Logistika",
+  service_page_logistics_desc: "Sandėliavimas, transportas, muitinė ir pristatymas.",
+
+  service_page_customs: "Muitinės formalumai",
+  service_page_customs_desc: "Visi muitinės dokumentai ir procedūros.",
+
+  service_page_consulting: "Prekybos konsultacijos",
+  service_page_consulting_desc: "Pagalba pradedant importą ar eksportą.",
+
+  service_page_industrial: "Pramonė ir įranga",
+  service_page_industrial_desc: "Pramoninės įrangos tiekimas visame pasaulyje.",
+
+  testimonials_title: "Mumis pasitiki daugelis",
+  testimonials_label: "Klientų atsiliepimai",
+
+  cta_title: "Pasiruošę importui ar eksportui?",
+  cta_subtitle: "Mes pasirūpinsime visu procesu už jus.",
+  cta_btn: "Susisiekti",
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "Importo klientas – KDR",
+  testimonial_1_text: "Įranga iš Kinijos buvo pristatyta sklandžiai ir profesionaliai.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "Turizmo klientas – Tanzanija",
+  testimonial_2_text: "Safari buvo puikiai organizuotas.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "Pardavimų vadovas – Kinija",
+  testimonial_3_text: "Kenijos produktų kokybė viršijo lūkesčius.",
+
+  about_title: "Apie Arakaharaka Enterprises",
+  about_subtitle: "Įmonė iš Nairobio, jungianti Afriką su pasauliu.",
+  about_feature: "Rytų ir Centrinės Afrikos ryšys su pasauliu",
+  about_feature_desc: "Jungiame pirkėjus ir tiekėjus visame pasaulyje.",
+
+  mission: "Mūsų misija",
+  mission_desc: "Padaryti tarptautinę prekybą prieinamą visiems.",
+
+  vision: "Mūsų vizija",
+  vision_desc: "Tapti patikimiausiu partneriu Rytų Afrikoje.",
+
+  values: "Mūsų vertybės",
+  values_desc: "Sąžiningumas, greitis ir asmeninis požiūris.",
+
+  tourism_label: "Turizmas ir kelionės",
+  tourism_title: "Viešbučiai, safari ir turizmo paslaugos",
+  tourism_subtitle: "Nepamirštamos kelionės po Rytų Afriką.",
+  tourism_plan: "Planuoti kelionę",
+  tourism_whatsapp: "Užsakyti per WhatsApp",
+
+  tourism_services_title: "Atraskite Rytų Afriką",
+  tourism_services_subtitle: "Kelionės, safari ir poilsio paketai",
+
+  tourism_hotel: "Viešbučių rezervacija",
+  tourism_hotel_desc: "Viešbučiai ir kurortai pagal biudžetą.",
+
+  tourism_safari: "Safari apgyvendinimas",
+  tourism_safari_desc: "Nakvynė prie nacionalinių parkų.",
+
+  tourism_adventure: "Safari ir nuotykiai",
+  tourism_adventure_desc: "Laukinės gamtos ekskursijos.",
+
+  tourism_beach: "Paplūdimio atostogos",
+  tourism_beach_desc: "Tropinės poilsio vietos.",
+
+  tourism_resort: "Kurortai ir poilsis",
+  tourism_resort_desc: "Prabangus atsipalaidavimas.",
+
+  tourism_hiking: "Žygiai kalnuose",
+  tourism_hiking_desc: "Įspūdingi kalnų takai.",
+
+  tourism_cta_title: "Pasiruošę kelionei?",
+  tourism_cta_subtitle: "Pasakykite mums savo biudžetą ir kryptį.",
+  tourism_cta_btn: "Užklausti rezervacijos",
+
+  view_all_services: "Žiūrėti visas paslaugas →",
+  whatsapp_us_now: "Rašykite WhatsApp",
+  our_story: "Mūsų istorija",
+
+  contact_title: "Susisiekime dėl verslo",
+  contact_subtitle: "Rašykite WhatsApp arba el. paštu.",
+  contact_form_title: "Siųsti žinutę",
+  contact_name: "Vardas",
+  contact_email: "El. paštas",
+  contact_phone: "Telefonas",
+  contact_service: "Dominanti paslauga",
+  contact_message: "Žinutė",
+  contact_btn: "Siųsti",
+
+  why_label: "Kodėl mes",
+  why_title: "Arakaharaka pranašumas",
+
+  why_reliability: "Patikimumas",
+  why_reliability_desc: "Visada įvykdome pažadus.",
+
+  why_global: "Globalus tinklas",
+  why_global_desc: "Tiekėjai visame pasaulyje.",
+
+  why_personal: "Asmeninis aptarnavimas",
+  why_personal_desc: "Tiesioginis bendravimas.",
+
+  why_pricing: "Konkurencingos kainos",
+  why_pricing_desc: "Geriausi pasiūlymai rinkoje.",
+
+  why_customs: "Muitinė",
+  why_customs_desc: "Visi dokumentai sutvarkomi už jus.",
+
+  why_fast: "Greitas procesas",
+  why_fast_desc: "Greitas pristatymas ir apdorojimas.",
+
+  services_page_label: "Ką siūlome",
+  services_page_title: "Mūsų paslaugos",
+  services_page_subtitle: "Pilni importo ir eksporto sprendimai.",
+
+  partners_auto_title: "Importo partneriai: automobiliai",
+  partners_auto: "Automobilių importas",
+  partners_auto_desc: "Jungiame su pasauliniais automobilių tiekėjais.",
+
+  partners_industrial_title: "Pramonės partneriai",
+  partners_luxury_title: "Prabangos prekės",
+  partners_asian_title: "Azijos gamintojai",
+  partners_export_title: "Kenijos eksportas",
+
+  partners_category_all: "Visos kategorijos",
+  category_automotive: "Automobiliai",
+  category_industrial_manufacturing: "Pramonė",
+  category_luxury_consumer_goods: "Prabanga",
+  category_asian_manufacturers: "Azijos gamintojai",
+  category_construction_materials: "Statybinės medžiagos",
+  category_electronics_technology: "Elektronika",
+  category_food_agricultural_products: "Maistas ir žemės ūkis",
+  category_african_culture: "Afrikos kultūra",
+  category_kenyan_export_products: "Kenijos eksportas",
+
+  partners_search_placeholder: "Ieškoti produktų...",
+  partners_tab_all: "Visi",
+  partners_tab_import: "Importas",
+  partners_tab_export: "Eksportas",
+
+  partners_ships_from: "Siunčiama iš",
+  partners_ships_to: "Siunčiama į",
+  partners_delivery_time: "Pristatymo laikas",
+  partners_view_details: "Peržiūrėti",
+  partners_request_quote: "Užklausti per WhatsApp",
+  partners_no_results: "Nerasta rezultatų",
+  partners_cta_text: "Nerandate ko ieškote?",
+  partners_cta_button: "Užklausti produkto",
+
+  footer_desc: "Patikimas importo ir eksporto partneris Nairobije.",
+  footer_quick: "Greitos nuorodos",
+  footer_contact: "Kontaktai",
+  footer_faq: "DUK",
+
+  faq_q1: "Kiek trunka pristatymas?",
+  faq_a1: "25–45 dienos jūra, 5–10 dienų oru.",
+  faq_q2: "Kaip pateikti užsakymą?",
+  faq_a2: "Susisiekite per WhatsApp arba el. paštu.",
+  faq_q3: "Iš kokių šalių importuojate?",
+  faq_a3: "Kinija, Japonija, JAE, JAV ir kt.",
+  faq_q4: "Ar tvarkote muitinę?",
+  faq_a4: "Taip, viską sutvarkome už jus.",
+
+  footer_copyright: "© 2026 Arakaharaka Enterprises. Visos teisės saugomos.",
+  footer_made: "Sukurta Nairobije ❤️",
+
+  testimonials_page_label: "Atsiliepimai",
+  testimonials_page_title: "Klientų atsiliepimai",
+  testimonials_page_subtitle: "Tikros klientų patirtys",
+
+  testi_1: "Automobilio importas buvo sklandus.",
+  testi_2: "Puikus WhatsApp palaikymas.",
+  testi_3: "Pristatymas laiku.",
+  testi_4: "Gera pagalba naujokams.",
+  testi_5: "Patikimas tiekimas.",
+  testi_6: "Aukštos kokybės produktai.",
+
+  testimonials_cta: "Turite patirties?",
+  testimonials_share_btn: "Pasidalinti",
+
+  custom_solution_title: "Reikia individualaus sprendimo?",
+  custom_solution_desc: "Papasakokite mums savo poreikius.",
+  custom_solution_btn: "Gauti pasiūlymą",
+
+  legal_label: "Teisinė informacija",
+  terms_title: "Taisyklės ir sąlygos",
+  terms_subtitle: "Perskaitykite prieš užsakymą",
+  terms_last_updated: "Paskutinis atnaujinimas: 2025"
+},  
+ml: {
+  nav_home: "ഹോം",
+  nav_about: "ഞങ്ങളേക്കുറിച്ച്",
+  nav_services: "സേവനങ്ങൾ",
+  nav_tourism: "ടൂറിസം",
+  nav_partners: "പങ്കാളികൾ",
+  nav_testimonials: "അഭിപ്രായങ്ങൾ",
+  nav_contact: "ബന്ധപ്പെടുക",
+
+  nav_dropdown_import: "ഇമ്പോർട്ട് പങ്കാളികൾ",
+  nav_dropdown_export: "കെനിയയിൽ നിന്ന് എക്സ്പോർട്ട്",
+
+  hero_title: "നിങ്ങളുടെ വിശ്വസനീയമായ ഇറക്കുമതി-കയറ്റുമതി പങ്കാളി",
+  hero_subtitle: "Arakaharaka കിഴക്കൻ, മദ്ധ്യ ആഫ്രിക്കയെ ലോകവുമായി ബന്ധിപ്പിക്കുന്നു — ഉയർന്ന നിലവാരമുള്ള ഉൽപ്പന്നങ്ങൾ, വാഹനങ്ങൾ, സാധനങ്ങൾ എന്നിവ വിശ്വസനീയമായും പരിചരിച്ചും നൽകുന്നു.",
+  hero_cta1: "ബന്ധപ്പെടുക",
+  hero_cta2: "ക്വോട്ട് നേടുക",
+  hero_badge_1: "🚀 വേഗത്തിലുള്ള ഡെലിവറി",
+  hero_badge_2: "🌍 ആഗോള സോഴ്സിംഗ്",
+  hero_badge_3: "🤝 വിശ്വസനീയ പങ്കാളികൾ",
+
+  stats_clients: "സന്തുഷ്ട ക്ലയന്റുകൾ",
+  stats_partners: "പങ്കാളി ബ്രാൻഡുകൾ",
+  stats_countries: "സേവന രാജ്യങ്ങൾ",
+  stats_satisfaction: "ക്ലയന്റ് തൃപ്തി",
+
+  services_title: "ഞങ്ങളുടെ പ്രധാന സേവനങ്ങൾ",
+  services_subtitle: "സോഴ്സിംഗിൽ നിന്ന് ലോജിസ്റ്റിക്‌സ് വരെ എല്ലാം ഞങ്ങൾ കൈകാര്യം ചെയ്യുന്നു.",
+
+  service_import: "ഇമ്പോർട്ട് സേവനങ്ങൾ",
+  service_import_desc: "ആസിയ, യൂറോപ്പ് തുടങ്ങിയ പ്രദേശങ്ങളിൽ നിന്ന് കെനിയയിലേക്ക് ഉൽപ്പന്നങ്ങൾ ഇറക്കുമതി ചെയ്യുന്നു.",
+  service_export: "എക്സ്പോർട്ട് സേവനങ്ങൾ",
+  service_export_desc: "കെനിയൻ ബിസിനസുകൾക്ക് ആഗോള വിപണികളിലേക്ക് എത്താൻ സഹായിക്കുന്നു.",
+  service_sourcing: "ഉൽപ്പന്ന സോഴ്‌സിങ്",
+  service_sourcing_desc: "ലോകമെമ്പാടുമുള്ള മികച्च ഉൽപ्पन्नങ्ङൾ കൺടറൻറത് ഈചലത്.",
+  service_vehicle: "വാഹന इम्पोर्ट",
+  service_vehicle_desc: "जपान, यूके, यूएसए मुतला राज्यंगलिल निन्दा वाहनंगलि इम्पोर्ट करता हे।",
+  service_bulk: "ബൾക്ക് ഷിപ്പിംഗ്",
+  service_bulk_desc: "വലിയ ചരക്കുകൾക്കായി ചെലവ് കാര്യക്ഷമമായ ലോജിസ്റ്റിക് പരിഹാരങ്ങൾ.",
+  service_logistics: "ലോജിസ്റ്റിക്‌സ് മാനേജ്മെന്റ്",
+  service_logistics_desc: "മുഴുവൻ സപ്ലൈ ചെയിൻ മാനേജ്മെന്റ് ഞങ്ങൾ കൈകാര്യം ചെയ്യുന്നു.",
+
+  service_page_import: "ഇമ്പോർട്ട് സേവനങ്ങൾ",
+  service_page_import_desc: "വിതരണക്കാരെ കണ്ടെത്തുന്നതിൽ നിന്ന് ഡെലിവറി വരെ മുഴുവൻ ഇറക്കുമതി പ്രക്രிய ഞങ്ങൾ കൈകார்யம் செய்யும்.",
+
+  service_page_export: "എക്സ്പോർട്ട് സേവനങ്ങൾ",
+  service_page_export_desc: "കെനിയൻ ഉൽപ്പന്നങ്ങൾ ആഗോള വിപണികളിലേക്ക് എത്തിക്കാൻ സഹായിക്കുന്നു.",
+  service_page_sourcing: "ഉൽപ്പന്ന സോഴ്‌സിങ്",
+  service_page_sourcing_desc: "ലോകമെമ്പാടുമുള്ള വിശ്വസനീയ വിതരണക്കാരിൽ നിന്ന് ഉൽപ്പന്നങ്ങൾ കണ്ടെത്തുന്നു.",
+
+  service_page_vehicle: "വാഹന ഇറക്കുമതി",
+  service_page_vehicle_desc: "കാറുകൾ, ബൈക്കുകൾ, ഹെവി മെഷീനറി എന്നിവയുടെ ഇറക്കുമതി സേവനങ്ങൾ.",
+
+  service_page_bulk: "ബൾക്ക് & കൊമേഴ്‌ഷൽ ഷിപ്പിങ്",
+  service_page_bulk_desc: "FCL/LCL കൺടറൻറർ ഷിപ്പിങ് മികച്ച നിരക്കിൽ.",
+
+  service_page_logistics: "ലോജിസ്റ്റിക്‌സ് മാനേജ്മെന്റ്",
+  service_page_logistics_desc: "വെയർഹൗസിംഗ്, ട്രാൻസ്പോർട്ട്, കസ്റ്റംസ്, ഡെലിവറി എന്നിവ.",
+
+  service_page_customs: "കസ്റ്റംസ് ക്ലിയറൻസ്",
+  service_page_customs_desc: "എല്ലാ കസ്റ്റംസ് രേഖകളും നികുതികളും ഞങ്ങൾ കൈകാര്യം ചെയ്യുന്നു.",
+
+  service_page_consulting: "ട്രേഡ് കൺസൾട്ടിംഗ്",
+  service_page_consulting_desc: "ഇറക്കുമതി/കയറ്റുമതി ആരംഭിക്കുന്നവർക്ക് മാർഗ്ഗനിർദ്ദേശം.",
+
+  service_page_industrial: "ഇൻഡസ്ട്രിയൽ & മെഷിനറി",
+  service_page_industrial_desc: "ലോകമെമ്പാടുമുള്ള വ്യവസായ ഉപകരണങ്ങൾ നൽകുന്നു.",
+
+  testimonials_title: "ഞങ്ങളെ വിശ്വസിക്കുന്നവർ",
+  testimonials_label: "ക്ലയന്റ് അഭിപ്രായങ്ങള്‍",
+
+  cta_title: "ഇറക്കുമതി അല്ലെങ്കിൽ കയറ്റുമതിക്ക് തയ്യാറാണോ?",
+  cta_subtitle: "ഞങ്ങൾ മുഴുവൻ പ്രക്രിയയും എളുപ്പമാക്കുന്നു.",
+  cta_btn: "ബന്ധപ്പെടുക",
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "ഇമ്പോർട്ട് ക്ലയന്റ് – DRC",
+  testimonial_1_text: "ചൈനയിൽ നിന്ന് ഉപകരണങ്ങൾ വളരെ സുഗമമായി എത്തിച്ചു.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "ടൂറിസം ക്ലയന്റ് – ടാൻസാനിയ",
+  testimonial_2_text: "സഫാരി വളരെ നന്നായി സംഘടിപ്പിച്ചു.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "സെയിൽസ് മാനേജർ – ചൈന",
+  testimonial_3_text: "കെനിയൻ ഉൽപ്പന്നങ്ങളുടെ ഗുണനിലവാരം അതുല്യമാണ്.",
+
+  about_title: "Arakaharaka Enterprises കുറിച്ച്",
+  about_subtitle: "നൈറോബിയിൽ നിന്നുള്ള ആഗോള വ്യാപാര കമ്പനി",
+  about_feature: "കിഴക്കൻ & മദ്ധ്യ ആഫ്രിക്കയെ ലോകവുമായി ബന്ധിപ്പിക്കുന്നു",
+  about_feature_desc: "ലോകമെമ്പാടുമുള്ള വാങ്ങുന്നവരെയും വിതരണക്കாரெயும் ஞங்கள் ஬ந்திப்பிக்கும்.",
+
+  mission: "ഞങ്ങളുടെ ദൗത്യം",
+  mission_desc: "ആഗോള വ്യാപാരം എല്ലാവർക്കും ലഭ്യമാക്കുക.",
+
+  vision: "ഞങ്ങളുടെ ദർശനം",
+  vision_desc: "കിഴക്കൻ ആഫ്രിക്കയിലെ ഏറ്റവും വിശ്വസനീയ പങ്കാളിയാകുക.",
+
+  values: "ഞങ്ങളുടെ മൂല്യങ്ങൾ",
+  values_desc: "സത്യസന്ധത, വേഗത, വ്യക്തിഗത സേവനം.",
+
+  tourism_label: "യാത്രയും ടൂറിസവും",
+  tourism_title: "ഹോട്ടൽ, സഫാരി & ടൂറിസം സേവനങ്ങൾ",
+  tourism_subtitle: "കിഴക്കൻ ആഫ്രിക്കയിലെ മറക്കാനാവാത്ത യാത്രാനുഭവങ്ങൾ.",
+  tourism_plan: "യാത്ര പ്ലാൻ ചെയ്യുക",
+  tourism_whatsapp: "WhatsApp ബുക്കിംഗ്",
+
+  tourism_services_title: "കിഴക്കൻ ആഫ്രിക്ക അന്വേഷിക്കുക",
+  tourism_services_subtitle: "യാത്ര, സഫാരി, അവധി പാക്കേജുകൾ",
+
+  tourism_hotel: "ഹോട്ടൽ ബുക്കിംഗ്",
+  tourism_hotel_desc: "ബജറ്റിന് അനുയോജ്യമായ ഹോട്ടലുകളും റിസോർട്ടുകളും.",
+
+  tourism_safari: "സഫാരി ലോഡ്ജുകൾ",
+  tourism_safari_desc: "നാഷണൽ പാർക്കുകൾക്ക് സമീപമുള്ള താമസം.",
+
+  tourism_adventure: "സഫാരി & അഡ്വഞ്ചർ",
+  tourism_adventure_desc: "വന്യജീവി ടൂറുകളും അനുഭവങ്ങളും.",
+
+  tourism_beach: "ബീച്ച് അവധി",
+  tourism_beach_desc: "ട്രോപിക്കൽ ബീച്ച് റിസോർട്ടുകൾ.",
+
+  tourism_resort: "റിസോർട്ടുകൾ & വിശ്രമം",
+  tourism_resort_desc: "ആഡംബര വിശ്രമ അനുഭവങ്ങൾ.",
+
+  tourism_hiking: "പർവത ട്രെക്കിംഗ്",
+  tourism_hiking_desc: "സുന്ദരമായ മലനിരകളിൽ യാത്രകൾ.",
+
+  tourism_cta_title: "നിങ്ങളുടെ യാത്രയ്ക്ക് തയ്യാറാണോ?",
+  tourism_cta_subtitle: "നിങ്ങളുടെ ബജറ്റും സ്ഥലവും ഞങ്ങളോട് പറയൂ.",
+  tourism_cta_btn: "ബുക്കിംഗ് അഭ്യർത്ഥിക്കുക",
+
+  view_all_services: "എല്ലാ സേവനങ്ങളും കാണുക →",
+  whatsapp_us_now: "WhatsApp വഴി ബന്ധപ്പെടുക",
+  our_story: "ഞങ്ങളുടെ കഥ",
+
+  contact_title: "ബിസിനസ് ചർച്ച ചെയ്യാം",
+  contact_subtitle: "WhatsApp അല്ലെങ്കിൽ ഇമെയിൽ വഴി ബന്ധപ്പെടുക.",
+  contact_form_title: "സന്ദേശം അയയ്ക്കുക",
+  contact_name: "പൂർണ്ണ പേര്",
+  contact_email: "ഇമെയിൽ",
+  contact_phone: "ഫോൺ",
+  contact_service: "താൽപര്യമുള്ള സേവനം",
+  contact_message: "സന്ദേശം",
+  contact_btn: "അയയ്ക്കുക",
+
+  why_label: "എന്തുകൊണ്ട് ഞങ്ങൾ",
+  why_title: "Arakaharaka വ്യത്യാസം",
+
+  why_reliability: "വിശ്വാസ്യത",
+  why_reliability_desc: "ഞങ്ങൾ വാഗ്ദാനം പാലിക്കുന്നു.",
+
+  why_global: "ആഗോള നെറ്റ്‌വർക്ക്",
+  why_global_desc: "ലോകമെമ്പാടുമുള്ള വിതരണക്കാർ.",
+
+  why_personal: "വ്യക്തിഗത സേവനം",
+  why_personal_desc: "നേരിട്ടുള്ള ആശയവിനിമയം.",
+
+  why_pricing: "മത്സരക്ഷമമായ വില",
+  why_pricing_desc: "മികച്ച നിരക്കുകൾ.",
+
+  why_customs: "കസ്റ്റംസ്",
+  why_customs_desc: "എല്ലാ രേഖകളും ഞങ്ങൾ കൈകാര്യം ചെയ്യുന്നു.",
+
+  why_fast: "വേഗത്തിലുള്ള പ്രക്രിയ",
+  why_fast_desc: "വേഗത്തിലുള്ള ഡെലിവറി.",
+
+  services_page_label: "ഞങ്ങൾ നൽകുന്നത്",
+  services_page_title: "ഞങ്ങളുടെ സേവനങ്ങൾ",
+  services_page_subtitle: "പൂർണ്ണമായ ഇറക്കുമതി/കയറ്റുമതി പരിഹാരങ്ങൾ.",
+
+  partners_auto_title: "ഓട്ടോ ഇറക്കുമതി പങ്കാളികൾ",
+  partners_auto: "വാഹന ഇറക്കുമതി",
+  partners_auto_desc: "ആഗോള വാഹന വിതരണക്കാരുമായി ബന്ധിപ്പിക്കുന്നു.",
+
+  partners_industrial_title: "ഇൻഡസ്ട്രിയൽ പങ്കാളികൾ",
+  partners_luxury_title: "ലഗ്ജറി ഉൽപ്പന്നങ്ങൾ",
+  partners_asian_title: "ഏഷ്യൻ നിർമ്മാതാക്കൾ",
+  partners_export_title: "കെനിയൻ കയറ്റുമതി",
+
+  partners_category_all: "എല്ലാ വിഭാഗങ്ങളും",
+  category_automotive: "വാഹനങ്ങൾ",
+  category_industrial_manufacturing: "വ്യവസായം",
+  category_luxury_consumer_goods: "ലഗ്ജറി",
+  category_asian_manufacturers: "ഏഷ്യൻ നിർമ്മാതാക്കൾ",
+  category_construction_materials: "നിർമ്മാണ വസ്തുക്കൾ",
+  category_electronics_technology: "ഇലക്ട്രോണിക്സ്",
+  category_food_agricultural_products: "ഭക്ഷണം & കൃഷി",
+  category_african_culture: "ആഫ്രിക്കൻ സംസ്കാരം",
+  category_kenyan_export_products: "കെനിയൻ കയറ്റുമതി ഉൽപ്പന്നങ്ങൾ",
+
+  partners_search_placeholder: "ഉൽപ്പന്നങ്ങൾ തിരയുക...",
+  partners_tab_all: "എല്ലാം",
+  partners_tab_import: "ഇമ്പോർട്ട്",
+  partners_tab_export: "എക്സ്പോർട്ട്",
+
+  partners_ships_from: "അയക്കുന്ന സ്ഥലം",
+  partners_ships_to: "എത്തുന്ന സ്ഥലം",
+  partners_delivery_time: "ഡെലിവറി സമയം",
+  partners_view_details: "വിശദാംശങ്ങൾ",
+  partners_request_quote: "WhatsApp വഴി ക്വോട്ട്",
+  partners_no_results: "ഫലങ്ങൾ കണ്ടെത്തിയില്ല",
+  partners_cta_text: "നിങ്ങൾക്ക് വേണ്ടത് കണ്ടെത്താനായില്ലേ?",
+  partners_cta_button: "ഉൽപ്പന്നം അഭ്യർത്ഥിക്കുക",
+
+  footer_desc: "നൈറോബിയിൽ ആസ്ഥാനമായ വിശ്വസനീയ ഇറക്കുമതി/കയറ്റുമതി പങ്കാളി.",
+  footer_quick: "വേഗത്തിലുള്ള ലിങ്കുകൾ",
+  footer_contact: "ബന്ധപ്പെടുക",
+  footer_faq: "പതിവുചോദ്യങ്ങൾ",
+
+  faq_q1: "ഡെലിവറി എത്ര ദിവസം എടുക്കും?",
+  faq_a1: "കടൽ മാർഗം 25–45 ദിവസം, വായു മാർഗം 5–10 ദിവസം.",
+  faq_q2: "ಓർಡರ್ ಎಷ್ಟು ಮಾಡಬಹುದು?",
+  faq_a2: "WhatsApp ಅಥವಾ ಇಮೆಲ್ ಮೂಲಕ ಸಂಪರ್ಕಿಸಿ.",
+  faq_q3: "ഏത് രാജ്യങ്ങളിൽ നിന്ന് ഇറക്കുമതി ചെയ്യുന്നു?",
+  faq_a3: "ചൈന, ജപ്പാൻ, UAE, USA മുതലായവ.",
+  faq_q4: "കസ്റ്റംസ് നിങ്ങൾ കൈകാര്യം ചെയ്യുമോ?",
+  faq_a4: "അതെ, എല്ലാ നടപടികളും ഞങ്ങൾ കൈകാര്യം ചെയ്യുന്നു.",
+
+  footer_copyright: "© 2026 Arakaharaka Enterprises. എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം.",
+  footer_made: "നൈറോബിയിൽ ❤️ നിർമ്മിച്ചത്",
+
+  testimonials_page_label: "അഭിപ്രായങ്ങൾ",
+  testimonials_page_title: "ക്ലയന്റ് அபிப்ராயங்கள்",
+  testimonials_page_subtitle: "യഥാർത്ഥ ഉപഭോക്തൃ അനുഭവങ്ങൾ",
+
+  testi_1: "വാഹന ഇറക്കുമതി വളരെ എളുപ്പമായിരുന്നു.",
+  testi_2: "WhatsApp പിന്തുണ അതിമനോഹരം.",
+  testi_3: "സമയത്ത് ഡെലിവറി ലഭിച്ചു.",
+  testi_4: "പുതിയവർക്ക് മികച്ച സഹായം.",
+  testi_5: "വിശ്വസനീയ സേവനം.",
+  testi_6: "ഉയർന്ന നിലവാരമുള്ള ഉൽപ്പന്നങ്ങൾ.",
+
+  testimonials_cta: "നിങ്ങളുടെ അനുഭവമുണ്ടോ?",
+  testimonials_share_btn: "പങ്കിടുക",
+
+  custom_solution_title: "കസ്റ്റം പരിഹാരം വേണോ?",
+  custom_solution_desc: "നിങ്ങളുടെ ആവശ്യങ്ങൾ ഞങ്ങളോട് പറയുക.",
+  custom_solution_btn: "ക്വോട്ട് അഭ്യർത്ഥിക്കുക",
+
+  legal_label: "നിയമ വിവരങ്ങൾ",
+  terms_title: "നിബന്ധനകളും വ്യവസ്ഥകളും",
+  terms_subtitle: "ഓർഡർ ചെയ്യുന്നതിന് മുമ്പ് വായിക്കുക",
+  terms_last_updated: "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്: 2025"
+},
+mg:{
+  nav_home: "Fandraisana",
+  nav_about: "Momba anay",
+  nav_services: "Tolotra",
+  nav_tourism: "Fizahan-tany",
+  nav_partners: "Mpiara-miombon'antoka",
+  nav_testimonials: "Hevitry ny mpanjifa",
+  nav_contact: "Hifandray",
+
+  nav_dropdown_import: "Mpiara-miombon'antoka amin'ny fanafarana",
+  nav_dropdown_export: "Fanondranana avy any Kenya",
+
+  hero_title: "Mpiara-miombon'antoka azo itokisana amin'ny fanafarana sy fanondranana",
+  hero_subtitle: "Arakaharaka dia mampifandray an'i Afrika Atsinanana sy Afovoany amin'izao tontolo izao — manome vokatra, fiara ary entana tsara kalitao avy amin'ny tsena manerantany amin'ny fomba azo antoka.",
+  hero_cta1: "Hifandray aminay",
+  hero_cta2: "Mangataka tombana",
+
+  hero_badge_1: "🚀 Fandefasana haingana",
+  hero_badge_2: "🌍 Fikarohana manerantany",
+  hero_badge_3: "🤝 Mpiara-miombon'antoka azo itokisana",
+
+  stats_clients: "Mpanjifa afa-po",
+  stats_partners: "Marika mpiara-miombon'antoka",
+  stats_countries: "Firenena iasana",
+  stats_satisfaction: "Fahafaham-pon'ny mpanjifa",
+
+  services_title: "Serivisy fototra",
+  services_subtitle: "Avy amin'ny fitadiavana vokatra ka hatramin'ny logistika — izahay no mikarakara ny rehetra.",
+
+  service_import: "Serivisy fanafarana",
+  service_import_desc: "Manafatra entana avy any Azia, Eoropa ary faritra hafa ho any Kenya izahay.",
+  service_export: "Serivisy fanondranana",
+  service_export_desc: "Manampy orinasa Kenyana hiditra amin'ny tsena iraisam-pirenena.",
+  service_sourcing: "Fitadiavana vokatra",
+  service_sourcing_desc: "Mitady vokatra tsara indrindra maneran-tany ho anao izahay.",
+  service_vehicle: "Fanafarana fiara",
+  service_vehicle_desc: "Manafatra fiara avy any Japon, UK, UAE sy firenena hafa.",
+  service_bulk: "Fandefasana entana betsaka",
+  service_bulk_desc: "Vahaolana ara-toekarena ho an'ny entana lehibe.",
+  service_logistics: "Fitantanana logistika",
+  service_logistics_desc: "Fitantanana ny rojo famatsiana manontolo.",
+
+  service_page_import: "Serivisy fanafarana",
+  service_page_import_desc: "Izahay no mikarakara ny dingana rehetra amin'ny fanafarana entana.",
+
+  service_page_export: "Serivisy fanondranana",
+  service_page_export_desc: "Manampy orinasa Kenyana hanondrana vokatra amin'ny tsena iraisam-pirenena.",
+
+  service_page_sourcing: "Fitadiavana vokatra",
+  service_page_sourcing_desc: "Mitady vokatra avy amin'ny mpamatsy azo itokisana maneran-tany.",
+
+  service_page_vehicle: "Fanafarana fiara",
+  service_page_vehicle_desc: "Fiara, moto ary milina mavesatra.",
+
+  service_page_bulk: "Fandefasana entana betsaka sy ara-barotra",
+  service_page_bulk_desc: "FCL/LCL amin'ny vidiny tsara indrindra.",
+
+  service_page_logistics: "Logistika",
+  service_page_logistics_desc: "Fitahirizana, fitaterana, fadin-tseranana ary fanaterana.",
+
+  service_page_customs: "Fandoavana fadin-tseranana",
+  service_page_customs_desc: "Izahay no mikarakara ny antontan-taratasy rehetra.",
+
+  service_page_consulting: "Torohevitra ara-barotra",
+  service_page_consulting_desc: "Manampy vao manomboka amin'ny fanafarana sy fanondranana.",
+
+  service_page_industrial: "Indostria sy milina",
+  service_page_industrial_desc: "Fitaovana indostrialy avy amin'ny firenena maro.",
+
+  testimonials_title: "Matoky anay ny maro",
+  testimonials_label: "Hevitry ny mpanjifa",
+
+  cta_title: "Vonona hanafatra na hanondrana?",
+  cta_subtitle: "Ataonay mora ho anao ny dingana rehetra.",
+  cta_btn: "Hifandray",
+
+  testimonial_1_name: "Christian M. Mayani",
+  testimonial_1_role: "Mpanjifa fanafarana – DRC",
+  testimonial_1_text: "Nandeha tsara sy matihanina ny fanafarana fitaovana avy any Shina.",
+
+  testimonial_2_name: "George Solo",
+  testimonial_2_role: "Mpanjifa fizahan-tany – Tanzania",
+  testimonial_2_text: "Voalamina tsara ny safari.",
+
+  testimonial_3_name: "Hedy",
+  testimonial_3_role: "Mpitantana varotra – Shina",
+  testimonial_3_text: "Nihoatra ny nantenaina ny kalitaon'ny vokatra Kenyana.",
+
+  about_title: "Momba ny Arakaharaka Enterprises",
+  about_subtitle: "Orinasa avy any Nairobi mifandray amin'izao tontolo izao.",
+  about_feature: "Mampifandray an'i Afrika Atsinanana sy Afovoany amin'izao tontolo izao",
+  about_feature_desc: "Mampifandray mpividy sy mpamatsy maneran-tany izahay.",
+
+  mission: "Tanjonay",
+  mission_desc: "Hatao mora idirana ho an'ny rehetra ny varotra iraisam-pirenena.",
+
+  vision: "Vinavinay",
+  vision_desc: "Ho mpiara-miombon'antoka azo itokisana indrindra any Afrika Atsinanana.",
+
+  values: "Soatoavina",
+  values_desc: "Marina, haingana ary serivisy manokana.",
+
+  tourism_label: "Fizahan-tany sy dia",
+  tourism_title: "Hotely, safari & serivisy fizahan-tany",
+  tourism_subtitle: "Traikefa tsy hay hadinoina any Afrika Atsinanana.",
+  tourism_plan: "Mikarakara dia",
+  tourism_whatsapp: "Mamandrika amin'ny WhatsApp",
+
+  tourism_services_title: "Hizaha an'i Afrika Atsinanana",
+  tourism_services_subtitle: "Dia, safari ary fialan-tsasatra",
+
+  tourism_hotel: "Famandrihana hotely",
+  tourism_hotel_desc: "Hotely sy trano fialan-tsasatra araka ny tetibola.",
+
+  tourism_safari: "Trano safari",
+  tourism_safari_desc: "Fonenana akaikin'ny valan-javaboary.",
+
+  tourism_adventure: "Safari & aventure",
+  tourism_adventure_desc: "Fitsidihana bibidia sy traikefa.",
+
+  tourism_beach: "Fialan-tsasatra amoron-dranomasina",
+  tourism_beach_desc: "Toerana tropikaly fialan-tsasatra.",
+
+  tourism_resort: "Resorts & fialan-tsasatra",
+  tourism_resort_desc: "Fialan-tsasatra mirentirenty.",
+
+  tourism_hiking: "Fiakarana tendrombohitra",
+  tourism_hiking_desc: "Lalana tsara tarehy sy fitsangatsanganana.",
+
+  tourism_cta_title: "Vonona amin'ny dianao?",
+  tourism_cta_subtitle: "Lazao anay ny tetibola sy toerana.",
+  tourism_cta_btn: "Mangataka famandrihana",
+
+  view_all_services: "Jereo ny serivisy rehetra →",
+  whatsapp_us_now: "Hifandray amin'ny WhatsApp",
+  our_story: "Tantarantsika",
+
+  contact_title: "Andao hiresaka raharaham-barotra",
+  contact_subtitle: "Mifandraisa amin'ny WhatsApp na email.",
+  contact_form_title: "Alefaso hafatra",
+  contact_name: "Anarana feno",
+  contact_email: "Email",
+  contact_phone: "Laharana finday",
+  contact_service: "Serivisy mahaliana",
+  contact_message: "Hafatra",
+  contact_btn: "Alefaso",
+
+  why_label: "Nahoana izahay",
+  why_title: "Tombony Arakaharaka",
+
+  why_reliability: "Azo itokisana",
+  why_reliability_desc: "Manatanteraka ny fampanantenana izahay.",
+
+  why_global: "Tambajotra manerantany",
+  why_global_desc: "Mpamatsy eran-tany.",
+
+  why_personal: "Serivisy manokana",
+  why_personal_desc: "Fifandraisana mivantana.",
+
+  why_pricing: "Vidiny mifaninana",
+  why_pricing_desc: "Tolotra tsara indrindra.",
+
+  why_customs: "Fadin-tseranana",
+  why_customs_desc: "Izahay no mikarakara ny antontan-taratasy.",
+
+  why_fast: "Haingam-pandeha",
+  why_fast_desc: "Fandefasana haingana.",
+
+  services_page_label: "Izay atolotray",
+  services_page_title: "Serivisinay",
+  services_page_subtitle: "Vahaolana feno amin'ny fanafarana sy fanondranana.",
+
+  partners_auto_title: "Mpiara-miombon'antoka fiara",
+  partners_auto: "Fanafarana fiara",
+  partners_auto_desc: "Mampifandray amin'ny mpamatsy fiara maneran-tany.",
+
+  partners_industrial_title: "Indostria",
+  partners_luxury_title: "Vokatra lafo vidy",
+  partners_asian_title: "Mpamokatra Aziatika",
+  partners_export_title: "Fanondranana Kenyana",
+
+  partners_category_all: "Sokajy rehetra",
+  category_automotive: "Fiara",
+  category_industrial_manufacturing: "Indostria",
+  category_luxury_consumer_goods: "Lafo vidy",
+  category_asian_manufacturers: "Mpamokatra Aziatika",
+  category_construction_materials: "Akora fanorenana",
+  category_electronics_technology: "Elektronika",
+  category_food_agricultural_products: "Sakafo sy fambolena",
+  category_african_culture: "Kolontsaina Afrikana",
+  category_kenyan_export_products: "Vokatra Kenyana",
+
+  partners_search_placeholder: "Mitady vokatra...",
+  partners_tab_all: "Rehetra",
+  partners_tab_import: "Fanafarana",
+  partners_tab_export: "Fanondranana",
+
+  partners_ships_from: "Avy amin'ny",
+  partners_ships_to: "Ho any",
+  partners_delivery_time: "Fotoana fanaterana",
+  partners_view_details: "Jereo",
+  partners_request_quote: "Mangataka vidiny amin'ny WhatsApp",
+  partners_no_results: "Tsy nisy vokatra hita",
+  partners_cta_text: "Tsy hitanao izay tadiavinao?",
+  partners_cta_button: "Mangataka vokatra",
+
+  footer_desc: "Mpiara-miombon'antoka azo itokisana amin'ny fanafarana sy fanondranana any Nairobi.",
+  footer_quick: "Rohy haingana",
+  footer_contact: "Fifandraisana",
+  footer_faq: "Fanontaniana matetika",
+
+  faq_q1: "Hafiriana ny fandefasana?",
+  faq_a1: "25–45 andro an-dranomasina, 5–10 andro an'habakabaka.",
+  faq_q2: "Ahoana no hanaovana baiko?",
+  faq_a2: "Mifandraisa amin'ny WhatsApp na email.",
+  faq_q3: "Avy aiza no hanafarana?",
+  faq_a3: "Shina, Japon, UAE, Etazonia, sns.",
+  faq_q4: "Mikarakara fadin-tseranana ve ianareo?",
+  faq_a4: "Eny, izahay no mikarakara izany rehetra izany.",
+
+  footer_copyright: "© 2026 Arakaharaka Enterprises. Zo rehetra voatokana.",
+  footer_made: "Natao tam-pitiavana tao Nairobi ❤️",
+
+  testimonials_page_label: "Hevitra",
+  testimonials_page_title: "Hevitry ny mpanjifa",
+  testimonials_page_subtitle: "Traikefa tena izy avy amin'ny mpanjifa",
+
+  testi_1: "Tsotra sy mora ny fanafarana fiara.",
+  testi_2: "Tsara ny fanohanana WhatsApp.",
+  testi_3: "Tonga ara-potoana ny entana.",
+  testi_4: "Fanampiana tsara ho an'ny vao manomboka.",
+  testi_5: "Serivisy azo itokisana.",
+  testi_6: "Vokatra avo lenta.",
+
+  testimonials_cta: "Manana traikefa ve ianao?",
+  testimonials_share_btn: "Zarao",
+
+  custom_solution_title: "Mila vahaolana manokana?",
+  custom_solution_desc: "Lazao anay ny zavatra ilainao.",
+  custom_solution_btn: "Mangataka tombana",
+
+  legal_label: "Ara-dalàna",
+  terms_title: "Fepetra sy fepetra",
+  terms_subtitle: "Vakio alohan'ny hanaovana baiko",
+  terms_last_updated: "Nohavaozina farany: 2025"
+},
+ne: {
+  "nav_home": "गृहपृष्ठ",
+  "nav_about": "हाम्रो बारेमा",
+  "nav_services": "सेवाहरू",
+  "nav_tourism": "पर्यटन",
+  "nav_partners": "साझेदारहरू",
+  "nav_testimonials": "प्रशंसापत्र",
+  "nav_contact": "सम्पर्क गर्नुहोस्",
+
+  "nav_dropdown_import": "आयात साझेदारहरू",
+  "nav_dropdown_export": "केन्याबाट निर्यात",
+
+  "hero_title": "तपाईंको विश्वासिलो आयात र निर्यात साझेदार",
+  "hero_subtitle": "Arakaharaka ले पूर्वी र मध्य अफ्रिकालाई विश्वसँग जोड्छ — विश्व बजारबाट उच्च गुणस्तरका उत्पादन, सवारी साधन र सामानहरू विश्वसनीय रूपमा उपलब्ध गराउँछ।",
+  "hero_cta1": "सम्पर्क गर्नुहोस्",
+  "hero_cta2": "कोटेशन अनुरोध गर्नुहोस्",
+
+  "hero_badge_1": "🚀 छिटो डेलिभरी",
+  "hero_badge_2": "🌍 विश्वव्यापी स्रोत",
+  "hero_badge_3": "🤝 विश्वासिलो साझेदारहरू",
+
+  "stats_clients": "सन्तुष्ट ग्राहकहरू",
+  "stats_partners": "साझेदार ब्रान्डहरू",
+  "stats_countries": "सेवा प्रदान गरिएका देशहरू",
+  "stats_satisfaction": "ग्राहक सन्तुष्टि",
+
+  "services_title": "हाम्रो मुख्य सेवाहरू",
+  "services_subtitle": "उत्पादन खोजीदेखि ढुवानीसम्म सबै हामी व्यवस्थापन गर्छौं।",
+
+  "service_import": "आयात सेवा",
+  "service_import_desc": "हामी एसिया, युरोप र अन्य क्षेत्रबाट केन्यामा सामान आयात गर्छौं।",
+  "service_export": "निर्यात सेवा",
+  "service_export_desc": "हामी केन्याली व्यवसायलाई अन्तर्राष्ट्रिय बजारमा पुग्न मद्दत गर्छौं।",
+  "service_sourcing": "उत्पादन खोजी",
+  "service_sourcing_desc": "हामी तपाईंको लागि विश्वभरका उत्कृष्ट उत्पादनहरू खोज्छौं।",
+  "service_vehicle": "सवारी साधन आयात",
+  "service_vehicle_desc": "जापान, यूके, यूएई लगायतबाट सवारी साधन आयात।",
+  "service_bulk": "ठूलो ढुवानी",
+  "service_bulk_desc": "ठूला परिमाणका सामानका लागि लागत-प्रभावी ढुवानी समाधान।",
+  "service_logistics": "लजिस्टिक्स व्यवस्थापन",
+  "service_logistics_desc": "सम्पूर्ण सप्लाई चेन व्यवस्थापन हामी गर्छौं।",
+
+  "service_page_import": "आयात सेवा",
+  "service_page_import_desc": "हामी आयात प्रक्रियाको सबै चरणहरू व्यवस्थापन गर्छौं।",
+
+  "service_page_export": "निर्यात सेवा",
+  "service_page_export_desc": "केन्याली उत्पादनलाई विश्व बजारमा निर्यात गर्न मद्दत गर्छौं।",
+
+  "service_page_sourcing": "उत्पादन खोजी",
+  "service_page_sourcing_desc": "विश्वभरका विश्वसनीय आपूर्तिकर्ताबाट उत्पादन खोज्छौं।",
+
+  "service_page_vehicle": "सवारी साधन आयात",
+  "service_page_vehicle_desc": "कार, मोटरसाइकल र भारी मेसिनरी आयात।",
+
+  "service_page_bulk": "ठूलो तथा व्यावसायिक ढुवानी",
+  "service_page_bulk_desc": "उत्तम दरमा FCL/LCL कन्टेनर ढुवानी।",
+
+  "service_page_logistics": "लजिस्टिक्स",
+  "service_page_logistics_desc": "भण्डारण, ढुवानी, भन्सार र डेलिभरी।",
+
+  "service_page_customs": "भन्सार क्लियरेन्स",
+  "service_page_customs_desc": "सबै कागजात र कर व्यवस्थापन हामी गर्छौं।",
+
+  "service_page_consulting": "व्यापार परामर्श",
+  "service_page_consulting_desc": "आयात/निर्यात सुरु गर्न सहयोग।",
+
+  "service_page_industrial": "औद्योगिक र मेसिनरी",
+  "service_page_industrial_desc": "विश्वभरबाट औद्योगिक उपकरण आपूर्ति।",
+
+  "testimonials_title": "हामीलाई विश्वास गर्ने धेरै छन्",
+  "testimonials_label": "ग्राहक प्रतिक्रिया",
+
+  "cta_title": "आयात वा निर्यात गर्न तयार हुनुहुन्छ?",
+  "cta_subtitle": "हामी सबै प्रक्रिया सजिलो बनाउँछौं।",
+  "cta_btn": "सम्पर्क गर्नुहोस्",
+
+  "testimonial_1_name": "Christian M. Mayani",
+  "testimonial_1_role": "आयात ग्राहक – DRC",
+  "testimonial_1_text": "चीनबाट उपकरणहरू सजिलै र व्यावसायिक रूपमा आयात गरियो।",
+
+  "testimonial_2_name": "George Solo",
+  "testimonial_2_role": "पर्यटन ग्राहक – तान्जानिया",
+  "testimonial_2_text": "सफारी उत्कृष्ट रूपमा व्यवस्थित गरिएको थियो।",
+
+  "testimonial_3_name": "Hedy",
+  "testimonial_3_role": "सेल्स म्यानेजर – चीन",
+  "testimonial_3_text": "केन्याली उत्पादनको गुणस्तर अपेक्षाभन्दा माथि थियो।",
+
+  "about_title": "Arakaharaka Enterprises बारेमा",
+  "about_subtitle": "नैरोबीबाट विश्वसँग जोडिएको कम्पनी।",
+  "about_feature": "पूर्वी र मध्य अफ्रिकालाई विश्वसँग जोड्ने",
+  "about_feature_desc": "हामी विश्वभरका खरिदकर्ता र आपूर्तिकर्तालाई जोड्छौं।",
+
+  "mission": "हाम्रो उद्देश्य",
+  "mission_desc": "सबैका लागि अन्तर्राष्ट्रिय व्यापारलाई सजिलो बनाउने।",
+
+  "vision": "हाम्रो दृष्टि",
+  "vision_desc": "पूर्वी अफ्रिकाको सबैभन्दा विश्वासिलो साझेदार बन्ने।",
+
+  "values": "हाम्रो मूल्यहरू",
+  "values_desc": "इमान्दारिता, छिटो सेवा र व्यक्तिगत ध्यान।",
+
+  "tourism_label": "पर्यटन र यात्रा",
+  "tourism_title": "होटल, सफारी र पर्यटन सेवा",
+  "tourism_subtitle": "पूर्वी अफ्रिकामा अविस्मरणीय यात्रा अनुभवहरू।",
+  "tourism_plan": "यात्रा योजना गर्नुहोस्",
+  "tourism_whatsapp": "WhatsApp बुकिङ",
+
+  "tourism_services_title": "पूर्वी अफ्रिका अन्वेषण गर्नुहोस्",
+  "tourism_services_subtitle": "यात्रा, सफारी र छुट्टी प्याकेजहरू",
+
+  "tourism_hotel": "होटल बुकिङ",
+  "tourism_hotel_desc": "बजेट अनुसार होटल र रिसोर्टहरू।",
+
+  "tourism_safari": "सफारी लजहरू",
+  "tourism_safari_desc": "राष्ट्रिय निकुञ्ज नजिक आवास।",
+
+  "tourism_adventure": "सफारी र साहसिक यात्रा",
+  "tourism_adventure_desc": "वन्यजन्तु भ्रमण र अनुभवहरू।",
+
+  "tourism_beach": "समुद्री छुट्टी",
+  "tourism_beach_desc": "ट्रपिकल समुद्री रिसोर्टहरू।",
+
+  "tourism_resort": "रिसोर्ट र आराम",
+  "tourism_resort_desc": "लक्जरी आराम अनुभवहरू।",
+
+  "tourism_hiking": "पहाड आरोहण",
+  "tourism_hiking_desc": "सुन्दर पहाडी ट्रेकहरू।",
+
+  "tourism_cta_title": "तपाईंको यात्राका लागि तयार हुनुहुन्छ?",
+  "tourism_cta_subtitle": "तपाईंको बजेट र गन्तव्य बताउनुहोस्।",
+  "tourism_cta_btn": "बुकिङ अनुरोध गर्नुहोस्",
+
+  "view_all_services": "सबै सेवाहरू हेर्नुहोस् →",
+  "whatsapp_us_now": "WhatsApp मा सम्पर्क गर्नुहोस्",
+  "our_story": "हाम्रो कथा",
+
+  "contact_title": "व्यापार कुरा गरौं",
+  "contact_subtitle": "WhatsApp वा इमेल मार्फत सम्पर्क गर्नुहोस्।",
+  "contact_form_title": "सन्देश पठाउनुहोस्",
+  "contact_name": "पूरा नाम",
+  "contact_email": "इमेल",
+  "contact_phone": "फोन नम्बर",
+  "contact_service": "रुचाइएको सेवा",
+  "contact_message": "सन्देश",
+  "contact_btn": "पठाउनुहोस्",
+
+  "why_label": "किन हामी",
+  "why_title": "Arakaharaka को फरक",
+
+  "why_reliability": "विश्वसनीयता",
+  "why_reliability_desc": "हामी सधैं वाचा पूरा गर्छौं।",
+
+  "why_global": "विश्वव्यापी नेटवर्क",
+  "why_global_desc": "विश्वभरका आपूर्तिकर्ता।",
+
+  "why_personal": "व्यक्तिगत सेवा",
+  "why_personal_desc": "सीधा सम्पर्क।",
+
+  "why_pricing": "प्रतिस्पर्धी मूल्य",
+  "why_pricing_desc": "उत्तम मूल्य प्रस्ताव।",
+
+  "why_customs": "भन्सार व्यवस्थापन",
+  "why_customs_desc": "सबै कागजात हामी गर्छौं।",
+
+  "why_fast": "छिटो प्रक्रिया",
+  "why_fast_desc": "छिटो डेलिभरी।",
+
+  "services_page_label": "हामी के प्रस्ताव गर्छौं",
+  "services_page_title": "हाम्रा सेवाहरू",
+  "services_page_subtitle": "पूर्ण आयात र निर्यात समाधान।",
+
+  "partners_auto_title": "अटोमोटिभ आयात साझेदारहरू",
+  "partners_auto": "सवारी साधन आयात",
+  "partners_auto_desc": "विश्वव्यापी अटोमोटिभ आपूर्तिकर्तासँग जोडिन्छ।",
+
+  "partners_industrial_title": "औद्योगिक साझेदारहरू",
+  "partners_luxury_title": "लक्जरी वस्तुहरू",
+  "partners_asian_title": "एसियाली उत्पादकहरू",
+  "partners_export_title": "केन्याली निर्यात",
+
+  "partners_category_all": "सबै वर्गहरू",
+  "category_automotive": "सवारी साधन",
+  "category_industrial_manufacturing": "औद्योगिक",
+  "category_luxury_consumer_goods": "लक्जरी",
+  "category_asian_manufacturers": "एसियाली उत्पादक",
+  "category_construction_materials": "निर्माण सामग्री",
+  "category_electronics_technology": "इलेक्ट्रोनिक्स",
+  "category_food_agricultural_products": "खाद्य र कृषि",
+  "category_african_culture": "अफ्रिकी संस्कृति",
+  "category_kenyan_export_products": "केन्याली निर्यात",
+
+  "partners_search_placeholder": "उत्पादन खोज्नुहोस्...",
+  "partners_tab_all": "सबै",
+  "partners_tab_import": "आयात",
+  "partners_tab_export": "निर्यात",
+
+  "partners_ships_from": "बाट पठाइन्छ",
+  "partners_ships_to": "सम्म पठाइन्छ",
+  "partners_delivery_time": "डेलिभरी समय",
+  "partners_view_details": "विवरण हेर्नुहोस्",
+  "partners_request_quote": "WhatsApp मार्फत कोटेशन",
+  "partners_no_results": "कुनै परिणाम भेटिएन",
+  "partners_cta_text": "तपाईंले खोजेको भेटिएन?",
+  "partners_cta_button": "उत्पादन अनुरोध गर्नुहोस्",
+
+  "footer_desc": "नैरोबीमा आधारित विश्वासिलो आयात र निर्यात साझेदार।",
+  "footer_quick": "छिटो लिंकहरू",
+  "footer_contact": "सम्पर्क",
+  "footer_faq": "बारम्बार सोधिने प्रश्नहरू",
+
+  "faq_q1": "ढुवानी कति समय लाग्छ?",
+  "faq_a1": "समुद्री ढुवानी 25–45 दिन, हवाई 5–10 दिन।",
+  "faq_q2": "अर्डर कसरी गर्ने?",
+  "faq_a2": "WhatsApp वा इमेल मार्फत सम्पर्क गर्नुहोस्।",
+  "faq_q3": "कुन देशबाट आयात गर्नुहुन्छ?",
+  "faq_a3": "चीन, जापान, UAE, USA आदि।",
+  "faq_q4": "के तपाईं भन्सार हेर्नुहुन्छ?",
+  "faq_a4": "हो, सबै हामी व्यवस्थापन गर्छौं।",
+
+  "footer_copyright": "© 2026 Arakaharaka Enterprises. सबै अधिकार सुरक्षित।",
+  "footer_made": "नैरोबीमा प्रेमसहित बनाइएको ❤️",
+
+  "testimonials_page_label": "प्रशंसापत्र",
+  "testimonials_page_title": "ग्राहक प्रतिक्रिया",
+  "testimonials_page_subtitle": "वास्तविक ग्राहक अनुभव",
+
+  "testi_1": "सवारी आयात सजिलो थियो।",
+  "testi_2": "WhatsApp समर्थन उत्कृष्ट छ।",
+  "testi_3": "समयमै डेलिभरी भयो।",
+  "testi_4": "नयाँ प्रयोगकर्ताका लागि राम्रो सहयोग।",
+  "testi_5": "विश्वसनीय सेवा।",
+  "testi_6": "उच्च गुणस्तरका उत्पादनहरू।",
+
+  "testimonials_cta": "तपाईंको अनुभव छ?",
+  "testimonials_share_btn": "सेयर गर्नुहोस्",
+
+  "custom_solution_title": "अनुकूल समाधान चाहिन्छ?",
+  "custom_solution_desc": "आफ्नो आवश्यकता हामीलाई भन्नुहोस्।",
+  "custom_solution_btn": "कोटेशन अनुरोध गर्नुहोस्",
+
+  "legal_label": "कानुनी जानकारी",
+  "terms_title": "नियम र सर्तहरू",
+  "terms_subtitle": "अर्डर गर्नु अघि पढ्नुहोस्",
+  "terms_last_updated": "अन्तिम अपडेट: 2025"
+}
 
   };
 
