@@ -671,6 +671,8 @@
     background: radial-gradient(circle at 30% 110%, #FEDA75 0 22%, #FA7E1E 35%, #D62976 58%, #962FBF 78%, #4F5BD5 100%);
   }
   .social-link[aria-label="Facebook"] { background: #1877F2; }
+  .social-link[aria-label="Telegram"] { background: #229ED9; }
+  .social-link[aria-label="X"] { background: #000000; }
   .social-link[aria-label="TikTok"] { background: #010101; }
   .social-link:hover { filter: brightness(1.12); transform: translateY(-2px); }
 
