@@ -10089,6 +10089,27 @@ function loadLanguageSelector() {
   select.value = savedLang;
 }
 
+const whatsappIconMarkup = `
+  <span class="whatsapp-icon" aria-hidden="true">
+    <svg viewBox="0 0 32 32" focusable="false">
+      <path d="M16.03 3.2A12.75 12.75 0 0 0 5.18 22.63L3.5 28.8l6.33-1.66A12.72 12.72 0 0 0 16.03 28.8h.01A12.8 12.8 0 0 0 16.03 3.2Zm7.51 18.05c-.31.88-1.81 1.68-2.53 1.78-.65.1-1.47.14-2.37-.15-.55-.17-1.25-.41-2.15-.8-3.78-1.63-6.25-5.43-6.44-5.68-.18-.25-1.54-2.05-1.54-3.91s.98-2.78 1.33-3.16c.35-.38.76-.48 1.02-.48h.73c.23.01.55-.08.86.66.31.75 1.06 2.6 1.15 2.79.1.19.16.42.03.67-.13.25-.19.41-.38.64-.19.22-.4.49-.57.66-.19.19-.39.4-.17.78.22.38.96 1.58 2.06 2.56 1.42 1.27 2.61 1.66 2.99 1.85.38.19.6.16.83-.1.22-.25.95-1.11 1.21-1.5.25-.38.51-.32.86-.19.35.13 2.22 1.05 2.6 1.24.38.19.64.29.73.45.09.16.09.92-.22 1.83Z"/>
+    </svg>
+  </span>`;
+
+function decorateWhatsAppLinks() {
+  document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+    link.querySelectorAll('.whatsapp-icon').forEach(icon => icon.remove());
+
+    if (link.classList.contains('float-wa') || link.classList.contains('social-link')) {
+      link.innerHTML = whatsappIconMarkup;
+      return;
+    }
+
+    link.textContent = link.textContent.replace(/^\s*💬\s*/u, '').trim();
+    link.insertAdjacentHTML('afterbegin', whatsappIconMarkup);
+  });
+}
+
 // Change language and update all translatable elements
 function changeLanguage(lang) {
   if (!lang || !window.translations || !window.translations[lang]) {
@@ -10139,6 +10160,8 @@ function changeLanguage(lang) {
     document.documentElement.dir = 'ltr';
     document.body.style.direction = 'ltr';
   }
+
+  decorateWhatsAppLinks();
 }
 
 // Initialize language on page load
