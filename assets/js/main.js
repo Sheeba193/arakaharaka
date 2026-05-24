@@ -10187,62 +10187,304 @@ function updatePageContent() {
 
 // Sample product data (should be loaded from backend in production)
 const productsData = [
+  // =========================
+  // IMPORT PRODUCTS
+  // =========================
   {
     id: 1,
-    name: 'Toyota Vehicles',
-    category: 'Automotive',
-    type: 'import',
-    image: 'https://via.placeholder.com/300x200?text=Toyota+Vehicles',
-    description: 'High-quality imported Toyota vehicles from Japan including Camry, Corolla, and Land Cruiser models.',
-    origin: 'Japan',
-    destination: 'Kenya',
-    delivery: '4-6 weeks'
+    name: "Toyota Hilux",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/import/hilux.jpg",
+    description:
+      "Reliable 4WD pickup truck built for tough terrain. Popular across East Africa for both commercial and personal use.",
+    origin: "Japan / UAE",
+    destination: "Kenya, Uganda, Tanzania, Rwanda, DRC",
+    delivery: "4–8 weeks (sea freight)"
   },
   {
     id: 2,
-    name: 'Industrial Machinery',
-    category: 'Industrial & Manufacturing',
-    type: 'import',
-    image: 'https://via.placeholder.com/300x200?text=Machinery',
-    description: 'Factory equipment and industrial machinery from Germany and China.',
-    origin: 'Germany',
-    destination: 'Kenya',
-    delivery: '8-10 weeks'
+    name: "BMW Vehicles",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/import/bmw.jpg",
+    description:
+      "Luxury BMW sedans, SUVs, and performance vehicles sourced from Germany, Japan, and the UAE.",
+    origin: "Germany / Japan / UAE",
+    destination: "Kenya and East Africa",
+    delivery: "5–10 weeks"
   },
   {
     id: 3,
-    name: 'Kenyan Coffee',
-    category: 'Food & Agricultural Products',
-    type: 'export',
-    image: 'https://via.placeholder.com/300x200?text=Kenya+Coffee',
-    description: 'Premium Kenyan coffee beans for international markets.',
-    origin: 'Kenya',
-    destination: 'Global',
-    delivery: '2-3 weeks'
+    name: "Mercedes-Benz Vehicles",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/import/mercedes.jpg",
+    description:
+      "Premium Mercedes-Benz cars including sedans, SUVs, and executive models with full inspection reports.",
+    origin: "Germany / UK / UAE",
+    destination: "Kenya and East Africa",
+    delivery: "5–10 weeks"
   },
   {
     id: 4,
-    name: 'Electronics Bundle',
-    category: 'Electronics & Technology',
-    type: 'import',
-    image: 'https://via.placeholder.com/300x200?text=Electronics',
-    description: 'Latest electronics from China including phones, laptops, and accessories.',
-    origin: 'China',
-    destination: 'Kenya',
-    delivery: '3-4 weeks'
+    name: "Audi Vehicles",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/import/audi.jpg",
+    description:
+      "High-performance Audi vehicles combining advanced engineering, comfort, and luxury.",
+    origin: "Germany / Japan / UAE",
+    destination: "Kenya and East Africa",
+    delivery: "5–10 weeks"
   },
   {
     id: 5,
-    name: 'Maasai Crafts',
-    category: 'African Culture',
-    type: 'export',
-    image: 'https://via.placeholder.com/300x200?text=Maasai+Crafts',
-    description: 'Authentic Maasai beadwork and traditional crafts.',
-    origin: 'Kenya',
-    destination: 'Global',
-    delivery: '1-2 weeks'
-  }
+    name: "Volkswagen Vehicles",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/import/volkswagen.jpg",
+    description:
+      "Reliable Volkswagen passenger cars and SUVs sourced from Europe and Japan.",
+    origin: "Germany / Japan",
+    destination: "Kenya and East Africa",
+    delivery: "4–8 weeks"
+  },
+  {
+    id: 6,
+    name: "Heavy Duty Trucks & Trailers",
+    type: "import",
+    category: "Industrial & Manufacturing",
+    image: "assets/images/import/trailers.jpg",
+    description:
+      "Commercial trailers, tipper trucks, semi-trailers, and heavy-duty transport equipment.",
+    origin: "China / Germany / Turkey",
+    destination: "Kenya, Uganda, Tanzania, Ethiopia",
+    delivery: "30–60 days"
+  },
+  {
+    id: 7,
+    name: "Excavators & Construction Machinery",
+    type: "import",
+    category: "Industrial & Manufacturing",
+    image: "assets/images/import/construction.jpg",
+    description:
+      "Excavators, loaders, bulldozers, and road construction equipment from leading Chinese manufacturers.",
+    origin: "China",
+    destination: "Kenya and East Africa",
+    delivery: "30–50 days"
+  },
+  {
+    id: 8,
+    name: "Auto Spare Parts",
+    type: "import",
+    category: "Automotive",
+    image: "assets/images/import/autospareparts.jpg",
+    description:
+      "Genuine and aftermarket spare parts for Toyota, Nissan, BMW, Mercedes-Benz, Honda, and Mitsubishi.",
+    origin: "Japan / China / UAE",
+    destination: "Kenya and East Africa",
+    delivery: "14–30 days"
+  },
+  {
+    id: 9,
+    name: "Building Materials",
+    type: "import",
+    category: "Construction Materials",
+    image: "assets/images/import/building-materials.jpg",
+    description:
+      "Steel, tiles, sanitary ware, roofing sheets, electrical fittings, and other construction materials.",
+    origin: "China / Europe / Turkey",
+    destination: "Kenya, Uganda, Tanzania",
+    delivery: "30–50 days"
+  },
+  {
+    id: 10,
+    name: "Printers",
+    type: "import",
+    category: "Electronics & Technology",
+    image: "assets/images/import/printers.jpg",
+    description:
+      "Office printers, multifunction devices, and commercial printing equipment from top manufacturers.",
+    origin: "China / Germany / Sweden",
+    destination: "Kenya and East Africa",
+    delivery: "30–60 days"
+  },
+  {
+    id: 11,
+    name: "Apple Products",
+    type: "import",
+    category: "Electronics & Technology",
+    image: "assets/images/import/apple.jpg",
+    description:
+      "iPhones, MacBooks, iPads, Apple Watches, and accessories sourced from authorised distributors.",
+    origin: "USA / UAE / Singapore",
+    destination: "Kenya and East Africa",
+    delivery: "7–14 days"
+  },
+  {
+    id: 12,
+    name: "Samsung Electronics",
+    type: "import",
+    category: "Electronics & Technology",
+    image: "assets/images/import/samsung.jpg",
+    description:
+      "Smartphones, TVs, tablets, refrigerators, and home appliances from Samsung.",
+    origin: "South Korea / UAE",
+    destination: "Kenya and East Africa",
+    delivery: "7–20 days"
+  },
+  {
+    id: 13,
+    name: "Tech Accessories",
+    type: "import",
+    category: "Electronics & Technology",
+    image: "assets/images/import/tech.jpg",
+    description:
+      "Chargers, cables, earbuds, smart watches, power banks, and computer accessories.",
+    origin: "China / Singapore",
+    destination: "Kenya and East Africa",
+    delivery: "10–25 days"
+  },
+  {
+    id: 14,
+    name: "Premium Basmati Rice",
+    type: "import",
+    category: "Food & Agricultural Products",
+    image: "assets/images/import/rice.jpg",
+    description:
+      "Long-grain aromatic basmati rice from India and Pakistan in both retail and wholesale packaging.",
+    origin: "India / Pakistan",
+    destination: "Kenya, Uganda, Tanzania, Rwanda",
+    delivery: "25–40 days"
+  },
+  {
+    id: 15,
+    name: "Designer Luxury Brands",
+    type: "import",
+    category: "Luxury & Consumer Goods",
+    image: "assets/images/import/luxury.jpg",
+    description:
+      "Authentic Gucci, Prada, Versace, and other premium designer clothing, handbags, shoes, and accessories.",
+    origin: "Italy / France / UAE",
+    destination: "Kenya and East Africa",
+    delivery: "7–21 days"
+  },
+  {
+    id: 16,
+    name: "Luxury Watches",
+    type: "import",
+    category: "Luxury & Consumer Goods",
+    image: "assets/images/import/watcheshome.png",
+    description:
+      "Premium watches from Swiss, Japanese, and Italian manufacturers for retail and wholesale.",
+    origin: "Switzerland / Japan / Italy",
+    destination: "Kenya and East Africa",
+    delivery: "7–21 days"
+  },
+
+  // =========================
+  // EXPORT PRODUCTS
+  // =========================
+  {
+    id: 17,
+    name: "Kenyan Coffee",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/export/kenyancoffee.png",
+    description:
+      "World-renowned Kenyan AA coffee sourced from Kirinyaga, Nyeri, and Murang'a.",
+    origin: "Nairobi, Kenya",
+    destination: "Europe, USA, Middle East, Asia",
+    delivery: "10–20 days"
+  },
+  {
+    id: 18,
+    name: "Kenyan Tea",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/export/kenyan-tea.png",
+    description:
+      "Premium CTC and orthodox tea from Kericho and the Rift Valley.",
+    origin: "Kericho / Mombasa Port, Kenya",
+    destination: "UK, Middle East, Pakistan, Asia",
+    delivery: "15–30 days"
+  },
+  {
+    id: 19,
+    name: "Kenyan Spices & Foods",
+    type: "export",
+    category: "Kenyan Export Products",
+    image: "assets/images/export/kenyan-spice.png",
+    description:
+      "Tropical Heat spices, dried fruits, dehydrated vegetables, and packaged Kenyan foods.",
+    origin: "Nairobi / Mombasa, Kenya",
+    destination: "UK, USA, Europe, Middle East",
+    delivery: "10–21 days"
+  },
+  {
+    id: 20,
+    name: "Natural Honey Products",
+    type: "export",
+    category: "Food & Agricultural Products",
+    image: "assets/images/export/honey.jpg",
+    description:
+      "Pure organic honey from Kenyan forests and wildflower apiaries.",
+    origin: "Kenya (various counties)",
+    destination: "Europe, USA, Middle East",
+    delivery: "7–14 days"
+  },
+  {
+    id: 21,
+    name: "African Handicrafts & Décor",
+    type: "export",
+    category: "African Culture",
+    image: "assets/images/export/handcrafts.jpg",
+    description:
+      "Maasai beadwork, soapstone carvings, sisal baskets, and handmade sculptures.",
+    origin: "Nairobi / Mombasa, Kenya",
+    destination: "Worldwide",
+    delivery: "7–21 days"
+  },
+  {
+    id: 22,
+    name: "African Home Décor",
+    type: "export",
+    category: "African Culture",
+    image: "assets/images/export/decor.jpg",
+    description:
+      "Handcrafted furniture, wall art, woven baskets, and interior décor inspired by African heritage.",
+    origin: "Kenya",
+    destination: "Worldwide",
+    delivery: "10–30 days"
+  },
+  {
+    id: 23,
+    name: "African Attire",
+    type: "export",
+    category: "African Culture",
+    image: "assets/images/export/attire.jpg",
+    description:
+      "Authentic African clothing including Ankara dresses, kitenge outfits, and Maasai garments.",
+    origin: "Nairobi, Kenya",
+    destination: "USA, Europe, Middle East, Africa",
+    delivery: "7–14 days"
+  },
+  {
+    id: 24,
+    name: "African Beaded Jewelry",
+    type: "export",
+    category: "African Culture",
+    image: "assets/images/export/jewellery.jpg",
+    description:
+      "Handmade necklaces, bracelets, earrings, and accessories crafted by Kenyan artisans.",
+    origin: "Kenya",
+    destination: "Worldwide",
+    delivery: "7–14 days"
+  },
+  
 ];
+
 
 function ppRenderCards(products = productsData) {
   const grid = document.getElementById('pp-grid');
