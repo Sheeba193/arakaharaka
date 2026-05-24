@@ -15,11 +15,11 @@
   <a class="nav-logo" href="#" onclick="showPage('home')">
     <div class="logo-globe">
       <img src="assets/images/logo.png" alt="Globe Icon">
-    </div class="nav-brand-wrap">
-      <div><div class="nav-brand">Arakaharaka<span>Enterprises</span></div>
-      <div class="nav-brand-small"> Your Trusted Pi Merchant</span></div>
     </div>
-  
+    <div class="nav-brand-wrap">
+      <div class="nav-brand">Arakaharaka<span>Enterprises</span></div>
+      <div class="nav-brand-small">Your Trusted Pi Merchant</div>
+    </div>
   </a>
   <ul class="nav-links" id="navLinks">
     <li><a href="#" onclick="showPage('home')" data-i18n="nav_home">Home</a></li>
@@ -29,16 +29,52 @@
     <li class="nav-dropdown">
       <a href="#" onclick="showPage('partners')" data-i18n="nav_partners">Partners ▾</a>
       <ul class="dropdown-menu">
-        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('import-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)" data-i18n="nav_drop_import">Import Partners</a></li>
-        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('export-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)" data-i18n="nav_drop_export">Export Partners</a></li>
+        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('import-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)" data-i18n="nav_dropdown_import">Import Partners</a></li>
+        <li><a href="#" onclick="showPage('partners'); setTimeout(() => document.getElementById('export-partners').scrollIntoView({ behavior: 'smooth', block: 'start' }), 120)" data-i18n="nav_dropdown_export">Export from Kenya</a></li>
       </ul>
     </li>
     <li><a href="#" onclick="showPage('testimonials')" data-i18n="nav_testimonials">Testimonials</a></li>
     <li><a href="#" onclick="showPage('contact')" class="nav-cta" data-i18n="nav_contact">Contact Us</a></li>
     <li class="lang-selector">
-      <select id="languageSelect" onchange="changeLanguage(this.value)">
-        <option value="">Select Language...</option>
-        <!-- Languages will be populated dynamically by JavaScript -->
+      <select id="languageSelect" onchange="changeLanguage(this.value)" aria-label="Select language">
+        <option value="en">🇬🇧 EN</option>
+        <option value="sw">🇰🇪 SW</option>
+        <option value="fr">🇫🇷 FR</option>
+        <option value="zh">🇨🇳 中文</option>
+        <option value="ja">🇯🇵 日本語</option>
+        <option value="de">🇩🇪 DE</option>
+        <option value="hi">🇮🇳 हिंदी</option>
+        <option value="es">🇪🇸 ES</option>
+        <option value="ar">🇸🇦 العربية</option>
+        <option value="it">🇮🇹 IT</option>
+        <option value="pt">🇵🇹 PT</option>
+        <option value="ru">🇷🇺 RU</option>
+        <option value="bn">🇧🇩 বাংলা</option>
+        <option value="pa">🇮🇳 ਪੰਜਾਬੀ</option>
+        <option value="vi">🇻🇳 VI</option>
+        <option value="ko">🇰🇷 KO</option>
+        <option value="fil">🇮🇩 FIL</option>
+        <option value="gr">🇬🇷 GR</option>
+        <option value="gu">🇮🇳 ગુજરાતી</option>
+        <option value="he">🇮🇱 עברית</option>
+        <option value="ga">🇮🇪 GA</option>
+        <option value="kk">🇰🇿 KK</option>
+        <option value="lt">🇱🇹 LT</option>
+        <option value="ml">🇮🇳 മലയാളം</option>
+        <option value="mg">🇲🇬 MG</option>
+        <option value="ne">🇳🇵 NE</option>
+        <option value="nb">🇳🇴 NB</option>
+        <option value="pl">🇵🇱 PL</option>
+        <option value="ro">🇷🇴 RO</option>
+        <option value="sk">🇸🇰 SK</option>
+        <option value="sv">🇸🇪 SV</option>
+        <option value="th">🇹🇭 TH</option>
+        <option value="tr">🇹🇷 TR</option>
+        <option value="uk">🇺🇦 UK</option>
+        <option value="ur">🇵🇰 UR</option>
+        <option value="cy">🇬🇧 CY</option>
+        <option value="zu">🇿🇦 ZU</option>
+
       </select>
     </li>
   </ul>
@@ -48,9 +84,7 @@
 </nav>
 
 <!-- FLOATING WHATSAPP -->
-<a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20quick%20assistance%20with%20import%20or%20export%20services." class="float-wa" target="_blank" title="Chat with us on WhatsApp">
-  💬
-</a>
+<a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20quick%20assistance%20with%20import%20or%20export%20services." class="float-wa" target="_blank" title="Chat on WhatsApp">💬</a>
 
 <!-- ======================== HOME PAGE ======================== -->
 <div id="page-home" class="page active">
@@ -68,7 +102,7 @@
 
     <div class="hero-btns">
       <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="hero_cta1">📩 Contact Us</a>
-      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20import%20or%20export%20services." class="btn-secondary" target="_blank" data-i18n="hero_cta2">💬 WhatsApp Us</a>
+      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20import%20or%20export%20services." class="btn-secondary" target="_blank" data-i18n="hero_cta2">💬 Request a Quote</a>
     </div>
 
     <div class="hero-badges">
@@ -204,7 +238,7 @@
       <p data-i18n="cta_subtitle">Let's help you import with ease. We handle the hard part for you.</p>
       <div class="cta-banner-btns">
         <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="cta_btn">📩 Get in Touch</a>
-        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20help%20getting%20started%20with%20an%20import%20or%20export%20shipment." class="wa-btn" target="_blank" data-i18n="whatsapp_btn">💬 WhatsApp Us</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20help%20getting%20started%20with%20an%20import%20or%20export%20shipment." class="wa-btn" target="_blank" data-i18n="whatsapp_us_now">💬 WhatsApp Us Now</a>
       </div>
     </div>
   </div>
@@ -222,7 +256,7 @@
       <div class="about-visual reveal">
         <span class="about-visual-emoji">🌍</span>
         <h3 style="color:var(--blue);font-size:1.5rem;margin-bottom:12px;" data-i18n="about_feature">Connecting East and Central African Countries to the World</h3>
-        <p style="color:var(--text-mid);font-size:0.95rem;line-height:1.7;" data-i18n="about_feature_desc">Based in Ruaraka, Nairobi, we've been bridging the gap between East and Central African countries and global suppliers for years. Our mission is to make import and export as simple as a WhatsApp message.</p>
+        <p style="color:var(--text-mid);font-size:0.95rem;line-height:1.7;" data-i18n="about_feature_desc">Based in Ruaraka, Nairobi, we've been bridging the gap between East and Central African buyers and global suppliers since our founding — with trust, speed, and personal attention at every step.</p>
       </div>
       <div>
         <div class="why-item reveal">
@@ -301,42 +335,42 @@
       <div class="service-card reveal">
         <div class="service-icon">📦</div>
         <h3 data-i18n="service_page_import">Import Services</h3>
-        <p data-i18n="service_page_import_desc">We handle every aspect of importing goods into Kenya — from finding suppliers, negotiating prices, arranging shipping, customs clearance, and delivery.</p>
+        <p data-i18n="service_page_import_desc">We handle every aspect of importing goods into Kenya — from finding suppliers, negotiating prices, arranging shipping, customs clearance, and delivery. Electronics, textiles, industrial goods, and more.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🚢</div>
         <h3 data-i18n="service_page_export">Export Services</h3>
-        <p data-i18n="service_page_export_desc">Helping Kenyan producers and businesses reach international buyers. We manage packaging, documentation, freight booking, and regulatory compliance.</p>
+        <p data-i18n="service_page_export_desc">Helping Kenyan producers and businesses reach international buyers. We manage packaging, documentation, freight booking, and regulatory compliance for smooth exports.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🔍</div>
         <h3 data-i18n="service_page_sourcing">Product Sourcing</h3>
-        <p data-i18n="service_page_sourcing_desc">Send us a product description and we'll source it from verified global suppliers. We compare quality, pricing, and delivery timelines so you get the best deal.</p>
+        <p data-i18n="service_page_sourcing_desc">Send us a product description and we'll source it from verified global suppliers. We compare quality, pricing, and delivery timelines so you get the best deal every time.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🚗</div>
         <h3 data-i18n="service_page_vehicle">Vehicle Importation</h3>
-        <p data-i18n="service_page_vehicle_desc">Import cars, motorcycles, trucks, and heavy machinery from Japan, UK, Dubai, and other markets. Includes auction sourcing, inspection, shipping, KRA clearance.</p>
+        <p data-i18n="service_page_vehicle_desc">Import cars, motorcycles, trucks, and heavy machinery from Japan, UK, Dubai, and other markets. Includes auction sourcing, inspection, shipping, KEBS compliance, and registration support.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">📫</div>
         <h3 data-i18n="service_page_bulk">Bulk & Commercial Shipping</h3>
-        <p data-i18n="service_page_bulk_desc">Negotiate best-rate FCL/LCL container shipping for businesses importing large volumes. We consolidate cargo and optimize freight routes to cut your costs.</p>
+        <p data-i18n="service_page_bulk_desc">Negotiate best-rate FCL/LCL container shipping for businesses importing large volumes. We consolidate cargo and optimize freight routes to cut your costs significantly.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🗂️</div>
         <h3 data-i18n="service_page_logistics">Logistics Coordination</h3>
-        <p data-i18n="service_page_logistics_desc">Full end-to-end logistics — warehousing at origin, freight forwarding, port clearance, inland transportation, and last-mile delivery to your premises.</p>
+        <p data-i18n="service_page_logistics_desc">Full end-to-end logistics — warehousing at origin, freight forwarding, port clearance, inland transportation, and last-mile delivery to your premises anywhere in Kenya.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">📜</div>
         <h3 data-i18n="service_page_customs">Customs Clearance</h3>
-        <p data-i18n="service_page_customs_desc">Our experienced team handles all customs documentation, duty payment, KRA compliance, KEBS inspections, and port procedures — so your goods clear smoothly.</p>
+        <p data-i18n="service_page_customs_desc">Our experienced team handles all customs documentation, duty payment, KRA compliance, KEBS inspections, and port procedures — so your goods clear without delays.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">💼</div>
         <h3 data-i18n="service_page_consulting">Trade Consulting</h3>
-        <p data-i18n="service_page_consulting_desc">New to importing or exporting? We guide you through the regulations, costs, timelines, and best practices so you make informed decisions every step.</p>
+        <p data-i18n="service_page_consulting_desc">New to importing or exporting? We guide you through the regulations, costs, timelines, and best practices so you make informed decisions every time.</p>
       </div>
       <div class="service-card reveal">
         <div class="service-icon">🏭</div>
@@ -352,7 +386,7 @@
       <p data-i18n="custom_solution_desc">Every business is different. Tell us your needs and we'll craft the perfect import/export plan for you.</p>
       <div class="cta-banner-btns">
         <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="custom_solution_btn">📩 Get a Custom Quote</a>
-        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20a%20custom%20import%20or%20export%20plan%20for%20my%20business." class="wa-btn" target="_blank" data-i18n="whatsapp_custom">💬 WhatsApp Us</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20a%20custom%20import%20or%20export%20plan%20for%20my%20business." class="wa-btn" target="_blank" data-i18n="whatsapp_us_now">💬 WhatsApp Us</a>
       </div>
     </div>
   </div>
@@ -365,13 +399,13 @@
     <div class="pp-hero-inner">
       <div class="section-label" data-i18n="tourism_label">Travel & Experiences</div>
       <h2 class="section-title" data-i18n="tourism_title">Hotel Bookings, Safaris &  <span>Tourism Services</span></h2>
-      <p class="section-sub" data-i18n="tourism_subtitle">Arakaharaka helps you plan unforgettable travel experiences across Kenya and East Africa — from luxury hotel stays and beach holidays to thrilling safari adventures.</p>
+      <p class="section-sub" data-i18n="tourism_subtitle">Arakaharaka helps you plan unforgettable travel experiences across Kenya and East Africa — from luxury hotel stays and beach holidays to safari adventures, group trips, airport transfers, and custom tourism packages.</p>
     </div>
   </section>
   <section>
     <div class="section-label">Tourism Services</div>
     <h2 class="section-title" data-i18n="tourism_services_title">Explore East Africa <span>With Ease</span></h2>
-    <p class="section-sub" data-i18n="tourism_services_subtitle">Whether you need a romantic getaway, business accommodation, a family safari, or a coastal holiday, we coordinate the details so you can relax.</p>
+    <p class="section-sub" data-i18n="tourism_services_subtitle">Whether you need a romantic getaway, business accommodation, a family safari, or a coastal holiday, we coordinate the details so your journey is smooth from start to finish.</p>
     <div class="tourism-grid">
       <div class="tourism-card reveal">
         <img src="assets/images/tourism/hotel2.jpg" alt="Luxury hotel booking">
@@ -424,14 +458,141 @@
       <p data-i18n="tourism_cta_subtitle">Tell us your destination, travel dates, number of guests, and budget — we will help you plan the right tourism package.</p>
       <div class="cta-banner-btns">
         <a href="#" class="btn-primary" onclick="showPage('contact')" data-i18n="tourism_cta_btn">📩 Request Booking Help</a>
-        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20plan%20a%20tourism%20trip." class="wa-btn" target="_blank" data-i18n="whatsapp_tourism">💬 WhatsApp Us</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20plan%20a%20tourism%20trip." class="wa-btn" target="_blank" data-i18n="whatsapp_us_now">💬 WhatsApp Tourism Team</a>
       </div>
     </div>
   </div>
 
+  </div>
+
+  
+
+  
 </div>
 
 <!-- ======================== PARTNERS PAGE ======================== -->
+<!-- <div id="page-partners" class="page">
+  <section>
+    <div class="section-label" data-i18n="partners_label">Our Network</div>
+    <h2 class="section-title" data-i18n="partners_title">Import & Export <span>Partners</span></h2>
+    <p class="section-sub" data-i18n="partners_subtitle">We connect clients to trusted import suppliers worldwide and help East and Central African companies export quality products locally, regionally, and abroad.</p>
+  </section>
+
+  <div class="partners-bg">
+    <div class="partners-wrap">
+
+      <div class="partner-group reveal" id="import-partners">
+        
+        <div class="partner-group-title" data-i18n="partners_auto_title">📥 Import Partners: Automotive</div>
+        <div class="partner-card reveal">
+        <img src="assets/images/automobile.jpg" alt="automobile importation">
+        <div>
+          <h3 data-i18n="partners_auto">Automotive Importation</h3>
+          <p data-i18n="partners_auto_desc">We connect clients with trusted automotive importers and exporters, facilitating the smooth importation of vehicles and parts from around the world.</p>
+        </div>
+        </div>
+        <div class="partners-grid">
+          <div class="partner-tag">🚙 Toyota</div>
+          <div class="partner-tag">🚗 Honda</div>
+          <div class="partner-tag">🏎️ BMW</div>
+          <div class="partner-tag">⭐ Mercedes-Benz</div>
+          <div class="partner-tag">🚘 Nissan</div>
+          <div class="partner-tag">🔷 Mitsubishi</div>
+          <div class="partner-tag">🔶 Subaru</div>
+          <div class="partner-tag">🚐 Isuzu</div>
+          <div class="partner-tag">🏗️ Land Rover</div>
+          <div class="partner-tag">⚡ Volkswagen</div>
+          <div class="partner-tag">🔵 Ford</div>
+          <div class="partner-tag">🚚 Hyundai</div>
+          <div class="partner-tag">🔴 Mazda</div>
+          <div class="partner-tag">🏆 Lexus</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <div class="partner-group-title" data-i18n="partners_industrial_title">📥 Import Partners: Industrial & Manufacturing Suppliers</div>
+        <div class="partners-grid">
+          <div class="partner-tag">⚙️ Siemens</div>
+          <div class="partner-tag">🔧 Bosch</div>
+          <div class="partner-tag">🔩 Caterpillar</div>
+          <div class="partner-tag">⚡ ABB</div>
+          <div class="partner-tag">🏗️ Komatsu</div>
+          <div class="partner-tag">🔌 Schneider Electric</div>
+          <div class="partner-tag">🛠️ Makita</div>
+          <div class="partner-tag">🔧 Stanley Black & Decker</div>
+          <div class="partner-tag">⚙️ Parker Hannifin</div>
+          <div class="partner-tag">🏭 3M</div>
+          <div class="partner-tag">🔩 Honeywell</div>
+          <div class="partner-tag">💡 Philips Industrial</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <div class="partner-group-title" data-i18n="partners_luxury_title">📥 Import Partners: Luxury & Consumer Brands</div>
+        <div class="partners-grid">
+          <div class="partner-tag">👜 Louis Vuitton</div>
+          <div class="partner-tag">⌚ Rolex</div>
+          <div class="partner-tag">👟 Nike</div>
+          <div class="partner-tag">👟 Adidas</div>
+          <div class="partner-tag">💍 Cartier</div>
+          <div class="partner-tag">👗 Gucci</div>
+          <div class="partner-tag">📱 Apple</div>
+          <div class="partner-tag">📺 Samsung</div>
+          <div class="partner-tag">💻 Sony</div>
+          <div class="partner-tag">🎮 LG Electronics</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal">
+        <div class="partner-group-title" data-i18n="partners_asian_title">📥 Import Partners: Asian Manufacturers & Suppliers</div>
+        <div class="partners-grid">
+          <div class="partner-tag">🇨🇳 Alibaba Verified Suppliers</div>
+          <div class="partner-tag">🇯🇵 Japanese Auto Auctions</div>
+          <div class="partner-tag">🇰🇷 Hyundai Heavy Industries</div>
+          <div class="partner-tag">🇨🇳 BYD</div>
+          <div class="partner-tag">🇹🇼 ASUS</div>
+          <div class="partner-tag">🇨🇳 Xiaomi</div>
+          <div class="partner-tag">🇮🇳 Tata Industries</div>
+          <div class="partner-tag">🇯🇵 Yamaha</div>
+          <div class="partner-tag">🇨🇳 Haier</div>
+          <div class="partner-tag">🇸🇬 Singapore Trade Partners</div>
+        </div>
+      </div>
+
+      <div class="partner-group reveal" id="export-partners">
+        <div class="partner-group-title" data-i18n="partners_export_title">📤 Export from Kenya: Kenyan Brands & Products</div>
+        <div class="partners-grid">
+          <div class="partner-tag">👜 African accessories</div>
+          <div class="partner-tag">👗 Kenyan fashion brands</div>
+          <div class="partner-tag">🍵 Kenyan tea</div>
+          <div class="partner-tag">🌿 Tea products</div>
+          <div class="partner-tag">🌶️ Tropical Heat spices</div>
+          <div class="partner-tag">☕ Dormans Coffee products</div>
+          <div class="partner-tag">🥫 Imperishable foods</div>
+          <div class="partner-tag">☕ Kenyan coffee</div>
+          <div class="partner-tag">🍯 Natural honey products</div>
+          <div class="partner-tag">🧺 Handcrafts and décor</div>
+          <div class="partner-tag">🎁 Kenyan curios and souvenirs</div>
+          <div class="partner-tag">🪵 Wood carvings and sculptures</div>
+          <div class="partner-tag">📿 Beadwork and Maasai crafts</div>
+          <div class="partner-tag">🏙️ Curio shops in Nairobi markets</div>
+          <div class="partner-tag">🌊 Coastal craft suppliers in Mombasa</div>
+          <div class="partner-tag">🛍️ Market suppliers in major Kenyan cities</div>
+          <div class="partner-tag">🌍 Local and abroad export supply</div>
+          <div class="partner-tag">🏷️ Major Kenyan brands</div>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align:center;padding:40px 5%;">
+      <p style="color:var(--text-mid);font-style:italic;font-size:0.95rem;">💡 "Whether you want to import from global suppliers or export any East and Central African goods, ask us about the exact product or brand you need."</p>
+      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20ask%20about%20a%20specific%20import%20or%20Kenyan%20export%20brand%2Fproduct." class="wa-btn" style="margin-top:20px;display:inline-flex;" target="_blank">💬 Ask About a Specific Brand</a>
+    </div>
+  </div>
+</div> -->
+<!-- ======================== PARTNERS PAGE ======================== -->
+<!-- REPLACE the entire contents of <div id="page-partners" class="page"> ... </div> with this -->
+
 <div id="page-partners" class="page">
 
   <!-- HERO SECTION -->
@@ -524,6 +685,7 @@
 
 
 <!-- ======================== PRODUCT DETAIL MODAL ======================== -->
+<!-- Place this immediately after the partners page div (before testimonials page) -->
 <div id="partners-modal" class="partners-modal" hidden aria-modal="true" role="dialog" aria-labelledby="modal-title">
   <div class="partners-modal-overlay" id="partners-modal-overlay"></div>
   <div class="partners-modal-content">
@@ -575,6 +737,50 @@
   </div>
 </div>
 
+
+<!-- Product Details Modal -->
+<div id="partners-modal" class="partners-modal" hidden>
+  <div class="partners-modal-overlay"></div>
+  <div class="partners-modal-content">
+    <button id="partners-modal-close" class="partners-modal-close" aria-label="Close">
+      ×
+    </button>
+
+    <img id="modal-image" src="" alt="" />
+
+    <div class="partners-modal-body">
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+
+      <ul class="partners-modal-meta">
+        <li>
+          <strong data-i18n="partners_ships_from">Ships From:</strong>
+          <span id="modal-origin"></span>
+        </li>
+        <li>
+          <strong data-i18n="partners_ships_to">Ships To:</strong>
+          <span id="modal-destination"></span>
+        </li>
+        <li>
+          <strong data-i18n="partners_delivery_time">Estimated Delivery:</strong>
+          <span id="modal-delivery"></span>
+        </li>
+      </ul>
+
+      <a
+        id="modal-whatsapp"
+        href="#"
+        class="wa-btn"
+        target="_blank"
+        rel="noopener"
+        data-i18n="partners_request_quote"
+      >
+        💬 Request Quote on WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
 <!-- ======================== TESTIMONIALS PAGE ======================== -->
 <div id="page-testimonials" class="page">
   <section>
@@ -621,7 +827,7 @@
         </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text" data-i18n="testi_1">Arakaharaka made importing my vehicle from Japan completely seamless. From auction to my gate in Nairobi — they handled everything professionally!</p>
+        <p class="testi-text" data-i18n="testi_1">Arakaharaka made importing my vehicle from Japan completely seamless. From auction to my gate in Nairobi — they handled everything professionally. Absolutely 5 stars!</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">JK</div>
@@ -630,7 +836,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text" data-i18n="testi_2">Super responsive team via WhatsApp. I placed an order for electronics from China and they kept me updated at every stage. Received everything in great condition!</p>
+        <p class="testi-text" data-i18n="testi_2">Super responsive team via WhatsApp. I placed an order for electronics from China and they kept me updated at every stage. Received everything in perfect condition!</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">AW</div>
@@ -648,7 +854,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text" data-i18n="testi_4">As a first-time importer, I was nervous. The team walked me through every step patiently. My goods arrived before the estimated date! Great people.</p>
+        <p class="testi-text" data-i18n="testi_4">As a first-time importer, I was nervous. The team walked me through every step patiently. My goods arrived before the estimated date! Great people to work with.</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">GL</div>
@@ -657,7 +863,7 @@
       </div>
       <div class="testi-card reveal">
         <div class="testi-quote">"</div>
-        <p class="testi-text" data-i18n="testi_5">We've worked with Arakaharaka for bulk shipments from China for 2 years now. Consistent, reliable, and always the best freight rates. They're our go-to partner!</p>
+        <p class="testi-text" data-i18n="testi_5">We've worked with Arakaharaka for bulk shipments from China for 2 years now. Consistent, reliable, and always the best freight rates. They're our go-to partner.</p>
         <div class="testi-stars">⭐⭐⭐⭐⭐</div>
         <div class="testi-author">
           <div class="testi-avatar">SM</div>
@@ -677,7 +883,7 @@
 
     <div style="text-align:center;margin-top:56px;">
       <p style="color:var(--text-mid);font-size:1.05rem;margin-bottom:20px;" data-i18n="testimonials_cta">Had a great experience with us? We'd love to hear from you!</p>
-      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20share%20my%20experience%20with%20your%20service." class="wa-btn" target="_blank" data-i18n="share_experience">💬 Share Your Experience</a>
+      <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20share%20my%20experience%20with%20your%20service." class="wa-btn" target="_blank" data-i18n="testimonials_share_btn">💬 Share Your Experience</a>
     </div>
   </section>
 </div>
@@ -725,7 +931,7 @@
         </div>
         <button class="btn-primary" style="width:100%;justify-content:center;" onclick="handleFormSubmit(event)" data-i18n="contact_btn">📩 Send Message</button>
         <p style="text-align:center;margin-top:16px;color:var(--text-light);font-size:0.82rem;">Or contact us directly via WhatsApp for faster response</p>
-        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20am%20contacting%20you%20from%20the%20website%20and%20would%20like%20assistance." class="wa-btn" target="_blank" data-i18n="whatsapp_direct">💬 WhatsApp Us Directly</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20am%20contacting%20you%20from%20the%20website%20and%20would%20like%20assistance." class="wa-btn" style="width:100%;justify-content:center;margin-top:4px;" target="_blank">💬 Chat on WhatsApp</a>
       </div>
 
       <div class="contact-info">
@@ -767,13 +973,14 @@
             <a href="https://maps.google.com/?q=Ruaraka,Nairobi,Kenya" target="_blank" style="color:var(--blue-mid);text-decoration:none;">🗺️ Open in Google Maps →</a>
           </div>
         </div>
-        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20need%20a%20fast%20response%20about%20your%20import%20or%20export%20services." class="wa-btn" target="_blank" data-i18n="quick_whatsapp">💬 Quick WhatsApp</a>
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20need%20a%20fast%20response%20about%20your%20import%20or%20export%20services." class="wa-btn" target="_blank">💬 WhatsApp Us for Fastest Response</a>
       </div>
     </div>
   </section>
 </div>
 
 <!-- ======================= TERMS PAGE ======================== -->
+<!-- ======================== TERMS PAGE ======================== -->
 <div id="page-terms" class="page">
   <section>
     <div class="section-label" data-i18n="legal_label">Legal</div>
@@ -782,64 +989,251 @@
     </h2>
     <p
       class="section-sub"
-      style="margin-bottom:40px;"
       data-i18n="terms_subtitle"
+      style="margin-bottom:40px;"
     >
       Please read these terms carefully before placing an order with
       Arakaharaka Enterprises.
     </p>
 
     <div class="terms-content reveal">
-      <h3 data-i18n="terms_section_1_title">1. General Terms</h3>
-      <p data-i18n="terms_section_1_desc">All orders placed with Arakaharaka Enterprises are subject to acceptance and confirmation. We reserve the right to refuse or cancel any order that violates our policies or terms.</p>
+      <!-- Orders & Payments -->
+      <div class="terms-section">
+        <h3 data-i18n="terms_orders_payments_title">
+          📦 1. Orders & Payments
+        </h3>
+        <ul>
+          <li data-i18n="terms_orders_payments_1">
+            All orders must be confirmed in writing via email or WhatsApp
+            before processing begins.
+          </li>
+          <li data-i18n="terms_orders_payments_2">
+            A deposit of 50% is required before sourcing commences, with the
+            balance due before shipment.
+          </li>
+          <li data-i18n="terms_orders_payments_3">
+            Payment can be made via M-Pesa, bank transfer, or other agreed
+            methods.
+          </li>
+          <li data-i18n="terms_orders_payments_4">
+            Prices quoted are valid for 48 hours and are subject to exchange
+            rate fluctuations for international orders.
+          </li>
+          <li data-i18n="terms_orders_payments_5">
+            Arakaharaka Enterprises reserves the right to decline any order at
+            its discretion.
+          </li>
+        </ul>
+      </div>
 
-      <h3 data-i18n="terms_section_2_title">2. Payment Terms</h3>
-      <p data-i18n="terms_section_2_desc">Payments are due as specified in your quote. We accept bank transfers, mobile money, and other agreed payment methods. Late payments may result in order cancellation.</p>
+      <!-- Shipping Timelines -->
+      <div class="terms-section">
+        <h3 data-i18n="terms_shipping_title">
+          🚢 2. Shipping Timelines
+        </h3>
+        <ul>
+          <li data-i18n="terms_shipping_1">
+            Estimated delivery timelines are provided as a guide and are not
+            guaranteed.
+          </li>
+          <li data-i18n="terms_shipping_2">
+            Sea freight from Asia typically takes 25–45 days. Air freight takes
+            5–10 business days.
+          </li>
+          <li data-i18n="terms_shipping_3">
+            Vehicle shipments from Japan typically take 4–8 weeks from auction
+            purchase to Mombasa port.
+          </li>
+          <li data-i18n="terms_shipping_4">
+            Delays due to port congestion, customs, weather, or other factors
+            beyond our control are not the liability of Arakaharaka.
+          </li>
+          <li data-i18n="terms_shipping_5">
+            Clients will be notified of any significant delays promptly.
+          </li>
+        </ul>
+      </div>
 
-      <h3 data-i18n="terms_section_3_title">3. Delivery & Risk</h3>
-      <p data-i18n="terms_section_3_desc">Delivery timelines are estimates and not guarantees. Risk of goods transfers to you upon delivery. We recommend insurance for valuable shipments.</p>
+      <!-- Liability -->
+      <div class="terms-section">
+        <h3 data-i18n="terms_liability_title">
+          ⚖️ 3. Liability
+        </h3>
+        <ul>
+          <li data-i18n="terms_liability_1">
+            Arakaharaka Enterprises acts as an agent and facilitator and is not
+            the manufacturer or direct seller of goods.
+          </li>
+          <li data-i18n="terms_liability_2">
+            We are not liable for goods damaged during transit if covered by
+            shipping insurance.
+          </li>
+          <li data-i18n="terms_liability_3">
+            It is the client's responsibility to ensure compliance with all
+            Kenyan import regulations for their specific goods.
+          </li>
+          <li data-i18n="terms_liability_4">
+            We are not responsible for goods seized by customs due to false
+            declarations made by the client.
+          </li>
+        </ul>
+      </div>
 
-      <h3 data-i18n="terms_section_4_title">4. Liability Limitation</h3>
-      <p data-i18n="terms_section_4_desc">Arakaharaka Enterprises is not liable for indirect, incidental, or consequential damages resulting from delays, loss, or damage of goods beyond our reasonable control.</p>
+      <!-- Refund Policy -->
+      <div class="terms-section">
+        <h3 data-i18n="terms_refund_title">
+          🔄 4. Refund Policy
+        </h3>
+        <ul>
+          <li data-i18n="terms_refund_1">
+            Deposits are non-refundable once sourcing or procurement has
+            commenced.
+          </li>
+          <li data-i18n="terms_refund_2">
+            If goods are materially different from what was ordered, a
+            replacement or partial refund may be arranged at our discretion.
+          </li>
+          <li data-i18n="terms_refund_3">
+            Vehicle-related purchases follow the terms of the respective auction
+            house and are generally non-refundable once purchased.
+          </li>
+          <li data-i18n="terms_refund_4">
+            Refund requests must be submitted in writing within 7 days of
+            delivery.
+          </li>
+        </ul>
+      </div>
 
-      <h3 data-i18n="terms_section_5_title">5. Dispute Resolution</h3>
-      <p data-i18n="terms_section_5_desc">Any disputes shall be resolved through negotiation. If unresolved, disputes will be subject to Kenyan law and the jurisdiction of Nairobi courts.</p>
+      <!-- Communication & Disputes -->
+      <div class="terms-section">
+        <h3 data-i18n="terms_communication_title">
+          📬 5. Communication & Disputes
+        </h3>
+        <ul>
+          <li data-i18n="terms_communication_1">
+            All official communications should be directed to
+            <a
+              href="mailto:harakaint@gmail.com"
+              style="color:var(--blue);"
+            >harakaint@gmail.com</a>.
+          </li>
+          <li data-i18n="terms_communication_2">
+            Any disputes shall first be resolved through good-faith negotiations
+            between both parties.
+          </li>
+          <li data-i18n="terms_communication_3">
+            These terms are governed by the laws of Kenya.
+          </li>
+          <li data-i18n="terms_communication_4">
+            By placing an order with Arakaharaka Enterprises, you agree to these
+            terms and conditions in full.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Footer Note -->
+      <p
+        data-i18n="terms_last_updated"
+        style="color:var(--text-light);font-size:0.82rem;margin-top:32px;"
+      >
+        Last updated: 2025. For queries about these terms, email
+        <a
+          href="mailto:harakaint@gmail.com"
+          style="color:var(--blue);"
+        >harakaint@gmail.com</a>
+      </p>
     </div>
   </section>
 </div>
 
-<!-- =================== FOOTER =================== -->
-<footer style="background:#1a1a1a;color:#fff;padding:60px 5% 30px;text-align:center;">
-  <div style="max-width:1200px;margin:0 auto;">
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:40px;margin-bottom:40px;text-align:left;">
-      <div>
-        <div class="nav-brand" style="margin-bottom:16px;font-size:1.2rem;">Arakaharaka<span>Enterprises</span></div>
-        <p style="color:#aaa;font-size:0.9rem;line-height:1.6;" data-i18n="footer_about">Your trusted partner for import, export, and tourism services across East and Central Africa.</p>
+<!-- ======================== FOOTER ======================== -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <a class="nav-logo" href="#" onclick="showPage('home')">
+          <div class="logo-globe">
+            <img src="assets/images/logo.png" alt="Globe Icon">
+          </div>
+          <div class="nav-brand-wrap">
+            <div class="nav-brand">Arakaharaka<span>Enterprises</span></div>
+            <div class="nav-brand-small" style="color: whitesmoke;">Your Trusted Pi Merchant</div>
+          </div>
+        </a>
       </div>
-      <div>
-        <h4 style="margin-bottom:12px;" data-i18n="footer_quick_links">Quick Links</h4>
-        <ul style="list-style:none;padding:0;font-size:0.9rem;">
-          <li><a href="#" onclick="showPage('home')" style="color:#aaa;text-decoration:none;" data-i18n="nav_home">Home</a></li>
-          <li><a href="#" onclick="showPage('about')" style="color:#aaa;text-decoration:none;" data-i18n="nav_about">About</a></li>
-          <li><a href="#" onclick="showPage('services')" style="color:#aaa;text-decoration:none;" data-i18n="nav_services">Services</a></li>
-          <li><a href="#" onclick="showPage('contact')" style="color:#aaa;text-decoration:none;" data-i18n="nav_contact">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 style="margin-bottom:12px;" data-i18n="footer_contact_us">Contact Us</h4>
-        <p style="color:#aaa;font-size:0.9rem;margin:8px 0;"><strong>📧:</strong> <a href="mailto:harakaint@gmail.com" style="color:#4a9eff;text-decoration:none;">harakaint@gmail.com</a></p>
-        <p style="color:#aaa;font-size:0.9rem;margin:8px 0;"><strong>📱:</strong> <a href="tel:+254723214344" style="color:#4a9eff;text-decoration:none;">+254 723 214 344</a></p>
-        <p style="color:#aaa;font-size:0.9rem;margin:8px 0;"><strong>📍:</strong> Ruaraka, Nairobi, Kenya</p>
+      <p class="footer-desc" data-i18n="footer_desc">Your trusted import & export partner based in Ruaraka, Nairobi. Connecting East and Central African countries to the world — one shipment at a time.</p>
+      <div class="social-links">
+        <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20found%20you%20on%20your%20website." class="social-link" target="_blank" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.04C6.486 2.04 2.04 6.486 2.04 12c0 2.146.687 4.133 1.854 5.78L2 22l4.418-1.876A9.945 9.945 0 0 0 12 21.96c5.514 0 9.96-4.446 9.96-9.96S17.514 2.04 12 2.04zm0 17.52a7.536 7.536 0 0 1-4.046-1.179l-.289-.172-2.624 1.114.558-2.713-.187-.285A7.512 7.512 0 1 1 19.512 12 7.53 7.53 0 0 1 12 19.56z"/></svg>
+        </a>
+        <a href="mailto:harakaint@gmail.com" class="social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zm0 2v.511L12 13.06 4 8.511V8h16zM4 18V10.439l7.293 4.31a1 1 0 0 0 .914 0L20 10.439V18H4z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/" class="social-link" target="_blank" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm8.625 2.25a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75zM12 7.25a4.75 4.75 0 1 1 0 9.5 4.75 4.75 0 0 1 0-9.5zm0 1.5a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/" class="social-link" target="_blank" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2H7C5.343 2 4 3.343 4 5v14c0 1.657 1.343 3 3 3h10c1.657 0 3-1.343 3-3V5c0-1.657-1.343-3-3-3zm-2 5h1.5l.5-3h-2.5V2h-2v2H9.5v3H12v7h3.5v-7H15V7z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/" class="social-link" target="_blank" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 3.75a5.25 5.25 0 0 1-5.25-5.25v12.25a3.75 3.75 0 1 1-3.75 3.75h3.75a5.25 5.25 0 0 0 5.25 5.25V6.75h1.5V3.75h-1.5z"/></svg>
+        </a>
       </div>
     </div>
-    <div style="border-top:1px solid #333;padding-top:20px;font-size:0.85rem;color:#666;">
-      <p data-i18n="footer_copyright">© 2024 Arakaharaka Enterprises. All rights reserved.</p>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer_quick">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#" onclick="showPage('home')" data-i18n="nav_home">Home</a></li>
+        <li><a href="#" onclick="showPage('about')" data-i18n="nav_about">About Us</a></li>
+        <li><a href="#" onclick="showPage('services')" data-i18n="nav_services">Services</a></li>
+        <li><a href="#" onclick="showPage('tourism')" data-i18n="nav_tourism">Tourism</a></li>
+        <li><a href="#" onclick="showPage('partners')" data-i18n="nav_partners">Partners</a></li>
+        <li><a href="#" onclick="showPage('testimonials')" data-i18n="nav_testimonials">Testimonials</a></li>
+        <li><a href="#" onclick="showPage('contact')" data-i18n="nav_contact">Contact</a></li>
+        <li><a href="#" onclick="showPage('terms')" data-i18n="terms_title">Terms & Conditions</a></li>
+      </ul>
     </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer_contact">Contact</h4>
+      <ul class="footer-links">
+        <li><a href="mailto:harakaint@gmail.com">📧 harakaint@gmail.com</a></li>
+        <li><a href="tel:+254723214344">📱 +254 723 214 344</a></li>
+        <li><a href="tel:+254736407099">📱 +254 736 407 099</a></li>
+        <li><a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20would%20like%20to%20contact%20you%20on%20WhatsApp." target="_blank">💬 WhatsApp Us</a></li>
+        <li><a href="#">📍 Ruaraka, Nairobi</a></li>
+        <li><a href="https://arakaharakaent.com" target="_blank">🌐 arakaharakaent.com</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer_faq">FAQ</h4>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span data-i18n="faq_q1">How long does shipping take?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a1">Sea freight from Asia takes 25–45 days. Air freight takes 5–10 days. Vehicles from Japan take 4–8 weeks.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span data-i18n="faq_q2">How do I place an order?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a2">Simply WhatsApp or email us with your order details. We'll confirm availability, provide a quote, and take it from there.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span data-i18n="faq_q3">Which countries do you ship from?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a3">We source from China, Japan, UAE, UK, Germany, USA, India, Singapore, and many more countries worldwide.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q"><span data-i18n="faq_q4">Do you handle customs?</span><span class="faq-toggle">+</span></div>
+        <div class="faq-a" data-i18n="faq_a4">Yes! We handle all customs clearance, KRA compliance, KEBS inspections, and port procedures on your behalf.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p data-i18n="footer_copyright">© 2026 Arakaharaka Enterprises. All rights reserved. | <a href="#" onclick="showPage('terms')" data-i18n="terms_title">Terms & Conditions</a></p>
+    <p data-i18n="footer_made">Made with ❤️ in Nairobi, Kenya 🇰🇪</p>
   </div>
 </footer>
 
-<!-- JavaScript -->
-<script src="assets/js/translations.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>

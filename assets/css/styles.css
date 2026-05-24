@@ -40,7 +40,7 @@
     border-bottom: 1px solid rgba(212,160,23,0.15);
     padding: 0 max(5%, calc((100% - 1200px) / 2));
     display: flex; align-items: center; justify-content: space-between;
-    gap: 32px;
+    gap: 24px;
     height: 90px;
     box-shadow: 0 2px 20px rgba(13,76,122,0.08);
     transition: all 0.3s;
@@ -49,6 +49,7 @@
   .nav-logo {
     display: flex; align-items: center; gap: 12px;
     text-decoration: none;
+    flex: 0 0 auto;
   }
   
   
@@ -81,7 +82,7 @@
   .nav-brand-small {
     font-size: 0.7rem; color: var(--text-dark); font-weight: 500;
   }
-  .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+  .nav-links { display: flex; align-items: center; gap: clamp(14px, 2vw, 32px); list-style: none; min-width: 0; }
   .nav-links a {
     text-decoration: none; color: var(--text-mid); font-size: 0.9rem; font-weight: 500;
     position: relative; padding-bottom: 4px; transition: color 0.3s;
@@ -119,7 +120,9 @@
   .nav-cta:hover { transform: translateY(-2px) !important; box-shadow: var(--shadow) !important; color: white !important; }
 
   .lang-selector select {
-    padding: 8px 12px;
+    width: 104px;
+    min-height: 38px;
+    padding: 8px 30px 8px 10px;
     border-radius: 8px;
     border: 1.5px solid rgba(13,76,122,0.15);
     background: var(--off-white);
@@ -129,6 +132,8 @@
     cursor: pointer;
     transition: all 0.2s;
     outline: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
   .lang-selector select:hover {
     border-color: var(--blue-mid);
@@ -760,6 +765,10 @@
       box-shadow: var(--shadow); gap: 20px;
       z-index: 999;
       border-radius: 0 0 0 22px;
+    }
+    .lang-selector,
+    .lang-selector select {
+      width: 100%;
     }
     .dropdown-menu {
       position: static; transform: none; display: block;
