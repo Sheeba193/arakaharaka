@@ -16,11 +16,8 @@ function toggleFaq(el) {
   el.classList.toggle('open');
 }
 
-// Form submit
-function handleFormSubmit(e) {
-  e.preventDefault();
-  alert('Thank you! We will contact you soon via email or WhatsApp.');
-}
+// Contact form submission is handled directly by Formspree using the form action attribute.
+// No JavaScript submit handler is required here.
 
 // Scroll reveal
 function triggerReveal() {
@@ -10020,7 +10017,8 @@ terms_last_updated: 'છેલ્લે અપડેટ: 2025. પ્રશ્�
       terms_last_updated: 'Kubuyekezwe ngo-2025.'
     },
 
-};
+};
+
 
 // Load language selector options dynamically from translations object
 function loadLanguageSelector() {

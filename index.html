@@ -896,43 +896,43 @@
     <p class="section-sub" data-i18n="contact_subtitle">Ready to import, export, or just have questions? Reach out via the form, email, or WhatsApp — we typically respond within a few hours.</p>
 
     <div class="contact-grid">
-      <div class="contact-form reveal">
+      <form id="contactForm" class="contact-form reveal" action="https://formspree.io/f/xeedbqww" method="POST">
         <h3 style="font-size:1.3rem;color:var(--blue);margin-bottom:24px;" data-i18n="contact_form_title">Send Us a Message</h3>
         <div class="form-group">
-          <label data-i18n="contact_name">Full Name *</label>
-          <input type="text" placeholder="e.g. John Kamau">
+          <label for="contactName" data-i18n="contact_name">Full Name *</label>
+          <input id="contactName" name="from_name" type="text" placeholder="e.g. John Kamau" required>
         </div>
         <div class="form-group">
-          <label data-i18n="contact_email">Email Address *</label>
-          <input type="email" placeholder="your@email.com">
+          <label for="contactEmail" data-i18n="contact_email">Email Address *</label>
+          <input id="contactEmail" name="from_email" type="email" placeholder="your@email.com" required>
         </div>
         <div class="form-group">
-          <label data-i18n="contact_phone">Phone Number</label>
-          <input type="tel" placeholder="+254 7XX XXX XXX">
+          <label for="contactPhone" data-i18n="contact_phone">Phone Number</label>
+          <input id="contactPhone" name="phone" type="tel" placeholder="+254 7XX XXX XXX">
         </div>
         <div class="form-group">
-          <label data-i18n="contact_service">Service Interested In</label>
-          <select>
+          <label for="contactService" data-i18n="contact_service">Service Interested In</label>
+          <select id="contactService" name="service">
             <option value="">Select a service...</option>
-            <option>Import Services</option>
-            <option>Export Services</option>
-            <option>Vehicle Importation</option>
-            <option>Product Sourcing</option>
-            <option>Bulk Shipping</option>
-            <option>Logistics Coordination</option>
-            <option>Hotel Bookings & Tourism Services</option>
-            <option>Customs Clearance</option>
-            <option>Other</option>
+            <option value="Import Services">Import Services</option>
+            <option value="Export Services">Export Services</option>
+            <option value="Vehicle Importation">Vehicle Importation</option>
+            <option value="Product Sourcing">Product Sourcing</option>
+            <option value="Bulk Shipping">Bulk Shipping</option>
+            <option value="Logistics Coordination">Logistics Coordination</option>
+            <option value="Hotel Bookings & Tourism Services">Hotel Bookings & Tourism Services</option>
+            <option value="Customs Clearance">Customs Clearance</option>
+            <option value="Other">Other</option>
           </select>
         </div>
         <div class="form-group">
-          <label data-i18n="contact_message">Your Message *</label>
-          <textarea placeholder="Tell us about what you need. The more detail, the better quote we can give you!"></textarea>
+          <label for="contactMessage" data-i18n="contact_message">Your Message *</label>
+          <textarea id="contactMessage" name="message" placeholder="Tell us about what you need. The more detail, the better quote we can give you!" required></textarea>
         </div>
-        <button class="btn-primary" style="width:100%;justify-content:center;" onclick="handleFormSubmit(event)" data-i18n="contact_btn">📩 Send Message</button>
-        <p style="text-align:center;margin-top:16px;color:var(--text-light);font-size:0.82rem;">Or contact us directly via WhatsApp for faster response</p>
+        <button type="submit" class="btn-primary" style="width:100%;justify-content:center;" data-i18n="contact_btn">📩 Send Message</button>
+        <p id="contactStatus" style="text-align:center;margin-top:16px;color:var(--text-light);font-size:0.82rem;">Or contact us directly via WhatsApp for faster response</p>
         <a href="https://wa.me/254723214344?text=Hello%20Arakaharaka%20Enterprises%2C%20I%20am%20contacting%20you%20from%20the%20website%20and%20would%20like%20assistance." class="wa-btn" style="width:100%;justify-content:center;margin-top:4px;" target="_blank">💬 Chat on WhatsApp</a>
-      </div>
+      </form>
 
       <div class="contact-info">
         <div class="info-card reveal">
