@@ -16,8 +16,46 @@ function toggleFaq(el) {
   el.classList.toggle('open');
 }
 
-// Contact form submission is handled directly by Formspree using the form action attribute.
-// No JavaScript submit handler is required here.
+// Contact form submission is handled via AJAX to Formspree so we can
+// show an inline notifier and clear the form without a full page reload.
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('contactForm');
+  const status = document.getElementById('contactStatus');
+  if (!form || !status) return;
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    status.textContent = 'Sending your message...';
+    status.style.color = '#ffffff';
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method || 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: formData
+      });
+
+      if (response.ok) {
+        // clear the form and redirect to the thank-you page
+        try { form.reset(); } catch (_) {}
+        window.location.href = 'thank-you.html';
+        return;
+      } else {
+        let data = null;
+        try { data = await response.json(); } catch (_) { /* ignore */ }
+        const errorMsg = data && data.errors ? data.errors.map(err => err.message).join(', ') : 'Oops! Something went wrong. Please try again or contact us on WhatsApp.';
+        status.textContent = errorMsg;
+        status.style.color = '#f44336';
+      }
+    } catch (err) {
+      console.error('Form submit error:', err);
+      status.textContent = 'Network error. Please try again.';
+      status.style.color = '#f44336';
+    }
+  });
+});
 
 // Scroll reveal
 function triggerReveal() {
@@ -141,6 +179,9 @@ window.translations = {
       contact_title: 'Let\'s Talk Business',
       contact_subtitle: 'Ready to import, export, or just have questions? Reach out via the form, email, or WhatsApp — we typically respond within a few hours.',
       contact_form_title: 'Send Us a Message',
+      thank_you_title: 'Thank you!',
+      thank_you_message: 'Your message has been sent successfully. Our team will get back to you shortly.',
+      thank_you_button: 'Return to Home',
       contact_name: 'Full Name *',
       contact_email: 'Email Address *',
       contact_phone: 'Phone Number',
@@ -10116,6 +10157,11 @@ function changeLanguage(lang) {
   }
 
   const translations = window.translations[lang];
+  // Provide fallback to English for newly added keys if missing
+  const enTranslations = window.translations && window.translations.en ? window.translations.en : {};
+  translations.thank_you_title = translations.thank_you_title || enTranslations.thank_you_title || 'Thank you!';
+  translations.thank_you_message = translations.thank_you_message || enTranslations.thank_you_message || 'Your message has been sent successfully. Our team will get back to you shortly.';
+  translations.thank_you_button = translations.thank_you_button || enTranslations.thank_you_button || 'Return to Home';
   
   // Store selected language
   localStorage.setItem('selectedLanguage', lang);
