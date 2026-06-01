@@ -7,7 +7,33 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css">
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/index.min.js"></script>
+<script>
+  // Load EmailJS from primary CDN with a fallback to unpkg.
+  (function(){
+    function load(src, onload, onerror){
+      var s = document.createElement('script');
+      s.src = src; s.type = 'text/javascript'; s.async = true;
+      s.onload = onload; s.onerror = onerror;
+      document.head.appendChild(s);
+    }
+
+    load('https://cdn.jsdelivr.net/npm/@emailjs/browser/dist/email.min.js', function(){
+      console.log('EmailJS loaded from jsDelivr');
+    }, function(){
+      console.warn('EmailJS jsDelivr failed, trying unpkg');
+      load('https://unpkg.com/@emailjs/browser/dist/email.min.js', function(){
+        console.log('EmailJS loaded from unpkg');
+      }, function(){
+        console.warn('unpkg failed, trying local fallback');
+        load('assets/js/emailjs.min.js', function(){
+          console.log('EmailJS loaded from local assets/js/emailjs.min.js');
+        }, function(){
+          console.error('Failed to load EmailJS from CDNs and local fallback');
+        });
+      });
+    });
+  })();
+</script>
 </head>
 <body>
 

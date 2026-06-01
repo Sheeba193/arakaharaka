@@ -16,39 +16,111 @@ function toggleFaq(el) {
   el.classList.toggle('open');
 }
 
-// Initialize EmailJS and handle contact form submission
-emailjs.init('RAZXlR-o9v5uUiL34'); // Public Key
+// Initialize EmailJS safely (non-fatal if the library doesn't load)
+function safeEmailJsInit() {
+  try {
+    if (window.emailjs && typeof emailjs.init === 'function') {
+      emailjs.init('RAZXlR-o9v5uUiL34'); // Public Key
+    }
+  } catch (e) {
+    console.warn('EmailJS init failed:', e);
+  }
+}
+
+if (window.emailjs && typeof emailjs.init === 'function') {
+  safeEmailJsInit();
+} else {
+  // Try again after window load in case the CDN script loads slowly
+  window.addEventListener('load', safeEmailJsInit);
+}
 
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('contactForm');
   const status = document.getElementById('contactStatus');
   if (!form || !status) return;
 
+  const SERVICE_ID = 'service_ss3h42z';
+  const TEMPLATE_ID = 'template_qawhh8p';
+  const PUBLIC_KEY = 'RAZXlR-o9v5uUiL34';
+
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
     status.textContent = 'Sending your message...';
     status.style.color = '#ffffff';
+    const submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn?.setAttribute('disabled', '');
+    const formData = new FormData(form);
+    const template_params = {};
+    for (const [k, v] of formData.entries()) {
+      template_params[k] = v;
+    }
 
+    // 1) Try EmailJS SDK (if loaded)
+    if (window.emailjs && typeof emailjs.sendForm === 'function') {
+      try {
+        const res = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY);
+        console.log('EmailJS SDK response:', res);
+        status.textContent = 'Message sent — redirecting...';
+        status.style.color = '#2e9d5e';
+        try { form.reset(); } catch (_) {}
+        setTimeout(() => window.location.href = 'thank-you.html', 900);
+        return;
+      } catch (err) {
+        console.warn('EmailJS SDK failed, will try REST fallback:', err);
+      }
+    }
+
+    // 2) Try EmailJS REST API
     try {
-      const result = await emailjs.sendForm(
-        'service_ss3h42z',      // Service ID
-        'template_qawhh8p',     // Template ID
-        form
-      );
+      const resp = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          service_id: SERVICE_ID,
+          template_id: TEMPLATE_ID,
+          user_id: PUBLIC_KEY,
+          template_params
+        })
+      });
 
-      if (result.status === 200) {
-        // Clear the form and redirect to the thank-you page
+      const json = await resp.text().catch(() => null);
+      console.log('EmailJS REST status:', resp.status, json);
+      if (resp.ok) {
+        status.textContent = 'Message sent — redirecting...';
+        status.style.color = '#2e9d5e';
+        try { form.reset(); } catch (_) {}
+        setTimeout(() => window.location.href = 'thank-you.html', 900);
+        return;
+      }
+      throw new Error('REST send failed: ' + resp.status + ' ' + (json || ''));
+    } catch (err) {
+      console.warn('EmailJS REST failed, falling back to Formspree:', err);
+    }
+
+    // 3) Final fallback: Formspree
+    try {
+      const response = await fetch('https://formspree.io/f/xeedbqww', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: formData
+      });
+
+      if (response.ok) {
         try { form.reset(); } catch (_) {}
         window.location.href = 'thank-you.html';
         return;
-      } else {
-        status.textContent = 'Oops! Something went wrong. Please try again or contact us on WhatsApp.';
-        status.style.color = '#f44336';
       }
-    } catch (err) {
-      console.error('EmailJS error:', err);
-      status.textContent = 'Network error. Please try again.';
+      let data = null;
+      try { data = await response.json(); } catch (_) {}
+      const errorMsg = data && data.errors ? data.errors.map(err => err.message).join(', ') : 'Oops! Something went wrong. Please try again or contact us on WhatsApp.';
+      status.textContent = errorMsg;
       status.style.color = '#f44336';
+    } catch (err) {
+      console.error('Form submit final fallback error:', err);
+      status.textContent = 'Email service unavailable. Please try again later.';
+      status.style.color = '#f44336';
+    } finally {
+      submitBtn?.removeAttribute('disabled');
     }
   });
 });
@@ -10593,7 +10665,16 @@ function ppInitControls() {
   const categorySelect = document.getElementById('pp-category');
   const tabs = document.querySelectorAll('.pp-tab');
   
-  if (!searchInput || !categorySelect) return;
+  // It's fine if search input or category select are missing; bail early only if grid is missing as well
+  if (!searchInput || !categorySelect) {
+    // Still wire up modal close handlers if present
+    const modalClose = document.getElementById('partners-modal-close');
+    const modalOverlay = document.getElementById('partners-modal-overlay');
+    modalClose?.addEventListener('click', ppCloseModal);
+    modalOverlay?.addEventListener('click', ppCloseModal);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') ppCloseModal(); });
+    return;
+  }
   
   let currentTab = 'all';
   let currentCategory = 'all';
