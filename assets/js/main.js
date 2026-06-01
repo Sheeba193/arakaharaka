@@ -16,8 +16,9 @@ function toggleFaq(el) {
   el.classList.toggle('open');
 }
 
-// Contact form submission is handled via AJAX to Formspree so we can
-// show an inline notifier and clear the form without a full page reload.
+// Initialize EmailJS and handle contact form submission
+emailjs.init('RAZXlR-o9v5uUiL34'); // Public Key
+
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('contactForm');
   const status = document.getElementById('contactStatus');
@@ -28,29 +29,24 @@ document.addEventListener('DOMContentLoaded', function() {
     status.textContent = 'Sending your message...';
     status.style.color = '#ffffff';
 
-    const formData = new FormData(form);
-
     try {
-      const response = await fetch(form.action, {
-        method: form.method || 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: formData
-      });
+      const result = await emailjs.sendForm(
+        'service_ss3h42z',      // Service ID
+        'template_qawhh8p',     // Template ID
+        form
+      );
 
-      if (response.ok) {
-        // clear the form and redirect to the thank-you page
+      if (result.status === 200) {
+        // Clear the form and redirect to the thank-you page
         try { form.reset(); } catch (_) {}
         window.location.href = 'thank-you.html';
         return;
       } else {
-        let data = null;
-        try { data = await response.json(); } catch (_) { /* ignore */ }
-        const errorMsg = data && data.errors ? data.errors.map(err => err.message).join(', ') : 'Oops! Something went wrong. Please try again or contact us on WhatsApp.';
-        status.textContent = errorMsg;
+        status.textContent = 'Oops! Something went wrong. Please try again or contact us on WhatsApp.';
         status.style.color = '#f44336';
       }
     } catch (err) {
-      console.error('Form submit error:', err);
+      console.error('EmailJS error:', err);
       status.textContent = 'Network error. Please try again.';
       status.style.color = '#f44336';
     }
