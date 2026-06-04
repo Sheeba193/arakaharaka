@@ -134,43 +134,20 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   async function sendCustomerConfirmation(templateParams) {
-    console.log('🔄 Attempting to send customer confirmation email...', templateParams);
-    
     if (window.emailjs && typeof emailjs.send === 'function') {
-      try {
-        const res = await emailjs.send(SERVICE_ID, CONFIRMATION_TEMPLATE_ID, templateParams, PUBLIC_KEY);
-        console.log('✅ Customer confirmation email sent via SDK:', res);
-        return res;
-      } catch (err) {
-        console.error('❌ SDK confirmation email failed:', err);
-        throw err;
-      }
+      return emailjs.send(SERVICE_ID, CONFIRMATION_TEMPLATE_ID, templateParams, PUBLIC_KEY);
     }
 
-    try {
-      const resp = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          service_id: SERVICE_ID,
-          template_id: CONFIRMATION_TEMPLATE_ID,
-          user_id: PUBLIC_KEY,
-          template_params: templateParams
-        })
-      });
-      
-      const text = await resp.text().catch(() => '');
-      console.log('Confirmation API response:', resp.status, text);
-      
-      if (!resp.ok) {
-        throw new Error(`Confirmation email failed: ${resp.status} ${text}`);
-      }
-      console.log('✅ Customer confirmation email sent via REST API');
-      return resp;
-    } catch (err) {
-      console.error('❌ REST confirmation email failed:', err);
-      throw err;
-    }
+    return fetch('https://api.emailjs.com/api/v1.0/email/send', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        service_id: SERVICE_ID,
+        template_id: CONFIRMATION_TEMPLATE_ID,
+        user_id: PUBLIC_KEY,
+        template_params: templateParams
+      })
+    });
   }
 
   form.addEventListener('submit', async function(e) {
@@ -191,7 +168,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const templateParams = {
       from_name: formData.get('from_name'),
       from_email: formData.get('from_email'),
-      email: formData.get('from_email'), // Client's email - used by confirmation template
       phone: formData.get('phone'),
       service: formData.get('service') || 'General inquiry',
       message: formData.get('message'),
@@ -204,17 +180,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.emailjs && typeof emailjs.sendForm === 'function') {
       try {
         const res = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY);
-        console.log('✅ Owner notification sent via SDK:', res);
-        
-        // Send confirmation email to client
+        console.log('EmailJS SDK response:', res);
         try {
           await sendCustomerConfirmation(templateParams);
-          console.log('✅ Both emails sent successfully!');
         } catch (confirmErr) {
-          console.warn('⚠️ Owner email sent but customer confirmation failed:', confirmErr);
-          // Don't block user - owner still got the message
+          console.warn('Customer confirmation email failed:', confirmErr);
         }
-        
         status.textContent = 'Message sent — redirecting...';
         status.style.color = '#2e9d5e';
         try { form.reset(); } catch (_) {}
@@ -241,17 +212,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const json = await resp.text().catch(() => null);
       console.log('EmailJS REST status:', resp.status, json);
       if (resp.ok) {
-        console.log('✅ Owner notification sent via REST API');
-        
-        // Send confirmation email to client
         try {
           await sendCustomerConfirmation(templateParams);
-          console.log('✅ Both emails sent successfully!');
         } catch (confirmErr) {
-          console.warn('⚠️ Owner email sent but customer confirmation failed:', confirmErr);
-          // Don't block user - owner still got the message
+          console.warn('Customer confirmation email failed:', confirmErr);
         }
-        
         status.textContent = 'Message sent — redirecting...';
         status.style.color = '#2e9d5e';
         try { form.reset(); } catch (_) {}
