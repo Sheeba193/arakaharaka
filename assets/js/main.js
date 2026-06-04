@@ -41,7 +41,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const SERVICE_ID = 'service_ss3h42z';
   const TEMPLATE_ID = 'template_qawhh8p';
+  const CONFIRMATION_TEMPLATE_ID = 'template_customer_confirmation'; // Replace with your EmailJS confirmation template ID
   const PUBLIC_KEY = 'RAZXlR-o9v5uUiL34';
+
+  async function sendCustomerConfirmation(templateParams) {
+    if (window.emailjs && typeof emailjs.send === 'function') {
+      return emailjs.send(SERVICE_ID, CONFIRMATION_TEMPLATE_ID, templateParams, PUBLIC_KEY);
+    }
+
+    return fetch('https://api.emailjs.com/api/v1.0/email/send', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        service_id: SERVICE_ID,
+        template_id: CONFIRMATION_TEMPLATE_ID,
+        user_id: PUBLIC_KEY,
+        template_params: templateParams
+      })
+    });
+  }
 
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
@@ -50,16 +68,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitBtn = form.querySelector('button[type="submit"]');
     submitBtn?.setAttribute('disabled', '');
     const formData = new FormData(form);
-    const template_params = {};
-    for (const [k, v] of formData.entries()) {
-      template_params[k] = v;
-    }
+    const templateParams = {
+      from_name: formData.get('from_name'),
+      from_email: formData.get('from_email'),
+      phone: formData.get('phone'),
+      service: formData.get('service') || 'General inquiry',
+      message: formData.get('message'),
+      website_url: 'https://arakaharakaenterprise.com',
+      support_email: 'harakainter@gmail.com',
+      support_phone: '+254 723 214 344'
+    };
 
     // 1) Try EmailJS SDK (if loaded)
     if (window.emailjs && typeof emailjs.sendForm === 'function') {
       try {
         const res = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY);
         console.log('EmailJS SDK response:', res);
+        try {
+          await sendCustomerConfirmation(templateParams);
+        } catch (confirmErr) {
+          console.warn('Customer confirmation email failed:', confirmErr);
+        }
         status.textContent = 'Message sent — redirecting...';
         status.style.color = '#2e9d5e';
         try { form.reset(); } catch (_) {}
@@ -79,13 +108,18 @@ document.addEventListener('DOMContentLoaded', function() {
           service_id: SERVICE_ID,
           template_id: TEMPLATE_ID,
           user_id: PUBLIC_KEY,
-          template_params
+          template_params: templateParams
         })
       });
 
       const json = await resp.text().catch(() => null);
       console.log('EmailJS REST status:', resp.status, json);
       if (resp.ok) {
+        try {
+          await sendCustomerConfirmation(templateParams);
+        } catch (confirmErr) {
+          console.warn('Customer confirmation email failed:', confirmErr);
+        }
         status.textContent = 'Message sent — redirecting...';
         status.style.color = '#2e9d5e';
         try { form.reset(); } catch (_) {}
