@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const SERVICE_ID = 'service_ss3h42z';
   const TEMPLATE_ID = 'template_qawhh8p';
-  const CONFIRMATION_TEMPLATE_ID = 'template_customer_confirmation'; // Replace with your EmailJS confirmation template ID
+  const CONFIRMATION_TEMPLATE_ID = 'template_8cdcnuq'; // Replace with your EmailJS confirmation template ID
   const PUBLIC_KEY = 'RAZXlR-o9v5uUiL34';
 
   async function sendCustomerConfirmation(templateParams) {
