@@ -10266,6 +10266,26 @@ const whatsappIconMarkup = `
     </svg>
   </span>`;
 
+function getWhatsAppMessage(topic) {
+  switch (topic) {
+    case 'services':
+      return 'Hello Arakaharaka Enterprises, I would like a custom import or export plan for my business.';
+    case 'tourism':
+      return 'Hello Arakaharaka Enterprises, I would like to plan a tourism trip.';
+    case 'home':
+    default:
+      return 'Hello Arakaharaka Enterprises, I would like help getting started with an import or export shipment.';
+  }
+}
+
+function updateWhatsAppTopicLinks() {
+  document.querySelectorAll('a[data-wa-topic]').forEach(link => {
+    const topic = link.dataset.waTopic || 'home';
+    const encoded = encodeURIComponent(getWhatsAppMessage(topic));
+    link.href = `https://wa.me/254723214344?text=${encoded}`;
+  });
+}
+
 function decorateWhatsAppLinks() {
   document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
     link.querySelectorAll('.whatsapp-icon').forEach(icon => icon.remove());
@@ -10278,6 +10298,8 @@ function decorateWhatsAppLinks() {
     link.textContent = link.textContent.replace(/^\s*💬\s*/u, '').trim();
     link.insertAdjacentHTML('afterbegin', whatsappIconMarkup);
   });
+
+  updateWhatsAppTopicLinks();
 }
 
 // Change language and update all translatable elements

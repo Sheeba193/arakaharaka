@@ -216,6 +216,7 @@
     display: inline-flex; align-items: center; gap: 8px;
     box-shadow: 0 4px 20px rgba(212,160,23,0.4);
     cursor: pointer; border: none;
+    position: relative; z-index: 1;
   }
   .btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 8px 30px rgba(212,160,23,0.5); }
 
@@ -601,6 +602,7 @@
     transition: transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 4px 20px rgba(37,211,102,0.35);
     margin-top: 12px;
+    position: relative; z-index: 1;
   }
   .wa-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(37,211,102,0.5); }
   .whatsapp-icon {
@@ -748,6 +750,7 @@
   .cta-banner::before {
     content: '🌍'; position: absolute; font-size: 300px; opacity: 0.05;
     top: 50%; left: 50%; transform: translate(-50%,-50%);
+    pointer-events: none;
   }
 
   .cta-banner h2 { color: white; font-size: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: 16px; }
