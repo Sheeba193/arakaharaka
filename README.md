@@ -11,5 +11,5 @@ A modern, responsive portfolio website for Arakaharaka Enterprises, an import an
 ## Live Site
 
 ## Contact
-Email: harakaint@gmail.com
+Email: harakainter@gmail.com
 Phone: +254723214344 / +254736407099
