@@ -460,6 +460,9 @@ window.translations = {
 
       terms_last_updated:
         "Last updated: 2025. For queries about these terms, email harakainter@gmail.com.",
+      thank_you_title: 'Thank you!',
+      thank_you_message: 'Your message has been sent successfully. Our team will get back to you shortly.',
+      thank_you_button: 'Return to Home'
     },
     // chinese translation ( machine translated, needs review )
     zh: {
@@ -728,6 +731,9 @@ window.translations = {
 
       terms_last_updated:
         "最后更新：2025 年。如对本条款有任何疑问，请发送电子邮件至 harakainter@gmail.com。",
+      thank_you_title: '谢谢！',
+      thank_you_message: '您的消息已成功发送。我们的团队将尽快与您联系。',
+      thank_you_button: '返回首页',
     },
     //japanese translation ( machine translated, needs review )
     ja: {
@@ -996,6 +1002,9 @@ window.translations = {
 
       terms_last_updated:
         "最終更新：2025年。本規約に関するお問い合わせは、harakainter@gmail.com までメールでご連絡ください。",
+      thank_you_title: 'ありがとうございます！',
+      thank_you_message: 'あなたのメッセージは正常に送信されました。私たちのチームができるだけ早くご連絡いたします。',
+      thank_you_button: 'ホームに戻る',
     },
     //swahili translation ( machine translated, needs review )
     sw: {
@@ -1265,6 +1274,9 @@ window.translations = {
 
       terms_last_updated:
         "Ilisasishwa mwisho: 2025. Kwa maswali kuhusu masharti haya, tuma barua pepe kwa harakainter@gmail.com.",
+      thank_you_title: 'Asante Sana!',
+      thank_you_message: 'Ujumbe wako umetumwa kwa mafanikio. Timu yetu itakupigia simu haraka iwezekanavyo.',
+      thank_you_button: 'Rudi Nyumbani',
     },
     //french translation ( machine translated, needs review )
     fr: {
@@ -1533,6 +1545,9 @@ window.translations = {
 
       terms_last_updated:
         "Dernière mise à jour : 2025. Pour toute question concernant ces conditions, envoyez un e-mail à harakainter@gmail.com.",
+      thank_you_title: 'Merci Beaucoup!',
+      thank_you_message: 'Votre message a été envoyé avec succès. Notre équipe vous contactera dès que possible.',
+      thank_you_button: 'Retour à l\'Accueil',
     },
     // german translation ( machine translated, needs review )
     de: {
@@ -1801,6 +1816,9 @@ window.translations = {
 
       terms_last_updated:
         "Zuletzt aktualisiert: 2025. Bei Fragen zu diesen Bedingungen senden Sie bitte eine E-Mail an harakainter@gmail.com.",
+      thank_you_title: 'Vielen Dank!',
+      thank_you_message: 'Ihre Nachricht wurde erfolgreich gesendet. Unser Team wird Sie so schnell wie möglich kontaktieren.',
+      thank_you_button: 'Zurück zur Startseite',
     },
     // hindi translation ( machine translated, needs review )
     hi: {
@@ -2069,6 +2087,9 @@ window.translations = {
 
       terms_last_updated:
         "अंतिम अपडेट: 2025। इन नियमों के संबंध में प्रश्नों के लिए harakainter@gmail.com पर ईमेल करें。",
+      thank_you_title: 'धन्यवाद!',
+      thank_you_message: 'आपका संदेश सफलतापूर्वक भेज दिया गया है। हमारी टीम जल्द से जल्द आपसे संपर्क करेगी।',
+      thank_you_button: 'होम पेज पर वापस जाएं',
     },
     // spanish translation ( machine translated, needs review )
     es: {
@@ -2337,6 +2358,9 @@ window.translations = {
 
       terms_last_updated:
         "Última actualización: 2025. Para consultas sobre estos términos, envíe un correo electrónico a harakainter@gmail.com.",
+      thank_you_title: '¡Gracias!',
+      thank_you_message: 'Su mensaje ha sido enviado con éxito. Nuestro equipo se pondrá en contacto con usted lo antes posible.',
+      thank_you_button: 'Volver a la Página Principal',
 
     },
     // arabic translation ( machine translated, needs review )
@@ -2606,6 +2630,9 @@ window.translations = {
 
       terms_last_updated:
         "آخر تحديث: 2025. للاستفسارات المتعلقة بهذه الشروط، يرجى إرسال بريد إلكتروني إلى harakainter@gmail.com.",
+      thank_you_title: 'شكراً لك!',
+      thank_you_message: 'تم إرسال رسالتك بنجاح. سيتواصل فريقنا معك في أقرب وقت ممكن.',
+      thank_you_button: 'العودة إلى الصفحة الرئيسية',
 
     },
 
@@ -2990,10 +3017,11 @@ window.translations = {
   faq_a4: 'Sim! Cuidamos de todo o desembaraço aduaneiro, conformidade com a KRA, inspeções KEBS e procedimentos portuários.',
 
   footer_copyright: '© 2026 Arakaharaka Enterprises. Todos os direitos reservados. | Termos e Condições',
-  footer_made: 'Feito com ❤️ em Nairobi, Quênia 🇰🇪'
+  footer_made: 'Feito com ❤️ em Nairobi, Quênia 🇰🇪',
+
     },
     //bengali
-    bn: {
+  bn: {
   nav_home: 'হোম',
   nav_about: 'আমাদের সম্পর্কে',
   nav_services: 'সেবাসমূহ',
@@ -3413,7 +3441,8 @@ window.translations = {
     '© 2026 Arakaharaka Enterprises. সর্বস্বত্ব সংরক্ষিত। | শর্তাবলী',
 
   footer_made:
-    '❤️ দিয়ে তৈরি নাইরোবি, কেনিয়া 🇰🇪'
+    '❤️ দিয়ে তৈরি নাইরোবি, কেনিয়া 🇰🇪',
+  
     },
     //filipino
     fil: {
