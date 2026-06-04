@@ -566,6 +566,19 @@
 
   .form-group textarea { resize: vertical; min-height: 120px; }
 
+  .form-error {
+    display: block; font-size: 0.8rem; color: #f44336; margin-top: 6px;
+    font-weight: 500;
+  }
+
+  .form-group input.error, .form-group textarea.error, .form-group select.error {
+    border-color: #f44336 !important; background: rgba(244,67,54,0.05) !important;
+  }
+
+  .form-group input.error:focus, .form-group textarea.error:focus, .form-group select.error:focus {
+    box-shadow: 0 0 0 3px rgba(244,67,54,0.12) !important;
+  }
+
   .contact-info { display: flex; flex-direction: column; gap: 24px; }
 
   .info-card {

@@ -932,14 +932,17 @@
         <div class="form-group">
           <label for="contactName" data-i18n="contact_name">Full Name *</label>
           <input id="contactName" name="from_name" type="text" placeholder="e.g. John Kamau" required>
+          <span id="nameError" class="form-error" style="display:none;"></span>
         </div>
         <div class="form-group">
           <label for="contactEmail" data-i18n="contact_email">Email Address *</label>
           <input id="contactEmail" name="from_email" type="email" placeholder="your@email.com" required>
+          <span id="emailError" class="form-error" style="display:none;"></span>
         </div>
         <div class="form-group">
           <label for="contactPhone" data-i18n="contact_phone">Phone Number</label>
           <input id="contactPhone" name="phone" type="tel" placeholder="+254 7XX XXX XXX">
+          <span id="phoneError" class="form-error" style="display:none;"></span>
         </div>
         <div class="form-group">
           <label for="contactService" data-i18n="contact_service">Service Interested In</label>

@@ -41,8 +41,97 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const SERVICE_ID = 'service_ss3h42z';
   const TEMPLATE_ID = 'template_qawhh8p';
-  const CONFIRMATION_TEMPLATE_ID = 'template_8cdcnuq'; // Replace with your EmailJS confirmation template ID
+  const CONFIRMATION_TEMPLATE_ID = 'template_8cdcnuq';
   const PUBLIC_KEY = 'RAZXlR-o9v5uUiL34';
+
+  // ════════════════════════════════════════════════════════════════
+  // FORM VALIDATION FUNCTIONS
+  // ════════════════════════════════════════════════════════════════
+  
+  const validators = {
+    name: (value) => {
+      value = value.trim();
+      if (!value) return { valid: false, message: 'Full name is required.' };
+      if (value.length < 2) return { valid: false, message: 'Full name must be at least 2 characters.' };
+      if (!/^[a-zA-Z\s'-]+$/.test(value)) return { valid: false, message: 'Full name can only contain letters, spaces, hyphens, and apostrophes.' };
+      return { valid: true };
+    },
+    email: (value) => {
+      value = value.trim().toLowerCase();
+      if (!value) return { valid: false, message: 'Email address is required.' };
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(value)) return { valid: false, message: 'Please enter a valid email address (e.g., user@example.com).' };
+      return { valid: true };
+    },
+    phone: (value) => {
+      value = value.trim();
+      if (!value) return { valid: true }; // Phone is optional
+      // Allow formats: +254XXXXXXXXX, 254XXXXXXXXX, 07XXXXXXXX, +1-555-123-4567, etc.
+      const phoneRegex = /^(\+|00)?[\d\s\-().]{7,}$/;
+      if (!phoneRegex.test(value)) return { valid: false, message: 'Please enter a valid phone number (e.g., +254 7XX XXX XXX or +1-555-123-4567).' };
+      if (!/\d/.test(value)) return { valid: false, message: 'Phone number must contain at least one digit.' };
+      return { valid: true };
+    }
+  };
+
+  function clearError(fieldId) {
+    const field = document.getElementById(fieldId);
+    const errorEl = document.getElementById(fieldId + 'Error');
+    if (field) field.classList.remove('error');
+    if (errorEl) errorEl.style.display = 'none';
+  }
+
+  function showError(fieldId, message) {
+    const field = document.getElementById(fieldId);
+    const errorEl = document.getElementById(fieldId + 'Error');
+    if (field) field.classList.add('error');
+    if (errorEl) {
+      errorEl.textContent = message;
+      errorEl.style.display = 'block';
+    }
+  }
+
+  function validateField(fieldId, value, validatorFn) {
+    const result = validatorFn(value);
+    if (result.valid) {
+      clearError(fieldId);
+    } else {
+      showError(fieldId, result.message);
+    }
+    return result.valid;
+  }
+
+  function validateForm() {
+    const name = document.getElementById('contactName').value;
+    const email = document.getElementById('contactEmail').value;
+    const phone = document.getElementById('contactPhone').value;
+
+    const nameValid = validateField('contactName', name, validators.name);
+    const emailValid = validateField('contactEmail', email, validators.email);
+    const phoneValid = validateField('contactPhone', phone, validators.phone);
+
+    return nameValid && emailValid && phoneValid;
+  }
+
+  // Real-time validation on blur
+  document.getElementById('contactName').addEventListener('blur', function() {
+    validateField('contactName', this.value, validators.name);
+  });
+
+  document.getElementById('contactEmail').addEventListener('blur', function() {
+    validateField('contactEmail', this.value, validators.email);
+  });
+
+  document.getElementById('contactPhone').addEventListener('blur', function() {
+    validateField('contactPhone', this.value, validators.phone);
+  });
+
+  // Clear error on input
+  ['contactName', 'contactEmail', 'contactPhone'].forEach(fieldId => {
+    document.getElementById(fieldId).addEventListener('input', function() {
+      clearError(fieldId);
+    });
+  });
 
   async function sendCustomerConfirmation(templateParams) {
     if (window.emailjs && typeof emailjs.send === 'function') {
@@ -63,6 +152,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
+    
+    // Validate form before submission
+    if (!validateForm()) {
+      status.textContent = 'Please fix the errors above before submitting.';
+      status.style.color = '#f44336';
+      return;
+    }
+
     status.textContent = 'Sending your message...';
     status.style.color = '#ffffff';
     const submitBtn = form.querySelector('button[type="submit"]');
