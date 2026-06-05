@@ -16,11 +16,15 @@ function toggleFaq(el) {
   el.classList.toggle('open');
 }
 
+let emailJsInitialized = false;
+let emailJsUsed = false;
+
 // Initialize EmailJS safely (non-fatal if the library doesn't load)
 function safeEmailJsInit() {
   try {
     if (window.emailjs && typeof emailjs.init === 'function') {
-      emailjs.init('RAZXlR-o9v5uUiL34'); // Public Key
+      emailjs.init('yAaXvdwmFdevjC2zy'); // Public Key
+      emailJsInitialized = true;
     }
   } catch (e) {
     console.warn('EmailJS init failed:', e);
@@ -30,7 +34,14 @@ function safeEmailJsInit() {
 if (window.emailjs && typeof emailjs.init === 'function') {
   safeEmailJsInit();
 } else {
-  // Try again after window load in case the CDN script loads slowly
+  // Keep retrying while the EmailJS script is still loading asynchronously.
+  const emailJsInitInterval = setInterval(() => {
+    if (window.emailjs && typeof emailjs.init === 'function') {
+      safeEmailJsInit();
+      clearInterval(emailJsInitInterval);
+    }
+  }, 250);
+
   window.addEventListener('load', safeEmailJsInit);
 }
 
@@ -39,10 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const status = document.getElementById('contactStatus');
   if (!form || !status) return;
 
-  const SERVICE_ID = 'service_6aqfzoi';
+  const SERVICE_ID = 'service_l7pja4a';
   const TEMPLATE_ID = 'template_3i5uhhd';
   const CONFIRMATION_TEMPLATE_ID = 'template_xq6sqq8';
-  const PUBLIC_KEY = 'RAZXlR-o9v5uUiL34';
+  const PUBLIC_KEY = 'yAaXvdwmFdevjC2zy';
 
   // ════════════════════════════════════════════════════════════════
   // FORM VALIDATION FUNCTIONS
@@ -145,6 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
         service_id: SERVICE_ID,
         template_id: CONFIRMATION_TEMPLATE_ID,
         user_id: PUBLIC_KEY,
+        public_key: PUBLIC_KEY,
         template_params: templateParams
       })
     });
@@ -168,6 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const templateParams = {
       from_name: formData.get('from_name'),
       from_email: formData.get('from_email'),
+      email: formData.get('from_email'),
       phone: formData.get('phone'),
       service: formData.get('service') || 'General inquiry',
       message: formData.get('message'),
@@ -176,28 +189,54 @@ document.addEventListener('DOMContentLoaded', function() {
       support_phone: '+254 723 214 344'
     };
 
+    if (window.emailjs && typeof emailjs.init === 'function' && !emailJsInitialized) {
+      safeEmailJsInit();
+    }
+
     // 1) Try EmailJS SDK (if loaded)
     if (window.emailjs && typeof emailjs.sendForm === 'function') {
+      console.log('EmailJS SDK available. Sending with sendForm...', { serviceId: SERVICE_ID, templateId: TEMPLATE_ID, initialized: emailJsInitialized });
       try {
         const res = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY);
-        console.log('EmailJS SDK response:', res);
+        emailJsUsed = true;
+        console.log('EmailJS SDK sendForm response:', res);
         try {
           await sendCustomerConfirmation(templateParams);
         } catch (confirmErr) {
           console.warn('Customer confirmation email failed:', confirmErr);
         }
-        status.textContent = 'Message sent — redirecting...';
+        status.textContent = 'Message sent via EmailJS — redirecting...';
         status.style.color = '#2e9d5e';
         try { form.reset(); } catch (_) {}
         setTimeout(() => window.location.href = 'thank-you.html', 900);
         return;
       } catch (err) {
-        console.warn('EmailJS SDK failed, will try REST fallback:', err);
+        console.warn('EmailJS SDK sendForm failed, trying send fallback:', err);
+        if (window.emailjs && typeof emailjs.send === 'function') {
+          try {
+            const sendRes = await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
+            emailJsUsed = true;
+            console.log('EmailJS SDK send fallback response:', sendRes);
+            try {
+              await sendCustomerConfirmation(templateParams);
+            } catch (confirmErr) {
+              console.warn('Customer confirmation email failed:', confirmErr);
+            }
+            status.textContent = 'Message sent via EmailJS — redirecting...';
+            status.style.color = '#2e9d5e';
+            try { form.reset(); } catch (_) {}
+            setTimeout(() => window.location.href = 'thank-you.html', 900);
+            return;
+          } catch (sendErr) {
+            console.warn('EmailJS SDK send fallback also failed:', sendErr);
+          }
+        }
       }
     }
 
     // 2) Try EmailJS REST API
     try {
+      console.log('EmailJS REST send request:', { serviceId: SERVICE_ID, templateId: TEMPLATE_ID, userId: PUBLIC_KEY });
       const resp = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -205,6 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
           service_id: SERVICE_ID,
           template_id: TEMPLATE_ID,
           user_id: PUBLIC_KEY,
+          public_key: PUBLIC_KEY,
           template_params: templateParams
         })
       });
@@ -212,12 +252,13 @@ document.addEventListener('DOMContentLoaded', function() {
       const json = await resp.text().catch(() => null);
       console.log('EmailJS REST status:', resp.status, json);
       if (resp.ok) {
+        emailJsUsed = true;
         try {
           await sendCustomerConfirmation(templateParams);
         } catch (confirmErr) {
           console.warn('Customer confirmation email failed:', confirmErr);
         }
-        status.textContent = 'Message sent — redirecting...';
+        status.textContent = 'Message sent via EmailJS — redirecting...';
         status.style.color = '#2e9d5e';
         try { form.reset(); } catch (_) {}
         setTimeout(() => window.location.href = 'thank-you.html', 900);
@@ -226,6 +267,8 @@ document.addEventListener('DOMContentLoaded', function() {
       throw new Error('REST send failed: ' + resp.status + ' ' + (json || ''));
     } catch (err) {
       console.warn('EmailJS REST failed, falling back to Formspree:', err);
+      status.textContent = 'Primary EmailJS delivery failed; falling back to Formspree. Check console for details.';
+      status.style.color = '#ff9800';
     }
 
     // 3) Final fallback: Formspree
@@ -238,7 +281,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (response.ok) {
         try { form.reset(); } catch (_) {}
-        window.location.href = 'thank-you.html';
+        status.textContent = 'Message sent via Formspree backup. Primary EmailJS delivery failed. Check console for details.';
+        status.style.color = '#ff9800';
+        submitBtn?.removeAttribute('disabled');
         return;
       }
       let data = null;
