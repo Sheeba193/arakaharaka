@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const status = document.getElementById('contactStatus');
   if (!form || !status) return;
 
-  const SERVICE_ID = 'service_ss3h42z';
-  const TEMPLATE_ID = 'template_qawhh8p';
-  const CONFIRMATION_TEMPLATE_ID = 'template_8cdcnuq';
+  const SERVICE_ID = 'service_6aqfzoi';
+  const TEMPLATE_ID = 'template_3i5uhhd';
+  const CONFIRMATION_TEMPLATE_ID = 'template_xq6sqq8';
   const PUBLIC_KEY = 'RAZXlR-o9v5uUiL34';
 
   // ════════════════════════════════════════════════════════════════
